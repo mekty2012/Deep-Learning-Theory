@@ -36,3 +36,7 @@ From the definition of Anglican, it is obvious that ProbProg has either density 
 <https://danehuang.github.io/papers/compsem.pdf>
 
 <https://arxiv.org/pdf/2101.00956.pdf>
+
+## Extending Inference Compilation
+
+So LSTM is quite classical model, and we have much stronger models like transformer. What about using them?
