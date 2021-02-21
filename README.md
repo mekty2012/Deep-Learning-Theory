@@ -40,3 +40,8 @@ From the definition of Anglican, it is obvious that ProbProg has either density 
 ## Extending Inference Compilation
 
 So LSTM is quite classical model, and we have much stronger models like transformer. What about using them?
+
+## Deep Learning Ideas
+
+1. Can Neural Network learn arbitrary rules? In specific, design some random decision tree on image dataset. Will neural network learn it?
+2. Can Neural Network learn length mapping? i.e., every input-output sequence is random vector with arbitrary length, however their length is always equal.
