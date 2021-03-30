@@ -41,7 +41,15 @@ From the definition of Anglican, it is obvious that ProbProg has either density 
 
 So LSTM is quite classical model, and we have much stronger models like transformer. What about using them?
 
+If model is very complex, it will be hard for model to learn correct inference. By turning off some observe statement, can we do curriculum learning?
+
 ## Deep Learning Ideas
 
 1. Can Neural Network learn arbitrary rules? In specific, design some random decision tree on image dataset. Will neural network learn it?
 2. Can Neural Network learn length mapping? i.e., every input-output sequence is random vector with arbitrary length, however their length is always equal.
+
+## Stochastic Differential Equation
+
+Can this be effectively solved with help of probabilistic programming?
+
+The paper seems highly dependent to discretization. Adopting idea from Neural Operator, can we have mesh independent solution?
