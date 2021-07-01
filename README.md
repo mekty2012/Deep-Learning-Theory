@@ -53,3 +53,19 @@ If model is very complex, it will be hard for model to learn correct inference. 
 Can this be effectively solved with help of probabilistic programming?
 
 The paper seems highly dependent to discretization. Adopting idea from Neural Operator, can we have mesh independent solution?
+
+## Delta Debugging for LaTeX
+
+If possible... hierarchical!
+
+Is there grammar for LaTeX? 
+
+## SVI but with weighted sum of KLdivergence
+
+If p is target and q is model, 
+KL(q || p) is mode seeking (let q to concentrate on mode)
+where KL(p || q) is mode covering (let q to cover mode(and submodes))
+Then if, we run SVI with 
+KL(q || p) + l * KL(p || q)?
+
+usually, SVI uses mode seeking, amortized inference uses mode covering.
