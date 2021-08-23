@@ -185,3 +185,95 @@ Investigate the training of over-parametrized NNs that are beyoung the NTK regim
 
 Using random wide two-layer untrainable networks as a representation function, if the trainable network is the quadratic Taylor model of a wide two-layer network,
 neural representation can achieve improved sample complexities. But this does not increase in NTK.
+
+### On the expected behaviour of noise regularised deep neural networks as Gaussian processes
+
+<https://www.arxiv.org/abs/1910.05563>
+
+Consider impact of noise regularizations on NNGPs, and relate their behaviour to signal propagation theory.
+
+### Neural Tangents: Fast and Easy Infinite Neural Networks in Python
+
+<https://www.arxiv.org/abs/1912.02803>
+
+High level API for specifying complex and hierarchical neural network architectures. 
+
+### Infinitely Wide Graph Convolutional Networks: Semi-supervised Learning via Gaussian Processes
+
+<https://www.arxiv.org/abs/2002.12168>
+
+Inverstigate NNGP in GCNN, and propose a GP regression model with GCN, for graph-based semi-supervised learning.
+
+### On the infinite width limit of neural networks with a standard parameterization
+
+<https://www.arxiv.org/abs/2001.07301>
+
+Propose an imporved extrapolation of the standard parameterization that yields a well-defined NTK. 
+
+### Graph Neural Tangent Kernel: Fusing Graph Neural Networks with Graph Models
+
+<https://www.arxiv.org/abs/1905.13192>
+
+Presents a new class of graph kernel, Graph Neural Tangent Kernels which corerespond to infinitely wide multi-layer GNNs trained by gradient descent.
+GNTKs provably learn a class of smooth functions on graphs.
+
+### Regularization Matters: Generalization and Optimization of Neural Nets v.s. their Induced Kernel
+
+<https://www.arxiv.org/abs/1810.05369>
+
+Sample efficiency depend on the presence of the regularizer, that regularized NN requires O(d) samples but the NTK requires O(d^2) samples. 
+
+### On the Inductive Bias of Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/1905.12173>
+
+Study inductive bias of learning in NTK regime by analyzing the kernel and RKHS. Specifically, study smoothness, approximation, stability properties with finite norm.
+
+### A Fine-Grained Spectral Perspective on Neural Networks
+
+<https://www.arxiv.org/abs/1907.10599>
+
+Study the spectra of NNGP and NTK kernel, show insights on some questions on neural networks.
+
+### Scaling description of generalization with number of parameters in deep learning
+
+<https://www.arxiv.org/abs/1901.01608>
+
+Show that conflict of result about generalization error in over-parameterization using NTK, in specific that the initialization causes finite-size random fluctuations
+around its expectation.
+
+### Disentangling Trainability and Generalization in Deep Neural Networks
+
+<https://www.arxiv.org/abs/1912.13053>
+
+By analyzing the spectrum of the NTK, formulate necessary conditions for trainability and generalization across a range of architectures. 
+
+### Enhanced Convolutional Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/1911.00809>
+
+Modify the kernel using a new operation called Local Average Pooling, and show that Global Average Pooling is equivalent to full translation data augmentation.
+
+### Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers
+
+<https://www.arxiv.org/abs/1811.04918>
+
+Prove taht overparameterized neural networks can learn some notable concept classes, and can be done by SGD in polynomial time. Uses a new notion of quadratic approximation of NTK, and connect it to the SGD theory of escaping saddle points.
+
+### Limitations of Lazy Training of Two-layers Neural Networks
+
+<https://www.arxiv.org/abs/1906.08899>
+
+In two-layers neural networks with quadratic activations, (RF) train only last layer (NT) linearized dynamics (NN) full training has unbounded gap of prediction risk.
+
+### Wide Neural Networks with Bottlenecks are Deep Gaussian Processes
+
+<https://www.arxiv.org/abs/2001.00921>
+
+In infinite network with bottleneck, which is some finite width hidden layers, the result is NNGP, which is composition of limiting GPs.
+
+### Deep Convolutional Networks as shallow Gaussian Processes
+
+<https://www.arxiv.org/abs/1808.05587>
+
+Show that the output of a CNN with an appropriate prior is a Gaussian Process in the infinite channel limit, and can be computed efficiently similar to a single forward pass through the original CNN with single filter per layer.
