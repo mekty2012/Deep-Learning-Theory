@@ -2,7 +2,7 @@
 
 ### Deep neural networks as Gaussian processes
 
-<www.arxiv.org/abs/1711.00165>
+<https://www.arxiv.org/abs/1711.00165>
 
 In the limit of infinite network width, the neural network becomes a Gaussian process.
 
