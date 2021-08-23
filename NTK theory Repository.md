@@ -1,7 +1,7 @@
 ## NTK theory
 
 ### Deep neural networks as Gaussian processes
-<arxiv.org/abs/1711.00165>
+<www.arxiv.org/abs/1711.00165>
 In the limit of infinite network width, the neural network becomes a Gaussian process.
 
 ### Neural tangent kernel: convergence and generalization in neural networks
