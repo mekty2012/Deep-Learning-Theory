@@ -277,3 +277,28 @@ In infinite network with bottleneck, which is some finite width hidden layers, t
 <https://www.arxiv.org/abs/1808.05587>
 
 Show that the output of a CNN with an appropriate prior is a Gaussian Process in the infinite channel limit, and can be computed efficiently similar to a single forward pass through the original CNN with single filter per layer.
+
+### On the Random Conjugate Kernel and Neural Tangent Kernel
+
+<http://proceedings.mlr.press/v139/hu21b.html>
+
+Derive the distribution and moment of diagonal elements of kernel, for feedforward network with random initialization and residual network with infinite branches.
+
+### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks
+
+<https://www.arxiv.org/abs/2005.11879>
+
+Study eigenvalue distributions for NN kernels, show that they converges to deterministic limits, each explained by Marcenko-Pastur map and linear combination of those.
+
+### Deep Networks and the Multiple Manifold Problem
+
+<https://www.arxiv.org/abs/2008.11245>
+
+Given two low-dimensional submanifold of the unit sphere, show that given polynomially many samples w.r.t. depth, the feedforward network can perfectly classify manifolds,
+using NTK in the nonaymptotic analysis of training.
+
+### Why Do Deep Residual Networks Generalize Better than Deep Feedforward Networks? -- A Neural Tangent Kernel Perspective
+
+<https://www.arxiv.org/abs/2002.06262>
+
+Show that training ResNets can be viewed as learning reproducing kernel functions with some kernel function. THen compare the kernel of two networks, and show that the class of functions induced by FFNets is asymptotically not learnable, which does not happens in ResNets.
