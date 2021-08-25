@@ -123,6 +123,24 @@ Prove that when the data comes from mixtures of well-separated distributions SGD
 
 Analyze training and generalization, give (1) why random label gives slower training (2) generalization bound independent of network size (3) learnability of a broad class of smooth functions.
 
+### How to Initialize your Network? Robust Initialization for WeightNorm & ResNets
+
+<https://www.arxiv.org/abs/1906.02341>
+
+Use mean field approximation, define parameter initialization that avoids explosion or vanishment of information for weight normalized networks.
+
+### Exponential expressivity in deep neural networks through transient chaos
+
+<https://www.arxiv.org/abs/1606.05340>
+
+Using Riemannian geometry with the mean field theory, study the nature of signal propagation in DNN. Show the chaotic phase networks computes nonlinear functions with curvature growing exponentially with depth, which can't be approximated by shallow network. 
+
+### Products of Many Large Random Matrices and Gradients in Deep Neural Networks
+
+<https://www.arxiv.org/abs/1812.05994>
+
+Given products of random matrices when the number of terms and the size of the matrices tend to infinity, show that logarithm of L2 norm of such a product applied to any fixed vector is asymptotically Gaussian.
+
 ## Physics Involved
 
 ### Asymptotics of wide networks from feynman diagrams
