@@ -168,3 +168,47 @@ inversely proportional to the number of units and that higher order terms decay 
 
 Perturbatively extend NNGP correspondence to finite width neural network, yielding non-Gaussian processes as priors. This allows to track the flow of preactivation by
 marginally integrating random variables, reminiscent of renormalization-group flow.
+
+## Algebraic Topological Approach
+
+### Topological Data Analysis of Decision Boundaries with Application to Model election
+
+<https://www.arxiv.org/abs/1805.09949>
+
+Propose the labeled complexes to perform persistent homology inference of decision boundaries in classification tasks, and provide theoretical conditions and analysis for recovering the homology of a decision boundary from samples.
+
+### Path Homologies of Deep Feedforward Networks
+
+<https://www.arxiv.org/abs/1910.07617>
+
+Characterize two types of directed homology for MLP, show that the directed flag homology reduces to computing the simplicical homology of the underlying undirected graph. This allows to investigate homological differences between NN architectures and their realized structure.
+
+### Characterizing the Shape of Activation Space in Deep Neural Networks
+
+<https://www.arxiv.org/abs/1901.09496>
+
+Introduce a method for computing the persistent homology over the graphical activation structure of NN, which provides access to the task-relevant substructures activated throughout feed forward. Using this approach, show that existence of adversarial example is alternations to the dominant activation structures, suggesting the representation are sparse on the input space.
+
+### Riemannian Curvature of Deep Neural Networks
+
+<https://www.ieeexplore.ieee.org/abstract/document/8746812>
+
+Define a method for calculating Riemann and Ricci curvature tensors for a trained neural net. 
+
+### Topological Measurement of Deep Neural Networks Using Persistent Homology
+
+<https://www.arxiv.org/abs/2106.03016>
+
+Construct clique complex on trained DNNs, and compute the one-dimensional persistent homology of DNNs. This reveals the combinatorial effects of multiple neurons in DNNs at different resolution.
+
+### Neural Persistence: A Complexity Measure for Deep Neural Networks Using Algebraic Topology
+
+<https://www.arxiv.org/abs/1812.09764>
+
+Propose neural persistence, which is complexity measure on weighted stratified graphs, and show that neural persistence reflects best practices such as dropout and batch normalization.
+
+### Estimate of the Neural Network Dimension using Algebraic Topology and Lie Theory
+
+<https://www.arxiv.org/abs/204.02881>
+
+Use persistent homology to investigate topological invariant of input space, then derive a decomposition of the underlying space with well known topology.
