@@ -69,3 +69,20 @@ Then if, we run SVI with
 KL(q || p) + l * KL(p || q)?
 
 usually, SVI uses mode seeking, amortized inference uses mode covering.
+
+### Netsorizer
+
+NETSOR program allows us to compute the infinite width limit of coordinate in neural network, using PL-theoretic approach.
+Based on this computation, we know that 
+1. Any NETSOR program follows Gaussian Process distribution
+2. Any NETSOR program's NTK converges to deterministic kernel
+3. Any NETSOR program's NTK converges to deterministic, during training
+4. Any NETSOR program's weight and diagonal matrix of vectors satisfy asymptotic freeness, which is non-abelian analog of independence.
+5. If some NETSOR program is BP-like, it satisfies gradient independence assumption.
+
+Our approach is to create some static analyzer on PyTorch, Tensorflow, etc... that checks
+
+1. Whether this program can be expressed as NETSOR program
+2. Moreover to check NTKtrain property, we need to check the loss. I'm not sure on this actually...
+3. If possible, we can also check the feature training property. Since the formula was quite simple, I think we may apply this to universal architectures...
+4. Finally, to ease the proof, we can support BP-likeness analyzer.
