@@ -302,3 +302,117 @@ using NTK in the nonaymptotic analysis of training.
 <https://www.arxiv.org/abs/2002.06262>
 
 Show that training ResNets can be viewed as learning reproducing kernel functions with some kernel function. THen compare the kernel of two networks, and show that the class of functions induced by FFNets is asymptotically not learnable, which does not happens in ResNets.
+
+### Meta-Learning with Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2102.03909>
+
+Generalize MAML to function space, eliminating need of sub-optimal iterative inner-loop adaption by replacing the adaption with a fast-adaptive regularizer in the RKHS and solving the adaption analytically based on the NTK theory.
+
+### Learning with Neural Tangent Kernels in Near Input Sparsity Time
+
+<https://www.arxiv.org/abs/2104.00415>
+
+Accelerate kenrel machines with NTK, by mapping the input data to a randomized low-dimensional feature space so that the inner product of the transformed data approximates the NTK evaluation, based on polynomial expansion of arc-cosine kernels.
+
+### Weighted Neural Tangent Kernel: A Generalized and Improved Network-Induced Kernel
+
+<https://www.arxiv.org/abs/2103.11558>
+
+Introduce weighted NTK, that can capture the training dynamics for different optimizers, and prove the stability of WNTK and equivalence betwen WNTK regression estimator and the corresponding NN estimator.
+
+### Neural tangent kernels, transportation mappings, and universal approximation
+
+<https://arxiv.org/abs/1910.06956>
+
+Provides a generic scheme to aproximate functions with the NTK by sampling from transport mappings, and the construction of transport mappings via Fourier transforms
+
+### On the Similarity between the Laplace and Neural Tangent Kernels
+
+<https://arxiv.org/abs/2007.01580>
+
+Theoretically show that for normalized data on the hypersphere, both NTK and Laplace kernel have the same eigenfunctions and their eigenvalues decay polynomially at the same rate, implying that their RKHS are equal, and they share same smoothness properties.
+
+### Deep Neural Tangent Kernel and Laplace Kernel Have the Same RKHS
+
+<https://arxiv.org/abs/2009.10683>
+
+Prove that RKHS of NTK and the Laplace kernel include the same set of functions, and show that the exponential power kernel with a smaller power leads to a larger RKHS.
+
+### Convergence of Adversarial Training in Overparametrized Neural Networks
+
+<https://arxiv.org/abs/1906.07916>
+
+Show that the adversarial training converges to a network where the surrogate loss w.r.t. attack algorithm has small optimal robust loss, and show that the optimal robust loss is also close to zero, giving robust classifier.
+
+### A Deep Conditioning Treatment of Neural Networks
+
+<https://arxiv.org/abs/2002.01523>
+
+Show that depth improves trainability of NNs by improving the conditioning of certain kernel matrices of the input data. 
+
+### Towards an Understanding of Residual Networks Using Neural Tangent Hierarchy (NTH)
+
+<https://arxiv.org/abs/2007.03714>
+
+Study dynamics of the NTK for finite width ResNet using the NTH, reducing the requirement on the layer width w.r.t. number of training samples from quartic to cubic.
+
+### Scalable Neural Tangent Kernel of Recurrent Architectures
+
+<https://arxiv.org/abs/2012.04859>
+
+Extend the family of kernels associated with RNNs, to more complex architectures like bidirectional RNNs and average pooling. Also develop a fast GPU implementation for these.
+
+### The Surprising Simplicity of the Early-Time Learning Dynamics of Neural Networks
+
+<https://arxiv.org/abs/2006.14599>
+
+Prove that for a class of well-behaved input distributions, the early-time learning dynamics of a two-layer fully-connected neural network can be mimicked by training a simple linear model on the inputs, by bounding the spectral norm of the difference between the NTK at init and an affine transform of the data kernel, while allowing the network to escape the kernel regime later.
+
+### FL-NTK: A Neural Tangent Kernel-based Framework for Federated Learning Convergence Analysis
+
+<https://arxiv.org/abs/2105.05001>
+
+Presents a new class of convergence analysis for federated learning, which corresponds to overparameterized ReLU NNs trained by gradient descent in FL. Theoretically FL-NTK converges to a global optimal solution at a linear rate, and also achieve good generalizations.
+
+### Benefits of Jointly Training Autoencoders: An Improved Neural Tangent Kernel Analysis
+
+<https://arxiv.org/abs/1911.11983>
+
+Prove the linear convergence of gradient descent in two learning regimes, only encoder is trained or jointly trained, in two-layer over-parameterized autoencoders, giving the considerable benefits of joint training over weak training.
+
+### Neural Tangent Kernel Maximum Mean Discrepancy
+
+<https://arxiv.org/abs/2106.03227>
+
+Present NN MMD statistic by identifying connection between NTK and MMD statics, allowing us to understand the properties of the new test statistic like Type-1 error and testing power.
+
+### A Neural Tangent Kernel Perspective of GANs
+
+<https://arxiv.org/abs/2106.05566>
+
+Use NTK on GAN, show that GAN trainability primarily depends on the discriminator's architecture.
+
+### The Neural Tangent Kernel in High Dimensions: Triple Descent and a Multi-Scale Theory of Generalization
+
+<https://arxiv.org/abs/2008.06786>
+
+Provide a precise high-dimensional asymptotics analysis of generalization under kernel regression with NTK, and show that the test error has non-monotonic behavior in the overparameterized regime.
+
+### Optimal Rates for Averaged Stochastic Gradient Descent under Neural Tangent Kernel Regime
+
+<https://arxiv.org/abs/2006.12297>
+
+Show that the averaged stochastic gradient descent can achieve the minimax optimal convergence rate, with the global convergence guarantee, by exploiting the complexities of the target function and the RKHS of NTK. 
+
+### Tight Bounds on the Smallest Eigenvalue of the Neural Tangent Kernel for Deep ReLU Networks
+
+<https://arxiv.org/abs/2012.11654>
+
+Smallest eigenvalue of the NTK has been related to the memorization capacity, the global convergence, and the generalization. Provide tight bounds on the smallest eigenvalue of NTK matrices for deep ReLU nets, both infinite and finite width.
+
+### A Generalized Neural Tangent Kernel Analysis for Two-layer Neural Networks
+
+<https://arxiv.org/abs/2002.04026>
+
+Provide a generalized NTK analysis and show that noisy gradient descent with weight decay can still exhibit a kernel-like behavior.
