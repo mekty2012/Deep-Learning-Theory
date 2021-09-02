@@ -141,6 +141,54 @@ Using Riemannian geometry with the mean field theory, study the nature of signal
 
 Given products of random matrices when the number of terms and the size of the matrices tend to infinity, show that logarithm of L2 norm of such a product applied to any fixed vector is asymptotically Gaussian.
 
+### When Does Preconditioning Help or Hurt Generalization?
+
+<https://www.arxiv.org/abs/2006.10732>
+
+Prove an exact asymptotics bias-variance decompositions of the generalization error of overparametrized ridgeless regression under a general class of preconditioner, considering the inverse population Fisher information matrix as a particular example. 
+
+### The Limitations of Large Width in Neural Networks: A Deep Gaussian Process Perspective
+
+<https://www.arxiv.org/abs/2106.06529>
+
+Decouples capacity and width via the genrealization of neural network to Deep Gaussian Process, aim to understand how width affects standard neural networks once they have sufficient capacity for a given modeling task. 
+
+### The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
+
+<https://www.arxiv.org/abs/2106.04013>
+
+Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in the infinite-depth-and-width limit, with parameters depending on the ratio d/n. Show that ReLU ResNet is hypoactivated, that fewer than half of the ReLUs are activated.
+
+### Implicit Acceleration and Feature Learning in Infinitely Wide Neural Networks with Bottlenecks
+
+<https://www.arxiv.org/abs/2107.00364>
+
+Analyze the learning dynamics of infinitely wide neural networks with a finite sized bottlenecks. This allows data dependent feature learning in its bottleneck representation, unlike NTK limit.
+
+### A self consistent theory of Gaussian Processes captures feature learning effects in finite CNNs
+
+<https://www.arxiv.org/abs/2106.04110>
+
+Consider the DNNs trained with noisy gradient descent on a large training set and derive a self consistent Gaussian Process theory accounting for strong finite-DNN and feature learning effects. 
+
+### Generalization bounds for deep learning
+
+<https://www.arxiv.org/abs/2012.04115>
+
+Introduce desiderata for techniques that predict generalization errors for deep learning models in supervised learning. Focuse on generalization error upper bound, and inttroduce a categorisation of bounds depending on assumptions on the algorithm and data. 
+
+### Why resampling outperforms reweighting for correcting sampling bias with stochastic gradients
+
+<https://www.arxiv.org/abs/2009.13447>
+
+Explain the reason that resampling outperforms reweighting using tools from dynamical stability and stochastic asymptotics.
+
+### Understanding the Logit Distributions of Adversarially-Trained Deep Neural Networks
+
+<https://www.arxiv.org/abs/2108.12001>
+
+Provide a theoretical justification for the finding that adversarial training shrinks two important characteristics of the logit distribution: the max logit values and the logit gaps are on average lower for AT models. 
+
 ## Physics Involved
 
 ### Asymptotics of wide networks from feynman diagrams
@@ -168,6 +216,12 @@ inversely proportional to the number of units and that higher order terms decay 
 
 Perturbatively extend NNGP correspondence to finite width neural network, yielding non-Gaussian processes as priors. This allows to track the flow of preactivation by
 marginally integrating random variables, reminiscent of renormalization-group flow.
+
+### Exact priors of finite neural networks
+
+<https://www.arxiv.org/abs/2104.11734>
+
+Derive exact solutions for the output priors for individual input examples of a class of fintie fully-connected feedforward Bayesian neural networks.
 
 ## Algebraic Topological Approach
 
