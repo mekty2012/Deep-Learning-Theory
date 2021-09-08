@@ -189,6 +189,36 @@ Explain the reason that resampling outperforms reweighting using tools from dyna
 
 Provide a theoretical justification for the finding that adversarial training shrinks two important characteristics of the logit distribution: the max logit values and the logit gaps are on average lower for AT models. 
 
+### Approximation Properties of Deep ReLU CNNs
+
+<https://arxiv.org/abs/2109.00190>
+
+Analyzes the L2 approximation properties of deep ReLU convolutional neural networks on two-dimensional space. Using the decomposition of convolutional kernels, show the universal approximation.
+
+### Reachability is NP-Complete Even for the Simplest Neural Networks
+
+<https://arxiv.org/abs/2108.13179>
+
+Investigate the complexity of the reachability problem for neural networks, showing that NP-hardness holds for even neural networks with just one layer and simple specifications.
+
+### On the Stability Properties and the Optimization Landscape of Training Problems with Squared Loss for Neural Networks and General Nonlinear Conic Approximation Schemes
+
+<https://arxiv.org/abs/2011.03293>
+
+With the assumption of nonlinear conic approximation and unrealizable label vectors, show that a training problem with squared loss is necessarily unstable, i.e., its solution set depends discontinuously on the label vector in the training data. 
+
+### Convex Geometry and Duality of Over-parameterized Neural Networks
+
+<https://arxiv.org/abs/2002.11219>
+
+Prove that an optimal solution to the regularized training problem can be characerized as extreme points of a convex set, so simple solutions are encouraged via its convex geometrical properties. 
+
+### A Limititation of PAC-Bayes Framework
+
+<https://arxiv.org/abs/2006.13508>
+
+Present a limitation for the PAC-Bayes framework, by demonstrating that PAC-Bayes analysis can't prove that linear classification in 1D is learnable using just O(log(1/delta)/epsilon) examples.
+
 ## Physics Involved
 
 ### Asymptotics of wide networks from feynman diagrams
@@ -266,3 +296,9 @@ Propose neural persistence, which is complexity measure on weighted stratified g
 <https://www.arxiv.org/abs/204.02881>
 
 Use persistent homology to investigate topological invariant of input space, then derive a decomposition of the underlying space with well known topology.
+
+### Dive into Layers: Neural Netowrk Capacity Bounding using Algebraic Geometry
+
+<https://arxiv.org/abs/2109.01461>
+
+Derive the upper bounds of the Betti numbers on each layer within the nwtwork, reducing the problem of architecture selection of a fully connected network boils down to choosing a suitable size of the network.
