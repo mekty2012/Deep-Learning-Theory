@@ -219,6 +219,12 @@ Prove that an optimal solution to the regularized training problem can be charac
 
 Present a limitation for the PAC-Bayes framework, by demonstrating that PAC-Bayes analysis can't prove that linear classification in 1D is learnable using just O(log(1/delta)/epsilon) examples.
 
+### Quantized convolutional neural networks through the lens of partial differential equations
+
+<https://www.arxiv.org/abs/2109.00095>
+
+Explore ways to improved quantized CNNs using PDE-based perspective, harnessing the total variation approach to apply edge-aware smoothing.
+
 ## Physics Involved
 
 ### Asymptotics of wide networks from feynman diagrams
@@ -252,6 +258,72 @@ marginally integrating random variables, reminiscent of renormalization-group fl
 <https://www.arxiv.org/abs/2104.11734>
 
 Derive exact solutions for the output priors for individual input examples of a class of fintie fully-connected feedforward Bayesian neural networks.
+
+### The emergence of a concept in shallow neural networks
+
+<https://www.arxiv.org/abs/2109.00454>
+
+Show that there exists a critical sample size beyond which the restricted boltzmann machines can learn archetypes. Leverage the formal equivalence beteen RBMs and Hopfield networks, obtain a phase diagram for both architectures which highlights the regions where learning can be accomplished.
+
+### Memorizing without overfitting: Bias, variance, and interpolation in over-parameterized models
+
+<https://www.arxiv.org/abs/2010.13933>
+
+Analytically derive bias and variance in two minimal models, linear regression and two-layer neural newtork, using statistical physics. 
+
+### Emergence of memory manifolds
+
+<https://www.arxiv.org/abs/2109.03879>
+
+Present a general principle called frozen stabilisation, allowing a family of neural networks to self-organise to a critical state exhibiting memory manifolds without parameter fine-tuning or symmetries.
+
+### Sharp Lower Bounds on the Approximation Rate of Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2106.14997>
+
+Provide a lower bound on the approximation rates for shallow neural networks, which are obtained by lower bounding the L2 metric entropy of the convex hull of the neural network basis functions. 
+
+### Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training
+
+<https://www.arxiv.org/abs/2101.12699>
+
+Introduce Layer-Peeled Model which is a nonconvex yet analytically tractable optimization problem, that can better understand deep neural newtorks, obtained by sisolating the topmost layer from the remainder of the neural networks, with some constraints on the two parts of the network. Using this, prove that in class-balanced datasets, any solution forms a simplex equiangular tight frame, and show neural collapse in imbalanced problem.
+
+### Deep Neural Networks with ReLU-Sine-Exponential Activations Break Curse of Dimensionality on Hoelder Class
+
+<https://www.arxiv.org/abs/2103.00542>
+
+For general continuous f on d dimensional box with continuity modulus, construct networks with sufficient approximation rate. This requires d^3/2 width, showing that this networks overcome the curse of dimensionality on Holder functions.
+
+### Node Feature Kernels Increase Graph Convolutional Network Robustness
+
+<https://www.arxiv.org/abs/2109.01785>
+
+Using random matrix theory on GCN, show that if the graph is sufficiently random, the GCN fails to benefit from the node feature. then suggest the node feature kernel which solves this problem.
+
+### A Farewell to the Bias-Variance Tradeoff? An Overview of the Theory of Overparameterized Machine Learning
+
+<https://www.arxiv.org/abs/2109.02355>
+
+Provides a succinct overview of this emerging theory of overparameterized ML that explains recent findings through a statistical signal processing perspective.
+
+### Minimal Variance Sampling with Provable Guarantees for Fast Training of Graph Neural Networks
+
+<https://www.arxiv.org/abs/2006.13866>
+
+Theoretically analyze the variance of sampling methods and show that, due to the composite structure of empirical risk, the variance of any sampling method can be decomposed into embedding approximation variance in the forward stage and stochastic gradient variance in the backward stage. Propose a decoupled variance reduction strategy.
+
+### On the stability properties of Gated Recurrent Units neural networks
+
+<https://www.arxiv.org/abs/2011.06806>
+
+Provide sufficient conditions for guaranteeing the Input-to-State Stability and the Incremental Input-to-State Stability of GRUs. 
+
+### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
+
+<https://www.arxiv.org/abs/2002.11187>
+
+Use GAN to estimate KL divergence, argue that high fluctuations in the estimates are a consequence of not controlling the complexity of the discriminator function space. Provide a theoretical underpinning and remedy for this problem by constructing a discriminator in the RKHS.
 
 ## Algebraic Topological Approach
 
@@ -297,8 +369,9 @@ Propose neural persistence, which is complexity measure on weighted stratified g
 
 Use persistent homology to investigate topological invariant of input space, then derive a decomposition of the underlying space with well known topology.
 
-### Dive into Layers: Neural Netowrk Capacity Bounding using Algebraic Geometry
+### Dive into Layers: Neural Network Capacity Bounding using Algebraic Geometry
 
 <https://arxiv.org/abs/2109.01461>
 
 Derive the upper bounds of the Betti numbers on each layer within the nwtwork, reducing the problem of architecture selection of a fully connected network boils down to choosing a suitable size of the network.
+
