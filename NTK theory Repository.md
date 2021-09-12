@@ -416,3 +416,27 @@ Smallest eigenvalue of the NTK has been related to the memorization capacity, th
 <https://arxiv.org/abs/2002.04026>
 
 Provide a generalized NTK analysis and show that noisy gradient descent with weight decay can still exhibit a kernel-like behavior.
+
+### Scale Mixtures of Neural Network Gaussian Processes
+
+<https://arxiv.org/abs/2107.01408>
+
+Show that simply introducing a scale prior on the last-layer parameters can turn infinitely wide neural networks of any architecture into a richer class of stochastic process, like heavy-tailed stochastic processes.
+
+### alpha-Stable convergence of heavy-tailed infinitely-wide neural networks
+
+<https://arxiv.org/abs/2106.11064>
+
+Assuming that the weights of an MLP are initialized with i.i.d. samples from either a light-tailed or heavy-tailed distribution in the domain of attraction of a symmetric alpha-stable distribution for alpha in (0, 2]. Show that the vector of pre-activation values at all nodes of a given hidden layer converges in the limit, to a vecctor of i.i.d. random variables with symmetric alpha-stable distributions.
+
+### On the Benefit of Width for Neural Networks: Disappearance of Bad Basins
+
+<https://www.arxiv.org/abs/1812.11039>
+
+There is a phase transition from having sub-optimal basins to no sub-optimal basins in wide network. On positive side, for any continuous activation functions, the loss surface has no sub-optimal basins, on the negative side, for a large class of networks with width below a threshold, there is a strict local minima that is not global.
+
+### Quantum-enhanced neural networks in the neural tangent kernel framework
+
+<https://www.arxiv.org/abs/2109.03786>
+
+Study a class of QCNN where NTK theory can be directly applied. 
