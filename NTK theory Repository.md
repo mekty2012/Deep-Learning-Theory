@@ -440,3 +440,34 @@ There is a phase transition from having sub-optimal basins to no sub-optimal bas
 <https://www.arxiv.org/abs/2109.03786>
 
 Study a class of QCNN where NTK theory can be directly applied. 
+
+### A Neural Tangent kernel Perspective of Infinite Tree Ensembles
+
+<https://www.arxiv.org/abs/2109.04983>
+
+Considering an ensemble of infinite soft trees, introduce Tree Neural Tangent Kernel, find some nontrivial properties like effect of oblivious tree structure and the degeneracy of the TNTK induced by the deepening of the trees.
+
+### The Interpolation Phase Transition in Neural Networks: Memorization and Generalization under Lazy Training
+
+<https://www.arxiv.org/abs/2007.12826>
+
+Characterize the eigenstructure of the empirical NTK in the overparameterized regime, which implies that minimum eigenvalue of the empirical NTK is bounded away from zero. 
+And also prove that the test error is well approximated by the one of kernel ridge regression w.r.t. the infinite-width kernel.
+
+### Uniform Generalization Bounds for Overparameterized Neural Networks
+
+<https://www.arxiv.org/abs/2109.06099>
+
+Using NTK theory, prove uniform generalization bounds in kernel regime, when the true data generating model belongs to the RKHS corresponding to the NTK. 
+
+### Understanding neural networks with reproducing kernel Banach spaces
+
+<https://www.arxiv.org/abs/2109.009710>
+
+Prove a representer theorem for a wide class of reproducing kernel Banach spaces that admit a suitable integral representation and include one hidden layer neural networks of possibly infinite width. And show that the norm in the RKBS can be characterized in terms of the inverse Radon transform of a bounded real measures.
+
+### Defomed semicircle law and concentration of nonlinear random matrices for ultra-wide neural networks
+
+<https://www.arxiv.org/abs/2109.09304>
+
+Obtain the limiting spectral distributions of CK and NTK, in the ultra width regime, a defomed semicircle law appears.
