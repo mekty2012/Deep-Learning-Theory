@@ -225,34 +225,6 @@ Present a limitation for the PAC-Bayes framework, by demonstrating that PAC-Baye
 
 Explore ways to improved quantized CNNs using PDE-based perspective, harnessing the total variation approach to apply edge-aware smoothing.
 
-## Physics Involved
-
-### Asymptotics of wide networks from feynman diagrams
-
-<https://www.arxiv.org/abs/1909.11304>
-
-Use Feynman diagrams, to compute multivariate Gaussian integrals, study training dynamics, improve existing bounds.
-
-### Neural Networks and Quantum Field Theory
-
-<https://www.arxiv.org/abs/2008.08601>
-
-Instead of asymptotic limit, allowing particle interaction makes Wilsonian effective field theory.
-
-### Finite size corrections for neural network Gaussian processes
-
-<https://www.arxiv.org/abs/1908.10030>
-
-Demonstrate that an ensemble of large finite FC network with a single hidden layer is well described by a Gaussian perturbed by the fourth Hermite polynomial, and the scale is 
-inversely proportional to the number of units and that higher order terms decay more rapidly, recovering Edgeworth expansion.
-
-### Non-Gaussian processes and neural networks at finite widths
-
-<https://www.arxiv.org/abs/1910.00019>
-
-Perturbatively extend NNGP correspondence to finite width neural network, yielding non-Gaussian processes as priors. This allows to track the flow of preactivation by
-marginally integrating random variables, reminiscent of renormalization-group flow.
-
 ### Exact priors of finite neural networks
 
 <https://www.arxiv.org/abs/2104.11734>
@@ -325,6 +297,48 @@ Provide sufficient conditions for guaranteeing the Input-to-State Stability and 
 
 Use GAN to estimate KL divergence, argue that high fluctuations in the estimates are a consequence of not controlling the complexity of the discriminator function space. Provide a theoretical underpinning and remedy for this problem by constructing a discriminator in the RKHS.
 
+### Estimates on the generalization error of Physics Informed Neural Networks (PINNs) for approximating PDEs
+
+<https://www.arxiv.org/abs/2006.16144>
+
+Provide upper bound on the generalization error of PINNs approximating solutions of the forward problem for PDEs.
+
+### A Unifying View on Implicit Bias in Training Linear Neural Networks
+
+<https://www.arxiv.org/abs/2010.02501>
+
+Propose a tensor formulation, and characterize the convergence direction as singular vectors, and show that gradient flow finds a stationary point or global minimum.
+
+### The mathematics of adversarial attacks in AI -- Why deep learning is unstable despite the existence of stable neural networks
+
+<https://www.arxiv.org/abs/2109.06098>
+
+Show the mathematical paradox, that any training procedure with a fixed architecture will yield neural networks that are either inaccurate or unstable. The key is that the stable and accurate neural networks must have variable dimensions depending on the input.
+
+### On the regularized risk of distributionally robust learning over deep neural networks
+
+<https://www.arxiv.org/abs/2109.06297>
+
+Using tools from optimal transport theory, derive first order and second order approximations to the distributionally robust problem in terms of appropriate regularized risk minimization problems. 
+
+### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
+
+<https://www.arxiv.org/abs/2109.09444>
+
+Provide a prior generalization bound via the complexity of the target functions in the PDE problem, and a posterior generalization bound. Show that domain decomposition which decompose solution to simpler parts and make easier to solve, introduces a tradeoff for generalization, where the decomposition leads to less training data being available in each subdomain, prone to overfitting.
+
+### On the equivalence of different adaptive batch size selection strategies for stochastic gradient descent methods
+
+<https://www.arxiv.org/abs/2109.10933>
+
+Demonstrate that the norm test and inner product/orthogonality test are equivalent in terms of the convergence rates associated with SGD methods.
+
+### Arbitrary-Depth Universal Approximation Theorems for Operator Neural Newtorks
+
+<https://www.arxiv.org/abs/2109.11354>
+
+Prove taht operator NNs of bounded width and arbitrary depth are universal approximators for continuous nonlinear operators. 
+
 ## Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
@@ -375,3 +389,31 @@ Use persistent homology to investigate topological invariant of input space, the
 
 Derive the upper bounds of the Betti numbers on each layer within the nwtwork, reducing the problem of architecture selection of a fully connected network boils down to choosing a suitable size of the network.
 
+
+## Physics Involved
+
+### Asymptotics of wide networks from feynman diagrams
+
+<https://www.arxiv.org/abs/1909.11304>
+
+Use Feynman diagrams, to compute multivariate Gaussian integrals, study training dynamics, improve existing bounds.
+
+### Neural Networks and Quantum Field Theory
+
+<https://www.arxiv.org/abs/2008.08601>
+
+Instead of asymptotic limit, allowing particle interaction makes Wilsonian effective field theory.
+
+### Finite size corrections for neural network Gaussian processes
+
+<https://www.arxiv.org/abs/1908.10030>
+
+Demonstrate that an ensemble of large finite FC network with a single hidden layer is well described by a Gaussian perturbed by the fourth Hermite polynomial, and the scale is 
+inversely proportional to the number of units and that higher order terms decay more rapidly, recovering Edgeworth expansion.
+
+### Non-Gaussian processes and neural networks at finite widths
+
+<https://www.arxiv.org/abs/1910.00019>
+
+Perturbatively extend NNGP correspondence to finite width neural network, yielding non-Gaussian processes as priors. This allows to track the flow of preactivation by
+marginally integrating random variables, reminiscent of renormalization-group flow.
