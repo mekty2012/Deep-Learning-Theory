@@ -58,3 +58,33 @@ Show that by generating proof templates that capture and generalize existing pro
 <https://www.arxiv.org/abs/2102.10806>
 
 First compute a finite state abstract model that captures the closed-loop behavior under all possible CPWA controllers, then identifies a family of CPWA functions satisfy the safety. Then augment the learning algorithm with a NN weight projection operator during training, enforcing the NN to represent a CPWA function of such family.
+
+### Global Optimization of Objective Functions Represented by ReLU Networks
+
+<https://www.arxiv.org/abs/2010.03258>
+
+Extend existing verifiers to perform optimization and find the most extreme failure in a given input region and the minimum input perturbation required to cause a failure.
+
+### Safety Verification and Robustness Analysis of Neural Networks via Quadratic Constraints and Semidefinite Programming
+
+<https://www.arxiv.org/abs/1903.01287>
+
+Propose a semidefinite programming framework for feed-forward neural networks with general activation functions. Abstract various properties of activations functions with the quadratic constraints, then analyze the safety property via the S-procedure.
+
+### Shared Certificates for Neural Network Verification
+
+<https://www.arxiv.org/abs/2109.00542>
+
+Introduce a new method for general concept of shared certificates, enabling proof effort reuse across multiple inputs and driving down overall verification costs.
+
+### Verifying Quantized Neural Networks using SMT-Based Model Checking
+
+<https://www.arxiv.org/abs/2106.05997>
+
+Develop a novel symbolic verification framework using SMC and SMT to check vulnerabilities in ANNs, propose several ANN-related optimizations for SMC, including invariant inference via interval analysis, slicing, expression simplifications, and discretization of activation functions.
+
+### CC-Cert: A Probabilistic Approach to Certify General Robustness of Neural Networks
+
+<https://www.arxiv.org/abs/2109.10696>
+
+Propose a new universal probabilistic certification approach based on Chernoff-Cramer bounds that can be used in general attack settings.
