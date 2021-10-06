@@ -89,40 +89,36 @@ Our approach is to create some static analyzer on PyTorch, Tensorflow, etc... th
 
 ### CLT Review list
 
-SGD Generalizes Better Than GD (And Regularization Doesn't Help)
-Generalizing Complex Hypotheses on Product Distributions: Auctions, Prophet Inequalities, and Pandora's Problem
-A Theory of Heuristic Learnability
-A Statistical Taylor Theorem and Extrapolation of Truncated Densities
-\*Provable Memorization via Deep Neural Networks using Sub-linear Parameters
-\*Functions with average smoothness: structure, algorithms, and learning
-\*Non-asymptotic approximations of neural networks by Gaussian processes
+- SGD Generalizes Better Than GD (And Regularization Doesn't Help)
+- Generalizing Complex Hypotheses on Product Distributions: Auctions, Prophet Inequalities, and Pandora's Problem
+- A Theory of Heuristic Learnability
+- A Statistical Taylor Theorem and Extrapolation of Truncated Densities
+- \*Provable Memorization via Deep Neural Networks using Sub-linear Parameters
+- \*Functions with average smoothness: structure, algorithms, and learning
+- \*Non-asymptotic approximations of neural networks by Gaussian processes
 
+- \*Learning a Single Neuron with Gradient Methods
+- \*Universal Approximation with Deep Narrow Networks
+- How to trap a gradient flow
+- \*Implicit Bias of Gradient Descent for Wide Two-layer Neural Networks Trained with the Logistic Loss
+- \*A Corrective View of Neural Networks: Representation, Memorization and Learning
+- Implicit regularization for deep neural networks driven by an Ornstein-Uhlenbeck like process
+- \*Learning Over-parametrized Two-layer ReLU Neural Networks beyond NTK
 
-\*Learning a Single Neuron with Gradient Methods
-\*Universal Approximation with Deep Narrow Networks
-How to trap a gradient flow
-\*Implicit Bias of Gradient Descent for Wide Two-layer Neural Networks Trained with the Logistic Loss
-\*A Corrective View of Neural Networks: Representation, Memorization and Learning
-Implicit regularization for deep neural networks driven by an Ornstein-Uhlenbeck like process
-\*Learning Over-parametrized Two-layer ReLU Neural Networks beyond NTK
+- Is your function low dimensional?
+- The implicit bias of gradient descent on nonseparable data
+- How do infinite width bounded norm networks look in function space?
 
-Is your function low dimensional?
-The implicit bias of gradient descent on nonseparable data
-How do infinite width bounded norm networks look in function space?
+#### Robustness
 
-
-
-
-Robustness
-
-Query complexity of least absolute deviation regression via robust uniform convergence
-The Sample Complexity of Robust Covariance Testing
-Random Graph Matching with Improved Noise Robustness
-Adversarially Robust Learning with Unknown Perturbation Sets
-Robust Online Convex Optimization in the Presence of Outliers
-Robust learning under clean-label attack
-Adversarially Robust Low Dimensional Representations
-Tsallis-INF: Improved Robustness to Adversarial Corruptions in Stochastic Multi-armed Bandits and Beyond
-Outlier-Robust Learning of Ising Models Under Dobrushin's Condition
-A Law of Robustness for Two-Layers Neural Networks
-Corruption-robust exploration in episodic reinforcement learning
+- Query complexity of least absolute deviation regression via robust uniform convergence
+- The Sample Complexity of Robust Covariance Testing
+- Random Graph Matching with Improved Noise Robustness
+- Adversarially Robust Learning with Unknown Perturbation Sets
+- Robust Online Convex Optimization in the Presence of Outliers
+- Robust learning under clean-label attack
+- Adversarially Robust Low Dimensional Representations
+- Tsallis-INF: Improved Robustness to Adversarial Corruptions in Stochastic Multi-armed Bandits and Beyond
+- Outlier-Robust Learning of Ising Models Under Dobrushin's Condition
+- A Law of Robustness for Two-Layers Neural Networks
+- Corruption-robust exploration in episodic reinforcement learning
