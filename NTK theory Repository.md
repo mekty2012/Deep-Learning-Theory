@@ -478,3 +478,14 @@ Obtain the limiting spectral distributions of CK and NTK, in the ultra width reg
 
 In the infinite-width limit, establish a correspondence between DNNs with noisy gradients and the NNGP, provide a general analytical form for the finite width corrections with predicion of outputs, finally flesh out algebraically how these FWCs can improve the performance of finite convolutional neural networks relative to their GP counterparts.
 
+### Regularization Matters: A Nonparametric Perspective on Overparametrized Neural Network
+
+<https://arxiv.org/abs/2007.02486>
+
+Prove that for overparametrized one-hidden-layer ReLU neural networks with l2 regularization, the output is close to that of the kernel ridge regression with the corresponding neural tnagent kernel, and minimax optimal rate of L2 estimation error can be achieved.
+
+### On the Provable Generalization of Recurrent Neural Networks
+
+<https://arxiv.org/abs/2109.14142>
+
+Using detailed analysis about the NTK matrix, prove a generalization error bound to learn such functions without normalized conditions and show that some notable concept classes are learnable with the numbers of iterations and samples scaling almost-poynomially in the input length L. 
