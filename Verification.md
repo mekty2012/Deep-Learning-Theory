@@ -88,3 +88,21 @@ Develop a novel symbolic verification framework using SMC and SMT to check vulne
 <https://www.arxiv.org/abs/2109.10696>
 
 Propose a new universal probabilistic certification approach based on Chernoff-Cramer bounds that can be used in general attack settings.
+
+### A Sequential Framework TOwards an Exact SDP Verification of Neural Networks
+
+<https://arxiv.org/abs/2010.08603>
+
+Adress SDP's problem that is prone to a large relaxation gap by developing a sequential framework to shring the gap to zero by adding non-convex cuts to the optimization problem via disjunctive programming.
+
+### Continuous Safety Verification of Neural Networks
+
+<https://arxiv.org/abs/2010.05689>
+
+Develop several sufficient conditions that only require formally analyzing a small part of the DNN in the new problem, by reusing state abstractions, network abstractions, and Lipscitz constants.
+
+### Local Repair of Neural Networks Using Optimization
+
+<https://arxiv.org/abs/2109.14041>
+
+Define the NN repair problem as a Mixed Integer Quadratic Program to adjust the weights of a single layer subject to the given predicates while minimizing the original loss function over the original training domain.
