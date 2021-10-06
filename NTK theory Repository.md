@@ -471,3 +471,10 @@ Prove a representer theorem for a wide class of reproducing kernel Banach spaces
 <https://www.arxiv.org/abs/2109.09304>
 
 Obtain the limiting spectral distributions of CK and NTK, in the ultra width regime, a defomed semicircle law appears.
+
+### Predicting the outputs of finite deep neural networks trained with noisy gradients
+
+<https://arxiv.org/abs/2004.01190>
+
+In the infinite-width limit, establish a correspondence between DNNs with noisy gradients and the NNGP, provide a general analytical form for the finite width corrections with predicion of outputs, finally flesh out algebraically how these FWCs can improve the performance of finite convolutional neural networks relative to their GP counterparts.
+
