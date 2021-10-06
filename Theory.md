@@ -339,6 +339,84 @@ Demonstrate that the norm test and inner product/orthogonality test are equivale
 
 Prove taht operator NNs of bounded width and arbitrary depth are universal approximators for continuous nonlinear operators. 
 
+### Convolutional Rectifier Networks as Generalized Tensor Decompositions
+
+<https://www.arxiv.org/abs/1603.00162>
+
+Describe a construction based on generalized tensor decompositions that transforms convolutional arithmetic circuits into convolutional rectifier networks, then use toold from the world of arithmetic circuits. Show that convolutional rectifier networks are universal with max pooling but not with average pooling. Also show that depth efficiency is weker with convolutional rectifier networks than convolutional arithmetic circuits.
+
+### Analysis and Design of Convolutional Networks via Hierarchical Tensor Decompositions
+
+<https://www.arxiv.org/abs/1705.02302>
+
+Through an equivalence to hierarchical tensor decompositions, analyze the expressive efficiency and inductive bias of various convolutional network architectural features.
+
+### Deep Learning and the Information Bottleneck Principle
+
+<https://www.arxiv.org/abs/1503.02406>
+
+Show that any DNN can be quantified by the mutual information between the layers and the input and output variables, and calculate the optimal information theoretical limits of the DNN and obtain finite sample generalization bounds.
+
+### The Emergence of Spectral Universality in Deep Networks
+
+<https://www.arxiv.org/abs/1802.09979>
+
+Using the tools from free probability theory, prove a detailed analytic understanding of how a deep network's Jacobian spectrum depends on various hyperparametrs including the nonlinearity, the weight and bias distirbutions, and the depth. 
+
+### Nonlinear random matrix theory for deep learning
+
+<https://proceedings.neurips.cc/paper/2017/file/0f3d014eead934bbdbacb62a01dc4831-Paper.pdf>
+
+Show that pointwise nonlinearities can be incorporated into a standard method of proof in random matrix theory known as the moments method.
+
+### Learning Dynamics of Deep Networks Admit Low-rank Tensor Descriptions
+
+<https://openreview.net/pdf?id=Hy7RHt1vz>
+
+Propose a simple tensor decomposition model to study how hidden representations evolve over learning, which precisely extracts the correct dynamics of learning and closed form solutions.
+
+### Understanding Black-box Predictions via Influence Functions
+
+<https://arxiv.org/abs/1703.04730>
+
+Show that even on non-convex and non-differentiable models, approximations to influence functions can still provide valuable information. 
+
+### Depth-Width Tradeoffs in Approximating Natural Functions with Neural Networks
+
+<https://arxiv.org/abs/1610.09887>
+
+Prove that various types of simple and natural functions, including indicators of balls and ellipses, non-linear radial functions, smooth non-linear functions, can be better approximated using deeper networks than shallower ones, even if the shallower networks are much larger.
+
+### Spurious Local Minima are Common in Two-Layer ReLU Neural Networks
+
+<https://arxiv.org/abs/1712.08968>
+
+Show that two-layer ReLU networks w.r.t. the squared loss has local minima, even if the input distribution is standard Gaussian, dimension is arbitrarilty large, and orthonormal parameter vectors, using computer-assisted proof.
+
+### Stronger generalization bounds for deep nets via a compression approach
+
+<https://arxiv.org/abs/1802.05296>
+
+Use an explicit and efficient compression, which yields generalization bounds via a simple compression-based framework, and provide some theoretical justification for widespread empirical success in compressing deep nets.
+
+### Understanding Convolutional Neural Networks with Information Theory: An Initial Exploration
+
+<https://arxiv.org/abs/1804.06537>
+
+Show that the estimators enable straightforward measurement of information flow in realistic convolutional neural networks without any approximation, and introduce the partial information decomposition framework, develop three quantities to analyze the synergy and redundancy in convolutional layer representations.
+
+### Topology-based Representative Datasets to Reduce Neural Network Training Resources
+
+<https://arxiv.org/abs/1903.08519>
+
+Prove that the accuracy of the learning process of a neural network on a representative dataset is similar to the accuracy on the original dataset, where representativeness is measured using persistence diagrams.
+
+### Asymptotic Freeness of Layerwise Jacobians Caused by Invariance of Multilayer Perceptron: The Haar Orthogonal Case
+
+<https://arxiv.org/abs/2103.13466>
+
+Prove asymptotic freeness of layerwise Jacobians of multilayer perceptrons, using an invariance of the MLP. 
+
 ## Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
@@ -387,8 +465,13 @@ Use persistent homology to investigate topological invariant of input space, the
 
 <https://arxiv.org/abs/2109.01461>
 
-Derive the upper bounds of the Betti numbers on each layer within the nwtwork, reducing the problem of architecture selection of a fully connected network boils down to choosing a suitable size of the network.
+Derive the upper bounds of the Betti numbers on each layer within the network, reducing the problem of architecture selection of a fully connected network boils down to choosing a suitable size of the network.
 
+### On Characterizing the Capacity of Neural Networks using Algebraic Topology
+
+<https://arxiv.org/abs/1802.04443>
+
+Show that the power of the topological capacity of a dataset in its decision region is a strictly limiting factor in its ability to generalize. 
 
 ## Physics Involved
 
@@ -417,3 +500,9 @@ inversely proportional to the number of units and that higher order terms decay 
 
 Perturbatively extend NNGP correspondence to finite width neural network, yielding non-Gaussian processes as priors. This allows to track the flow of preactivation by
 marginally integrating random variables, reminiscent of renormalization-group flow.
+
+### Learning through atypical "phase transitions" in overparameterized neural networks
+
+<https://arxiv.org/abs/2110.00683>
+
+Use methods from statistical physics to analytically study the computational fallout of overparameterization in nonconvex neural network models. 
