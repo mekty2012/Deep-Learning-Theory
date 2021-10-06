@@ -417,6 +417,42 @@ Prove that the accuracy of the learning process of a neural network on a represe
 
 Prove asymptotic freeness of layerwise Jacobians of multilayer perceptrons, using an invariance of the MLP. 
 
+### Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipscitz Fnctions
+
+<https://arxiv.org/abs/2109.12960>
+
+Prove a precise geometric description of all one layer ReLU networks with a single linear unit, with single input/output dimension, which interpolates a given dataset. Also show that ridgeless ReLU interpolants achieve the best possible generalization for learning 1d Lipscitz functions, up to universal constants.
+
+### Searching for Minimal Optimal Neural Networks
+
+<https://arxiv.org/abs/2109.13061>
+
+Propose a rigorous mathematical framework for studying the asymptotic theory of the destructive technique, and prove that Adaptive group Lasso is consistent and can reconstruct the correct number of hidden nodes of one-hidden-layer feedforward networks with high probability.
+
+### What Kinds of Functions do Deep Neural Networks Learn? INsights from Variational Spline Theory
+
+<https://arxiv.org/abs/2105.03361>
+
+Develop a variational framework to understand the properties of functions learned by fitting deep neural networks with rectified linear unit activations to data. Propose a new function space, that captures the compositional structure associated deep neural networks. Derive a representer theorem showing that deep ReLU networks are solutions to regularized data fitting problems over functions from this space.
+
+### Towards a theory of out-of-distribution learning
+
+<https://arxiv.org/abs/2109.14501>
+
+Define and prove the relationship between generalized notions of learnability, and show how this framework is sufficiently general to characterize transfer, multitask, meta, continual, and lifelong learning.
+
+### Generalization Bounds For Meta-Learning: An Information-Theoretical Analysis
+
+<https://arxiv.org/abs/2109.14595>
+
+Derive a novel information-theoretic analysis of the generalization property of meta-learning algorithms.
+
+### On the Variance of the Fisher Information for Deep Learning
+
+<https://arxiv.org/abs/2107.04205>
+
+Investigate two estimators based on two equivalent representations of the FIM, and bound their variances and analyze how the parametric structure of a deep neural network can impact the variance.
+
 ## Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
@@ -506,3 +542,9 @@ marginally integrating random variables, reminiscent of renormalization-group fl
 <https://arxiv.org/abs/2110.00683>
 
 Use methods from statistical physics to analytically study the computational fallout of overparameterization in nonconvex neural network models. 
+
+### A Theoretical Connection Between Statistical Physics and Reinforcement Learning
+
+<https://arxiv.org/abs/1906.10228>
+
+Construct a partition function from the ensemble of possible trajectories, which gives its own Bellman equation with solution tightly linked Boltzmann-like policy parameterizations.
