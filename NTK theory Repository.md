@@ -489,3 +489,15 @@ Prove that for overparametrized one-hidden-layer ReLU neural networks with l2 re
 <https://arxiv.org/abs/2109.14142>
 
 Using detailed analysis about the NTK matrix, prove a generalization error bound to learn such functions without normalized conditions and show that some notable concept classes are learnable with the numbers of iterations and samples scaling almost-poynomially in the input length L. 
+
+### Order and Chaos: NTK views on DNN Normalization, Checkerboard and Boundary Artifacts
+
+<https://arxiv.org/abs/1907.05715>
+
+Show the order and chaos regime, and show that scaled ReLU gives ordered regime, layer normalization and batch normalization leads chaotic regime, which also appears in CNN. Analysis explains so called checkerboard patterns and border artifacts, with proposal of methods removing these effects.
+
+### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
+
+<https://arxiv.org/abs/2110.01765>
+
+Using NTK theory and Q/C map analysis, identify the main pathologies in deep networks that prevent them from training fast and generalizing to unseen data, and show how these can be avoided by carefully controlling the shape of the network's initialization-time kernel function. Develop a method called DKS, which accomplishes this using a combination of precise parameter initilization, activation function transformation, and small architectural tweaks. 
