@@ -213,7 +213,7 @@ With the assumption of nonlinear conic approximation and unrealizable label vect
 
 Prove that an optimal solution to the regularized training problem can be characerized as extreme points of a convex set, so simple solutions are encouraged via its convex geometrical properties. 
 
-### A Limititation of PAC-Bayes Framework
+### A Limitation of PAC-Bayes Framework
 
 <https://arxiv.org/abs/2006.13508>
 
@@ -452,6 +452,96 @@ Derive a novel information-theoretic analysis of the generalization property of 
 <https://arxiv.org/abs/2107.04205>
 
 Investigate two estimators based on two equivalent representations of the FIM, and bound their variances and analyze how the parametric structure of a deep neural network can impact the variance.
+
+### Forward Super-Resolution: How Can GANs Learn Hierarchical Generative Models for Real-World Distributions
+
+<https://arxiv.org/abs/2106.02619>
+
+Prove that when a distribution has a structure that referred as Forward Super-Resolution, then training GANs using gradient descent ascent can indeed learn this distribution efficiently both in terms of sample and time complexities.
+
+### On the Convergence of Gradient Descent in GANs: MMD GAN As a Gradient Flow
+
+<https://arxiv.org/abs/2011.02402>
+
+Show that parametric kernelized gradient flow provides a descent direction minimizing the MMD on a statistical manifold of probability distributions.
+
+### Avoiding pathologies in very deep networks
+
+<https://arxiv.org/abs/1402.5836>
+
+Show that in standard architectures, the representational capacity of the network tends to capture fewer degrees of freedom as the number of layers increases, and propose an alternate architecture which does not suffer from this pathology.
+
+### The Complexity of Gradient Descent: CLS = PPAD intersection PLS
+
+<https://arxiv.org/abs/2011.01929>
+
+Show that search problems that can be solved by performing gradient descent on a bounded convex polytopal domain is equal to intersection of PPAD and PLS. Also show that computing a KKT point of a continuously differentiable function over the domain [0,1]^2 is complete. 
+
+### Sharp Lower Bounds on the Approximation Rate of Shallow Neural Networks
+
+<https://arxiv.org/abs/2106.14997>
+
+Prove sharp lower bounds on the approximation rates for shallow neural networks, obtained by lower bounding L2 metric entropy of the convex hull of basis functions. 
+
+### Deep Network Approximation for Smooth Functions
+
+<https://arxiv.org/abs/2001.03040>
+
+Prove that multivariate polynomials can be approximated by deep ReLU networks of with small enough approximation error, then through local Taylor expansions, show that deep ReLU networks can approximate C^s functions.
+
+### Regularization Guarantees Generalization in Bayesian Reinforcement Learning through Algorithmic Stability
+
+<https://arxiv.org/abs/2109.11792>
+
+Show that regularized MDPs satisfy a certain quadratic growth criterion, which is sufficient to establish stability.
+
+### Understanding How Over-Parameterization Leads to Acceleration: A case of learning a single teacher neuron
+
+<https://arxiv.org/abs/2010.01637>
+
+In the setting with single teacher neuron with quadratic activation and over parametrization realized by ahving multiple student neurons, provably show that over-parameterization helps the gradient descent iteration enter the neighborhood of a global optimal solution.
+
+### Rethinking the limiting dynamics of SGD: modified loss, phase space oscillations, and anomalous diffusion
+
+<https://arxiv.org/abs/2107.09133>
+
+Derive a continuous-time model for SGD with finite learning rates and batch sizes as an underdamped Langevin equation. Show that the key ingredient driving these dynamics is not the origianl training loss, but rather the combination of a modified loss.
+
+### Certifiably Robust Variational Autoencoders
+
+<https://arxiv.org/abs/2102.07559>
+
+Derive actionable bounds on the minimal size of an input perturbation required to change a VAE's reconstruction by more than an allowed amount. Then show how these parameters can be controlled, providing a mechanism to ensure desired level of robustness.
+
+### Bayesian Neural Network Priors Revisited
+
+<https://arxiv.org/abs/2102.06571>
+
+Find that CNN weights display strong spatial correlations, while FCNNs display heavy-tailed weight distributions.
+
+### An Unconstrained Layer-Peeled Perspective on Neural Collapse
+
+<https://arxiv.org/abs/2110.02796>
+
+Prove that gradient flow on unconstrained layer-peeled model converges to critical points of a minimum-norm separation problem exhibiting neural collapse in its global minimizer. Then prove that all the critical points are strict saddle points except the global minimizers that exhibit the neural collapse phenomenon.
+
+### Exploring the Common Principal Subspace of Deep Features in Neural Networks
+
+<https://arxiv.org/abs/2110.02863>
+
+Find that different DNNs trained with the same dataset share a common principal subspace in latent spaces no matter architectures and labels. Specifically, design a new metric P-vector to represent the principal subspace of dee features learned, and propose to measure angles between the principal subspaces using P-vectors, with small angles have been found.
+
+### VC dimension of partially quantized neural networks in the overparameterized regime
+
+<https://arxiv.org/abs/2110.02456>
+
+Focus hyperplane arrangement neural networks, and show that HANNs can have VC dimension significantly smaller than the number of weights while being highly expressive.
+
+### On the Effect of Low-Rank Weights on Adversarial Robustness of Neural Networks
+
+<https://arxiv.org/abs/1901.10371>
+
+Show that adversarial training tends to promote simultaneously low-rank and sparse structure. In the reverse direction, when the low rank structure is promoted by nclear norm regularization, neural networks show significantly improved robustness.
 
 ## Algebraic Topological Approach
 
