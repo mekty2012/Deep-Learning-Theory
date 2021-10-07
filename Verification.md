@@ -106,3 +106,15 @@ Develop several sufficient conditions that only require formally analyzing a sma
 <https://arxiv.org/abs/2109.14041>
 
 Define the NN repair problem as a Mixed Integer Quadratic Program to adjust the weights of a single layer subject to the given predicates while minimizing the original loss function over the original training domain.
+
+### Improved Branch and Bound for Neural Network Verification via Lagrangian Decomposition
+
+<https://arxiv.org/abs/2104.06178>
+
+Propose novel bounding algorithm based on Lagrangian decomposition which restricts the optimization to a subspace of the dual domain, resulting in accelerated convergence with parallel implementation, with activation based branching strategy.
+
+### FedlPR: Ownership Verification for Federated Deep Neural Network Models
+
+<https://arxiv.org/abs/2109.13236>
+
+Add ownership verification scheme that allows signatures to be embedded and verified to claim legitimate intellectural property rights, when models are illegally copied, re-distributed or misused. 
