@@ -429,7 +429,7 @@ Prove a precise geometric description of all one layer ReLU networks with a sing
 
 Propose a rigorous mathematical framework for studying the asymptotic theory of the destructive technique, and prove that Adaptive group Lasso is consistent and can reconstruct the correct number of hidden nodes of one-hidden-layer feedforward networks with high probability.
 
-### What Kinds of Functions do Deep Neural Networks Learn? INsights from Variational Spline Theory
+### What Kinds of Functions do Deep Neural Networks Learn? Insights from Variational Spline Theory
 
 <https://arxiv.org/abs/2105.03361>
 
@@ -542,6 +542,36 @@ Focus hyperplane arrangement neural networks, and show that HANNs can have VC di
 <https://arxiv.org/abs/1901.10371>
 
 Show that adversarial training tends to promote simultaneously low-rank and sparse structure. In the reverse direction, when the low rank structure is promoted by nclear norm regularization, neural networks show significantly improved robustness.
+
+### Optimizing Neural Networks via Koopman Operator Theory
+
+<https://arxiv.org/abs/2006.02361>
+
+Show that Koopman operator theoretic methods allow for accurate predictions of weights and biases of MLPs over a non-trivial range of training time.
+
+### Universality of Deep Neural Networks Lottery Tickets: A Renormalization Group Perspective
+
+<https://arxiv.org/abs/2110.03210>
+
+Using renormalization group theory, find that iterative magnitude pruning is a renormalization group scheme, which is the method used for discovering winning tickets.
+
+### Spectral Pruning for Recurrent Neural Networks
+
+<https://arxiv.org/abs/2105.10832>
+
+Propose a pruning algorithm so called spectral pruning for RNN, and provide the generalization error bounds for compressed RNNs.
+
+### Tighter Sparse Approximation Bounds for ReLU Neural Networks
+
+<https://arxiv.org/abs/2110.03673>
+
+Derive sparse neural network approximation bounds that refine previous works, and show that infinite-width neural network representations on bounded open sets are not unique.
+
+### On the Optimal Memorization Power of ReLU Neural Networks
+
+<https://arxiv.org/abs/2110.03187>
+
+Show that networks can memorize any N points using sqrt(N) parameters with some separability assumptions, which is optimal up to logarithmic factors.
 
 ## Algebraic Topological Approach
 
