@@ -501,3 +501,9 @@ Show the order and chaos regime, and show that scaled ReLU gives ordered regime,
 <https://arxiv.org/abs/2110.01765>
 
 Using NTK theory and Q/C map analysis, identify the main pathologies in deep networks that prevent them from training fast and generalizing to unseen data, and show how these can be avoided by carefully controlling the shape of the network's initialization-time kernel function. Develop a method called DKS, which accomplishes this using a combination of precise parameter initilization, activation function transformation, and small architectural tweaks. 
+
+### Neural Tangent Kernel Empowered Federated Learning
+
+<https://arxiv.org/abs/2110.03681>
+
+Propose a novel FL paradigm empowered by the NTK framework, which addresses the challenge of statistical heterogenity by transmitting update data that are more expressive than those of the traditional FL paradigms.
