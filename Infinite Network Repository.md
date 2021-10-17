@@ -1,10 +1,73 @@
-## NTK theory
+# NNGP Correspondence
 
 ### Deep neural networks as Gaussian processes
 
 <https://www.arxiv.org/abs/1711.00165>
 
 In the limit of infinite network width, the neural network becomes a Gaussian process.
+
+### Tensor Programs I: Wide Feedforward or Recurrent Neural Networks of Any Architecture are Gaussian Processes
+
+<https://www.arxiv.org/abs/1910.12478>
+
+Compute convergence to coordinate distribution for simple network. Can prove NNGP correspondence for universal architectures.
+
+### On Infinite-Width Hypernetworks
+
+<https://www.arxiv.org/abs/2003.12193>
+
+Studies GP, NTK behavior of hypernetwork, which computes weights for a primiary network.
+
+### Bayesian Deep Convolutional Networks with Many Channels are Gaussian Processes
+
+<https://www.arxiv.org/abs/1810.05148>
+
+Compute CNN both with and without pooling layers' equivalence to GP. Also introduce Monte Carlo method to estimate the GP to corresponding NN architecture.
+Without pooling, weight sharing has no effect in GP, iplying that translation equivariance has no role in bayesian infinite limit. 
+
+### Gaussian Process Behavious in Wide Deep Neural Networks
+
+<https://www.arxiv.org/1804.11271>
+
+From NNGP correspondence, empirically evaluates convergence rate and compare with Bayesian deep networks.
+
+### Wide Neural Networks with Bottlenecks are Deep Gaussian Processes
+
+<https://www.arxiv.org/abs/2001.00921>
+
+In infinite network with bottleneck, which is some finite width hidden layers, the result is NNGP, which is composition of limiting GPs.
+
+### Scale Mixtures of Neural Network Gaussian Processes
+
+<https://arxiv.org/abs/2107.01408>
+
+Show that simply introducing a scale prior on the last-layer parameters can turn infinitely wide neural networks of any architecture into a richer class of stochastic process, like heavy-tailed stochastic processes.
+
+### alpha-Stable convergence of heavy-tailed infinitely-wide neural networks
+
+<https://arxiv.org/abs/2106.11064>
+
+Assuming that the weights of an MLP are initialized with i.i.d. samples from either a light-tailed or heavy-tailed distribution in the domain of attraction of a symmetric alpha-stable distribution for alpha in (0, 2]. Show that the vector of pre-activation values at all nodes of a given hidden layer converges in the limit, to a vecctor of i.i.d. random variables with symmetric alpha-stable distributions.
+
+### On the expected behaviour of noise regularised deep neural networks as Gaussian processes
+
+<https://www.arxiv.org/abs/1910.05563>
+
+Consider impact of noise regularizations on NNGPs, and relate their behaviour to signal propagation theory.
+
+### Infinitely Wide Graph Convolutional Networks: Semi-supervised Learning via Gaussian Processes
+
+<https://www.arxiv.org/abs/2002.12168>
+
+Inverstigate NNGP in GCNN, and propose a GP regression model with GCN, for graph-based semi-supervised learning.
+
+### Deep Convolutional Networks as shallow Gaussian Processes
+
+<https://www.arxiv.org/abs/1808.05587>
+
+Show that the output of a CNN with an appropriate prior is a Gaussian Process in the infinite channel limit, and can be computed efficiently similar to a single forward pass through the original CNN with single filter per layer.
+
+# NTK theory
 
 ### Neural tangent kernel: convergence and generalization in neural networks
 
@@ -17,30 +80,6 @@ Empirical kernel converges to deterministic kernel, and remains constant in
 <https://www.arxiv.org/abs/1902.06720>
 
 Infinite neural network follows linear dynamics, and can be solved by solving linear ODE.
-
-### Finite versus infinite neural networks: an empirical study
-
-<https://www.arxiv.org/abs/2007.15801>
-
-Empirical study between correspondence between wide neural networks and kernel methods.
-
-### Bayesian deep ensembles via the Neural tangent kernel
-
-<https://www.arxiv.org/abs/2007.05864>
-
-Using the NTK, add bias to initialization derive bayesian interpretation for deep ensembles.
-
-### Deep learning versus kernel learning: an empirical study of loss landscape geometry and the time evolution of the Neural Tangent Kernel
-
-<https://www.arxiv.org/abs/2010.15110>
-
-Compute some measures in training dynamics, to check whether NTK theory works.
-
-### Tensor Programs I: Wide Feedforward or Recurrent Neural Networks of Any Architecture are Gaussian Processes
-
-<https://www.arxiv.org/abs/1910.12478>
-
-Compute convergence to coordinate distribution for simple network. Can prove NNGP correspondence for universal architectures.
 
 ### Tensor Programs II: Neural Tangent Kernel for Any Architecture
 
@@ -66,29 +105,11 @@ Prove NTK convergence in training. Derive back propagation as a vector in progra
 
 Define feature learning in terms of asymptotic size of output, design new parametrization.
 
-### Neural Kernels Without Tangents
-
-<https://www.arxiv.org/abs/2003.02237>
-
-Define compositional kernel and compare the accuracy.
-
-### On Infinite-Width Hypernetworks
-
-<https://www.arxiv.org/abs/2003.12193>
-
-Studies GP, NTK behavior of hypernetwork, which computes weights for a primiary network.
-
 ### Mean-field Behaviour of NTK
 
 <https://www.arxiv.org/abs/1905.13654>
 
 Bridge the gap between NTK theory and EOC initialization.
-
-### Analyzing Finite Neural Networks: Can We Trust Neural Tangent Kernel Theory?
-
-<https://www.arxiv.org/abs/2012.04477>
-
-Empirically study measures that checks NTK theory.
 
 ### On Random Kernels of Residual Architectures
 
@@ -115,19 +136,6 @@ Study NTK for attention layers, and propose modifiationc of the attention mechan
 
 The very beginning of tensor program. 
 
-### Bayesian Deep Convolutional Networks with Many Channels are Gaussian Processes
-
-<https://www.arxiv.org/abs/1810.05148>
-
-Compute CNN both with and without pooling layers' equivalence to GP. Also introduce Monte Carlo method to estimate the GP to corresponding NN architecture.
-Without pooling, weight sharing has no effect in GP, iplying that translation equivariance has no role in bayesian infinite limit. 
-
-### Harnessing the power of infinitely wide deep nets on small-data tasks
-
-<https://www.arxiv.org/abs/1910.01663>
-
-Empirically study NTK's performance in small-data task. NTKs perform strongly on low-data tasks.
-
 ### Finite depth and width corrections to the neural tangent kernel
 
 <https://www.arxiv.org/abs/1909.05989>
@@ -149,12 +157,6 @@ Study dynamics of ultra-wide networks including FCN, CNN with orthogonal initial
 Prove that Gaussian weight and orthogonal weight's NTK are equal in infinite width, and both stays constant. 
 It suggests that orthogonal initialization does not speed up training. 
 
-### Gaussian Process Behavious in Wide Deep Neural Networks
-
-<https://www.arxiv.org/1804.11271>
-
-From NNGP correspondence, empirically evaluates convergence rate and compare with Bayesian deep networks.
-
 ### On Exact Computation with an Infinitely Wide Neural Net
 
 <https://www.arxiv.org/abs/1904.11955>
@@ -166,12 +168,6 @@ First efficient exact algorithm for computing the extension of NTK to CNN, as we
 <https://www.arxiv.org/abs/2006.08228>
 
 Introduce Neural Tangent Transfer, a method that finds trainable sparse networks in a label-free manner, that whose training dynamics computed by NTK is similar to dense ones.
-
-### Neural tangent kernels, transportation mappings, and universal approximation
-
-<https://www.arxiv.org/abs/1910.06956>
-
-A generic scheme to approximate functions with the NTK by sampling and the construction of transport mappings via Fourier transforms.
 
 ### Beyond Linearization: On Quadratic and Higher-Order Approximation of Wide Neural Networks
 
@@ -186,23 +182,11 @@ Investigate the training of over-parametrized NNs that are beyoung the NTK regim
 Using random wide two-layer untrainable networks as a representation function, if the trainable network is the quadratic Taylor model of a wide two-layer network,
 neural representation can achieve improved sample complexities. But this does not increase in NTK.
 
-### On the expected behaviour of noise regularised deep neural networks as Gaussian processes
-
-<https://www.arxiv.org/abs/1910.05563>
-
-Consider impact of noise regularizations on NNGPs, and relate their behaviour to signal propagation theory.
-
 ### Neural Tangents: Fast and Easy Infinite Neural Networks in Python
 
 <https://www.arxiv.org/abs/1912.02803>
 
 High level API for specifying complex and hierarchical neural network architectures. 
-
-### Infinitely Wide Graph Convolutional Networks: Semi-supervised Learning via Gaussian Processes
-
-<https://www.arxiv.org/abs/2002.12168>
-
-Inverstigate NNGP in GCNN, and propose a GP regression model with GCN, for graph-based semi-supervised learning.
 
 ### On the infinite width limit of neural networks with a standard parameterization
 
@@ -266,18 +250,6 @@ Prove taht overparameterized neural networks can learn some notable concept clas
 
 In two-layers neural networks with quadratic activations, (RF) train only last layer (NT) linearized dynamics (NN) full training has unbounded gap of prediction risk.
 
-### Wide Neural Networks with Bottlenecks are Deep Gaussian Processes
-
-<https://www.arxiv.org/abs/2001.00921>
-
-In infinite network with bottleneck, which is some finite width hidden layers, the result is NNGP, which is composition of limiting GPs.
-
-### Deep Convolutional Networks as shallow Gaussian Processes
-
-<https://www.arxiv.org/abs/1808.05587>
-
-Show that the output of a CNN with an appropriate prior is a Gaussian Process in the infinite channel limit, and can be computed efficiently similar to a single forward pass through the original CNN with single filter per layer.
-
 ### On the Random Conjugate Kernel and Neural Tangent Kernel
 
 <http://proceedings.mlr.press/v139/hu21b.html>
@@ -302,18 +274,6 @@ using NTK in the nonaymptotic analysis of training.
 <https://www.arxiv.org/abs/2002.06262>
 
 Show that training ResNets can be viewed as learning reproducing kernel functions with some kernel function. THen compare the kernel of two networks, and show that the class of functions induced by FFNets is asymptotically not learnable, which does not happens in ResNets.
-
-### Meta-Learning with Neural Tangent Kernels
-
-<https://www.arxiv.org/abs/2102.03909>
-
-Generalize MAML to function space, eliminating need of sub-optimal iterative inner-loop adaption by replacing the adaption with a fast-adaptive regularizer in the RKHS and solving the adaption analytically based on the NTK theory.
-
-### Learning with Neural Tangent Kernels in Near Input Sparsity Time
-
-<https://www.arxiv.org/abs/2104.00415>
-
-Accelerate kenrel machines with NTK, by mapping the input data to a randomized low-dimensional feature space so that the inner product of the transformed data approximates the NTK evaluation, based on polynomial expansion of arc-cosine kernels.
 
 ### Weighted Neural Tangent Kernel: A Generalized and Improved Network-Induced Kernel
 
@@ -369,12 +329,6 @@ Extend the family of kernels associated with RNNs, to more complex architectures
 
 Prove that for a class of well-behaved input distributions, the early-time learning dynamics of a two-layer fully-connected neural network can be mimicked by training a simple linear model on the inputs, by bounding the spectral norm of the difference between the NTK at init and an affine transform of the data kernel, while allowing the network to escape the kernel regime later.
 
-### FL-NTK: A Neural Tangent Kernel-based Framework for Federated Learning Convergence Analysis
-
-<https://arxiv.org/abs/2105.05001>
-
-Presents a new class of convergence analysis for federated learning, which corresponds to overparameterized ReLU NNs trained by gradient descent in FL. Theoretically FL-NTK converges to a global optimal solution at a linear rate, and also achieve good generalizations.
-
 ### Benefits of Jointly Training Autoencoders: An Improved Neural Tangent Kernel Analysis
 
 <https://arxiv.org/abs/1911.11983>
@@ -416,18 +370,6 @@ Smallest eigenvalue of the NTK has been related to the memorization capacity, th
 <https://arxiv.org/abs/2002.04026>
 
 Provide a generalized NTK analysis and show that noisy gradient descent with weight decay can still exhibit a kernel-like behavior.
-
-### Scale Mixtures of Neural Network Gaussian Processes
-
-<https://arxiv.org/abs/2107.01408>
-
-Show that simply introducing a scale prior on the last-layer parameters can turn infinitely wide neural networks of any architecture into a richer class of stochastic process, like heavy-tailed stochastic processes.
-
-### alpha-Stable convergence of heavy-tailed infinitely-wide neural networks
-
-<https://arxiv.org/abs/2106.11064>
-
-Assuming that the weights of an MLP are initialized with i.i.d. samples from either a light-tailed or heavy-tailed distribution in the domain of attraction of a symmetric alpha-stable distribution for alpha in (0, 2]. Show that the vector of pre-activation values at all nodes of a given hidden layer converges in the limit, to a vecctor of i.i.d. random variables with symmetric alpha-stable distributions.
 
 ### On the Benefit of Width for Neural Networks: Disappearance of Bad Basins
 
@@ -496,12 +438,6 @@ Using detailed analysis about the NTK matrix, prove a generalization error bound
 
 Show the order and chaos regime, and show that scaled ReLU gives ordered regime, layer normalization and batch normalization leads chaotic regime, which also appears in CNN. Analysis explains so called checkerboard patterns and border artifacts, with proposal of methods removing these effects.
 
-### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
-
-<https://arxiv.org/abs/2110.01765>
-
-Using NTK theory and Q/C map analysis, identify the main pathologies in deep networks that prevent them from training fast and generalizing to unseen data, and show how these can be avoided by carefully controlling the shape of the network's initialization-time kernel function. Develop a method called DKS, which accomplishes this using a combination of precise parameter initilization, activation function transformation, and small architectural tweaks. 
-
 ### Neural Tangent Kernel Empowered Federated Learning
 
 <https://arxiv.org/abs/2110.03681>
@@ -537,3 +473,68 @@ Study the Solid Isotropic Material Penalisation method with a desntiy field gene
 <https://arxiv.org/abs/2110.03922>
 
 We extend recent results to demonstrate that, by examining the eigensystem of a neural network's "neural tangent kernel", one can predict its generalization performance when learning arbitrary functions, not only mean-squared-error but all first and second-order statistics of learned function. Also prove a new NFL theorem characterizing a fundamental tradeoff in the inductive bias of wide neural networks: improving a network's generalization for a given target function must worsen its generalization for orthogonal functions.
+
+# Application
+
+### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
+
+<https://arxiv.org/abs/2110.01765>
+
+Using NTK theory and Q/C map analysis, identify the main pathologies in deep networks that prevent them from training fast and generalizing to unseen data, and show how these can be avoided by carefully controlling the shape of the network's initialization-time kernel function. Develop a method called DKS, which accomplishes this using a combination of precise parameter initilization, activation function transformation, and small architectural tweaks. 
+
+### Meta-Learning with Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2102.03909>
+
+Generalize MAML to function space, eliminating need of sub-optimal iterative inner-loop adaption by replacing the adaption with a fast-adaptive regularizer in the RKHS and solving the adaption analytically based on the NTK theory.
+
+### FL-NTK: A Neural Tangent Kernel-based Framework for Federated Learning Convergence Analysis
+
+<https://arxiv.org/abs/2105.05001>
+
+Presents a new class of convergence analysis for federated learning, which corresponds to overparameterized ReLU NNs trained by gradient descent in FL. Theoretically FL-NTK converges to a global optimal solution at a linear rate, and also achieve good generalizations.
+
+### Learning with Neural Tangent Kernels in Near Input Sparsity Time
+
+<https://www.arxiv.org/abs/2104.00415>
+
+Accelerate kenrel machines with NTK, by mapping the input data to a randomized low-dimensional feature space so that the inner product of the transformed data approximates the NTK evaluation, based on polynomial expansion of arc-cosine kernels.
+
+### Bayesian deep ensembles via the Neural tangent kernel
+
+<https://www.arxiv.org/abs/2007.05864>
+
+Using the NTK, add bias to initialization derive bayesian interpretation for deep ensembles.
+
+# Empirical Study
+
+### Finite versus infinite neural networks: an empirical study
+
+<https://www.arxiv.org/abs/2007.15801>
+
+Empirical study between correspondence between wide neural networks and kernel methods.
+
+### Analyzing Finite Neural Networks: Can We Trust Neural Tangent Kernel Theory?
+
+<https://www.arxiv.org/abs/2012.04477>
+
+Empirically study measures that checks NTK theory.
+
+### Neural Kernels Without Tangents
+
+<https://www.arxiv.org/abs/2003.02237>
+
+Define compositional kernel and compare the accuracy.
+
+### Deep learning versus kernel learning: an empirical study of loss landscape geometry and the time evolution of the Neural Tangent Kernel
+
+<https://www.arxiv.org/abs/2010.15110>
+
+Compute some measures in training dynamics, to check whether NTK theory works.
+
+### Harnessing the power of infinitely wide deep nets on small-data tasks
+
+<https://www.arxiv.org/abs/1910.01663>
+
+Empirically study NTK's performance in small-data task. NTKs perform strongly on low-data tasks.
+
