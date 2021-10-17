@@ -573,7 +573,109 @@ Derive sparse neural network approximation bounds that refine previous works, an
 
 Show that networks can memorize any N points using sqrt(N) parameters with some separability assumptions, which is optimal up to logarithmic factors.
 
-## Algebraic Topological Approach
+### Pathologies in priors and inference for Bayesian transformers
+
+<https://arxiv.org/abs/2110.04020>
+
+Weight-space inference in transformers does not work well, regardless of the approximate posterior. Also find that the prior is at least partially at fault but that it is very hard to find well-specified weight priors for these models.
+
+### On the stability properties of Gated Recurrent Units neural networks
+
+<https://arxiv.org/abs/2011.06806>
+
+Provide sufficient conditions for guaranteering the Input-to-State Stability and the Incremental Input-to-State Stability of GRUs, which consist of nonlinear-inequalities on network's weights.
+
+### A proof that deep artificial neural networks overcome the curse of dimensionality in the numerical approximation of Komogorov partial differential equations with constant diffusion and nonlinear drift coefficients
+
+<https://arxiv.org/abs/1809.07321>
+
+Prove that the number of parameters used to describe the employed DNN grows at most polynomially in both the PDE dimension d and the reciprocal of the prescribed approximation accuracy.
+
+### Uniform error estimates for artificial neural network approximations for heat equations
+
+<https://arxiv.org/abs/1911.09647>
+
+Develop the techniques to obtain error estimates between solutions of PDEs and approximating ANNs in the uniform L infty sense. Prove that the number of parameters of an ANN to uniformly approximate the classical solution of the heat equation in a region \[a,b\]^d for a fixed time point T grows at most polynomially in the dimension d and the reciprocal of the approximation precision. 
+
+### Approximation capabilities of neural networks on unbounded domains
+
+<https://arxiv.org/abs/1910.09293>
+
+Prove that a shallow neural network with some activation functions can arbitrarily well approximate any Lp integrable functions defined on R * \[0,1\]^n, and moreover integrable function on the Euclidean plane.
+
+### Stability of Neural Networks on Manifold to Relative Perturbations
+
+<https://arxiv.org/abs/2110.04702>
+
+Prove that manifold neural networks composed of frequency ratio threshold filters, which separates the infinite-dimensional spectrum of the Laplace-Beltrami operator, are stable to relative operator perturbations. Observe that manifold neural networks exhibit a trade-off between stability and discriminability.
+
+### How Well Generative Adversarial Networks Learn Distributions
+
+<https://arxiv.org/abs/1811.03179>
+
+Nonparametrically, derive the optimal minimax rates for distribution estimation under the adversarial framework. Parametrically, estabilsh a theory for general neural network classes that characterized the interplay on the choice of generator and discriminator pair.
+
+### Phase Collapse in Neural Networks
+
+<https://arxiv.org/abs/2110.05283>
+
+By defining simplified complex-valued convolutional network architecture, which implements convolution with wavelet filters and uses a complex modulus to collapse phase variables, demonstrate that it is a different phase collapse mechanism which explains the ability to progressively eliminate spatial variability.
+
+### Does Preprocessing Help Training Over-parameterized Neural Networks?
+
+<https://arxiv.org/abs/2110.04622>
+
+Design preprocessing algorithm for layer and input data, with convergence guarantee and lower train cost.
+
+## Synthesizing Machine Learning Programs with PAC Guarantees via Statistical Sketching
+
+<https://arxiv.org/abs/2110.05390>
+
+Propose novel algorithms for sketching and synthesizing PAC programs, by leveraging ideas from statistical learning theory to provide statistical soundness guarantees.
+
+### Exploring Architectural Ingredients of Adversarially Robust Deep Neural Networks
+
+<https://arxiv.org/abs/2110.03825>
+
+Provide a theoretical analysis explaning on following observations, that 1) model parameters does not necessarily help adversarial robustness, 2) reducing capacity at the last stage of the network can actually improve adversarial robustness, and 3) under the same parameter budget, there exists an optimal architectural configuration for adversarial robustness.
+
+### Implicit Bias of Linear Equivariant Networks
+
+<https://arxiv.org/abs/2110.06084>
+
+Show that L layer full width linear GCNNs trained via gradient descent in a binary classification task converge to solutions with low-rank Fourier matrix coefficients, regularized by the 2/L-Schatten matrix norm. This generalizes previous analysis on the implicit bias of linear CNNs to linear GCNNs over all finite groups, including the challenging setting of non-commutative symmetry groups.
+
+## Imitiating Deep Learning Dynamics via Locally Elastic Stochastic Differential Equations
+
+<https://arxiv.org/abs/2110.05960>
+
+Model the evolution of features during deep learning training using a set of SDEs that each corresponds to a training sample, where each SDE constains a drift term that reflects the impact of backpropagation at an input on the features of all samples. This uncovers a sharp phase transition phenomenon regarding the intra-class impact: if the SDEs are locally elastic - the impact is more significant on samples from the same class as the input - the featrues of the training data become linearly separable, vanishing trainin loss; otherwise, the features are not separable. Also show the emergence of a simple geometric structure called the neural collapse of the features.
+
+### Global Optimality Beyond Two Layers: Training Deep ReLU Networks via Convex Programs
+
+<https://arxiv.org/abs/2110.05518>
+
+Show that the training of multiple three-layer ReLU sub-networks with weight decay regularization can be equivalently cast as a convex optimization problem in a higher dimensional space, where sparsity is enforced via a group l1-norm regularization. Then prove that equivalent convex problem can be globally optimized by a standard convex optimization solve with a polynomial-time complexity w.r.t. number of samples and data dimension.
+
+### Why Lottery Ticket Wins? A Theoretical Perspective of Sample Complexity on Pruned Neural Networks
+
+<https://arxiv.org/abs/2110.05667>
+
+Characterizes the performance of training a pruned neural network by analyzing the geometric structure of the objective function and the sample complexity to achieve zero generalization error. Show that the convex region near a desirable model with guaranteed generalization enlarges as the neural network model is pruned. 
+
+### A global convergence theory for deep ReLU implicit networks via over-parameterization
+
+<https://arxiv.org/abs/2110.05645>
+
+Show that a randomly initialized gradient descent converges to a global minimum at a linear rate for the square loss function if the implicit neural network is over parameterized.
+
+### Non-convergence of stochastic gradient descent in the training of deep neural networks
+
+<https://arxiv.org/abs/2006.07075>
+
+Show that stochastic gradient descent can fail if depth is much larger than their width, and the number of random initialization does not increase to infinity fast enough.
+
+# Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
 
@@ -629,7 +731,7 @@ Derive the upper bounds of the Betti numbers on each layer within the network, r
 
 Show that the power of the topological capacity of a dataset in its decision region is a strictly limiting factor in its ability to generalize. 
 
-## Physics Involved
+# Physics Involved
 
 ### Asymptotics of wide networks from feynman diagrams
 
