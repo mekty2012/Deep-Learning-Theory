@@ -36,13 +36,13 @@ Devise stochastic kernels that encode the information of networks.
 
 Develop a mean field theory for batch normalization, show that batch normalization is cause of gradient explosion.
 
-### Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks
+## Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks
 
 <https://www.arxiv.org/abs/1806.05393>
 
 Use mean field theory for signal propagation, characterize the conditions for dynamical isometry, train vanilla CNNs with 10,000 layers.
 
-### Deep learning generalizes because the parameter-function map is biased towards simple functions
+## Deep learning generalizes because the parameter-function map is biased towards simple functions
 
 <https://www.arxiv.org/abs/1805.08522>
 
@@ -55,7 +55,7 @@ Using probability-complexity bound from algorithmic information theory, paramete
 Consider the optimal approximate posterior over the top-layer weights, and show that it exhibits strong dependencies on the lower-layer weights, and also on Deep GP.
 This idea uses learned global inducing points that is propagated through layer. 
 
-### On Lazy Training in Differentiable Programming
+## On Lazy Training in Differentiable Programming
 
 <https://www.arxiv.org/abs/1812.07956>
 
@@ -147,13 +147,13 @@ Given products of random matrices when the number of terms and the size of the m
 
 Prove an exact asymptotics bias-variance decompositions of the generalization error of overparametrized ridgeless regression under a general class of preconditioner, considering the inverse population Fisher information matrix as a particular example. 
 
-### The Limitations of Large Width in Neural Networks: A Deep Gaussian Process Perspective
+## The Limitations of Large Width in Neural Networks: A Deep Gaussian Process Perspective
 
 <https://www.arxiv.org/abs/2106.06529>
 
 Decouples capacity and width via the genrealization of neural network to Deep Gaussian Process, aim to understand how width affects standard neural networks once they have sufficient capacity for a given modeling task. 
 
-### The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
+## The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
 
 <https://www.arxiv.org/abs/2106.04013>
 
@@ -165,7 +165,7 @@ Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in 
 
 Analyze the learning dynamics of infinitely wide neural networks with a finite sized bottlenecks. This allows data dependent feature learning in its bottleneck representation, unlike NTK limit.
 
-### A self consistent theory of Gaussian Processes captures feature learning effects in finite CNNs
+## A self consistent theory of Gaussian Processes captures feature learning effects in finite CNNs
 
 <https://www.arxiv.org/abs/2106.04110>
 
@@ -337,7 +337,7 @@ Demonstrate that the norm test and inner product/orthogonality test are equivale
 
 <https://www.arxiv.org/abs/2109.11354>
 
-Prove taht operator NNs of bounded width and arbitrary depth are universal approximators for continuous nonlinear operators. 
+Prove that operator NNs of bounded width and arbitrary depth are universal approximators for continuous nonlinear operators. 
 
 ### Convolutional Rectifier Networks as Generalized Tensor Decompositions
 
@@ -351,25 +351,25 @@ Describe a construction based on generalized tensor decompositions that transfor
 
 Through an equivalence to hierarchical tensor decompositions, analyze the expressive efficiency and inductive bias of various convolutional network architectural features.
 
-### Deep Learning and the Information Bottleneck Principle
+## Deep Learning and the Information Bottleneck Principle
 
 <https://www.arxiv.org/abs/1503.02406>
 
 Show that any DNN can be quantified by the mutual information between the layers and the input and output variables, and calculate the optimal information theoretical limits of the DNN and obtain finite sample generalization bounds.
 
-### The Emergence of Spectral Universality in Deep Networks
+## The Emergence of Spectral Universality in Deep Networks
 
 <https://www.arxiv.org/abs/1802.09979>
 
 Using the tools from free probability theory, prove a detailed analytic understanding of how a deep network's Jacobian spectrum depends on various hyperparametrs including the nonlinearity, the weight and bias distirbutions, and the depth. 
 
-### Nonlinear random matrix theory for deep learning
+## Nonlinear random matrix theory for deep learning
 
 <https://proceedings.neurips.cc/paper/2017/file/0f3d014eead934bbdbacb62a01dc4831-Paper.pdf>
 
 Show that pointwise nonlinearities can be incorporated into a standard method of proof in random matrix theory known as the moments method.
 
-### Learning Dynamics of Deep Networks Admit Low-rank Tensor Descriptions
+## Learning Dynamics of Deep Networks Admit Low-rank Tensor Descriptions
 
 <https://openreview.net/pdf?id=Hy7RHt1vz>
 
