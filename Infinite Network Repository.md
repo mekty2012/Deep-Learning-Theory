@@ -474,6 +474,30 @@ Study the Solid Isotropic Material Penalisation method with a desntiy field gene
 
 We extend recent results to demonstrate that, by examining the eigensystem of a neural network's "neural tangent kernel", one can predict its generalization performance when learning arbitrary functions, not only mean-squared-error but all first and second-order statistics of learned function. Also prove a new NFL theorem characterizing a fundamental tradeoff in the inductive bias of wide neural networks: improving a network's generalization for a given target function must worsen its generalization for orthogonal functions.
 
+### The Local Elasticity of Neural Networks
+
+<https://arxiv.org/abs/1910.06943>
+
+A classifier is said to be locally elastic if its prediction at a feature vector is not significantly perturbed after the classifier is updated via SGD. Offer a geometric interpretation of local elasticity using NTK, and obtain pairwise similarity measures between feature vectors.
+
+### Deformed semicircle law and concentration of nonlinear random matrices for ultra-wide neural networks
+
+<https://arxiv.org/abs/2109.09304>
+
+Obtain the limiting spectra distributions of conjugate kernel and NTK in two-layer fully connected networks. Under the ultra-width regime, a deformed semicircle law appears. Also prove non-asymptotic concentrations of of empirical CK and NTK around their limiting kernel in the spectra norms.
+
+### Enhanced Recurrent Neural Tangent Kernels for Non-Time-Series Data
+
+<https://arxiv.org/abs/2012.04859>
+
+Extend the family of kernels associated with RNNs, to more complex architectures including bidirectional RNNs and RNNs with average pooling.
+
+### How Neural Networks Extraploate: From Feedforward to Graph Neural Networks
+
+<https://arxiv.org/abs/2009.11848>
+
+Quantify the observation that ReLU MLPs quickly converge to linear functions along any direction from the origin, which implies that ReLU MLPs do not extrapolate most nonlinear functions. And show that the success of GNNs in extrapolating algorithmic tasks to new data relies on encoding task-specific non-linearities in the architecture or features. Theoretical analysis builds on a connection of over-parameterized networks to the NTK.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -505,6 +529,18 @@ Accelerate kenrel machines with NTK, by mapping the input data to a randomized l
 <https://www.arxiv.org/abs/2007.05864>
 
 Using the NTK, add bias to initialization derive bayesian interpretation for deep ensembles.
+
+### Exact marginal prior distributions of finite Bayesian neural networks
+
+<https://arxiv.org/abs/2104.11734>
+
+Derive exact solutions for the function space priors for individual input examples of a class of finite fully-connected feedforward Bayesian neural networks. Deep linear networks have prior as a simple expression in terms of the Meijer G-function. The prior of a finite-ReLU network is a mixture of the priors of linear networks of smaller widths.
+
+### Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective
+
+<https://arxiv.org/abs/2102.11535>
+
+By analyzing the spectrum of the NTK and the number of linear regions in the input spaces, show that these two measurements imply the trainability and expressivity of a neural network and they strongly correlate with the network's test accuracy. 
 
 # Empirical Study
 
