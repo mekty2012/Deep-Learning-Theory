@@ -118,3 +118,21 @@ Propose novel bounding algorithm based on Lagrangian decomposition which restric
 <https://arxiv.org/abs/2109.13236>
 
 Add ownership verification scheme that allows signatures to be embedded and verified to claim legitimate intellectural property rights, when models are illegally copied, re-distributed or misused. 
+
+### Permutation Invariance of Deep Neural Networks with ReLUs
+
+<https://arxiv.org/abs/2110.09578>
+
+Proposes a sound, abstraction-based technique to establish permutation invariance in DNNs. The technique computes an over-approximation of the reachable state, and an under-approximation of the safe states, and propagates this information both forward and backward. 
+
+### Minimal Multi-Layer Modifications of Deep Neural Networks
+
+<https://arxiv.org/abs/2110.09929>
+
+Computes a modification to the netowrk's weights that corrects its behavior, and attempts to minimize this change via a sequence of calls to a backend, black-box DNN verification engine. Splitts the network into sub-networks, and apply a single-layer repairing technique to each component, allowing repair of the network by simulateneously modifying multiple layers.
+
+### Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers
+
+<https://arxiv.org/abs/2011.13824>
+
+Propose to use the backward mode linear relaxation based perturbation analysis to replace linear programming during the brandch-and-bound process, that can be efficiently implemented in GPUs. LiPRA can produce much weaker bounds, so apply a fast gradient based bound tightening procedure combined with batch splits.
