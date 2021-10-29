@@ -759,6 +759,72 @@ By bridging the gap between the spectral and spatial design of graph convolution
 
 Show that epoch-wise double descent arises by a superposition of two or more bias-variance tradeoff that arise because different parts of the network are learned at different epochs, and eliminating this by proper scaling of stepsizes can significantly improve the early stopping performance. Show this analytically for linear regression and a two-layer neural network.
 
+### A Universal Law of Robustness via Isoperimetry
+
+<https://arxiv.org/abs/2105.12806>
+
+Show that smooth interpolation requires d times parameters than mere interpolation, where d is the ambient data dimension, for any smoothly parametrized function class with polynomial size weights, and any covaraiate distribution verifying isoperimetry.
+
+### Model, sample, and epoch-wise descents: exact solution of gradient flow in the random feature model
+
+<https://arxiv.org/abs/2110.11805>
+
+Analyze the whole temporal behavior of the genralization and training errors under gradient flow for the random feature model. Show that in the asymptotic limit of large system size the full time-evolution path of both errors can be calculated analytically. Techniques are based on Cauchy complex integral representations of the errors with recent random matrix methods based on linear pencils.
+
+### Wide Neural Networks Forget Less Catastrophically
+
+<https://arxiv.org/abs/2110.11526>
+
+Focus on the model and study the impact of width of the NN architecture on catastrophic forgetting, and show that width has a suprisingly significant effect. Study the learning dynamics of the network from various perspectives, including gradient norm, sparsity, orthogonalization, lazy training.
+
+### The Equilibrium Hypothesis: Rethinking implicit regularization in Deep Neural Networks
+
+<https://arxiv.org/abs/2110.11749>
+
+Recent work showed that some layers are much more aligned with data labels than other layers, called impricial layer selection. Introduce and empirically validate the Equilibrium Hypothesis stating that the layers achieve some balance between forward and backward information loss are the ones with the highest alignment to data labels.
+
+### On some theoretical limitations of Generative Adversarial Networks
+
+<https://arxiv.org/abs/2110.10915>
+
+Provide a new result based on Extreme Value Theory showing that GANs can't generate heavy tailed distributions.
+
+### Bridging the Gap Between Practice and PAC-Bayes Theory in Few-Shot Meta-Learning
+
+<https://arxiv.org/abs/2105.14099>
+
+Relaxing the assumption that distribution of observed task and target task is equal, develop two PAC-Bayes bounds for the few-shot learning setting, thereby bridging the gap between practice and PAC_Bayesian theories.
+
+### Faster Neural Network Training with Approximate Tensor Operations
+
+<https://arxiv.org/abs/1805.08079>
+
+Introduce a new technique for faster NN training using sample-based approximation to the tensor operations, prove that they provide the same convergence guarantees.
+
+### Asymptotics of representation learning in finite Bayesian neural networks
+
+<https://arxiv.org/abs/2106.00651>
+
+Argue that the leading finite-width corrections to the average feature kernels for any Bayesian network with linear readout and Gaussian likelihood have a largely universal form. Illustrate this explicitly for linear MLP or CNN and single nonlinear hidden layer.
+
+### Towards Lower Bounds on the Depth of ReLU Neural Networks
+
+<https://arxiv.org/abs/2105.14835>
+
+Using techniques from mixed-integer optimization, polyhedral theory, tropical geometry, provide a counterbalance to the universal approximation theorem which suggest that a single hidden layer is sufficient for learning tasks. Inverstigate whether the class of exactly representablt functions strictly increases by adding more layers. Also present upper bounds on the sizes of neural networks required to represent functions in these neural hypothesis classes.
+
+### Does the Data Induce Capacity Control in Deep Learning?
+
+<https://arxiv.org/abs/2110.14163>
+
+Show that the data correlation matrix, Hessian, Fisher Information Matrix all share 'sloppy' eigenspectrum where a large number of small eigenvalues are distributed uniformly over an exponentially large range. Show that this structure in the data can give to non-vacuous PAC-Bayes generalization bounds analytically.
+
+### Unveiling the structure of wide flat minima in neural networks
+
+<https://arxiv.org/abs/2107.01163>
+
+Show that wide flat minima arise as complex extensive structures from the coalscence of minima aroung 'high-margin' configurations. Despite being exponentially rare compared to zero-margin ones, high-margin minima tend to concentrate in particular regious, surrounded by other solutions of smaller margin.
+
 # Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
