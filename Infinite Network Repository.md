@@ -67,6 +67,18 @@ Inverstigate NNGP in GCNN, and propose a GP regression model with GCN, for graph
 
 Show that the output of a CNN with an appropriate prior is a Gaussian Process in the infinite channel limit, and can be computed efficiently similar to a single forward pass through the original CNN with single filter per layer.
 
+## The Limitations of Large Width in Neural Networks: A Deep Gaussian Process Perspective
+
+<https://www.arxiv.org/abs/2106.06529>
+
+Decouples capacity and width via the genrealization of neural network to Deep Gaussian Process, aim to understand how width affects standard neural networks once they have sufficient capacity for a given modeling task. 
+
+## The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
+
+<https://www.arxiv.org/abs/2106.04013>
+
+Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in the infinite-depth-and-width limit, with parameters depending on the ratio d/n. Show that ReLU ResNet is hypoactivated, that fewer than half of the ReLUs are activated.
+
 # NTK theory
 
 ### Neural tangent kernel: convergence and generalization in neural networks
@@ -438,12 +450,6 @@ Using detailed analysis about the NTK matrix, prove a generalization error bound
 
 Show the order and chaos regime, and show that scaled ReLU gives ordered regime, layer normalization and batch normalization leads chaotic regime, which also appears in CNN. Analysis explains so called checkerboard patterns and border artifacts, with proposal of methods removing these effects.
 
-### Neural Tangent Kernel Empowered Federated Learning
-
-<https://arxiv.org/abs/2110.03681>
-
-Propose a novel FL paradigm empowered by the NTK framework, which addresses the challenge of statistical heterogenity by transmitting update data that are more expressive than those of the traditional FL paradigms.
-
 ### Label Propagation across Graphs: Node Classification using Graph Neural Tangent Kernels
 
 <https://arxiv.org/abs/2110.03763>
@@ -498,6 +504,24 @@ Extend the family of kernels associated with RNNs, to more complex architectures
 
 Quantify the observation that ReLU MLPs quickly converge to linear functions along any direction from the origin, which implies that ReLU MLPs do not extrapolate most nonlinear functions. And show that the success of GNNs in extrapolating algorithmic tasks to new data relies on encoding task-specific non-linearities in the architecture or features. Theoretical analysis builds on a connection of over-parameterized networks to the NTK.
 
+### SGD Learns the Conjugate Kernel Class of the Network
+
+<https://www.arxiv.org/abs/1702.08503>
+
+Show that SGD is guaranteed to learn a function that is competitive with the best function in the conjugate kernel space, in polynomial time.
+
+### Implicit Acceleration and Feature Learning in Infinitely Wide Neural Networks with Bottlenecks
+
+<https://www.arxiv.org/abs/2107.00364>
+
+Analyze the learning dynamics of infinitely wide neural networks with a finite sized bottlenecks. This allows data dependent feature learning in its bottleneck representation, unlike NTK limit.
+
+### Tighter Sparse Approximation Bounds for ReLU Neural Networks
+
+<https://arxiv.org/abs/2110.03673>
+
+Derive sparse neural network approximation bounds that refine previous works, and show that infinite-width neural network representations on bounded open sets are not unique.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -541,6 +565,12 @@ Derive exact solutions for the function space priors for individual input exampl
 <https://arxiv.org/abs/2102.11535>
 
 By analyzing the spectrum of the NTK and the number of linear regions in the input spaces, show that these two measurements imply the trainability and expressivity of a neural network and they strongly correlate with the network's test accuracy. 
+
+### Neural Tangent Kernel Empowered Federated Learning
+
+<https://arxiv.org/abs/2110.03681>
+
+Propose a novel FL paradigm empowered by the NTK framework, which addresses the challenge of statistical heterogenity by transmitting update data that are more expressive than those of the traditional FL paradigms.
 
 # Empirical Study
 
