@@ -136,3 +136,21 @@ Computes a modification to the netowrk's weights that corrects its behavior, and
 <https://arxiv.org/abs/2011.13824>
 
 Propose to use the backward mode linear relaxation based perturbation analysis to replace linear programming during the brandch-and-bound process, that can be efficiently implemented in GPUs. LiPRA can produce much weaker bounds, so apply a fast gradient based bound tightening procedure combined with batch splits.
+
+### Static analysis of ReLU neural networks with tropical polyhedra
+
+<https://arxiv.org/abs/2108.00893>
+
+Abstracts ReLU feedforward neural networks, and show that tropical polyhedra can efficiently abstract ReLU activation function, while being able to control the loss of precision due to linear computations. Show how the connection between ReLU networks and tropical rational functions can provide approaches for range analysis of ReLU neural networks.
+
+### Exploiting Verified Neural Networks via Floating Point Numerical Error
+
+<https://arxiv.org/abs/2003.03021>
+
+Show that the negligence of floating point error leads to unsound verification that can be systematically exploited in practice. Present a method that efficiently searches inputs as witnesses for the incorrectness of robustness claims made by a complete verifier.
+
+### Reduced Products of Abstract Domains for Fairness Certification of Neural Networks
+
+<https://link.springer.com/chapter/10.1007/978-3-030-88806-0_15>
+
+By combining a sound forward pre-analysis and an exact backward analysis, leverages the polyhedra abstract domain to provide definite fairness guarantees when possible, and to otherwise quantify and describe the biased input space regions.
