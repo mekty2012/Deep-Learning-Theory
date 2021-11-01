@@ -12,12 +12,6 @@ Study relationship between the frequency of a function and the speed at which a 
 Approximate by linear system, and compute eigenfunction which is spherical harmonic functions.
 Empirically, theoretically, shallow NN without bias can't learn simple low frequency functions with odd frequencies.
 
-### Dynamical Isometry and a Mean Field Theory of RNNs
-
-<https://www.arxiv.org/abs/1806.05394>
-
-Use mean field theory and random matrix theory to develop a theory for signal propagation in RNNs. 
-
 ### Gradient Descent Provably Optimizes Over-parametrized Neural Networks
 
 <https://www.arxiv.org/abs/1810.02054>
@@ -29,18 +23,6 @@ In two-layer FC ReLU NN, if width is large enough and no two inputs are parallel
 <https://www.arxiv.org/abs/1508.05133>
 
 Devise stochastic kernels that encode the information of networks. 
-
-### A Mean Field Theory of Batch Normalization
-
-<https://www.arxiv.org/abs/1902.08129>
-
-Develop a mean field theory for batch normalization, show that batch normalization is cause of gradient explosion.
-
-## Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks
-
-<https://www.arxiv.org/abs/1806.05393>
-
-Use mean field theory for signal propagation, characterize the conditions for dynamical isometry, train vanilla CNNs with 10,000 layers.
 
 ## Deep learning generalizes because the parameter-function map is biased towards simple functions
 
@@ -74,12 +56,6 @@ Show that for a class of ReLU-like activation functions, the information propaga
 Investigate the asymptotic statistics of the FIM's eigenvalues and reveal that most of them are close to zero while the maximum eigenvalue takes a huge value.
 So it is locally flat in most dimensions, but strongly distorted in others.
 
-### Mean Field Residual Networks: On the Edge of Chaos
-
-<https://www.arxiv.org/abs/1712.08969>
-
-Show that adding skip connections allow the network to adopt subexponential dynamics, where usually it is exponential.
-
 ### Toward Deeper Understanding of Neural Networks: The Power of Initialization and a Dual View on Expressivity
 
 <https://www.arxiv.org/abs/1602.05897>
@@ -98,19 +74,6 @@ Use k-th Taylor expansion of the neurl network at initialization, and show that 
 
 Present a class of neural networks with solvable training dynamics, and see two learning rate phase with their phenomena.
 
-### SGD Learns the Conjugate Kernel Class of the Network
-
-<https://www.arxiv.org/abs/1702.08503>
-
-Show that SGD is guaranteed to learn a function that is competitive with the best function in the conjugate kernel space, in polynomial time.
-
-### A Mean Field Theory of Quantized Deep Networks: The Quantization-Depth Trade-Off
-
-<https://www.arxiv.org/abs/1906.00771>
-
-Apply mean-field techniques to networks with quantized activations, to evaluate degrade in signal propagation, and derive initialization scheme that maximize signal propagation
-ins cuh networks.
-
 ### Learning Overparametrized Neural Networks via Stochastic Gradient Descent on Structured Data
 
 <https://www.arxiv.org/abs/1808.01204>
@@ -123,18 +86,6 @@ Prove that when the data comes from mixtures of well-separated distributions SGD
 
 Analyze training and generalization, give (1) why random label gives slower training (2) generalization bound independent of network size (3) learnability of a broad class of smooth functions.
 
-### How to Initialize your Network? Robust Initialization for WeightNorm & ResNets
-
-<https://www.arxiv.org/abs/1906.02341>
-
-Use mean field approximation, define parameter initialization that avoids explosion or vanishment of information for weight normalized networks.
-
-### Exponential expressivity in deep neural networks through transient chaos
-
-<https://www.arxiv.org/abs/1606.05340>
-
-Using Riemannian geometry with the mean field theory, study the nature of signal propagation in DNN. Show the chaotic phase networks computes nonlinear functions with curvature growing exponentially with depth, which can't be approximated by shallow network. 
-
 ### Products of Many Large Random Matrices and Gradients in Deep Neural Networks
 
 <https://www.arxiv.org/abs/1812.05994>
@@ -146,24 +97,6 @@ Given products of random matrices when the number of terms and the size of the m
 <https://www.arxiv.org/abs/2006.10732>
 
 Prove an exact asymptotics bias-variance decompositions of the generalization error of overparametrized ridgeless regression under a general class of preconditioner, considering the inverse population Fisher information matrix as a particular example. 
-
-## The Limitations of Large Width in Neural Networks: A Deep Gaussian Process Perspective
-
-<https://www.arxiv.org/abs/2106.06529>
-
-Decouples capacity and width via the genrealization of neural network to Deep Gaussian Process, aim to understand how width affects standard neural networks once they have sufficient capacity for a given modeling task. 
-
-## The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
-
-<https://www.arxiv.org/abs/2106.04013>
-
-Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in the infinite-depth-and-width limit, with parameters depending on the ratio d/n. Show that ReLU ResNet is hypoactivated, that fewer than half of the ReLUs are activated.
-
-### Implicit Acceleration and Feature Learning in Infinitely Wide Neural Networks with Bottlenecks
-
-<https://www.arxiv.org/abs/2107.00364>
-
-Analyze the learning dynamics of infinitely wide neural networks with a finite sized bottlenecks. This allows data dependent feature learning in its bottleneck representation, unlike NTK limit.
 
 ## A self consistent theory of Gaussian Processes captures feature learning effects in finite CNNs
 
@@ -560,12 +493,6 @@ Using renormalization group theory, find that iterative magnitude pruning is a r
 <https://arxiv.org/abs/2105.10832>
 
 Propose a pruning algorithm so called spectral pruning for RNN, and provide the generalization error bounds for compressed RNNs.
-
-### Tighter Sparse Approximation Bounds for ReLU Neural Networks
-
-<https://arxiv.org/abs/2110.03673>
-
-Derive sparse neural network approximation bounds that refine previous works, and show that infinite-width neural network representations on bounded open sets are not unique.
 
 ### On the Optimal Memorization Power of ReLU Neural Networks
 
