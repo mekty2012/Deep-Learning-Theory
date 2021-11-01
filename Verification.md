@@ -149,6 +149,12 @@ Abstracts ReLU feedforward neural networks, and show that tropical polyhedra can
 
 Show that the negligence of floating point error leads to unsound verification that can be systematically exploited in practice. Present a method that efficiently searches inputs as witnesses for the incorrectness of robustness claims made by a complete verifier.
 
+### Verifying Low-dimensional Input Neural Networks via Input Quantization
+
+<https://arxiv.org/abs/2108.07961>
+
+Prepend input quantization layer to the network, which allows efficient verficiation via input state enumeration. 
+
 ### Reduced Products of Abstract Domains for Fairness Certification of Neural Networks
 
 <https://link.springer.com/chapter/10.1007/978-3-030-88806-0_15>
