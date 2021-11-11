@@ -41,3 +41,32 @@ Use mean field approximation, define parameter initialization that avoids explos
 
 Using Riemannian geometry with the mean field theory, study the nature of signal propagation in DNN. Show the chaotic phase networks computes nonlinear functions with curvature growing exponentially with depth, which can't be approximated by shallow network. 
 
+### Limiting fluctuations and trajectorial stability of multilayer neural networks with mean field training
+
+<https://arxiv.org/abs/2110.15954>
+
+Leveraging on the neuronal embedding framework, systemically derive a system of dynamical equations called second-order MF limit, capturing the limiting fluctuation distribution. Applying this result, show a stability property of gradient descent MF training, that training trajectory progressively biases towards a solution with minimal fluctuation.
+
+### Mean-field Analysis of Piecewise Linear Solutions for Wide ReLU Networks
+
+<https://arxiv.org/abs/2111.02278>
+
+In mean-field view, shwo that at convergence, the ReLU network implements a piecewise linear map with at most three 'knot' points, points where the tangent of the ReLU network estimator changes. 
+
+### Mean-Field and Kinetic Descriptions of Neural Differential Equations
+
+<https://arxiv.org/abs/2001.04294>
+
+Analyze steady states and sensitivity w.r.t. the parameters of the ResNets, where the study of moments provides insights on the choice of the parameters. Modification of the microscopic dynmaics leads to a Fokker-Planck formulation of the network, where the concept of network training is replaced by the task of fitting distributions.
+
+### Overparameterization of deep ResNet: zero loss and mean-field analysis
+
+<https://arxiv.org/abs/2105.14417>
+
+Using a mean-field-limit, prove that the gradient descent becomes a gradient flow for a probability distribution characterized by a PDE in the large NN limit. And show that the solution converges to a zero-loss solution, suggesting that the training of the ResNet gives a near-zero loss. 
+
+### Dynamical mean-field theory for stochastic gradient descent in Gaussian mixture classification
+
+<https://arxiv.org/abs/2006.06098>
+
+Analyze the learning dynamics of SGD for a single-layer NN classifying a high-dimensional Gaussian mixture in binary classification. Define a particular stochastic process where SGD is modelled by stochastic gradient flow, then apply dynamical mean-field theory to track the dynamics via a self-consistent stochastic process.
