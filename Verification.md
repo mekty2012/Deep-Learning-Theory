@@ -160,3 +160,27 @@ Prepend input quantization layer to the network, which allows efficient verficia
 <https://link.springer.com/chapter/10.1007/978-3-030-88806-0_15>
 
 By combining a sound forward pre-analysis and an exact backward analysis, leverages the polyhedra abstract domain to provide definite fairness guarantees when possible, and to otherwise quantify and describe the biased input space regions.
+
+### PRIMA: Precise and General Neural Network Certification via Multi-Neuron Convex Relaxations
+
+<https://arxiv.org/abs/2103.03638>
+
+Using convex hull approximation algorithms from computational geometry, create precise and general verification methods with polynomial complexity.
+
+### Interval Universal Approximation for Neural Networks
+
+<https://arxiv.org/abs/2007.06093>
+
+Shows that neural networks not only can approximate any continuous function, but can find neural networks with arbitrarily close interval bound. Constructing such neural network takes Delta 2-intermediate program, which is strictly harder than NPc problems.
+
+### A Dual Number Abstraction for Static Analysis of Clarke Jacobians
+
+<https://popl22.sigplan.org/details/POPL-2022-popl-research-papers/56/A-Dual-Number-Abstraction-for-Static-Analysis-of-Clarke-Jacobians>
+
+Design new abstract interpretation that bounds Clarke Jacobian, over-approximate the gradient.
+
+### epsilon-weakened Robustness of Deep Neural Networks
+
+<https://arxiv.org/abs/2110.15764>
+
+Define epsilon-weakened robustness which allows proportion of adversarial examples, and prove that decision problem is PP-complete, and finally devise an algorithm to find the maximum epsilon-weakened robustness radius.
