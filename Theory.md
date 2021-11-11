@@ -752,6 +752,120 @@ Show that the data correlation matrix, Hessian, Fisher Information Matrix all sh
 
 Show that wide flat minima arise as complex extensive structures from the coalscence of minima aroung 'high-margin' configurations. Despite being exponentially rare compared to zero-margin ones, high-margin minima tend to concentrate in particular regious, surrounded by other solutions of smaller margin.
 
+### Open Problem: Tight Online Confidence Intervals for RKHS Elements
+
+<https://arxiv.org/abs/2110.15458>
+
+Formalize the question of online confidence intervals in the RKHS setting. It is still unclear whether the suboptimal regret bound is a fundamental shortcoming or artifact of the proof.
+
+### What training reveals about neural network complexity
+
+<https://arxiv.org/abs/2106.04186>
+
+Explores Benevolent Training Hypothesis, that the complexity of target function can be deduced by training dynamics. Observe that the Lipscitz constant close to the training data affects various aspects of the parameter trajectory, with more complex network having longer trajectory, bigger variance. Show that NNs whose first layer bias is trained more steadily have bounded complexity, and find that steady training with dropout implies a training and data-dependent generalization bound growing poly-logarithmically with the number of parameters. 
+
+### Framing RNN as a kernel method: A neural ODE approach
+
+<https://arxiv.org/abs/2106.01202>
+
+Show that under appropriate conditions, the solution of a RNN can be viewed as a linear function of a specific feature set of the input sequence, known as the signature, framing RNN as a kernel method in a suitable RKHS. Obtain theoretical guarantees on generalization and stability.
+
+### Convergence rates for the stochastic gradient descent method for non-convex opjective functions
+
+<https://arxiv.org/abs/1904.01517>
+
+Prove the local convergence to minima and estimates on the rate of convergence in the case of not necessarily globally convex nor contracting objective functions.
+
+### Approximation properties of Residual Neural Networks for Kolmogorov PDEs
+
+<https://arxiv.org/abs/2111.00215>
+
+Show that ResNets are able to approximate solutions of Kolmogorov PDEs with constant diffusion and possibly nonlinear drift coefficients without suffering the curse of dimensionality.
+
+### Learning Rates as a Function of a Batch Size: A Random Matrix Theory Approach to Neural Network Training
+
+<https://arxiv.org/abs/2006.09092>
+
+Demonstrate that the magnitude of the extremal values of the batch Hessian are larger than those of the empirical Hessian, using spiked field-dependent random matrix theory. Derive an analytical expressions for the maximal learning rates as a function of batch size.
+
+### Free Probability, Newton lilypads and Jacobians of neural networks
+
+<https://arxiv.org/abs/2111.00841>
+
+Spectral density of the Jacobian is crucial in analyzing robustness, where such Jacobians are modeled using free multiplicative convolutions from Free Probability Theory. Present a reliable and very fast method for computing the associated spectral desnities, based on an adaptive Newton-Raphson scheme.
+
+### Collapse of Deep and Narrow Neural Nets
+
+<https://arxiv.org/abs/1808.04947>
+
+Show that even for ReLU activation, deep and narrow NNs will converge to errorneous mean or median states of the target function depending on the loss with high probability. 
+
+## Noether's Learning Dynamics: Role of Symmetry Breaking in Neural Networks
+
+<https://arxiv.org/abs/2105.02716>
+
+Develop a theoretical framework studying the geometry of learnin dynamics, reveal a key nechanism of explicit symmetry breaking behind the efficiency and stability. Model the discrete learning dynmaics of gradient descent using a continuous time Lagrangian formulation, and identify kinetic symmetry breaking, and generalize Neother's theorem to KSB and show how KSB introduces a mechanisms of implicit adaptive optimization.
+
+### Why Stable Learning Works? A Theory of Covariate Shift Generalization
+
+<https://arxiv.org/abs/2111.02355>
+
+Prove that under ideal conditions, stable learning algorithms could identify minimal stable variable set, that is minimal and optimal to deal with covariate shift generalization for common loss functions.
+
+### Subquadratic Overparameterization for Shallow Neural Networks
+
+<https://arxiv.org/abs/2111.01875>
+
+Provide an analyical framework that allows to adopt standard initialization strategies, avoid lazy training, and train all layers simultaneously in basic shallow neural network while attaining a desirable subquadratic scaling on the network depth, using Polyak-Lojasiewicz condition, and random matrix theory.
+
+### Diversity and Generalization in Neural Network Ensembles
+
+<https://arxiv.org/abs/2110.13786>
+
+Provide sound answers tot he following questions, how to measure diversity, how diversity relates to the generalization error of an ensemble, and how diversity is promoted by neural network ensemble algorithms.
+
+### Early-stopped neural networks are consistent
+
+<https://arxiv.org/abs/2106.05932>
+
+Show that gradient descent with early stopping achieves population risk arbitrarily close to optimal in terms of not just logistic and misclassification losses, but also in terms of calibration.
+
+### Appearance of Random Matrix Theory in Deep Learning
+
+<https://arxiv.org/abs/2102.06740>
+
+Propose a novel model for the true loss surfaces of neural networks which allows for Hessian spectral densities with rank degeneracy and outliers, and predicts a growing independence of loss gradients as a function of distance in weight-space. 
+
+### Multiple Descent: Design Your Own Generalization Curve
+
+<https://arxiv.org/abs/2008.01036>
+
+Show that the generalization curve can have an arbitrary number of peaks, and the locations of those peaks can be explicitly controlled in variable parameterized families of models on linear regression. The emergence of double descnet is due to the interaction between the properties of the data and the inductive bias of learnin algorithms.
+
+### Improved Regularization and Robustness for Fine-tuning in Neural Networks
+
+<https://arxiv.org/abs/2111.04578>
+
+Present a PAC-Bayes generalization bound that depends on the distance traveled in each layer during fine-tuning and the noise stability. 
+
+### Stability & Generalisation of Gradient Descent for Shallow Neural Networks without the Neural Tangent Kernel
+
+<https://arxiv.org/abs/2107.12723>
+
+Show oracle type bounds which reveal that the generalisation and excess risk of GD is controlle by an interpolating network with the shortest GD path from inistialisation. Also show that this analysis is tightesr then existing NTK-based risk bounds, and show that GD with early stoppping is constant.
+
+### Understanding the Generalization Benefit of Model Invariance from a Data Perspective
+
+<https://arxiv.org/abs/2111.05529>
+
+Studies the generalization benefit of model invariance by introducing the sample cover induced by transformations. Proveide refined generalization bounds for invariant models based on the sample cover. 
+
+### Can we have it all? On the Trade-off between Spatial and Adversarial Robustness of Neural Networks
+
+<https://arxiv.org/abs/2002.11318>
+
+Prove a quantitative trade-off between spatial and adversarial robustness in a simple statistical setting. 
+
 # Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
