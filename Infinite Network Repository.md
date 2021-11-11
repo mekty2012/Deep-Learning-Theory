@@ -79,6 +79,12 @@ Decouples capacity and width via the genrealization of neural network to Deep Ga
 
 Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in the infinite-depth-and-width limit, with parameters depending on the ratio d/n. Show that ReLU ResNet is hypoactivated, that fewer than half of the ReLUs are activated.
 
+### Rate of Convergence of Polynomial Networks to Gaussian Processes
+
+<https://arxiv.org/abs/2111.03175>
+
+Demonstrate that the rate of convergence in 2-Wasserstein metric is O(sqrt(n)), where n is the number of hidden neurons in one hidden-layer neural network. Show the convergence rate for other atcivations, power-law for ReLU and inverse-sqrt for erf. 
+
 # NTK theory
 
 ### Neural tangent kernel: convergence and generalization in neural networks
@@ -522,6 +528,42 @@ Analyze the learning dynamics of infinitely wide neural networks with a finite s
 
 Derive sparse neural network approximation bounds that refine previous works, and show that infinite-width neural network representations on bounded open sets are not unique.
 
+### Deep Networks Provably Classify Data on Curves
+
+<https://arxiv.org/abs/2107.14324>
+
+Prove that when the network depth is large relative to geometric properties and the network width and number of samples is polynomial in depth, randomly initialized gradient descent quickly learns to correctly classify all points on the two curves with high probability. Analyze by a reduction to dynamics in the NTK regime, using the fine-grained control of the decay properties, showing that NTK can be locally approximated by a translationally invariance operator on the manifolds and stable inverted over smooth functions, which guarantees convergence and generalization.
+
+### Training Integrable Parameterizations of Deep Neural Networks in the Infinite-Width Limit
+
+<https://arxiv.org/abs/2110.15596>
+
+Study a specific choice of small initialization corresponding to mean-field limit, calling integrable parameterization. Show that under standard i.i.d. zero-mean init, integrable parameterization with more than four layers start at a stationary point in the infinite-width limit with no learning. Then propose various methods to avoid this triviality, for example using large initial learning rates which is equivalent to maximal update parameterization.
+
+### Neural Networks as Kernel Learners: The Silent Alignment Effect
+
+<https://arxiv.org/abs/2111.00034>
+
+Demonstrate that neural networks in the rich feature learning regime can learn a kernel machine with a data-dependent kernel, due to a phenomenon termed silent alignment, requiring that the NTK evolves in eigenstructure while small and before the loss decreases, and grows noly in overall scale afterwards. Show that such an effect takes place in homogeneour NNs with small initialization and whitened data. 
+
+### Quantifying the generalization error in deep learning in terms of data distribution and neural network smoothness
+
+<https://arxiv.org/abs/1905.11427>
+
+Introduce the cover complexity to measure the difficulty of a data set and the inverse of the modulus of continuity to quantify neural network smoothness, deriving quantitative bound for expected error.
+
+### Understanding Layer-wise Contributions in Deep Neural Networks through Spectral Analysis
+
+<https://arxiv.org/abs/2111.03972>
+
+Analyze the layer-wise spectral bias of DNNs and relate it to the contributions of different layers in the reduction of generalization error for a given target function. Using Hermite polynomials and spherical harmonics, prove that initial layers exhibit a larger bias towards high-frequency functions defined on the unit sphere.
+
+### When Do Neural Networks Outperform Kernel Methods?
+
+<https://arxiv.org/abs/2006.13409>
+
+Show that the curse of dimensioanlity of RKHS methods becomes milder if the covaraiates display the same low-dimensional structure as the target function, and we precisely characterize this tradeoff. 
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -571,6 +613,12 @@ By analyzing the spectrum of the NTK and the number of linear regions in the inp
 <https://arxiv.org/abs/2110.03681>
 
 Propose a novel FL paradigm empowered by the NTK framework, which addresses the challenge of statistical heterogenity by transmitting update data that are more expressive than those of the traditional FL paradigms.
+
+### An Infinite-Feature Extension for Bayesian ReLU Nets That Fixes Their Asymptotic Overconfidence
+
+<https://arxiv.org/abs/2010.02709>
+
+Extend finite BNNs with infinite ReLU features via the GP, showing that the resulting model is asymptotically maximally uncertain far away from the data, while the BNN's predictive power is unaffected near the data.
 
 # Empirical Study
 
