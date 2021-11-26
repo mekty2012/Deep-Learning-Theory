@@ -564,6 +564,24 @@ Analyze the layer-wise spectral bias of DNNs and relate it to the contributions 
 
 Show that the curse of dimensioanlity of RKHS methods becomes milder if the covaraiates display the same low-dimensional structure as the target function, and we precisely characterize this tradeoff. 
 
+## On the Equivalence between Neural Network and Support Vector Machine
+
+<https://arxiv.org/abs/2111.06063>
+
+Propose the equivalence between NN and SVM, especially infinite NNs trained by soft margin loss and soft margin SVM with NTK. Show that every finite-width NN with regularized loss functions is approximately a kernel machine, with generalization bound for NN using the kernel machine, robustness certificate for infinite-width NNs, instrinsically more robust infinite-width NNs.
+
+### Towards Understanding the Condensation of Neural Networks at Initial Training
+
+<https://arxiv.org/abs/2105.11686>
+
+Empirical works show that input weights of hdiden neurons condense on isolated orientation with a small initialization. 
+
+### Critical initialization of wide and deep neural networks through partial Jacobians: general theory and applications to LayerNorm
+
+<https://arxiv.org/abs/2111.12143>
+
+Describe a new way to diagnose criticality of NN, by partial Jacobians, which is a derivative of preacitvations in layer l for earlier layers, and discuss various properties of the partial Jacobians such as scaling and relation to NTK. Using the recurrence relation for partial Jacobian, analyze the criticality of deep MLP, with/without LayerNorm.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
