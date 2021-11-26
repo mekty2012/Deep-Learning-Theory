@@ -866,6 +866,96 @@ Studies the generalization benefit of model invariance by introducing the sample
 
 Prove a quantitative trade-off between spatial and adversarial robustness in a simple statistical setting. 
 
+### Analysis of One-Hidden-Layer Neural Networks via the Resolvent Method
+
+<https://arxiv.org/abs/2105.05115>
+
+Investigate spectral density of random feature matrix M = YY^* where Y=f(WX+B), which extends previous result without bias, and show that it is impossible to choose an activation function preserving the layer-to-layer singular value distribution. Use resolvent method using the cumulant expansion, since it is more robust and less combinatorial than the moment method.
+
+### A Random Matrix Perspective on Mixtures of Nonlinearities for Deep Learning
+
+<https://arxiv.org/abs/1912.00827>
+
+Analyze the performance of random feature regression with features F=f(WX+B), obtaining exact formulae for the asymptotic training/test errors for linear teacher model. Find that a mixture of nonlinearities can improve both errors then best single nonlinearity.
+
+### On a Sparse Shortcut Topology of Artificial Neural Networks
+
+<https://arxiv.org/abs/1811.09003>
+
+Propose new shortcut architecture, and show that it can approximate any univariate continuous function in width-bounded setting, and show the generalization bound.
+
+### ReLU Neural Networks of Polynomial Size for Exact Maximum Flow Computation
+
+<https://arxiv.org/abs/2102.06635>
+
+Introduce the concept of Max-Affine Arithmetic Programs, and use them to show that undirected graph's minimum spanning tree and maximum flow computation is possible with NNs of cubic/quadratic width.
+
+### Deep Learning in High Dimension: Neural Network Approximation of Analytic Functions in L2(R^d, gamma_d)
+
+<https://arxiv.org/abs/2111.07080>
+
+Prove expression rates for analytic function, L2 in the gaussian product measure, show the exponential convergence rate. The rate only depend on quantified holomorphy of F, to a product of strips in C^d. 
+
+### The Three Stages of Learning Dynamics in High-Dimensional Kernel Methods
+
+<https://arxiv.org/abs/2111.07167>
+
+Study the training dynamics of gradient flow on kernel least-squares objective, which is limiting dynamics of SGD trained NNs. 
+
+### Entropic gradient descent algorithms and wide flat minima
+
+<https://arxiv.org/abs/2006.07897>
+
+Show that gaussian mixture classification's Bayes optimal pointwise estimators belongs to minimizers in wide flat regions, found by applying maximum flatness algorithms. Then using entropy-SGD and replicated-SGD, improve the generalization error.
+
+### Assessing Deep Neural Networks as Probability Estimators
+
+<https://arxiv.org/abs/2111.08239>
+
+Find that the likelihood probability density and the inter-categorical sparsity have greater impacts than the prior probability to DNN's classification uncertainty.
+
+### Towards Understanding the Condensation of Neural Networks at Initial Training
+
+<https://arxiv.org/abs/2105.11686>
+
+Empirically, it is observed that input weights condense on isolated orientation with a small initialization. Show that maximal number of condensed orientation in the initial stage is twice the multiplicity of the acitvation function, where multiplicity is multiple roots of activation function at origin. 
+
+### Training Neural Networks is Exists R-complete
+
+<https://arxiv.org/abs/2102.09798>
+
+Show that complexity of finding weight with total error below the threshold is exists R-complete, which is a decision problem whether a system of polynomial equations and inequalities with integer coefficients and real unknowns has a solution, and strictly larger than NP.
+
+### Depth Without the Magic: Inductive Bias of Natural Gradient Descent
+
+<https://arxiv.org/abs/2111.11542>
+
+Gradient descent has implicit inductive bias, that the parameterization gives different optimization trajectory. Natural gradient descent is approximately invariant to such parameterization, giving same trajectory and same minimum. Show that there exist learning problem where natural gradient descent fails to generalize while gradient descent performs well.
+
+### Deep Autoencoders: From Understanding to Generalization Guarantees
+
+<https://arxiv.org/abs/2009.09525>
+
+Reformulate AEs by continuous piecewise affine structure, to show how AEs approximate the data manifold, giving some insights for reconstruction guarantees and interpretation of regularization guarantees. Design two new regularization that leverages the inherent symmetry learning, prove that the regularizations ensure the generalization with assumption on symmetry of the data with Lie group.
+
+### Improved Fine-tuning by Leveraging Pre-training Data: Theory and Practice
+
+<https://arxiv.org/abs/2111.12292>
+
+Show that final prediction precision may have a weak dependency on the pre-trained model especially in the case of large training terations. Shows that the final performance can be improved when appropriate pre-training data is included in fine-tuning, and design a novel selection strategy to select a subset from pre-training data to help improve the generalization.
+
+### The staircase property: How hierarchical structure can guide deep learning
+
+<https://arxiv.org/abs/2108.10573>
+
+Defines a staircase property for functions over the boolean hypercube, which posits that high-order Fourier coefficients are reachable from low-order Fourier coefficients along increasing chains. Prove that functions with staircase property can be learned in polynomial time using layerwise stochastic coordinate descent on regular neural network. 
+
+### Gradient Starvation: A Learning Proclivity in Neural Networks
+
+<https://arxiv.org/abs/2011.09468>
+
+Gradient Starvation arises when cross-entropy loss is minimized by capturing only a subset of features relevant for the task, despite the presence of other predictive features that fail to be discovered. Using tools from dynamical systems theory, identify simple properties of learning dynamics during gradient descent that lead to this imbalance, and prove that such a situation can be expected given certain statistical structure in training data.
+
 # Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
