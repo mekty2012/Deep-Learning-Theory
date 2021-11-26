@@ -184,3 +184,21 @@ Design new abstract interpretation that bounds Clarke Jacobian, over-approximate
 <https://arxiv.org/abs/2110.15764>
 
 Define epsilon-weakened robustness which allows proportion of adversarial examples, and prove that decision problem is PP-complete, and finally devise an algorithm to find the maximum epsilon-weakened robustness radius.
+
+### Traversing the Local Polytopes of ReLU Neural Networks: A Unified Approach for Network Verification
+
+<https://arxiv.org/abs/2111.08922>
+
+Design a traversing algorithm based on adjacency of local polytopes, which can be adapted to verify network properties related to robustness and interpretability. 
+
+### Fast BATLLNN: Fast Box Analysis of Two-Level Lattice Neural Networks
+
+<https://arxiv.org/abs/2111.09293>
+
+Design a verification tool on two-level lattice neural networks, that determines whether convex polytope in input's output always lies within a specified hyper-rectangle. Using the decoupled nature of box-like output contraint, improve verification performance.
+
+### AMITE: A Novel Polynomial Expansion for Analyzing Neural Network Nonlinearities
+
+<https://arxiv.org/abs/2007.06226>
+
+Develop an analytically modieifed integral transform expansion, a novel expansion via integral transforms modified using derived criteria for convergence. This can provide six desired properties like exact formulas and exact expansion. As a result, multivariate polynomial form can be efficiently extracted to facilitate equivalence testing and a variety of NN architectures having 3~7 layers are bounded using Taylor models.
