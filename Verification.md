@@ -202,3 +202,21 @@ Design a verification tool on two-level lattice neural networks, that determines
 <https://arxiv.org/abs/2007.06226>
 
 Develop an analytically modieifed integral transform expansion, a novel expansion via integral transforms modified using derived criteria for convergence. This can provide six desired properties like exact formulas and exact expansion. As a result, multivariate polynomial form can be efficiently extracted to facilitate equivalence testing and a variety of NN architectures having 3~7 layers are bounded using Taylor models.
+
+### QNNVerifier: A Tool for Verifying Neural Networks using SMT-Based Model Checking
+
+<https://arxiv.org/abs/2111.13110>
+
+Translate the implementation of neural networks to a decidable fragment of first-order logic based SMT, where floating-point operations are represented by direct implementation given a hardware determined precision. 
+
+### ArchRepair: Block-Level Architecture-Oriented Repairing for Deep Neural Networks
+
+<https://arxiv.org/abs/2111.13330>
+
+Repair DNNs by jointly optimizing the architecture and weights. Propose adversarial-aware spectrum analysis for vulnerable block localization, which enables more accurate candidate localization. Then do architecture-oriented search-based repairing.
+
+### SoK: Certified Robustness for Deep Neural Networks
+
+<https://arxiv.org/abs/2009.04131>
+
+Systemize the certifiably robust approaches and related practical and theoretical implications, provide the first comprehensive benchmark on existing robust verification and training approaches. 
