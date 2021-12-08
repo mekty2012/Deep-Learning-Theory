@@ -956,6 +956,131 @@ Defines a staircase property for functions over the boolean hypercube, which pos
 
 Gradient Starvation arises when cross-entropy loss is minimized by capturing only a subset of features relevant for the task, despite the presence of other predictive features that fail to be discovered. Using tools from dynamical systems theory, identify simple properties of learning dynamics during gradient descent that lead to this imbalance, and prove that such a situation can be expected given certain statistical structure in training data.
 
+### Tighter Sparse Approximation Bounds for ReLU Neural Networks
+
+<https://arxiv.org/abs/2110.03673>
+
+Extend the previous work using Radon transform, define Radon-based semi-norms, that function admits an infinite-width neural network representation on a bounded open set when its norm is finite. Derive sparse finite width neural network approximation bounds, and show that infinite width representations are not unique.
+
+### Error Bounds for a Matrix-Vector Product Approximation with Deep ReLU Neural Networks
+
+<https://arxiv.org/abs/2111.12963>
+
+Derive error bounds in Lebesgue and Sobolev norms to approximate arbitrary matrix-vector product using ReLU NN.
+
+### Implicit Data-Driven Regularization in Deep Neural Networks under SGD
+
+<https://arxiv.org/abs/2111.13331>
+
+Analyze evolutions of weight matrices' spectra, and they are classified to Marchenko-Pastur, Marchenko-Pastur with few bleeding outliers, Heavy tailed spectrum. These are connected to the degree of regularization, and argue that degree depends on the quality of data.
+
+### Towards Theoretically Understanding Why SGD Generalizes Better Than ADAM in Deep Learning
+
+<https://arxiv.org/abs/2010.05627>
+
+Observe the heavy tails of gradient noise, and analyze SGD and ADAM through their Levy-deriven SDEs. Establish the escaping time of SDEs from a local basin, and show that the escaping time depends on the Radon measure of the basin positively and the heaviness of gradient noise negatively, for same basin, SGD enjoys smaller escaping time, because of geometric adaption in ADAM and exponential graident average in ADAM.
+
+### On Linear Stability of SGD and Input-Smoothness of Neural Networks
+
+<https://arxiv.org/abs/2105.13462>
+
+Show that SGD tends to impose constraints on high-order moments of the gradient noise, by a linear analysis of SGD aroung global minima. Identify Sobolev regularization effect of SGD, that SGD regularizes the Sobolev seminorms of the model functions w.r.t. the input data.
+
+### How Does a Neural Network's Architecture Impact Its Robustness to Noisy Labels?
+
+<https://arxiv.org/abs/2012.12896>
+Provide a formal framework connecting the robustness of a network to the alignments between its architecture and target functions. Hypothesize that a network is more robust to noisy labels if its architecture is more aligned with the target function than the noise.
+
+### On the rate of convergence of a classifier based on a Transformer encoder
+
+<https://arxiv.org/abs/2111.14574>
+
+The rate of convergence of the misclassification probability towards the optimal misclassification probability, and shown that this classifier is able to circumvent the curse of dimensionality.
+
+### Escape saddle points by a simple gradient-descent based algorithm
+
+<https://arxiv.org/abs/2111.14069>
+
+Propose a simple gradient-based algorithm that outputs an epsilon approximate second-order stationary point, which is an idea of implementing a robust Hessian power method using only gradients, which can find negative curvature near saddle points.
+
+### The Geometric Occam's Razor Implicit in Deep Learning
+
+<https://arxiv.org/abs/2111.15090>
+
+Over-parameterized neural networks trained with SGD are subject to a Geometric Occam's Razor, that they are implicitly regularized by the geometric model complexity, which is a Dirichlet energy of the function.
+
+### Embedding Principle: a hierarchical structure of loss landscape of deep neural networks
+
+<https://arxiv.org/abs/2111.15527>
+
+Prove a general embedding principle of loss landscape of DNNs that unravels a hierarchical structure of the loss landscape of NNs, loss landscape of an NN contains all critical points of all the narrower NNs. Provide a gross estimate of the dimension of critical submanifolds embedded from critical points of narrower NNs. Prove an irreversibility property of any critical embedding.
+
+### Well-classified Examples are Underestimated in Classification with Deep Neural Networks
+
+<https://arxiv.org/abs/2110.06537>
+
+Theoretically show that examples with higher likelihoods contributing smaller gradients hinders reepresentation learning, energy optimization, and the growth of margin. Propose to reward well-calssified with additive bonuses to revive their contribution to learning.
+
+### A generalization gap estimation for overparameterized models via Langevin functional variance
+
+<https://arxiv.org/abs/2112.03660>
+
+Show that a functional variance characterizes the generalization gap even in overparameterized settings. Propose a computationally efficient approximation of the function variance, a Langevin approximation of the functional variance.
+
+### Breakig the Convergence Barrier: Optimization via Fixed-Time Convergent Flows
+
+<https://arxiv.org/abs/2112.01363>
+
+Design gradient based optimization for achieveing acceleration, by first leveraging a continuous time framework for designing fixed-time stable dynamical systems, provigding a consistent discretization strategy such that the equiavlent discrete-time algorithm tracks the optimizer in a practically fixed number of iterations. Provide the convergence behavior of the proposed gradient flow and robustness to additive disturbances. 
+
+### Unveiling the structure of wide flat minima in neural networks
+
+<https://arxiv.org/abs/2107.01163>
+
+Show that wide flat minima arise as complex extensive structurs, from the coalescence of minima around high margin configuration. 
+
+### On Large Batch Training and Sharp Minima: A Fokker-Planck Perspective
+
+<https://arxiv.org/abs/2112.00987>
+
+Approximate the mini-batch SGD and the momentum SGD with SDE, and use the theory of Fokker-Planck equations to develop new results on the escaping phenomenon and the relationship with large batch and sharp minima. Find that the stochastic process solution tends to converge to flatter minima regardless of the batch size in the asymptotic regime, but the convergence rate depend on the batch size.
+
+### Asymptotic properties of one-layer artificial neural networks with sparse connectivity
+
+<https://arxiv.org/abs/2112.00732>
+
+Asymptotic of empirical distribution of parameters of a one-layer ANNs with sparse connectivity, with increasing number of parameter and iteration steps.
+
+### Test Sample Accuracy Scales with Training Sample Density in Neural Networks
+
+<https://arxiv.org/abs/2106.08365>
+
+Propose an error function for piecewise linear NNs taking a local region of input space and smooth empirical training error, that is an average of empirical training erros from other regions weighted by network represenation distance. A bound on the expected smooth error for each region scales inversely with training sample desnsity in representation space.
+
+### On the Stability Properties and the Optimization Landscape of Training Problems with Squared Loss for Neural Networks and General Nonlinear Conic Approximation Schemes
+
+<https://arxiv.org/abs/2011.03293>
+
+Show that nonlinear conic approximation's effectivenss then linear approximation is reason of saddle point and spurious local minima, which cannot resolved using regularization. Illustrate that the improved approximation properties of neural networks and general nonlinear conic approximation instruments are linked to undesirable properties of the optimization problems.
+
+### On transversality of bent hyperplane arrangements and the topological expressiveness of ReLU neural networks
+
+<https://arxiv.org/abs/2008.09052>
+
+Define notion of a generic transversal ReLU neural network, and show that almost all ReLU networks are generic and transversal. Using the obstruction, prove that a decision region of a generic, transversal ReLU network with a single hidden layer of dimension n+1 can have no more than one bounded connected components.
+
+### Continuous vs. Discrete Optimization of Deep Neural Networks
+
+<https://arxiv.org/abs/2107.06608>
+
+Find that the degree of approximation of gradient descent on gradient flow depends on the curvature around the gradient flow trajectory. Show that over DNNs with homogeneous activations, gradient flow trajectories enjoy favorable curvature, that they are well approximated by gradient descent.
+
+### Theory of gating in recurrent neural network
+
+<https://arxiv.org/abs/2007.14823>
+
+Show that gating offers flexible control of two salient features, timescales and dimensionality.
+
 # Algebraic Topological Approach
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
@@ -1017,6 +1142,18 @@ Show that the power of the topological capacity of a dataset in its decision reg
 <https://arxiv.org/abs/2104.08894>
 
 Apply dimension estimation tools to popular datasets, find that common natural image datasets indeed have very low intrinsic dimension relative to the high number of pixels in the images. Find that low dimensional datasets are easier for NNs to learn, and models solving these tasks generalize better from training to test data.
+
+## Intrinsic Dimension, Persistent Homology and Generalization in Neural Networks
+
+<https://arxiv.org/abs/2111.13171>
+
+By making a novel connection between learning theory and topological data analysis, illustrate that the generalization error can be bounded in terms of a notion called persistent homology dimension, which does not require assumptions on the training dynamics. Aslo develop an efficient algorithm to estimate PHD with visualization tools.
+
+### Leveraging The Topological Consistencies of Learning in Deep Neural Networks
+
+<https://arxiv.org/abs/2111.15651>
+
+Define a new class of topological features that accurately characterize the process of learning, and equipped for backpropagation. Show that they can predict performance of a DNN without a testing set and high-performance computing.
 
 # Physics Involved
 
