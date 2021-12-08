@@ -70,3 +70,9 @@ Using a mean-field-limit, prove that the gradient descent becomes a gradient flo
 <https://arxiv.org/abs/2006.06098>
 
 Analyze the learning dynamics of SGD for a single-layer NN classifying a high-dimensional Gaussian mixture in binary classification. Define a particular stochastic process where SGD is modelled by stochastic gradient flow, then apply dynamical mean-field theory to track the dynamics via a self-consistent stochastic process.
+
+### On the Global Convergence of Gradient Descent for multi-layer ResNets in the mean-field regime.
+
+<https://arxiv.org/abs/2110.02926>
+
+Study global convergence of gradient descent in ResNet using mean-field analysis, translating the training process by gradient flow PDE and examine the convergence properties. Show that sufficiently large ResNet can be globally minimized by first-order optimization methods.
