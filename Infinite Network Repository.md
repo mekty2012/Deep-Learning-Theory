@@ -582,6 +582,24 @@ Empirical works show that input weights of hdiden neurons condense on isolated o
 
 Describe a new way to diagnose criticality of NN, by partial Jacobians, which is a derivative of preacitvations in layer l for earlier layers, and discuss various properties of the partial Jacobians such as scaling and relation to NTK. Using the recurrence relation for partial Jacobian, analyze the criticality of deep MLP, with/without LayerNorm.
 
+### Neural Optimization Kernel: Towards Robust Deep Learning
+
+<https://arxiv.org/abs/2106.06097>
+
+Establish the connection between DNN and kernel family Neural Optimization Kernel. NOK performs monotonic descent updates of implicit regularization problems, and can implicitly choose by different activation functions, establishing a new generalization bound.
+
+### Neural Tangent Kernel of Matrix Product States: Convergence and Applications
+
+<https://arxiv.org/abs/2111.14046>
+
+Study the NTK of matrix product states and the convergence, show that NTK of MPS asymptotically converges to a constant matrix as the bond dimension of MPS go to infinity. 
+
+### Understanding Square Loss in Training Overparametrized Neural Network Classifiers
+
+<https://arxiv.org/abs/2112.03567>
+
+Contribute to the theoretical understanding of square loss in classification by how it performs for overparameterized neural networks int eh NTK regime. When non-separational case, fast convergence rate is established for both misclassification rate and calibration error, and separation case exponentially fast rate. Also prove lower bounded margin.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -637,6 +655,18 @@ Propose a novel FL paradigm empowered by the NTK framework, which addresses the 
 <https://arxiv.org/abs/2010.02709>
 
 Extend finite BNNs with infinite ReLU features via the GP, showing that the resulting model is asymptotically maximally uncertain far away from the data, while the BNN's predictive power is unaffected near the data.
+
+### DNN-Based Topology Optimisation: Spatial Invariance and Neural Tangent Kernel
+
+<https://arxiv.org/abs/2106.05710>
+
+Show that the use of DNN in Solid Isotropic Material Penalisation leads to a filtering effect with filter described by a NTK. Though the filter may not be invariant under translation, and propose embedding leads to spatial invariance of the NTK, and filter.
+
+### Fast Graph Neural Tangent Kernel via Kronecker Sketching
+
+<https://arxiv.org/abs/2112.02446>
+
+Sketching has become increasingly used in speeding up kernel regression, however it takes O(n^2 N^4) for GNTK, and this paper provides first algorithm to construct kernel matrix in o(n^2 N^3) running time.
 
 # Empirical Study
 
