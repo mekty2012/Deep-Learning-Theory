@@ -17,6 +17,8 @@ AISTATS(Artificial Intelligence and Statisics Conference)
 
 COLT(Conference on Learning Theory)
 
+IJCAI(International Joint Conference on Artifical Intelligence)
+
 EMNLP(Empirical Methods on Natural Language Processing)
 
 CVPR(Computer Vision and Pattern Recognition)
@@ -64,6 +66,14 @@ Given some test point, if its epsilon neighborhod also have similar output, we s
 ## Overparameterization
 
 Many machine learning models like SVM have smaller numbers of parameters, compared to number of data, and such properties are used to derive tight generalization bound for such models. However deep learning models have more number of parameters compared to number of data, so we can't use classical learning theory results to prove generalization bound for neural network. But we have good properties in such overparameterized regime, so overparameterization is one of well used assumptions in deep learning theory.
+
+## Lazy Training
+
+Some of the researches found that weight of network does not changes a lot, so the distance between initialization and convergence point is not too big. This phenomenon is known as lazy training, and well used to explain properties of neural networks.
+
+## Kernel Space
+
+For some kernels like NNGP kernel or NTK kernel, there is a Hilbert space so called RKHS(Reproducing Kernel Hilbert Space) which contains all functions related to kernel. This, in general is understood as functions that network can learn.
 
 # Topics
 
