@@ -1,124 +1,108 @@
-# Ideas
+This repository contains papers and their summary of abstract. I tried to write simple and understandable, but the abstract is sometimes too hard, or not well written. 
+Not all papers here are peer-reviewed, so they may contains errors. However if there is comment about conferences the papers are accepted, it will be more credible.
 
-## Genetic Programming for MAP
+# Conferences
 
-There is a SA based MA inference algorithm in Anglican. If so, why not genetic algorithm?
+ICLR(International Conference on Learning Represenatation)
 
-<https://probprog.github.io/anglican/assets/pdf/tolpin-socs-2015.pdf>
+ICML(Internal Conference on Machine Learning)
 
-The algorithm known as Bayesian Ascent Monte Carlo exactly catches this problem. I think Variational Bayesian Ascent Monte Carlo also works well.
+ACML(Asian Conference on Machine Learning
 
-## Towards a liquid type for probabilistic programming
+NeurIPS(Neural Information Processing Systems)
 
-We have various liquid type in traditional programming langauge. Main fallacy in probabilistic programming is that testing is really hard. How can we?
+AAAI(Association for the Advancement of Artificial Intelligence)
 
-<https://arxiv.org/pdf/2010.07763.pdf>
+AISTATS(Artificial Intelligence and Statisics Conference)
 
-This paper gives refinement type on the basis of separation logic. Then, can we do similar thing on probabilistic separation logic?
+COLT(Conference on Learning Theory)
 
-<https://plv.mpi-sws.org/refinedc/paper.pdf>
+EMNLP(Empirical Methods on Natural Language Processing)
 
-Maybe following paper contains these things.
+CVPR(Computer Vision and Pattern Recognition)
 
-<https://arxiv.org/abs/1711.09305>
+# arxiv
 
-## Software Testing on probabilistic programming
+Physis - Disordered Systems and Neural Networks
 
-Software testing works very well for problems as liveness and safety. However, hyperproperties are not that simple, like probability or security.
-Can we extend software testing, like importance software testing, so that we can safely test probability-related hyperproperties?
+Mathematics - Probability, Statistics Theory, Numerical Analysis, Information Theory
 
-<https://www.cs.cornell.edu/fbs/publications/Hyperproperties.pdf>
+Compute Science - Artificial Intelligence, Computer Vision and Pattern Recognition, Machine Learning, Neural and Evolutionary Computing
 
-### Computability in Probabilistic Programming Language
+Statistics - Machine Learning
 
-From the definition of Anglican, it is obvious that ProbProg has either density function or mass function. Can we extend this scope? If not, what random variables can be computed?
+# Terms
 
-<https://danehuang.github.io/papers/compsem.pdf>
+## Inductive Bias
 
-<https://arxiv.org/pdf/2101.00956.pdf>
+In design of neural network, we adds our bias on data to the architectures, like CNN having locally connected structure based on our bias that image is locally correlated. We call such bias as inductive bias, and it can be architectural, loss related, preprocessing, or training algorithm.
 
-## Extending Inference Compilation
+## Implicit Bias
 
-So LSTM is quite classical model, and we have much stronger models like transformer. What about using them?
+If inductive bias is the bias that we intentionally add from our knowledge, implicit bias is bias in coincidence. For example, there are some researches that Neural Networks are more close to simpler functions then complex functions, like the Occum's razor. Such a behavior is not one we intended, we call them implicit bias.
 
-If model is very complex, it will be hard for model to learn correct inference. By turning off some observe statement, can we do curriculum learning?
+## Generalization
 
-## Deep Learning Ideas
+Even if the neural network gives zero error on training dataset, it does not imply neural network will give 100% correct on any data. Such property is called generalization, and people try to explain why neural networks generalize so well, and derive generalization bound, which is a bound of test loss from train loss.
 
-1. Can Neural Network learn arbitrary rules? In specific, design some random decision tree on image dataset. Will neural network learn it?
-2. Can Neural Network learn length mapping? i.e., every input-output sequence is random vector with arbitrary length, however their length is always equal.
+## Memorization
 
-## Stochastic Differential Equation
+The network, instead of learning the data, it can memorize the data if neural network has too many parameters. It is in general undesirable, because it can leads to low generalization property and overfitting.
 
-Can this be effectively solved with help of probabilistic programming?
+## Double Descent (or triple, multiple)
 
-The paper seems highly dependent to discretization. Adopting idea from Neural Operator, can we have mesh independent solution?
+One of foundational researches empirically found that unlike other machine learning models having bias-variance tradeoff, neural network actually have double descent, that increasing number of parameters later decreases the test loss again. It is still not clearly known why such behavior exists, so it is still main open problem.
 
-## Delta Debugging for LaTeX
+## Neural Tangent Kernel
 
-If possible... hierarchical!
+One of foundational research found that there exists a neural tangent kernel, that explains the evolution of neural network by kernel gradient descent. This is proven universally for other architectures, and used to some applications and prove properties for neural network. 
 
-Is there grammar for LaTeX? 
+## Robustness
 
-## SVI but with weighted sum of KLdivergence
+Given some test point, if its epsilon neighborhod also have similar output, we say such points are robust. This is one of main task for neural network verification, which assures the network to be safe from the adversarial attack.
 
-If p is target and q is model, 
-KL(q || p) is mode seeking (let q to concentrate on mode)
-where KL(p || q) is mode covering (let q to cover mode(and submodes))
-Then if, we run SVI with 
-KL(q || p) + l * KL(p || q)?
+## Overparameterization
 
-usually, SVI uses mode seeking, amortized inference uses mode covering.
+Many machine learning models like SVM have smaller numbers of parameters, compared to number of data, and such properties are used to derive tight generalization bound for such models. However deep learning models have more number of parameters compared to number of data, so we can't use classical learning theory results to prove generalization bound for neural network. But we have good properties in such overparameterized regime, so overparameterization is one of well used assumptions in deep learning theory.
 
-### Netsorizer
+# Topics
 
-NETSOR program allows us to compute the infinite width limit of coordinate in neural network, using PL-theoretic approach.
-Based on this computation, we know that 
-1. Any NETSOR program follows Gaussian Process distribution
-2. Any NETSOR program's NTK converges to deterministic kernel
-3. Any NETSOR program's NTK converges to deterministic, during training
-4. Any NETSOR program's weight and diagonal matrix of vectors satisfy asymptotic freeness, which is non-abelian analog of independence.
-5. If some NETSOR program is BP-like, it satisfies gradient independence assumption.
+## Infinite Neural Network
 
-Our approach is to create some static analyzer on PyTorch, Tensorflow, etc... that checks
+There are phenomenons that emerges in the infinite width (or something similar to width) limit, like NNGP correspondence, NTK, etc. People use these properties to understand training dynamics, generalization property, etc.
 
-1. Whether this program can be expressed as NETSOR program
-2. Moreover to check NTKtrain property, we need to check the loss. I'm not sure on this actually...
-3. If possible, we can also check the feature training property. Since the formula was quite simple, I think we may apply this to universal architectures...
-4. Finally, to ease the proof, we can support BP-likeness analyzer.
+## Verification
 
-### CLT Review list
+Sometimes we need a checker that assures correctness of neural network. Based on static analysis tools, people create automatic verifier for neural network.
 
-- SGD Generalizes Better Than GD (And Regularization Doesn't Help)
-- Generalizing Complex Hypotheses on Product Distributions: Auctions, Prophet Inequalities, and Pandora's Problem
-- A Theory of Heuristic Learnability
-- A Statistical Taylor Theorem and Extrapolation of Truncated Densities
-- \*Provable Memorization via Deep Neural Networks using Sub-linear Parameters
-- \*Functions with average smoothness: structure, algorithms, and learning
-- \*Non-asymptotic approximations of neural networks by Gaussian processes
+## Physics
 
-- \*Learning a Single Neuron with Gradient Methods
-- \*Universal Approximation with Deep Narrow Networks
-- How to trap a gradient flow
-- \*Implicit Bias of Gradient Descent for Wide Two-layer Neural Networks Trained with the Logistic Loss
-- \*A Corrective View of Neural Networks: Representation, Memorization and Learning
-- Implicit regularization for deep neural networks driven by an Ornstein-Uhlenbeck like process
-- \*Learning Over-parametrized Two-layer ReLU Neural Networks beyond NTK
+People in physics, especially statistical mechanics are experts on dealing with a number of random variables, and neural network is one of them. On the other side, some features of quantum mechanics, like Feynmann diagram and renormalization groups are also helpful on such computation.
 
-- Is your function low dimensional?
-- The implicit bias of gradient descent on nonseparable data
-- How do infinite width bounded norm networks look in function space?
+## Algebraic Topology
 
-#### Robustness
+There are understanding of neural network as learning of data manifold, and some literatures argues that algebraic topological properties of such manifold determines the complexity of problem and learnability of network.
 
-- Query complexity of least absolute deviation regression via robust uniform convergence
-- The Sample Complexity of Robust Covariance Testing
-- Random Graph Matching with Improved Noise Robustness
-- Adversarially Robust Learning with Unknown Perturbation Sets
-- Robust Online Convex Optimization in the Presence of Outliers
-- Robust learning under clean-label attack
-- Adversarially Robust Low Dimensional Representations
-- Tsallis-INF: Improved Robustness to Adversarial Corruptions in Stochastic Multi-armed Bandits and Beyond
-- Outlier-Robust Learning of Ising Models Under Dobrushin's Condition
-- A Law of Robustness for Two-Layers Neural Networks
-- Corruption-robust exploration in episodic reinforcement learning
+## Mean Field Theory
+
+Further on Physics, following mean field assumption, the computation is also becomes simpler, where we can ignore the higher order interactions. 
+
+## Random Matrix Theory
+
+Further on infinite width neural network, people tries to use knowledges and tools from random matrix theory. They mostly find relation between spectrum and generalization property and learnability.
+
+## Learning Theory
+
+With tools from high dimensional probability, people derive generalization bounds for abstract dataset and architectures. This includes computation of complexity measures including VC dimension.
+
+## Complexity Theory
+
+Some of the researches treats the complexity problems related to neural network, or the complexity class that neural network can solve. 
+
+## Loss Landscape
+
+Considers the loss landscape of neural network training, and derive some interesting properties like loss basin, giving intuitions why neural network's training can be simply done with gradient descent (or its variant).
+
+## Invariant Neural Network
+
+Assuming that data have some kind of invariance, formalize such invariance through Lie-group theory, and design neural network that preserves such invariance.
