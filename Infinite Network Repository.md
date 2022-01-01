@@ -85,6 +85,12 @@ Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in 
 
 Demonstrate that the rate of convergence in 2-Wasserstein metric is O(sqrt(n)), where n is the number of hidden neurons in one hidden-layer neural network. Show the convergence rate for other atcivations, power-law for ReLU and inverse-sqrt for erf. 
 
+## A self consistent theory of Gaussian Processes captures feature learning effects in finite CNNs
+
+<https://www.arxiv.org/abs/2106.04110>
+
+Consider the DNNs trained with noisy gradient descent on a large training set and derive a self consistent Gaussian Process theory accounting for strong finite-DNN and feature learning effects. 
+
 # NTK theory
 
 ### Neural tangent kernel: convergence and generalization in neural networks
@@ -600,6 +606,42 @@ Study the NTK of matrix product states and the convergence, show that NTK of MPS
 
 Contribute to the theoretical understanding of square loss in classification by how it performs for overparameterized neural networks int eh NTK regime. When non-separational case, fast convergence rate is established for both misclassification rate and calibration error, and separation case exponentially fast rate. Also prove lower bounded margin.
 
+## On Lazy Training in Differentiable Programming
+
+<https://www.arxiv.org/abs/1812.07956>
+
+Show that lazy training phenomenon is due to a choice of scaling, that makes the model behave as its linearization around the initialization.
+
+### Taylorized Training: Towards Better Approximation of Neural Network Training at Finite Width
+
+<https://www.arxiv.org/abs/2002.04010>
+
+Use k-th Taylor expansion of the neurl network at initialization, and show that the approximation error decay exponentially over k in wide neural networks.
+
+### On the Provable Generalization of Recurrent Neural Networks
+
+<https://arxiv.org/abs/2109.14142>
+
+Prove a generalization error bound using NTK analysis, for the RNN withtout normalization, for additive concept class and N-variables functions.
+
+### Eigenspace Restructuring: a Principle of Space and Frequency in Neural Networks
+
+<https://arxiv.org/abs/2112.05611>
+
+Show that the topologies from deep CNNs restructure the associated eigenspaces into finer subspaes, then MLPs. This new structure also depends on the concept class, measuring the spatial distance among nonlinear interaction terms, and this analysis improves the network's learnability. Finally prove a sharp characterization of generalization error for infinite width CNNs.
+
+### Rethinking Influence Functions of Neural Networks in the Over-parameterized Regime
+
+<https://arxiv.org/abs/2112.08297>
+
+Utilize NTK theory to calculate influence function for network trained with regularized mean-squared loss, proving that approximate error can be arbitrarily small, analyze the error bound for classic IHVP method, which depends on regularization term and probability density of corresponding training points.
+
+### Training Integrable Parameterization of Deep Neural Networks in the Infinite-Width Limit
+
+<https://arxiv.org/abs/2110.15596>
+
+Study integrable parameterization, which corresponds to mean-field limit, show that with more than four layers the initialization is already stationary and no learning occurs. Then propose methods to escape this behavior, like large learning rate, which is equivalent to maximal update parameterization.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -667,6 +709,12 @@ Show that the use of DNN in Solid Isotropic Material Penalisation leads to a fil
 <https://arxiv.org/abs/2112.02446>
 
 Sketching has become increasingly used in speeding up kernel regression, however it takes O(n^2 N^4) for GNTK, and this paper provides first algorithm to construct kernel matrix in o(n^2 N^3) running time.
+
+### Steps Toward Deep Kernel Methods from Infinite Neural Networks
+
+<https://www.arxiv.org/abs/1508.05133>
+
+Devise stochastic kernels that encode the information of networks. 
 
 # Empirical Study
 
