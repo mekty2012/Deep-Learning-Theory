@@ -76,3 +76,27 @@ Analyze the learning dynamics of SGD for a single-layer NN classifying a high-di
 <https://arxiv.org/abs/2110.02926>
 
 Study global convergence of gradient descent in ResNet using mean-field analysis, translating the training process by gradient flow PDE and examine the convergence properties. Show that sufficiently large ResNet can be globally minimized by first-order optimization methods.
+
+### On the selection of Initialization and Activation Function for Deep Neural Networks
+
+<https://www.arxiv.org/abs/1805.08266>
+
+Show that for a class of ReLU-like activation functions, the information propagates deeper for an initialization at the edge of chaos.
+
+### Universal Statistics of Fisher Information in Deep Neural Networks: Mean Field Approach
+
+<https://www.arxiv.org/abs/1806.01316>
+
+Investigate the asymptotic statistics of the FIM's eigenvalues and reveal that most of them are close to zero while the maximum eigenvalue takes a huge value. So it is locally flat in most dimensions, but strongly distorted in others.
+
+### Unified Field Theory for Deep and Recurrent Neural Networks
+
+<https://arxiv.org/abs/2112.05589>
+
+Present a unified and systematic derivation of the mean-field theory for both architectures from first principles by employing established methods from statistical physics. While mean-field equations are different to temporal structure, yet yield identical Gaussian kernels when readouts are taken. Find that convergence towards the mean-field theory is slower for recurrent networks than for deep networks, which depends non-trivally on the parameters of the weight priors and depth, time steps. 
+
+### Global Convergence of ResNets: From fininte to infinite width using linear parameterization
+
+<https://arxiv.org/abs/2112.05531>
+
+Design ResNet with residual blok having linear parameterization, which admits infinite width/depth limit. Prove a local Polyak-Lojasiewicz inequality, thus every critical point is a global minimizer and a local convergence result of GD holds, similar to lazy regime.
