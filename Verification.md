@@ -220,3 +220,15 @@ Repair DNNs by jointly optimizing the architecture and weights. Propose adversar
 <https://arxiv.org/abs/2009.04131>
 
 Systemize the certifiably robust approaches and related practical and theoretical implications, provide the first comprehensive benchmark on existing robust verification and training approaches. 
+
+### The Fundamental Limits of Interval Arithmetic for Neural Network
+
+<https://arxiv.org/abs/2112.05235>
+
+Show that any neural network classifying just three points, there is a valid specifiation that interval analysis can not prove. In one-hidden-layer network, show that there is O(x^-1) points at robust radius x, can not be proven through interval analysis. 
+
+### Geometric Path Enumeration for Equivalence Verification of Neural Networks
+
+<https://arxiv.org/abs/2112.06582>
+
+Tries to formally verify equivalence of two NNs, for showing correctness of compressed version using Path Enumeration algorithm.
