@@ -33,6 +33,60 @@ Compute Science - Artificial Intelligence, Computer Vision and Pattern Recogniti
 
 Statistics - Machine Learning
 
+# Topics
+
+## Algebraic Topology
+
+There are understanding of neural network as learning of data manifold, and some literatures argues that algebraic topological properties of such manifold determines the complexity of problem and learnability of network.
+
+## Approximation
+
+One of major perspective of neural network is viewing it as approximator, and showing the denseness of neural networks. At the beginning of universal approximation theorem -Cybenko's theorem-, there are various works proving denseness and approximation rate.
+
+## Bayesian
+
+Bayesian neural network sees neural network some kinds of bayesian probabilistic model, giving prior and posterior to neural network. Works here consider deriving correct prior or posterior.
+
+## Complexity Theory
+
+Some of the researches treats the complexity problems related to neural network, or the complexity class that neural network can solve. 
+
+## Infinite Neural Network
+
+There are phenomenons that emerges in the infinite width (or something similar to width) limit, like NNGP correspondence, NTK, etc. People use these properties to understand training dynamics, generalization property, etc.
+
+## Invariance
+
+Assuming that data have some kind of invariance, formalize such invariance through Lie-group theory, and design neural network that preserves such invariance. These are well used in physics simulation, since many of physical system admits invariants.
+
+## Learning Theory
+
+With tools from high dimensional probability, people derive generalization bounds for abstract dataset and architectures. This includes computation of complexity measures including VC dimension.
+
+## Mean Field Theory
+
+Further on Physics, following mean field assumption, the computation is also becomes simpler, where we can ignore the higher order interactions. 
+
+## Loss Landscape
+
+Considers the loss landscape of neural network training, and derive some interesting properties like loss basin, giving intuitions why neural network's training can be simply done with gradient descent (or its variant).
+
+## Physics
+
+People in physics, especially statistical mechanics are experts on dealing with a number of random variables, and neural network is one of them. On the other side, some features of quantum mechanics, like Feynmann diagram and renormalization groups are also helpful on such computation.
+
+## Random Matrix Theory
+
+Further on infinite width neural network, people tries to use knowledges and tools from random matrix theory. They mostly find relation between spectrum and generalization property and learnability.
+
+## SDE
+
+Some of works tries to model the training dynamics of neural network, where stochastic gradient descent gives SDE modelling. 
+
+## Verification
+
+Sometimes we need a checker that assures correctness of neural network. Based on static analysis tools, people create automatic verifier for neural network.
+
 # Terms
 
 ## Inductive Bias
@@ -74,45 +128,3 @@ Some of the researches found that weight of network does not changes a lot, so t
 ## Kernel Space
 
 For some kernels like NNGP kernel or NTK kernel, there is a Hilbert space so called RKHS(Reproducing Kernel Hilbert Space) which contains all functions related to kernel. This, in general is understood as functions that network can learn.
-
-# Topics
-
-## Infinite Neural Network
-
-There are phenomenons that emerges in the infinite width (or something similar to width) limit, like NNGP correspondence, NTK, etc. People use these properties to understand training dynamics, generalization property, etc.
-
-## Verification
-
-Sometimes we need a checker that assures correctness of neural network. Based on static analysis tools, people create automatic verifier for neural network.
-
-## Physics
-
-People in physics, especially statistical mechanics are experts on dealing with a number of random variables, and neural network is one of them. On the other side, some features of quantum mechanics, like Feynmann diagram and renormalization groups are also helpful on such computation.
-
-## Algebraic Topology
-
-There are understanding of neural network as learning of data manifold, and some literatures argues that algebraic topological properties of such manifold determines the complexity of problem and learnability of network.
-
-## Mean Field Theory
-
-Further on Physics, following mean field assumption, the computation is also becomes simpler, where we can ignore the higher order interactions. 
-
-## Random Matrix Theory
-
-Further on infinite width neural network, people tries to use knowledges and tools from random matrix theory. They mostly find relation between spectrum and generalization property and learnability.
-
-## Learning Theory
-
-With tools from high dimensional probability, people derive generalization bounds for abstract dataset and architectures. This includes computation of complexity measures including VC dimension.
-
-## Complexity Theory
-
-Some of the researches treats the complexity problems related to neural network, or the complexity class that neural network can solve. 
-
-## Loss Landscape
-
-Considers the loss landscape of neural network training, and derive some interesting properties like loss basin, giving intuitions why neural network's training can be simply done with gradient descent (or its variant).
-
-## Invariant Neural Network
-
-Assuming that data have some kind of invariance, formalize such invariance through Lie-group theory, and design neural network that preserves such invariance.
