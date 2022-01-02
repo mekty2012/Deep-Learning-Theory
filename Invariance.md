@@ -21,3 +21,15 @@ Introduce a feature transform techniques that imposes invariance properties. Enf
 <https://arxiv.org/abs/2106.02346>
 
 From function space perspective, derive non-zero generalization benefit of incorporating invariance in kernel ridge regression when target is invariant to the action of a compact group.
+
+### Meta-Learning Symmetries by Reparameterization
+
+<https://arxiv.org/abs/2007.02933>
+
+Present a method for learning and encoding equivariances into networks by learning corresponding parameter sharing patterns from data, which can provably represent equivariance inducing parameter sharing for any group of symmetry transformations.
+
+### On the Universality of Invariant Networks
+
+<https://arxiv.org/abs/1901.09342>
+
+Present two main results, any subgroup G of Sn are universal if high-order tensors are allowed, and there are groups that higher-order tensors are unavoidable for universality.
