@@ -232,3 +232,15 @@ Show that any neural network classifying just three points, there is a valid spe
 <https://arxiv.org/abs/2112.06582>
 
 Tries to formally verify equivalence of two NNs, for showing correctness of compressed version using Path Enumeration algorithm.
+
+### An Abstraction-Refinement Approach for Verifying Convolution Neural Networks
+
+<https://www.arxiv.org/abs/2201.01978>
+
+Resolve scalability issue for CNN verification, uses abstraction refinement technique simplifying the problem through removal of convolution connection, generating over-approximation of original problem, and restore connections if problem is too abstract.
+
+### Verified Probabilistic Policies for Deep Reinforcement Learning
+
+<https://www.arxiv.org/abs/2201.03698>
+
+Propose an abstraction approach based on interval Markov decision process, yields probabilistic guarantees on a policy's execution and techniques to solve models using abstract interpretation, integer linear programming, entropy based refinement, probabilistic model checking.

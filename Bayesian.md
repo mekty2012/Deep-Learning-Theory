@@ -46,3 +46,9 @@ Present examples of overparameterized linear classifiers and neural networks tra
 <https://arxiv.org/abs/2106.00651>
 
 Argue that the leading finite-width corrections to the average feature kernels for any Bayesian network with linear readout and Gaussian likelihood have a largely universal form. Illustrate this explicitly for linear MLP or CNN and single nonlinear hidden layer.
+
+### Bayesian Optimization of Function Networks
+
+<https://www.arxiv.org/abs/2112.15311>
+
+Design new bayesian optimization which models the nodes using Gaussian process, in the setting that network takes significant time to evaluate. Show that the posterior is efficiently maximized via sample average approximation, and that method is asymptotically consistent.

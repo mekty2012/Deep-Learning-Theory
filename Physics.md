@@ -47,3 +47,15 @@ Construct a partition function from the ensemble of possible trajectories, which
 <https://www.arxiv.org/abs/2010.13933>
 
 Analytically derive bias and variance in two minimal models, linear regression and two-layer neural newtork, using statistical physics. 
+
+### Separation of scales and a thermodynamics description of featuer learning in some CNNs
+
+<https://www.arxiv.org/abs/2112.15383>
+
+Show that some variables have slow change while some are faster, so slow varaiables can be averaged out, and pre-activations fluctuate in a nearly Gaussian manner with a deterministic kernel, which adapt to data unlike infinite case.
+
+### Unified Field Theory for Deep and Recurrent Neural Networks
+
+<https://www.arxiv.org/abs/2112.05589>
+
+Present derivation of the mean field theory for both architectures that starts from first principles by employing established methods from statistical physics, elucidates that while the mean-field equations are different to their temporal structure, they yield identical Guassian kernels when readouts are taken.

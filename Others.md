@@ -677,3 +677,57 @@ Design a graphical model neurashed, which inherits hierarchically structured, op
 <https://arxiv.org/abs/2006.09347>
 
 Show that commonly used INN architectures suffer from explodinig inverses, and reveal failures including the non-applicability of the change-of-variables formula on in- and OOD data, incorrect gradients, inability to sample from normalizing flow. 
+
+### Asymptotics of l2 Regularized Network Embeddings
+
+<https://www.arxiv.org/abs/2201.01689>
+
+Study effects of regularization on embedding in unsupervised random walk, and prove that under exchangeability assumption on the graphs, it leads to learning a nuclear-norm type penalized graphon. In particular, the exact form of penalty depends on the choice of subsampling method used.
+
+### The dynamics of representation learning in shallow, non-linear autoencoders
+
+<https://www.arxiv.org/abs/2201.02115>
+
+Derive a set of asymptotically exact equations that describe the generalisation dynamics of autoenoders trained with SGD in the limit of high-dimensional inputs. 
+
+### Fixed points of nonnegative neural networks
+
+<https://www.arxiv.org/abs/2106.16239>
+
+Derive condition for the existence of fixed points of nonnegative neural networks, by recognizing them as monotonic scalable functions within nonlinear Perron Frobenius theory, and show fixed point set's shape is often interval.
+
+### Effective Sample Size, Dimensionality, and Generalization in Covariate Shift Adaption
+
+<https://www.arxiv.org/abs/2010.01184>
+
+Covariate shift adaption usually suffer from small effective sample size, which is common in high dimensional setting. Focus on unified view connecting ESS, data dimensionality, and generalization in covariate shift adaption, and demonstrate how dimensionality reduction or feature selection increase the ESS. 
+
+### Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks
+
+<https://www.arxiv.org/abs/1810.02244>
+
+Relate Graph Neural Network to 1-dimensional Weisfeiler-Leman graph isomorphism heuristics, show that GNNs have the same expressiveness as the 1-WL in terms of distinguishing non-isomorphic graphs, with same shortcomings. Propose a generalization of GNNs so-called k-dimensional GNNs that can take higher-order graph structures.
+
+### How Powerful are Graph Neural Networks?
+
+<https://www.arxiv.org/abs/1810.00826>
+
+Characterize the discriminative power of GNN variants like Graph Convolution Networks or GraphSAGE, and show that they cannot distinguish certain simple graph structures, and develop provably most expressive architecture, which is as powerful as the Weisfeiler-Lehman graph isomorphism test.
+
+### The Surprising Power of Graph Neural Networks with Random Node Initialization
+
+<https://www.arxiv.org/abs/2010.01179>
+
+Analyze the expressive power of GNNs with Random Node Initialization, prove that these models are universal.
+
+### Augmented Neural ODE
+
+<https://proceedings.neurips.cc/paper/2019/file/21be9a4bd4f81549a9d1d241981cec3c-Paper.pdf>
+
+Show that Neural ODEs learn representation preserving the topology of the input space, hence there is function that Neural ODE can not represent. Solve this limitation by Augmented Neural ODE.
+
+### A mean-field optimal control formulation of deep learning
+
+<https://link.springer.com/article/10.1007/s40687-018-0172-y>
+
+Introduces the mathematical formulation of viewing population risk minimization as mean-field optimal control problem, and prove stability condition of the Hamilton-Jacobi-Bellman type and Pontryagin type. By mean-field Pontryagin's maximum principle, establish quantitative relationships between population and empirical learning problem.

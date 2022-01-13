@@ -21,3 +21,9 @@ Observe the heavy tails of gradient noise, and analyze SGD and ADAM through thei
 <https://arxiv.org/abs/2112.00987>
 
 Approximate the mini-batch SGD and the momentum SGD with SDE, and use the theory of Fokker-Planck equations to develop new results on the escaping phenomenon and the relationship with large batch and sharp minima. Find that the stochastic process solution tends to converge to flatter minima regardless of the batch size in the asymptotic regime, but the convergence rate depend on the batch size.
+
+### Scaling Properties of Deep Residual Networks
+
+<https://arxiv.org/abs/2105.12245>
+
+Depending some certain features of neural network architectures, like smoothness of activation function, the scaling regime is different, either neural ODE limit, SDE, or neither of these.

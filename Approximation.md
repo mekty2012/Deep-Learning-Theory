@@ -81,3 +81,21 @@ Construct ReLU networks approximating Hoelder continuous function on \[0,1\]^d, 
 <https://arxiv.org/abs/2112.12555>
 
 Establish universal lower bounds for classification under regularity of decision boundary, and show that for locally Barron-regular decision boundary, the optimal estimation rate are independent of underlying dimension and can be realized by empirical risk minimization.
+
+### A Unified and Constructive Framework for the Universality of Neural Networks
+
+<https://www.arxiv.org/abs/2112.14877>
+
+Design a framework for proving universality of activation, using it show various activations including Mish, SiLU, ELU, GELU and some new activation's universality.
+
+### Deep Nonparametric Estimation of Operators between Infinite Dimensional Spaces
+
+<https://www.arxiv.org/abs/2201.00217>
+
+For nonparametric estimation of Lipscitz operators with deep neural networks, prove non-asymptotic upper bound for generalization error. With the assumption that the target operator exhibits a low dimensional structure, the error bound decays as sample size increases, where rate is determined by intrinsic dimension.
+
+### Approximation capabilities of measure-preserving neural networks
+
+<https://www.arxiv.org/abs/2106.10911>
+
+For measure preserving neural networks like NICE and RevNets, if there is compact set in R^n > 1, it is able to approximate any measure preserving map which is bounded and injective in the Lp norm.

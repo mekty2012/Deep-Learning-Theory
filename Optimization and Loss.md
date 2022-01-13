@@ -69,3 +69,9 @@ Prove convergence of risk in gradient descent, when input data's probability dis
 <https://arxiv.org/abs/2006.14514>
 
 Use tamed unadjusted stocahstic Langevin algorithm to train NN, provide non-asymptotic analysis of convergence properties and finite-time guarantees for TUSLA to find approximate minimizer.
+
+### On the Double Descent of Random Features Models Trained with SGD
+
+<https://www.arxiv.org/abs/2110.06910>
+
+Derive non-asymptotic error bound of random feature regression in high dimension with SGD training, show that due to unimodal variance and monotonic decrement of bias, there is double descent phenomenon.

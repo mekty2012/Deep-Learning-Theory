@@ -57,3 +57,15 @@ Investigate spectral density of random feature matrix M = YY^* where Y=f(WX+B), 
 <https://www.arxiv.org/abs/2109.01785>
 
 Using random matrix theory on GCN, show that if the graph is sufficiently random, the GCN fails to benefit from the node feature. then suggest the node feature kernel which solves this problem.
+
+### Approximate Spectral Decomposition of Fisher Information Matrix for Simple ReLU Networks
+
+<https://www.arxiv.org/abs/2111.15256>
+
+Study FIM of one layer hidden network, show that there is three major cluster in eigenvalue distribution, the first eigenvalue is Perron Frobenius eigenvalue, and the cluster of next maximum value's eigenspace is spanned by row vector of first weight, direct sum of first eigenspace and third cluster is spanned by hadamard products of first weight.
+
+### A Random Matrix Analysis of Random Fourier Features: Beyond the Gaussian Kernel, a Precise Phase Transition, and the Corresponding Double Descent
+
+<https://www.arxiv.org/abs/2006.05013>
+
+Derive exact asymptotics of random fourier feature regression, showing that RFF Gram matrix does not converge to well known Guassian kernel matrix, but has a tractable behavior with accurate estimates of regression error.

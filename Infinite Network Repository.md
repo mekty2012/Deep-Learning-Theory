@@ -642,6 +642,30 @@ Utilize NTK theory to calculate influence function for network trained with regu
 
 Study integrable parameterization, which corresponds to mean-field limit, show that with more than four layers the initialization is already stationary and no learning occurs. Then propose methods to escape this behavior, like large learning rate, which is equivalent to maximal update parameterization.
 
+### Infinite width (finite depth) neural networks benefit from multi-task learning unlike shallow Gaussian Processes -- an exact quantitative macroscopic characterization
+
+<https://www.arxiv.org/abs/2112.15577>
+
+Provide that optimizing large ReLU NNs with at least one hidden layer with L2 regularization enforces representation learning even in infinite width limit.
+
+### Deep Neural Networks as Point Estimates for Deep Gaussian Processes
+
+<https://www.arxiv.org/abs/2105.04504>
+
+Establish an equivalence between forward pass of neural network and deep/sparse Gaussian process, which interprets activationn as interdomain inducing featrues through analysis of the interplay between activation and kernels. 
+
+### Generalization Bounds of Stochastic Gradient Descent for Wide and Deep Neural Networks
+
+<https://www.arxiv.org/abs/1905.13210>
+
+Show that expected 0-1 loss of wide enough ReLU networks with SGD training and random initialization can be bounded by the training loss of random feature model induced by gradient at initilization, named neural tangent random feature model. Establish strong connection between generalization error bound and NTK.
+
+### Why bigger is not always better: on finite and infinite neural networks
+
+<https://www.arxiv.org/abs/1910.08013>
+
+Give analytic results characterising the prior over representations and representation learning in finite deep linear newtorks, unlike infinite networks which fails to learn representation.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -748,3 +772,8 @@ Compute some measures in training dynamics, to check whether NTK theory works.
 
 Empirically study NTK's performance in small-data task. NTKs perform strongly on low-data tasks.
 
+### What can linearized neural networks actually say about generalization?
+
+<https://www.arxiv.org/abs/2106.06770>
+
+Show empirically that linear approximations can indeed rank the learning complexity of certain tasks for neural networks, even in very different performances. Also discover that neural networks do not always perform better than kernel approximation, and that performance gap highly depends on architecture, dataset, training tasks, showing that networks overfit due to evolution of kernel.

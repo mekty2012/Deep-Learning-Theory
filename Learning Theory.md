@@ -81,3 +81,9 @@ Introduce an analysis based on point-wise PAC approach over the generalization e
 <https://arxiv.org/abs/2006.12228>
 
 Show how averaging over an ensembles of stochastic neural networks enables new partially-aggregated estimators, leading provably lower-varaince to gradietn estimates, and reformulate a PAC-Bayesian bound to derive optimisable differentiable objective. 
+
+### How Much Over-parameterization is Sufficient to Learn Deep ReLU Networks?
+
+<https://www.arxiv.org/abs/1911.12360>
+
+Show the optimization and generalization under polylogarithmic width network w.r.t. n and epsilon^-1.
