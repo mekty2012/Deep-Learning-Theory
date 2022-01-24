@@ -731,3 +731,27 @@ Show that Neural ODEs learn representation preserving the topology of the input 
 <https://link.springer.com/article/10.1007/s40687-018-0172-y>
 
 Introduces the mathematical formulation of viewing population risk minimization as mean-field optimal control problem, and prove stability condition of the Hamilton-Jacobi-Bellman type and Pontryagin type. By mean-field Pontryagin's maximum principle, establish quantitative relationships between population and empirical learning problem.
+
+### Deep Neural Networks Learn Meta-Structures from Noisy Labels in Semantics Segmentatio
+
+<https://www.arxiv.org/abs/2103.11594>
+
+Even with extremely noisy label on semantic segmentation, DNN still provide similar segmenetation performance as trained with original ground truth, ndicating that DNNs learn structures hidden in labels rather than pixel-level labels. Referring this structure as meta-structure, define this formally as spatial density distribution showing both theoretically and experimentally how this explains the behavior.
+
+### An unfeasiability view of neural network learning
+
+<https://www.arxiv.org/abs/2201.00945>
+
+Define notion of a continuously differentiable perfect learning algorithm, and show that such algorithms don't exist given that length of the data set exceeds the number of involved parameters, with logistic, tanh, sin activation.
+
+### A Kernel-Expanded Stochastic Neural Network
+
+<https://www.arxiv.org/abs/2201.05319>
+
+Design new architecture which incorporates support vector regression at its first layer, allowing to break the high-dimensional nonconvex training of neural network to series of low-dimensional convex optimization, and can be trained using imputation-regularized optimization, with a theoretical guarantee to global convergence.
+
+### De Rham compatible Deep Neural Networks
+
+<https://www.arxiv.org/abs/2201.05395>
+
+Construct classes of neural networks with ReLU and BiSU activation, emulating the lowest order Finite Element spaces on regular simplicical partitions of polygonal domains for 2, 3 dimension. 

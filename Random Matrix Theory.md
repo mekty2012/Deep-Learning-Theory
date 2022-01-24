@@ -69,3 +69,9 @@ Study FIM of one layer hidden network, show that there is three major cluster in
 <https://www.arxiv.org/abs/2006.05013>
 
 Derive exact asymptotics of random fourier feature regression, showing that RFF Gram matrix does not converge to well known Guassian kernel matrix, but has a tractable behavior with accurate estimates of regression error.
+
+### Eigenvalue Distribution of Large Random Matrices Arising in Deep Neural Networks: Orthogonal Case
+
+<https://www.arxiv.org/abs/2201.04543>
+
+Deals with untrained network's input-output Jacobian in infinite width limit, uses another techniques different to previous researches, justifying that the singular value distribution of the Jacobian coincides with analog of the Jacobian with special random but weight independent diagonal matrices.

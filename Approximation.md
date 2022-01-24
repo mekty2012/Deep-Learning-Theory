@@ -99,3 +99,9 @@ For nonparametric estimation of Lipscitz operators with deep neural networks, pr
 <https://www.arxiv.org/abs/2106.10911>
 
 For measure preserving neural networks like NICE and RevNets, if there is compact set in R^n > 1, it is able to approximate any measure preserving map which is bounded and injective in the Lp norm.
+
+### A three layer neural network can represent any multivariate function
+
+<https://www.arxiv.org/abs/2012.03016>
+
+Prove that not only continuous functions, but also all discontinuous functions can be implemented by three-layer networks.

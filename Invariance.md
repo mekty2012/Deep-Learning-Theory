@@ -33,3 +33,9 @@ Present a method for learning and encoding equivariances into networks by learni
 <https://arxiv.org/abs/1901.09342>
 
 Present two main results, any subgroup G of Sn are universal if high-order tensors are allowed, and there are groups that higher-order tensors are unavoidable for universality.
+
+### Complexity from Adaptive-Symmetries Breaking: Global Minima in the Statistical Mechanics of Deep Neural Networks
+
+<https://www.arxiv.org/abs/2201.07934>
+
+Define adaptive symmetry, which characterizes invariance of variance, where a system explores different pathways of evolution with equal probabilibty, and complex functional structure emerges from accumulation of adaptive symmetry breaking. Characterize the optimization process of DNN system as an extended adaptive-symmetry breaking process.

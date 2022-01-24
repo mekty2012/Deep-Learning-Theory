@@ -244,3 +244,9 @@ Resolve scalability issue for CNN verification, uses abstraction refinement tech
 <https://www.arxiv.org/abs/2201.03698>
 
 Propose an abstraction approach based on interval Markov decision process, yields probabilistic guarantees on a policy's execution and techniques to solve models using abstract interpretation, integer linear programming, entropy based refinement, probabilistic model checking.
+
+### DeepGalaxy: Testing Neural Network Verifiers via Two-Dimensional Input Space Exploration
+
+<https://www.arxiv.org/abs/2201.08087>
+
+Propose an automated approach based on differential testing, tests neural network verifiers based on mutation rules and heuristic strategies to select test cases.

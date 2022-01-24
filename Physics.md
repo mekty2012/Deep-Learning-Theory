@@ -48,7 +48,7 @@ Construct a partition function from the ensemble of possible trajectories, which
 
 Analytically derive bias and variance in two minimal models, linear regression and two-layer neural newtork, using statistical physics. 
 
-### Separation of scales and a thermodynamics description of featuer learning in some CNNs
+### Separation of scales and a thermodynamics description of feature learning in some CNNs
 
 <https://www.arxiv.org/abs/2112.15383>
 
@@ -59,3 +59,9 @@ Show that some variables have slow change while some are faster, so slow varaiab
 <https://www.arxiv.org/abs/2112.05589>
 
 Present derivation of the mean field theory for both architectures that starts from first principles by employing established methods from statistical physics, elucidates that while the mean-field equations are different to their temporal structure, they yield identical Guassian kernels when readouts are taken.
+
+### Trainability and Accuracy of Neural Networks: An Interacting Particle System Approach
+
+<https://www.arxiv.org/abs/1805.00915>
+
+Establish condition for global convergence of SGD, by reinterpreting SGD as the evolution of particle system with interaction goverenbed by a potential related to the loss. Show that when the number of units are large, the empirical distribution descends on a convex landscape towards the global minimum, with approximation error scaling inverse to n.

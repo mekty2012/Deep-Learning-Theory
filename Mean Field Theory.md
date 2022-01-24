@@ -100,3 +100,27 @@ Present a unified and systematic derivation of the mean-field theory for both ar
 <https://arxiv.org/abs/2112.05531>
 
 Design ResNet with residual blok having linear parameterization, which admits infinite width/depth limit. Prove a local Polyak-Lojasiewicz inequality, thus every critical point is a global minimizer and a local convergence result of GD holds, similar to lazy regime.
+
+### Mean Field Analysis of Neural Networks: A Law of Large Numbers
+
+<https://www.arxiv.org/abs/1805.01053>
+
+Prove that the empirical distribution of the neural network parameters converges to the solution of a nonlinear partial differential equation, considered as law of large numbers for neural network. As a consequence, show that trained parameters asymptotically become independent called as propagation of chaos.
+
+### Mean Field Analysis of Neural Networks: A Central Limit Theorem
+
+<https://www.arxiv.org/abs/1808.09372>
+
+Describes the neural network's fluctuations around its mean-field limit, haiving a Gaussian distribution and satisfy a stochastic partial differential equation. 
+
+### A Mean Field View of the Landscape of Two-Layers Neural Networks
+
+<https://www.arxiv.org/abs/1804.06561>
+
+Prove that SGD dynamics is captured by a certain non-linear PDE named as distributional dynamics, and show how DD can be used to prove convergence of SGD with ideal generalization error. This allows to average out some complexities of neural networks.
+
+### Convergence of policy gradient for entropy regularized MDPs with neural network approximation in the mean-field regime
+
+<https://www.arxiv.org/abs/2201.07296>
+
+Study the policy gradient for infinite-horizon, continuous state/action space, entropy regularized Markov decision processes, and a softmax policy with one hidden layer neural network in mean-field regime. Show that objective function increases along the 2-Wasserstein metric gradient flow, and with enough regularization, the gradient flow exponentially fast to unique stationary solution.
