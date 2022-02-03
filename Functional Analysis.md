@@ -33,3 +33,9 @@ Define the Barron space, and show that it is the right space for two-layer neura
 <https://www.arxiv.org/abs/2007.15623>
 
 Develop Banach spaces for ReLU neural networks, containing all finite fully connected L-layer networks with L2 limiting objects under bounds on natural path norm. Under this norm, the Rademacher complexity on unit ball is low, giving good generalization properties. 
+
+### Variational Inference as Iterative Projection in a Bayesian Hilbert Space
+
+<https://www.arxiv.org/abs/2005.07275>
+
+Explore a formulation of variational inference by exploiting that most PDFs are in Bayesian Hilbert space, and show that variational inference based on KL divergence amounts to an iterative projection of the Bayesian posterior onto a subspace corresponding to the selected approximation family. 

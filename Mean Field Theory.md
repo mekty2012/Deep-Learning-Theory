@@ -124,3 +124,27 @@ Prove that SGD dynamics is captured by a certain non-linear PDE named as distrib
 <https://www.arxiv.org/abs/2201.07296>
 
 Study the policy gradient for infinite-horizon, continuous state/action space, entropy regularized Markov decision processes, and a softmax policy with one hidden layer neural network in mean-field regime. Show that objective function increases along the 2-Wasserstein metric gradient flow, and with enough regularization, the gradient flow exponentially fast to unique stationary solution.
+
+### Particle Dual Averaging: Optimization of Mean Field Neural Networks with Global Convergence Rate Analysis
+
+<https://www.arxiv.org/abs/2012.15477>
+
+Propose particle dual averaging method which generalizes dual averaging in convex optimization to optimization over probability distribution, and establish global convergence in learning two-layer mean field neural networks.
+
+### Replica mean field theory for the generalisation gap of deep neural networks
+
+<https://www.arxiv.org/abs/2201.11022>
+
+Employ replica mean field theory to compute generalization gap with quenched features, in teacher-student scenario and quadratic loss regression. 
+
+### Phase diagram of Stochastic Gradient Descent in high-dimensional two-layer neural networks
+
+<https://www.arxiv.org/abs/2202.00293>
+
+Investigate the cross-over between over-parameterized regime and narrow network in high-dimensional setting, study the interplay between the learning rate, time scale, number of hidden units, builds on deterministic description of SGD in high-dimensions from statsitical physics.
+
+### A Mean-field Analysis of Deep ResNet and Beyond: Towards Provable Optimization Via Overparameterization From Depth
+
+<https://www.arxiv.org/abs/2003.05508>
+
+Propose continuum limit of Deep ResNet as ODE where depth tends to infinity, whose local minimums are all global. 

@@ -39,3 +39,9 @@ Present two main results, any subgroup G of Sn are universal if high-order tenso
 <https://www.arxiv.org/abs/2201.07934>
 
 Define adaptive symmetry, which characterizes invariance of variance, where a system explores different pathways of evolution with equal probabilibty, and complex functional structure emerges from accumulation of adaptive symmetry breaking. Characterize the optimization process of DNN system as an extended adaptive-symmetry breaking process.
+
+### Data-Driven emergence of convolutional structure in neural networks
+
+<https://www.arxiv.org/abs/2202.00565>
+
+Show that emergence of pattern that FC network learns convolutional structure, is due to non-Gaussian higher-order local structure of inputs. Provide an analytical and numerical characterisation of the pattern formation mechanisms.

@@ -105,3 +105,9 @@ For measure preserving neural networks like NICE and RevNets, if there is compac
 <https://www.arxiv.org/abs/2012.03016>
 
 Prove that not only continuous functions, but also all discontinuous functions can be implemented by three-layer networks.
+
+### Analysis of the Gradient Descent Algorithm for a Deep Neural Network Model with Skip-connections
+
+<https://www.arxiv.org/abs/1904.05263>
+
+Prove that GD can find global minimum exponentially fast, with generalization error established. If the target function is contained in RKHS induced by activation and initialization distribution, there exist generalizable early stopping solution in GD path.

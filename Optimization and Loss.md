@@ -105,3 +105,27 @@ Show that combined use of batch normalization and weight decay may result in per
 <https://www.arxiv.org/abs/2201.07506>
 
 Based on stability bound of total p-variation of trained weights, interpret residual network as solutions to difference equations.
+
+### Convergence of Deep Convolutional Neural Networks
+
+<https://www.arxiv.org/abs/2109.13542>
+
+Show that convergence of deep convolutional neural networks reduces to convergence of inifniite products of matrices with increasing sizes, and establish sufficient conditions for convergence of such infinite products.
+
+### Improved Complexities for Stochastic Conditional Gradient Methods under Interpolation-like Conditions
+
+<https://www.arxiv.org/abs/2006.08167>
+
+Analyze stochastic conditional gradient method for constrained optimization problems, show that when the objective function is convex, it requires quadratic number of steps w.r.t. error.
+
+### Power-law escape rate of SGD
+
+<https://www.arxiv.org/abs/2105.09557>
+
+Using the property of SGD noise to derive a SDE with simpler additive noise, show that the log loss barrier which is log ratio between local minimum loss and saddle loss, determines the escape rate of SGD from local minimum. 
+
+### Saddle-to-Saddle Dynamics in Deep Linear Networks: Small Initialization Training, Symmetry, and Sparsity
+
+<https://www.arxiv.org/abs/2106.15933>
+
+Consider training dynamics of Deep Linear Networks in low variance initialization, conjecture a saddle-to-saddle dynamics, gradient descent visits the neighborhoods of a sequence of saddles each corresponding to increasing rank, and reaches sparse global minimum. This conjecture is supported by a theorem for dynamics between first two saddles.

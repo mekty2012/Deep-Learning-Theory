@@ -755,3 +755,57 @@ Design new architecture which incorporates support vector regression at its firs
 <https://www.arxiv.org/abs/2201.05395>
 
 Construct classes of neural networks with ReLU and BiSU activation, emulating the lowest order Finite Element spaces on regular simplicical partitions of polygonal domains for 2, 3 dimension. 
+
+### The Many Faces of Adversarial Risk
+
+<https://www.arxiv.org/abs/2201.08956>
+
+Make the definition of adversarial risk rigorous, generalize Strassen's theorem to unbalanced optimal transport setting, show the pure Nash equilibrium between adversary and algorithm, and characterize adversarial risk by the minimum Bayes error between a pair of distributions to the infinity Wasserstein uncertainty sets.
+
+### Post-training Quantization for Neural Networks with Provable Guarantees
+
+<https://www.arxiv.org/abs/2201.11113>
+
+Modify GPFQ, a post-trainig NN quantization method based on greedy path following, and prove that for quantizing a single-layer network, the relative square error decys linearly in the number of weights.
+
+### The Implicit Bias of Benign Overfitting
+
+<https://www.arxiv.org/abs/2201.11489>
+
+Show that benign overfitting, where a predictor perfectly fits noisy training data while having low expected loss, is biased towards to certain types of problems, so that it is not general behaviors. In classification setting, prove that the max-margin predictor is asymptotically biased towards minimizing the expected squared hinge loss.
+
+### Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks
+
+<https://www.arxiv.org/abs/2201.11729>
+
+By dynamical system approach, analyzes the implicit regularization in hierarchical tensor factorization, establish the implicit regularization towards low rank, which translates to locality.
+
+### Critical Initialization of Wide and Deep Neural Networks through Partial Jacobians: General Theory and Applications
+
+<https://www.arxiv.org/abs/2111.12143>
+
+Define criticality by partial Jacobian, which is jacobian between preactivations in different layers, and derive recurrence relation between norms of partial Jacobians with analyzing criticality.
+
+### Fluctuations, Bias, Variance & Ensembles of Learners: Exact Asymptotics for Convex Losses in High-Dimension
+
+<https://www.arxiv.org/abs/2201.13383>
+
+Provide a complete description of the asymptotic joint distribution of the empirical risk minimizers for generic convex loss and regularisation in the high dimensional limit. 
+
+### Interplay between depth of neural networks and locality of target functions
+
+<https://www.arxiv.org/abs/2201.12082>
+
+Introduce k-local and k-global functions, and find that depth is beneficial for learning local functions but detrimental to learning global functions.
+
+### Deep Contrastive Learning is Provably (almost) Principal Component Analysis
+
+<https://www.arxiv.org/abs/2201.12680>
+
+Show that contrastive learning has a game-theoretical formulation, where max-player maximizes contrastiveness, min-player puts weights on pairs of samples with similar representation. Show that max player reduces to PCA for deep linear networks, with all local minima as global minima. This is also extended to 2-layer ReLU networks, and prove that feature composition is preferred then single dominant feature under strong augmentation.
+
+### Implicit Regularization Towards Rank Minimization in ReLU Networks
+
+<https://www.arxiv.org/abs/2201.12760>
+
+Prove that GF on ReLU networks may no longer tend to minimize ranks, while revealing that ReLU networks of sufficient depth are provably biased towards low-rank solution.

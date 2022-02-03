@@ -87,3 +87,33 @@ Show how averaging over an ensembles of stochastic neural networks enables new p
 <https://www.arxiv.org/abs/1911.12360>
 
 Show the optimization and generalization under polylogarithmic width network w.r.t. n and epsilon^-1.
+
+### Approximation bounds for norm constrained neural networks with applications to regression and GANs
+
+<https://www.arxiv.org/abs/2201.09418>
+
+Prove approximation capacity of ReLU NN with norm constraint on the weights, especially upper and lower bound of approximation error of smooth function class, where lower bound comes from Rademacher complexity. Using this bounds, analyze convergence of regression and distribution estimation by GANs.
+
+### Weight Expansion: A New Perspective on Dropout and Generalization
+
+<https://www.arxiv.org/abs/2201.09209>
+
+Define weight expansion which is the signed volume of a parallelotope spanned by column or row vectors of the weight covariance matrix, show that weight expansion is an effective means of increasing the generalization in a PAC Bayesian setting, and prove that dropout leads to weight expansion.
+
+### Generalization Error Bounds on Deep Learning with Markov Datasets
+
+<https://www.arxiv.org/abs/2201.11059>
+
+Derive upper bounds on generalization errors for deep NNs with Markov datasets, based on Koltchinskii and Panchenko's approach for bounding the generalization error of combined classifiers. 
+
+### Stability and Generalization Capabilities of Message Passing Graph Neural Networks
+
+<https://www.arxiv.org/abs/2202.00645>
+
+In graph classification where graph is sampled from different random graph model, derive a non-asymptotic bound on the generalization gap between the empirical and statistical loss, which decreases to zero as the graphs become larger. 
+
+### Algorithm-Dependent Generalization Bounds for Overparameterized Deep Residual Networks
+
+<https://www.arxiv.org/abs/1910.02934>
+
+Show that gradient descent's solution consistutes small subset of entire function class, however is sufficiently large to guarantee small training error. Also gives generalization gap that is logarithmic to depth.

@@ -65,3 +65,9 @@ Present derivation of the mean field theory for both architectures that starts f
 <https://www.arxiv.org/abs/1805.00915>
 
 Establish condition for global convergence of SGD, by reinterpreting SGD as the evolution of particle system with interaction goverenbed by a potential related to the loss. Show that when the number of units are large, the empirical distribution descends on a convex landscape towards the global minimum, with approximation error scaling inverse to n.
+
+### The edge of chaos: quantum field theory and deep neural networks
+
+<https://www.arxiv.org/abs/2109.13247>
+
+Construct the quantum field theory corresponding to deep neural networks including recurrent and feedforward architectures. Consider the mean-field theory obtained as the leading saddlepoint in the action, and derive the condition for criticality via the largest Lypunov exponent.

@@ -70,3 +70,9 @@ By making a novel connection between learning theory and topological data analys
 <https://arxiv.org/abs/2111.15651>
 
 Define a new class of topological features that accurately characterize the process of learning, and equipped for backpropagation. Show that they can predict performance of a DNN without a testing set and high-performance computing.
+
+### A singular Riemannian geometry approach to Deep neural Networks I. Theoretical foundations
+
+<https://www.arxiv.org/abs/2201.09656>
+
+Study the sequence of maps between manifolds, investigate the structures induced through pullbacks of Riemannian metric, showing that pullback is a degenerate Riemannian metric inducing a structure of pseudometric spac, and the Kolmogorov quotient yields a smooth metric.

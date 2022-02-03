@@ -27,3 +27,15 @@ Approximate the mini-batch SGD and the momentum SGD with SDE, and use the theory
 <https://arxiv.org/abs/2105.12245>
 
 Depending some certain features of neural network architectures, like smoothness of activation function, the scaling regime is different, either neural ODE limit, SDE, or neither of these.
+
+### What Happens after SGD Reaches Zero Loss? --A Mathematical Framework
+
+<https://www.arxiv.org/abs/2110.06914>
+
+Gives a general framework for implicit bias analysis, allowing a complete characterization for the regularization effect of SGD around convergent manifold using a SDE describing the limiting dynamics of the parameters.
+
+### Infinitely Deep Bayesian Neural Network with Stochastic Differential Equations
+
+<https://www.arxiv.org/abs/2102.06559>
+
+In approximate inference of continuous depth Bayesian neural networks, the uncertainty of each weights follow a SDE. Demonstrate gradient-based SVI in infinite parameter setting, produces arbitrarily flexible approximate posteriors, and derive gradient estimator approaching zero variance as approximate posterior approaches the true posterior.
