@@ -111,3 +111,21 @@ Prove that not only continuous functions, but also all discontinuous functions c
 <https://www.arxiv.org/abs/1904.05263>
 
 Prove that GD can find global minimum exponentially fast, with generalization error established. If the target function is contained in RKHS induced by activation and initialization distribution, there exist generalizable early stopping solution in GD path.
+
+### Advantages of Deep Neural Networks for Estimating Functions with Singularity on Hypersurfaces
+
+<https://www.arxiv.org/abs/2011.02256>
+
+Derive the generalization error of a DNN with optimal convergence rate on estimation on non smooth functions with singularities on hypersurfaces. Show that there is a phase where DNNs outperform other standard methods.
+
+### Width is Less Important than Depth in ReLU Neural Networks
+
+<https://www.arxiv.org/abs/2202.03841>
+
+Show that any target network with inputs in d dimension can be approximated by a width O(d) network, with linearly over parameterized. 
+
+### Approximation error of single hidden layer neural networks with fixed weights
+
+<https://www.arxiv.org/abs/2202.03289>
+
+Provides an explicit formula fo the approximation error of single hidden layer neural networks with two fixed weights.

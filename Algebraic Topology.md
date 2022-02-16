@@ -76,3 +76,9 @@ Define a new class of topological features that accurately characterize the proc
 <https://www.arxiv.org/abs/2201.09656>
 
 Study the sequence of maps between manifolds, investigate the structures induced through pullbacks of Riemannian metric, showing that pullback is a degenerate Riemannian metric inducing a structure of pseudometric spac, and the Kolmogorov quotient yields a smooth metric.
+
+### Topological obstructions in neural networks learning
+
+<https://www.arxiv.org/abs/2012.15834>
+
+Use the Morse complex of the loss function to relate local behavior of gradient descent trajectory with global properties, and define Topological Obstruction score with barcodes of the loss function, quantifying the badness of local minima for gradient-based optimization.

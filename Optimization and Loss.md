@@ -129,3 +129,27 @@ Using the property of SGD noise to derive a SDE with simpler additive noise, sho
 <https://www.arxiv.org/abs/2106.15933>
 
 Consider training dynamics of Deep Linear Networks in low variance initialization, conjecture a saddle-to-saddle dynamics, gradient descent visits the neighborhoods of a sequence of saddles each corresponding to increasing rank, and reaches sparse global minimum. This conjecture is supported by a theorem for dynamics between first two saddles.
+
+### How many degrees of freedom do we need to train deep networks: a loss landscape perspective
+
+<https://www.arxiv.org/abs/2107.05802>
+
+Find that there is a phase transition of dimensionality required to train the NN, which depends on initial loss and final loss. Theoretically explain the origin with its dependency, using Gordon's escape theorem that the training dimension plus Gaussian width of desired loss set must exceed the toal number of parameters to have large success probability.
+
+### Finite-Sum Optimization: A New Perspective for Convergence to a Global Solution
+
+<https://www.arxiv.org/abs/2202.03524>
+
+Using reformulation of optimization allowing for a new recursive algorithmic framework, prove convergence to epsilon global minimum with cubic time.
+
+### Anticorrelated Noise Injection for Improved Generalization
+
+<https://www.arxiv.org/abs/2202.02831>
+
+Experimentally find that anticorrelated perturbation generalizes significantly better than GD and standard uncorrelated PGD, with theoretical analysis that Anti-PGD moves to wider minima where GD or PGD remains suboptimal regions.
+
+### On Margin Maximization in Linear and ReLU Networks
+
+<https://www.arxiv.org/abs/2110.02732>
+
+It was shown that homogeneous networks trained with the exponential loss or the logistic loss's gradient flow converges to a KKT point of the max margin problem. This paper show that, the KKT point is not even a local optimum of max margin problem in many cases, and identify settings where local or global optimum can be guaranteed.

@@ -117,3 +117,27 @@ In graph classification where graph is sampled from different random graph model
 <https://www.arxiv.org/abs/1910.02934>
 
 Show that gradient descent's solution consistutes small subset of entire function class, however is sufficiently large to guarantee small training error. Also gives generalization gap that is logarithmic to depth.
+
+### Non-Vacuous Generalisation Bounds for Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2202.01627>
+
+Derive new generalization bound for shallow neural network with L2 normalization of data, and erf or GELU activation, based on PAC-Bayesian theory.
+
+### Support Vectors and Gradient Dynamics for Implicit Bias in ReLU Networks
+
+<https://www.arxiv.org/abs/2202.05510>
+
+Examine gradient flow dynamics in the parameter space when training single-neuron ReLU networks, with implicit bias that support vectors plays a key role in why and how ReLU networks generalize well.
+
+### The Sample Complexity of One-Hidden-Layer Neural Networks
+
+<https://www.arxiv.org/abs/2202.06233>
+
+Study norm-based uniform convergence bound for neural networks, proving that controlling spectral norm of weight matrix is insufficient for uniform cnovergence guarantee, where stronger Frobenius norm control is sufficient. Also show that when activation is sufficiently smooth and some convolutional networks, spectral norm is sufficient.
+
+### Benign Overfitting without Linearity: Neural Network Classifiers Trained by Gradient Descent for Noisy Linear Data
+
+<https://www.arxiv.org/abs/2202.05928>
+
+Consider the generalization error of two-layer neurla networks trained to interpolation by gradient descent on the logistic loss. Assuming that data has well-separated class-conditional log-concave distribution with adversary corruption, show that neural network can perfectly fit noisy training label with test error close to Bayes-optimal error. 

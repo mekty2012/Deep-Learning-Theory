@@ -809,3 +809,39 @@ Show that contrastive learning has a game-theoretical formulation, where max-pla
 <https://www.arxiv.org/abs/2201.12760>
 
 Prove that GF on ReLU networks may no longer tend to minimize ranks, while revealing that ReLU networks of sufficient depth are provably biased towards low-rank solution.
+
+### Spectral Analysis and Fixed Point Stability of Deep Neural Dynamics
+
+<https://www.arxiv.org/abs/2011.13492>
+
+Analyze the eigenvalue spectra and stability of discrete-time dynamics systems parameterized by DNNs, viewing neural network as affine parameter varying maps, and analyze using classical system methods. 
+
+### Deep Layer-wise Networks Have Closed-Form Weights
+
+<https://www.arxiv.org/abs/2202.01210>
+
+Show that layer-wise network, which trains one layer at a time, has a closed form weight given by kernel mean embedding with global optimum. 
+
+### Principal Components Bias in Over-parameterized Linear Models, and its Manifestation in Deep Neural Networks
+
+<https://www.arxiv.org/abs/2105.05553>
+
+In over-parameterized deep linear network with enough width, the convergence rate of parameters is exponentially fast along the larger principal components of the data, with rate governed by the singular value, named principal-component bias. Discuss how this may explain benefits of early stopping and why deep networks converge slowly with random labels.
+
+### The Implicit Bias of Gradient Descent on Generalized Gated Linear Networks
+
+<https://www.arxiv.org/abs/2202.02649>
+
+Derive infinite-time training limit of a mathematically tractable class of deep nonlinear neural networks, gated linear networks, and generalize to gated networks described by general homogeneous polynomials. Using this, show how architectural constraints and implicit bias affect performance, and that theory captures a substantial portion of the inductive bias of ReLU networks.
+
+### Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path
+
+<https://www.arxiv.org/abs/2106.02073>
+
+Neural Collapse behavior, that last layer features collapse to class-mean, also happens in MSE loss, which is easier to analyze compared to CE loss. Using this, decompose MSE loss to two terms, where one term is directly related to NC. Using this, introduce the central path where the linear classifier stays MSE-optimal for feature, and study the renormalized gradient flow about the central path, and derive the exact dynamics predicting NC.
+
+### Benign Overfitting in Two-layer Convolutional Neural Networks
+
+<https://www.arxiv.org/abs/2202.06526>
+
+Show that when the signal-to-noise ratio satisfies a certain condition, a two-layer CNN with gradient descent arbitrary small training and test loss, giving benign overfitting. Conversely if this condition does not hold, the CNN only achieve constant level test loss, giving harmful overfitting.

@@ -75,3 +75,9 @@ Derive exact asymptotics of random fourier feature regression, showing that RFF 
 <https://www.arxiv.org/abs/2201.04543>
 
 Deals with untrained network's input-output Jacobian in infinite width limit, uses another techniques different to previous researches, justifying that the singular value distribution of the Jacobian coincides with analog of the Jacobian with special random but weight independent diagonal matrices.
+
+### Asymptotic Freeness of Layerwise Jacobians Caused by Invariance of Multilayer Perceptron: The Haar Orthogonal Case
+
+<https://www.arxiv.org/abs/2103.13466>
+
+DNN's Jacobian, both parameter and input are polynomials of layerwise Jacobians, so its asymptotic freeness is crucial for propagating spectral distributions through layers. Proves asymptotic freeness of layerwise jacobians of MLP, with Haar distributed orthogonal matrix initialization.

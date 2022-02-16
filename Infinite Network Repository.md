@@ -703,6 +703,24 @@ Study NTK of ReLU NNs with depth comparable to width, proving that the NTK prope
 
 Prove that as the width of an optimized stochastic neural networks tends to infinity, predictive variance decreases to zero, with application on dropout and variational autoencoder.
 
+### Reverse Engineering the Neural Tangent Kernel
+
+<https://www.arxiv.org/abs/2106.03186>
+
+Prove that any positive-semidefinite dot-product kernel can be realized as either conjugate or NTK of a shallow neural network, with an approapriate choice of activation function.
+
+### Spectral Bias and Task-Model Alignment Explain Generalization in Kernel Regression and Infinitely Wide Neural Networks
+
+<https://www.arxiv.org/abs/2006.13198>
+
+Derive analytical expression for generalization error applicable to any kernel and data distribution, including those arising from infinite neural networks.
+
+### Neural Tangent Kernel Analysis of Deep Narrow Neural Networks
+
+<https://www.arxiv.org/abs/2202.02981>
+
+Study infinite depth limit of MLP with specific initialization, and establish a trainability guarantee with NTK theory.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
