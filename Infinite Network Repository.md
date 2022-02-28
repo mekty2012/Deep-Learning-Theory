@@ -721,6 +721,18 @@ Derive analytical expression for generalization error applicable to any kernel a
 
 Study infinite depth limit of MLP with specific initialization, and establish a trainability guarantee with NTK theory.
 
+### Double-descent curves in neural networks: a new perspective using Gaussian Processes
+
+<https://www.arxiv.org/abs/2102.07238>
+
+Using NNGP and random matrix theory, argue that this effict is explained by convergence to limiting Gaussian processes.
+
+### Embedded Ensembles: Infinite Width Limit and Operating Regimes
+
+<https://www.arxiv.org/abs/2202.12297>
+
+Analyze Embedded ensembles, like Batch Ensemble or Monte-Carlo dropout ensembles, which is ensemble method that most of weights are shared by means of a single reference network. Using NTK approach, show that there is two ensemble regime, independent and collective, and show that independent regime behaves as an ensemble of independent models.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping

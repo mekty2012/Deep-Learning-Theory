@@ -845,3 +845,9 @@ Neural Collapse behavior, that last layer features collapse to class-mean, also 
 <https://www.arxiv.org/abs/2202.06526>
 
 Show that when the signal-to-noise ratio satisfies a certain condition, a two-layer CNN with gradient descent arbitrary small training and test loss, giving benign overfitting. Conversely if this condition does not hold, the CNN only achieve constant level test loss, giving harmful overfitting.
+
+### A spectral-based analysis of the separation between two-layer neural networks and linear methods
+
+<https://www.arxiv.org/abs/2108.04964>
+
+Propose a spectral based approach to analyze how two-layer neural networks separate from linear methods. This can be reduced to estimating the Kolmogorov width of two-layer neural networks, which can be characterized using the spectrum of an associated kernel. This allows upper bound, lower bound, and identifying explicit hard functions, and systematic study of choice of activation's effect on the separation.

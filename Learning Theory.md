@@ -141,3 +141,27 @@ Study norm-based uniform convergence bound for neural networks, proving that con
 <https://www.arxiv.org/abs/2202.05928>
 
 Consider the generalization error of two-layer neurla networks trained to interpolation by gradient descent on the logistic loss. Assuming that data has well-separated class-conditional log-concave distribution with adversary corruption, show that neural network can perfectly fit noisy training label with test error close to Bayes-optimal error. 
+
+### Random Feature Amplification: Feature Learning and Generalization in Neural Networks
+
+<https://www.arxiv.org/abs/2202.07626>
+
+For the XOR-like data distribution, show that two-layer ReLU network trained by gradient descent achieve generalization error close to the label noise late. Use a proof technique that at initialization, majority of neurons are weakly correlated with useful features, where gradient descent amplify these weak features to strong, useful features.
+
+### On Measuring Excess Capacity in Neural Networks
+
+<https://www.arxiv.org/abs/2202.08070>
+
+Studies excess capacity, that is given a capacity measure like Rademacher complexity, how much can we constrain hypothesis class while maintaining comparable empirical error. Extend existing generalization bound to accomodate composition, addition, and convolution, to give measure related to Lipschitz constant of layers and (2, 1) group norm distance to initialization. Show that this measure can be kept small, and since excess capacity increases with task difficulty, this points towards an unnecessarily large capacity of unconstrained models.
+
+### The merged-staircase property: a necessary and nearly sufficient condition for SGD learning of sparse functions on two-layer neural networks
+
+<https://www.arxiv.org/abs/2202.08658>
+
+Study O(d) sample complexitiy in large ambient dimension d, of data with binary input which depend on latent low dimensional subspace, and two-layer network in mean-field regime, characterizes a hierarchical property "merged-staircase property" which is necessary and nearly sufficient. Show that non-linear training is necessary, that NTK-like learning is inefficient.
+
+### On PAC-Bayesian reconstruction guarantees for VAEs
+
+<https://www.arxiv.org/abs/2202.11455>
+
+Analyze the VAE's reconstruction ability for unseen test data with PAC-Bayes theory. Provide generalisation bounds on the theoretical reconstruction error and provide insights on the regularisation effect of VAE objective.

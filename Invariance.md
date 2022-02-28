@@ -45,3 +45,15 @@ Define adaptive symmetry, which characterizes invariance of variance, where a sy
 <https://www.arxiv.org/abs/2202.00565>
 
 Show that emergence of pattern that FC network learns convolutional structure, is due to non-Gaussian higher-order local structure of inputs. Provide an analytical and numerical characterisation of the pattern formation mechanisms.
+
+### Invariance Learning in Deep Neural Networks with Differentiable Laplace Approximations
+
+<https://www.arxiv.org/abs/2202.10638>
+
+Develop gradient-based method for selecting the data augmentation. Relies on phrasing data augmentation as an invariance in the prior distribution and learning it using Bayesian model selection. Use a differentiable Kronecker-factored Laplace approximation to the marginal likelihood as objective.
+
+### Learning Invariant Weights in Neural Networks
+
+<https://www.arxiv.org/abs/2202.12439>
+
+Following the previous approach that marginal likelihood offers a way to learn invariances in GP, propose a weight-space equivalent approach, by minimizing a lower bound on the marginal likelihood to learn invariances.

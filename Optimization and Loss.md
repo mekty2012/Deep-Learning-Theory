@@ -153,3 +153,33 @@ Experimentally find that anticorrelated perturbation generalizes significantly b
 <https://www.arxiv.org/abs/2110.02732>
 
 It was shown that homogeneous networks trained with the exponential loss or the logistic loss's gradient flow converges to a KKT point of the max margin problem. This paper show that, the KKT point is not even a local optimum of max margin problem in many cases, and identify settings where local or global optimum can be guaranteed.
+
+### Training neural networks using monotone variational inequality
+
+<https://www.arxiv.org/abs/2202.08876>
+
+Instead of traditional loss function, reduce training to another problem with convex structure, solving a monotone variational inequality. The solution can be founded by efficient procedure, with performance guarantee of l2 and l infty bound on model recovery accuracy and prediction accuracy with shallow linear neural networks. Also propose a practical algorithm called stochastic variational inequality, which gives competitive performance on SGD for FCNN and GNNs.
+
+### Demystifying Batch Normalization in ReLU Networks: Equivalent Convex Optimization Models and Implicit Regularization
+
+<https://www.arxiv.org/abs/2103.01499>
+
+Analyze Batch Normalization through the lens of convex optimization. Introduce an analytic framework based on convex duality, obtain exact convex representation of weight-decay regularized ReLU networks with BN, trainable in polytime. Show that optimal layer weights can be obtained as simple closed form formulas in high-dimensional overparameterized regimes. 
+
+### Connecting Optimization and Generalization via Gradient Flow Path Length
+
+<https://www.arxiv.org/abs/2202.10670>
+
+Propose a framework to connect optimization with generalization by analyzing the generalization error based on the length of optimization trajectory under the gradient flow algorithm after convergence. Show that with proper initialization, gradient flow converges following a short path with explicit length estimate. Such estimate induces length-based generalization bound, showing that short path after convergence are associated with good generalization.
+
+### Local SGD Optimizes Overparameterized Neural Networks in Polynomial Time
+
+<https://www.arxiv.org/abs/2107.10868>
+
+Prove that Local SGD can optimize deep neural networks with ReLU activation function in polynomial time. Show that traditional approach using gradient Lipscitzness does not hold in ReLU nets, but the change between local model and average model will not change too much.
+
+### Optimal Learning Rates of Deep Convolutional Neural Networks: Additive Ridge Functions
+
+<https://www.arxiv.org/abs/2202.12119>
+
+Show that for additive ridge functions, CNNs followed by one FC layer with ReLU activation can reach optimal mini-max rates.

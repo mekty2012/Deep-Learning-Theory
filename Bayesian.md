@@ -52,3 +52,9 @@ Argue that the leading finite-width corrections to the average feature kernels f
 <https://www.arxiv.org/abs/2112.15311>
 
 Design new bayesian optimization which models the nodes using Gaussian process, in the setting that network takes significant time to evaluate. Show that the posterior is efficiently maximized via sample average approximation, and that method is asymptotically consistent.
+
+### Wide Mean-Field Bayesian Neural Networks Ignore the Data
+
+<https://www.arxiv.org/abs/2202.11670>
+
+Show that mean-field variational inference fails when network width is large and the activation is odd. In specific, with odd activation and homoscedastic Gaussian likelihood, show that optimal mean-field variational posterior predictive distribution converges to the prior predictive distribution as the width tends to infinity.
