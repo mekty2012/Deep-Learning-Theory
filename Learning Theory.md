@@ -165,3 +165,9 @@ Study O(d) sample complexitiy in large ambient dimension d, of data with binary 
 <https://www.arxiv.org/abs/2202.11455>
 
 Analyze the VAE's reconstruction ability for unseen test data with PAC-Bayes theory. Provide generalisation bounds on the theoretical reconstruction error and provide insights on the regularisation effect of VAE objective.
+
+### KAM Theory Meets Statistical Learning Theory: Hamiltonian Neural Networks with Non-Zero Training Loss
+
+<https://www.arxiv.org/abs/2102.11923>
+
+Hamiltonian neural network, which approximates the Hamiltonian with neural network, is perturbation from the true dynamics under non-zero loss. To apply perturbation theory for this, called KAM theory, provide a generalization error bound for Hamiltonian neural networks by deriving an estimate of the covering number of the gradient of the MLP, then giving L infinity bound on the Hamiltonian.

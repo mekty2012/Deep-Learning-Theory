@@ -851,3 +851,15 @@ Show that when the signal-to-noise ratio satisfies a certain condition, a two-la
 <https://www.arxiv.org/abs/2108.04964>
 
 Propose a spectral based approach to analyze how two-layer neural networks separate from linear methods. This can be reduced to estimating the Kolmogorov width of two-layer neural networks, which can be characterized using the spectrum of an associated kernel. This allows upper bound, lower bound, and identifying explicit hard functions, and systematic study of choice of activation's effect on the separation.
+
+### How and what to learn:The modes of machine learning
+
+<https://www.arxiv.org/abs/2202.13829>
+
+Propose a new approach named weight pathway analysis, which decomposes a neural network into a series of subnetworks of weight pathways. Using WPA, discover that a neural network stores and utilizes information in a holographic way, that the network encodes all training samples in a coherent structure. Also reveal two learning mode of a neural newtwork, linear and nonlinear, where the former extracts linearly separable features, and the latter extracts linearly inseparable features.
+
+### Phenomenology of Double Descent in Finite-Width Neural Networks
+
+<https://www.arxiv.org/abs/2203.07337>
+
+Study the population loss with its lower bound using influence functions, which connetcs the spectrum of the Hessian at the optimum, and exhibit a double descent behaviour at the interpolation threshold.

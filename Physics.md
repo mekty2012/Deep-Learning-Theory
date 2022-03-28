@@ -71,3 +71,9 @@ Establish condition for global convergence of SGD, by reinterpreting SGD as the 
 <https://www.arxiv.org/abs/2109.13247>
 
 Construct the quantum field theory corresponding to deep neural networks including recurrent and feedforward architectures. Consider the mean-field theory obtained as the leading saddlepoint in the action, and derive the condition for criticality via the largest Lypunov exponent.
+
+### Nonperturbative renormalization for the neural network-QFT correspondence
+
+<https://www.arxiv.org/abs/2108.01403>
+
+Improve the description of neural networks in terms of Wilsonian effective field theory, by providing an analysis in terms of nonperturbative renormalization group using Wetterich-Morris equation. Provide a useful formalism to investigate neural networks behavior beyond the large-width limit, and show that the changing the standard deviation of the neural network distribution can be interpreted as a renormalization flow in the space of networks.

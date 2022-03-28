@@ -183,3 +183,33 @@ Prove that Local SGD can optimize deep neural networks with ReLU activation func
 <https://www.arxiv.org/abs/2202.12119>
 
 Show that for additive ridge functions, CNNs followed by one FC layer with ReLU activation can reach optimal mini-max rates.
+
+### Benign Underfitting of Stochastic Gradient Descent
+
+<https://www.arxiv.org/abs/2202.13361>
+
+Prove that there exist problem instances where SGD solution exhibits both empirical risk and generalization gap of Omega(1), and show that SGD is not algorithmically stable, and its generalization ability can't be explained by uniform convergence or other known generalization bound techniques. 
+
+### On the Power and Limitations of Random Features for Understanding Neural Networks
+
+<https://www.arxiv.org/abs/1904.00687>
+
+Review the techniques using random feature that the optimization dynamics behave as the initial random value, and argue that random features can't be used to learn even single neuron unless network size is exponentially large
+
+### The loss landscape of deep linear neural networks: a second-order analysis
+
+<https://www.arxiv.org/abs/2107.13289>
+
+Study the optimization landscape of deep linear neural networks with the square loss. Characterize all critical points, which are global minimizers, strict saddle points, and non-strict saddle points, and all the associated critical values. 
+
+### The Hidden Convex Optimization Landscape of Two-Layer ReLU Neural Networks: an Exact Characterization of the Optimal Solutions
+
+<https://www.arxiv.org/abs/2006.05900>
+
+Prove that all globally optimal two-layer ReLU neural networks can be performed by solving a convex optimization problem with cone constraint. Establish that the Clarke stationary points found by SGD correspond to global optimum of a subsampled convex problem, provide polynomial-time algorithm for checking whether network is at global minimum of training loss, provide an explicit construction of a continuous path between global minimum and any point, and characterize the minimal size of hidden layer so that loss landscape has no spurious valleys.
+
+### Resonance in Weight Space: Covariate Shift Can Drive Divergence of SGD with Momentum
+
+<https://www.arxiv.org/abs/2203.11992>
+
+Show that SGDm under covariate shift with fixed step size can be unstable and diverge, in particular, that SGDm under covariate shift is a parameteric oscilator, so can suffer from resonance. Approximate the learning system as a time-varying system of ODEs with applications of existing theory.

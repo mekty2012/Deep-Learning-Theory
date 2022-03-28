@@ -733,6 +733,36 @@ Using NNGP and random matrix theory, argue that this effict is explained by conv
 
 Analyze Embedded ensembles, like Batch Ensemble or Monte-Carlo dropout ensembles, which is ensemble method that most of weights are shared by means of a single reference network. Using NTK approach, show that there is two ensemble regime, independent and collective, and show that independent regime behaves as an ensemble of independent models.
 
+### The Spectral Bias of Polynomial Neural Networks
+
+<https://www.arxiv.org/abs/2202.13473>
+
+Conduct a spectral analysis of the NTK of polynomial neural networks, and find that 2-Net family sppeds up the learning of the higher frequencies.
+
+### On the linearity of large non-linear models: when and why the tangent kernel is constant
+
+<https://www.arxiv.org/abs/2010.01092>
+
+Show that constancy of tangent kernel depends on infinity norm and l2 norm, which controls the gradient and hessian of network. Show that even with lazy training effect, the network with nonlinear output and network with bottlneck has non-constant tangent kernel.
+
+### Transition to Linearity of Wide Neural Networks is an Emerging Property of Assembling Weak Models
+
+<https://www.arxiv.org/abs/2203.05104>
+
+Provide a new perspective that the transition to lienarity is property of assembly model, where neural network can viewed as assembly model recursively build from sub-models, which is neurons of former layers.
+
+### Quantitative Gaussian Approximation of Randomly Initialized Deep Neural Networks
+
+<https://www.arxiv.org/abs/2203.07379>
+
+Derive the upper bound of the quadratic Wasserstein distance between randomly initialized neural network's output distribution and suitable Gaussian Process.
+
+### On the Spectral Bias of Convolutional Neural Tangent and Gaussian Process Kernels
+
+<https://www.arxiv.org/abs/2203.09255>
+
+Prove that eigenfunctions of CNN's NTK and NNGP kernel with the uniform measure are formed by products of spherical harmonics, defined over the channels of the different pixels. Then use hierarchical factorizable kernels to bound the eigenvalues, and show that eigenvalues decay polynomially and derive measures that reflect the composition of hierarchical features in these networks.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -818,6 +848,12 @@ Using trained network's linearization, derive speed up on meta learning techniqu
 <https://www.arxiv.org/abs/2107.09139>
 
 Under lazy learning so that episodic policy change can be computed using policy gradient and NTK, the learning can be guided ensuring safety via augmenting episode batches with states where desired action probabilities are prescribed.
+
+### Global Convergence of MAML and Theory-Inspired Neural Architecture Search for Few-Shot Learning
+
+<https://www.arxiv.org/abs/2203.09137>
+
+First prove that MAML with over parameterized neural network is guaranteed to converge to global optima in linear rate, and show that MAML is equivalent to kernel regression with a class of kernels named MetaNTK. Then propose MetaNTK-NAS which usese MetaNTK to rank and select architectures.
 
 # Empirical Study
 

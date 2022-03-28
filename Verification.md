@@ -250,3 +250,9 @@ Propose an abstraction approach based on interval Markov decision process, yield
 <https://www.arxiv.org/abs/2201.08087>
 
 Propose an automated approach based on differential testing, tests neural network verifiers based on mutation rules and heuristic strategies to select test cases.
+
+### DeepSplit: Scalable Verification of Deep Neural Networks via Operator Splitting
+
+<https://www.arxiv.org/abs/2106.09117>
+
+Propose a novel operator splitting method that can directly solve a convex relaxation of the optimization problem to high accuracy, by splitting it into smaller sub-problems that often have analytical solutions.

@@ -81,3 +81,9 @@ Deals with untrained network's input-output Jacobian in infinite width limit, us
 <https://www.arxiv.org/abs/2103.13466>
 
 DNN's Jacobian, both parameter and input are polynomials of layerwise Jacobians, so its asymptotic freeness is crucial for propagating spectral distributions through layers. Proves asymptotic freeness of layerwise jacobians of MLP, with Haar distributed orthogonal matrix initialization.
+
+### More Than a Toy: Random Matrix Models Predict How Real-World Neural Representations Generalize
+
+<https://www.arxiv.org/abs/2203.06176>
+
+Find that classical GCV estimator accurately predicts generalzation risk even in overparameterized settings, prove that the GCV estimator converges to the generalization risk whenever a random matrix law holds. And apply this theory to explain why pretrained representations generalize better as well as what factors govern scaling laws for kernel regression.

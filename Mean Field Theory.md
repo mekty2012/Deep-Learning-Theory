@@ -148,3 +148,9 @@ Investigate the cross-over between over-parameterized regime and narrow network 
 <https://www.arxiv.org/abs/2003.05508>
 
 Propose continuum limit of Deep ResNet as ODE where depth tends to infinity, whose local minimums are all global. 
+
+### Extended critical regimes of deep neural networks
+
+<https://www.arxiv.org/abs/2203.12967>
+
+Extends the mean field theory for DNNs, and show that heavy-tailed weights enable the emergence of an extended critical regime without fine-tuning of parameters. In this extended critical regime, DNNs exhibit rich and complex propagation dynamics.
