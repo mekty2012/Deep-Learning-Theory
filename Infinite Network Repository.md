@@ -763,6 +763,18 @@ Derive the upper bound of the quadratic Wasserstein distance between randomly in
 
 Prove that eigenfunctions of CNN's NTK and NNGP kernel with the uniform measure are formed by products of spherical harmonics, defined over the channels of the different pixels. Then use hierarchical factorizable kernels to bound the eigenvalues, and show that eigenvalues decay polynomially and derive measures that reflect the composition of hierarchical features in these networks.
 
+### On the Neural Tangent Kernel Analysis of Randomly Pruned Wide Neural Networks
+
+<https://www.arxiv.org/abs/2203.14328>
+
+Show that randomly pruned FCNN's empirical NTK converges to original NTK with some scaling factor, which can be removed by adding scaling after pruning. Using this, give a non-asymptotic bound on the approximation error in terms of pruning probability.
+
+### Neural Q-Learning for solving elliptic PDEs
+
+<https://www.arxiv.org/abs/2203.17128>
+
+Develop a new numerical method for solving elliptic type PDEs by adapting the Q-learning, and using NTK approach, prove that the neural network converges, and for monotone PDE, despite the lack of a spectral gap in the NTK, prove that limit NN converges in L2 to the PDE solution.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -892,3 +904,9 @@ Empirically study NTK's performance in small-data task. NTKs perform strongly on
 <https://www.arxiv.org/abs/2106.06770>
 
 Show empirically that linear approximations can indeed rank the learning complexity of certain tasks for neural networks, even in very different performances. Also discover that neural networks do not always perform better than kernel approximation, and that performance gap highly depends on architecture, dataset, training tasks, showing that networks overfit due to evolution of kernel.
+
+### Demystifying the Neural Tangent Kernel from a Practical Perspective: Can it be trusted for Neural Architecture Search without training?
+
+<https://www.arxiv.org/abs/2203.14577>
+
+Show that due to non-linear characteristics of modern architecture, NTK-based metrics for estimating the performance in NAS is incapable. Instead, propose Label-Gradient Alignment, which is NTK-based metric that capture the non-linear advantage.

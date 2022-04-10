@@ -154,3 +154,15 @@ Propose continuum limit of Deep ResNet as ODE where depth tends to infinity, who
 <https://www.arxiv.org/abs/2203.12967>
 
 Extends the mean field theory for DNNs, and show that heavy-tailed weights enable the emergence of an extended critical regime without fine-tuning of parameters. In this extended critical regime, DNNs exhibit rich and complex propagation dynamics.
+
+### Dynamical mean-field theory for stochastic gradient descent in Gaussian mixture classification
+
+<https://www.arxiv.org/abs/2006.06098>
+
+Analyze the closed form learning dynamics of SGD with single layer neural network, classifying high-dimensional Gaussian mixture. Apply dynamical mean field theory to track the SGD dynamics in the high dimensional limit.
+
+### A Dynamical Central Limit Theorem for Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2008.09623>
+
+Recent works derives asymptotic mean-field limit of shallow neural network, where this work, using dynamical central limit theorem, analyzes the asymptotic fluctuation around the mean limit, which is bounded by Monte-Carlo resampling error.

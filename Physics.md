@@ -77,3 +77,9 @@ Construct the quantum field theory corresponding to deep neural networks includi
 <https://www.arxiv.org/abs/2108.01403>
 
 Improve the description of neural networks in terms of Wilsonian effective field theory, by providing an analysis in terms of nonperturbative renormalization group using Wetterich-Morris equation. Provide a useful formalism to investigate neural networks behavior beyond the large-width limit, and show that the changing the standard deviation of the neural network distribution can be interpreted as a renormalization flow in the space of networks.
+
+### Correlation Functions in Random Fully Connected Neural Networks at Finite Width
+
+<https://www.arxiv.org/abs/2204.01058>
+
+Give estimate of the joint correlation function of network output and derivative in deep FCNN, which is controlled by depth-to-width ratio.

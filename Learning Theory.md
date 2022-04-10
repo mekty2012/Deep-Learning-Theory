@@ -171,3 +171,27 @@ Analyze the VAE's reconstruction ability for unseen test data with PAC-Bayes the
 <https://www.arxiv.org/abs/2102.11923>
 
 Hamiltonian neural network, which approximates the Hamiltonian with neural network, is perturbation from the true dynamics under non-zero loss. To apply perturbation theory for this, called KAM theory, provide a generalization error bound for Hamiltonian neural networks by deriving an estimate of the covering number of the gradient of the MLP, then giving L infinity bound on the Hamiltonian.
+
+### Dynamics of stochastic gradient descent for two-layer neural networks in the teacher-student setup
+
+<https://www.arxiv.org/abs/1906.08632>
+
+In the teacher-student setup where the student network is trained by data generated from teacher network, show that the dynamics is captured by a set of differential equations, and calculate the generalization error fo student network.
+
+### Constant Time Graph Neural Networks
+
+<https://www.arxiv.org/abs/1901.07868>
+
+GNNs approximate huge graph by sampling the node, and this paper proves whether the query complexity for node sampling is constant time, for different activation, architecture, and forward/backward.
+
+### Improving Generalization of Deep Neural Networks by Leveraging Margin Distribution
+
+<https://www.arxiv.org/abs/1812.10761>
+
+Prove a generalization error bound based on statistics of the entire margin distribution, instead of using minimum margin. 
+
+### Stability and Generalization Capabilities of Message Passing Graph Neural Networks
+
+<https://www.arxiv.org/abs/2202.00645>
+
+Assuming some random graph models, derive a non-asymptotic bound on the generalization gap between the empirical loss and statistical loss for NPMM, which decreases to zero as the graphs become larger.
