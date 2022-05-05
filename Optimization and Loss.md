@@ -213,3 +213,33 @@ Prove that all globally optimal two-layer ReLU neural networks can be performed 
 <https://www.arxiv.org/abs/2203.11992>
 
 Show that SGDm under covariate shift with fixed step size can be unstable and diverge, in particular, that SGDm under covariate shift is a parameteric oscilator, so can suffer from resonance. Approximate the learning system as a time-varying system of ODEs with applications of existing theory.
+
+### Scaling Limit of Neural Networks with the Xavier Initialization and Convergence to a Global Minimum
+
+<https://www.arxiv.org/abs/1907.04108>
+
+Analyze the single-layer neural network with tha Xavier initialization in asymptotic regime of large number of hidden units and large numbers of SGD steps. The system can be viewed as stochastic system, analyzed with stochastic analysis, prove that neural network convergences in distribution to a random ODE with a Gaussian distribution, where normalization of Xavier initialization gives completely different result compared to mean-field limit. Due to the limit, optimization problem becomes convex and therefore converges to a global minimum.
+
+### Convergence and Implicit Regularization Properties of Gradient Descent for Deep Residual Networks
+
+<https://www.arxiv.org/abs/2204.07261>
+
+Prove linear convergence of gradient descent to a global minimum, for the training of deep residual network with constant layer width and smooth activation function. Show that trained weight admits a scaling limit which is Hoelder continuous as the depth tends to infinity.
+
+### Provable Convergence of Nesterov's Accelerated Gradient Method for Over-Parameterized Neural Networks
+
+<https://www.arxiv.org/abs/2107.01832>
+
+Analyze NAG in two-layer fully connected network with ReLU activation, show the convergence to global minimum at a non-asymptotic linear rate. Compared to convergence rate of GD, this shows NAG accelerates the training.
+
+### On Feature Learning in Neural Networks with Global Convergence Guarantees
+
+<https://www.arxiv.org/abs/2204.10782>
+
+First show that gradient flow gives linear rate convergence to global minimum when input dimension is no less than the size of training set. Using this fact, show that training second to last layers with GF, prove a linear convergence of network. Also empirically show that unlike in the NTK regime, this model exhibits feature learning.
+
+### Convergence of gradient descent for deep neural networks
+
+<https://www.arxiv.org/abs/2203.16462>
+
+Present a new criterion for convergence of gradient descent to a global minimum, which is provably more powerful than the best available criteria from the literature, the Lojasiewicz inequality.

@@ -863,3 +863,45 @@ Propose a new approach named weight pathway analysis, which decomposes a neural 
 <https://www.arxiv.org/abs/2203.07337>
 
 Study the population loss with its lower bound using influence functions, which connetcs the spectrum of the Hessian at the optimum, and exhibit a double descent behaviour at the interpolation threshold.
+
+### Transferability Properties of Graph Neural Networks
+
+<https://www.arxiv.org/abs/2112.04629>
+
+For the setting of training graph on moderate size and testing on large graphs, use the graph limit of graphons, and define graph filter and graphon filter to formulate graph/graphon convolution neural network. Using this formulation, bound the error of transferring in same graphon. Show that tranference error decreases with graph size, and graph filters have a transferability-discriminiability tradeoff.
+
+### An error analysis of generative adversarial networks for learning distributions
+
+<https://www.arxiv.org/abs/2105.13010>
+
+Establish the convergence rate of GANs under collection of integral probability metrics defined through Hoelder class lke Wasserstein distance. Also show that GANs are able to adaptively learn data distributions with low-dimensional structures or have Hoelder densities, with proper architecture. In particular, show that for low-dimensional structure, the convergence rate depends on intrinsic dimension, not ambient dimension.
+
+### Theoretical Analysis of Self-Training with Deep Networks on Unlabeled Data
+
+<https://www.arxiv.org/abs/2010.03622>
+
+Under 'expansion' assumption that low probability subset of data must expand to a neighborhood with large probability relative to the subset, prove that the minimizers of population objectives based on self-training and input-consistency regularization will achieve high accuracy w.r.t. ground-truth labels. Also provide generalization bound and sample complexity guarantee for neural nets.
+
+### Deep Learning meets Nonparameteric Regression: Are Weight-Decayed DNNs Locally Adaptive?
+
+<https://www.arxiv.org/abs/2204.09664>
+
+Using parallel NN variant of ReLU networks, show that the standard weight decay is equivalent to promoting lp-sparsity of the coefficient vector. Using this equivalence, establish that by tuning only the weight decay, such parallel NN achieves an estimation error arbitrarily close to the minimax rates for both Besov and BV classes.
+
+### An Unconstrained Layer-Peeled Perspective on Neural Collapse
+
+<https://www.arxiv.org/abs/2110.02796>
+
+Introduce a surrogate model called the uncontrained layer-peeled model, and prove that gradient flow on this model converges to critical points of a minimum norm separation problem exhibiting neural collapse. Show that this model with cross-entropy loss has a benign global landscape, allowing to prove that all the critical points are strict saddle points except the global minimizers exhibiting the neural collpase.
+
+### On the Implicit Bias Towards Minimal Depth of Deep Neural Networks
+
+<https://www.arxiv.org/abs/2202.09028>
+
+Study the implicit bias of SGD to favor low-depth solutions when training deep neural networks. Empirically found that neural collapse appears even in intermediate layers, and strengthens when increasing the number of layers, which is evidence of low-depth bias. Characterize notion of effective depth by measuring the minimial layer enjoying neural collapse, and show that effective depth monotonically increases when training with extended portions of random labels.
+
+### Self-scalable Tanh (Stan): Faster Convergence and Better Generalization in Physics-informed Neural Networks
+
+<https://www.arxiv.org/abs/2204.12589>
+
+Propose self-scalable Tanh activation for PINNs, show that PINNs with Stan have no spurious stationary points when using gradient descent algorithms.

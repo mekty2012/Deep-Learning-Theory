@@ -58,3 +58,9 @@ Design new bayesian optimization which models the nodes using Gaussian process, 
 <https://www.arxiv.org/abs/2202.11670>
 
 Show that mean-field variational inference fails when network width is large and the activation is odd. In specific, with odd activation and homoscedastic Gaussian likelihood, show that optimal mean-field variational posterior predictive distribution converges to the prior predictive distribution as the width tends to infinity.
+
+### Pre-training helps Bayesian optimization too
+
+<https://www.arxiv.org/abs/2109.08215>
+
+For selecting a prior for Bayesian optimization, consider the senario with data from similar functions to pre-train a tighter distribution a priori. Show a bounded regret of bayesian optimization with pre-trained priors. 

@@ -129,3 +129,9 @@ Show that any target network with inputs in d dimension can be approximated by a
 <https://www.arxiv.org/abs/2202.03289>
 
 Provides an explicit formula fo the approximation error of single hidden layer neural networks with two fixed weights.
+
+### Approximation of Lipscitz Functions using Deep Spline Neural Networks
+
+<https://www.arxiv.org/abs/2204.06233>
+
+For Lipscitz contrained network, ReLU networks have provable disadvantage. Propose learnable spline activation function, and show that this choise is optimal among all component-wise 1-Lipscitz activation functions, in the sense that no other weight constrained architectures can approximate a larger class of functions.

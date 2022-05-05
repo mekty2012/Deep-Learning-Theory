@@ -775,6 +775,24 @@ Show that randomly pruned FCNN's empirical NTK converges to original NTK with so
 
 Develop a new numerical method for solving elliptic type PDEs by adapting the Q-learning, and using NTK approach, prove that the neural network converges, and for monotone PDE, despite the lack of a spectral gap in the NTK, prove that limit NN converges in L2 to the PDE solution.
 
+### Infinite-channel deep stable convolution neural networks
+
+<https://www.arxiv.org/abs/2102.03739>
+
+Consider the problem of removing finite variance of infinite width network in convolutional NNs, show that the limit model is a stochastic process with multivariate stable finite dimensional distributions.
+
+### Convergence of neural networks to Gaussian mixture distribution
+
+<https://www.arxiv.org/abs/2204.12100>
+
+Prove that fully connected deep neural network converge to a Gaussian mixture distribution with only last width goes to infinity.
+
+### Wide and Deep Neural Networks Achieve Optimality for Classification
+
+<https://www.arxiv.org/abs/2204.14126>
+
+Analyze infinitely wide and infinitely deep neural networks, and using the connection to NTK, provide explicit activation functions that are optimal in the sense of misclassification. Create a taxonomy of infinite networks and show that these models implement on of three classifiers depending the activation function, 1) 1-nearest neighbor, 2) majority vote, 3) singular kernel classfiers.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
@@ -867,6 +885,12 @@ Under lazy learning so that episodic policy change can be computed using policy 
 
 First prove that MAML with over parameterized neural network is guaranteed to converge to global optima in linear rate, and show that MAML is equivalent to kernel regression with a class of kernels named MetaNTK. Then propose MetaNTK-NAS which usese MetaNTK to rank and select architectures.
 
+### Generative Adversarial Method Based on Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2204.04090>
+
+Replace discriminator with NTK based GP prediction, and conduct experiments that this approach solve three problems in GAN training, failure on convergence, mode collapse, and vanishing gradient in small data setting.
+
 # Empirical Study
 
 ### Finite versus infinite neural networks: an empirical study
@@ -910,3 +934,9 @@ Show empirically that linear approximations can indeed rank the learning complex
 <https://www.arxiv.org/abs/2203.14577>
 
 Show that due to non-linear characteristics of modern architecture, NTK-based metrics for estimating the performance in NAS is incapable. Instead, propose Label-Gradient Alignment, which is NTK-based metric that capture the non-linear advantage.
+
+### The training response law explains how deep neural networks learn
+
+<https://www.arxiv.org/abs/2204.07291>
+
+Study the learning process with simple supervised learning example, and find that in the training reponse, simple law descrbing NTK. The response is power law like decay multiplied by a simple response kernel, and conduct a simple mean-field dynamical model with given law, explaining how the network learns.

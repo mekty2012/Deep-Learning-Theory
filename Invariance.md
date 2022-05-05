@@ -57,3 +57,9 @@ Develop gradient-based method for selecting the data augmentation. Relies on phr
 <https://www.arxiv.org/abs/2202.12439>
 
 Following the previous approach that marginal likelihood offers a way to learn invariances in GP, propose a weight-space equivalent approach, by minimizing a lower bound on the marginal likelihood to learn invariances.
+
+### Steerable Partial Differential Operators for Equivariant Neural Networks
+
+<https://www.arxiv.org/abs/2106.10163>
+
+Derive G-steerability constraint that completely characterizes partial differential operators is equivariant, and fully solve the constraint for some important groups. Use this solution as equivariant drop-in replacement for convolution layers, and develop a framework for equivariant maps based on Schwartz distributions.

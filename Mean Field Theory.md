@@ -166,3 +166,9 @@ Analyze the closed form learning dynamics of SGD with single layer neural networ
 <https://www.arxiv.org/abs/2008.09623>
 
 Recent works derives asymptotic mean-field limit of shallow neural network, where this work, using dynamical central limit theorem, analyzes the asymptotic fluctuation around the mean limit, which is bounded by Monte-Carlo resampling error.
+
+### Mean-field Analysis of Piecewise Linear Solutions for Wide ReLU Networks
+
+<https://www.arxiv.org/abs/2111.02278>
+
+Under mean-field view with two-layer ReLU network, show that SGD is biased towards a simple solution, i.e., at convergence the number of 'know' points where tangent of ReLU network estimator change, is at most three between two consecutive training input. In particular, as the number of neurons grows, the SGD dynamics is captured by the solution of a gradient flow, and the distribution approaches the unique minimizer of a related free energy having Gibbs form.
