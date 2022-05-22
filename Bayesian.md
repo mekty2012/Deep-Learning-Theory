@@ -64,3 +64,15 @@ Show that mean-field variational inference fails when network width is large and
 <https://www.arxiv.org/abs/2109.08215>
 
 For selecting a prior for Bayesian optimization, consider the senario with data from similar functions to pre-train a tighter distribution a priori. Show a bounded regret of bayesian optimization with pre-trained priors. 
+
+### Depth induces scale-averaging in overparameterized linear Bayesian neural networks
+
+<https://www.arxiv.org/abs/2111.11954>
+
+Interpret finite deep linear Bayesian neural networks as data-dependent scale mixtures of Gaussian process predictors across output channels, and study the representation learning, connecting the limit results in previous studies.
+
+### Exact marginal prior distributions of finite Bayesian neural networks
+
+<https://www.arxiv.org/abs/2104.11734>
+
+Derive the exact solutions for the function space priors for finite fully-connected Bayesian neural networks. Linear activation gives simple expression in terms of the Meijer G-function, and the prior of a finite ReLU network is a mixture of the priors of linear networks of smaller widths.

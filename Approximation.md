@@ -135,3 +135,9 @@ Provides an explicit formula fo the approximation error of single hidden layer n
 <https://www.arxiv.org/abs/2204.06233>
 
 For Lipscitz contrained network, ReLU networks have provable disadvantage. Propose learnable spline activation function, and show that this choise is optimal among all component-wise 1-Lipscitz activation functions, in the sense that no other weight constrained architectures can approximate a larger class of functions.
+
+### Two-layer neural networks with values in a Banach space
+
+<https://www.arxiv.org/abs/2105.02095>
+
+Study two-layer neural network with both domain and ranges are Banach spaces with separable preduals. For the lattice operation of taking positive part, prove the inverse and direct approximation theorems with Monte-Carlo rates. 

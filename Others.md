@@ -905,3 +905,21 @@ Study the implicit bias of SGD to favor low-depth solutions when training deep n
 <https://www.arxiv.org/abs/2204.12589>
 
 Propose self-scalable Tanh activation for PINNs, show that PINNs with Stan have no spurious stationary points when using gradient descent algorithms.
+
+### Sahllow Univariate ReLu Networks as Splines: Initialization, Loss Surface, Hessian, & Gradient Flow Dnamics
+
+<https://www.arxiv.org/abs/2008.01772>
+
+Reparameterize the ReLU NN as continuous piecewise linear spline, and study the learning dynamics of univariate ReLU NN with this spline view. Develop a simple view of the structure of the loss surface including critical, fixed points and Hessian. Also show that standard initialization gives very flat function.
+
+### alpha-GAN: Convergence and Estimation Guarantees
+
+<https://www.arxiv.org/abs/2205.06393>
+
+Prove a two-way correspondence between general CPE loss function GANs and the minimization of associated f-divergence. Show that the Arimoto divergences induced by a alpha-GAN equivalently converge for all alpha, and provide estimation bounds.
+
+### Beyond Folklore: A Scaling Calculus for the Design and Initialization of ReLU Networks
+
+<https://www.arxiv.org/abs/1906.04267>
+
+Propose a system for calculating the scaling constant for layers and weights. Argue that the network is preconditioned by the scaling, an argue that geometric mean of fan-in and fan-out should be used for initialization of the variance of weights.

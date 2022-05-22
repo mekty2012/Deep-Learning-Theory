@@ -195,3 +195,15 @@ Prove a generalization error bound based on statistics of the entire margin dist
 <https://www.arxiv.org/abs/2202.00645>
 
 Assuming some random graph models, derive a non-asymptotic bound on the generalization gap between the empirical loss and statistical loss for NPMM, which decreases to zero as the graphs become larger.
+
+### Haredness of Noise-Free Learning for Two-Hidden-Layer Neural Networks
+
+<https://www.arxiv.org/abs/2202.05258>
+
+Give superpolynomial statistical query lower bound for learning two-hidden-layer ReLU networks w.r.t. Gaussian input noise free model, where no general SQ lower bound were known for ReLU network of any depth, only having only for adversarial noise or restricted models.
+
+### Analyzing Lottery ticket Hypothesis from PAC-Bayesian Theory Perspective
+
+<https://www.arxiv.org/abs/2205.07320>
+
+Hypothesize that the 'winning tickets' have relatively sharp minima, which is a disadvantage in terms of generalization ability, and confirm this hypothesis with PAC-Bayesian theory. Find that the flatness is useful for improving the accuracy and robustness to label noise, and the distance from the initial weights is deeply involved in winning tickets.

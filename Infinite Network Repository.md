@@ -793,6 +793,12 @@ Prove that fully connected deep neural network converge to a Gaussian mixture di
 
 Analyze infinitely wide and infinitely deep neural networks, and using the connection to NTK, provide explicit activation functions that are optimal in the sense of misclassification. Create a taxonomy of infinite networks and show that these models implement on of three classifiers depending the activation function, 1) 1-nearest neighbor, 2) majority vote, 3) singular kernel classfiers.
 
+### Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks
+
+<https://www.arxiv.org/abs/2002.08517>
+
+Derive the infinite width kernel of MLPs with ELU and GELU and evaluate the performance of resulting GP. Analyze the fixed-point dynamics of iterated kernels for these activations, and show that unlike previous kernels, these kernels exhibit non-trivial fixed-point dynamics, which explains a mechanism for implicit regularisation in overparameterised deep models.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping

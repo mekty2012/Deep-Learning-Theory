@@ -256,3 +256,9 @@ Propose an automated approach based on differential testing, tests neural networ
 <https://www.arxiv.org/abs/2106.09117>
 
 Propose a novel operator splitting method that can directly solve a convex relaxation of the optimization problem to high accuracy, by splitting it into smaller sub-problems that often have analytical solutions.
+
+### Individual Fairness Guarantees for Neural Networks
+
+<https://www.arxiv.org/abs/2205.05763>
+
+Using Mixed-Integer Linear Programming to overapproximate the individual fairness verification.

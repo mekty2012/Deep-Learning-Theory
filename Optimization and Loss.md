@@ -243,3 +243,21 @@ First show that gradient flow gives linear rate convergence to global minimum wh
 <https://www.arxiv.org/abs/2203.16462>
 
 Present a new criterion for convergence of gradient descent to a global minimum, which is provably more powerful than the best available criteria from the literature, the Lojasiewicz inequality.
+
+### Eliminating Sharp Minima from SGD with Truncated Heavy-tailed Noise
+
+<https://www.arxiv.org/abs/2102.04297>
+
+Show that the truncated SGD with heavy-tailed noise eliminate sharp local minima from training trajectory. First, the truncation threshold and the width of the attraction field dictate the order of the first exit time from the associated local minimum. Then, under conditions on loss function, as the learning rate decreases, the dynamics of heavy-tailed truncated SGD resemble the continuous-time Markov chain that never visits any sharp minima.
+
+### Gradient Descent Optimizes Infinite-Depth ReLU Implicit Networks with Linear Widths
+
+<https://www.arxiv.org/abs/2205.07463>
+
+Studies the gradient descent of implicit neural network which has infinitely many layers. Study the convergence of both gradient flow and gradient descnet, and prove a global convergence at a linear rate widht linear widths.
+
+### Topological properties of basins of attraction and expressiveness of width bounded neural networks
+
+<https://www.arxiv.org/abs/2011.04923>
+
+Consider the network with width not exceeding the input dimension, and prove that in this situation the basins of attraction are bounded and their complement cannot have bounded components. Also show that with more conditions, the basins are path-connected.
