@@ -261,3 +261,9 @@ Studies the gradient descent of implicit neural network which has infinitely man
 <https://www.arxiv.org/abs/2011.04923>
 
 Consider the network with width not exceeding the input dimension, and prove that in this situation the basins of attraction are bounded and their complement cannot have bounded components. Also show that with more conditions, the basins are path-connected.
+
+### Embedding Principle in Depth for the Loss Landscape Analysis of Deep Neural Networks
+
+<https://www.arxiv.org/abs/2205.13283>
+
+Prove an embedding principle in depth, that loss landscape of an NN contains all critical points of the loss landscape of shallower NNs. Propose a critical lifting operator that lift the critical point of a shallow network to critical manifold of the target network, while preserving the outputs which can change the local minimum to strict saddle point. 

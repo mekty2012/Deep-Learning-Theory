@@ -799,6 +799,25 @@ Analyze infinitely wide and infinitely deep neural networks, and using the conne
 
 Derive the infinite width kernel of MLPs with ELU and GELU and evaluate the performance of resulting GP. Analyze the fixed-point dynamics of iterated kernels for these activations, and show that unlike previous kernels, these kernels exhibit non-trivial fixed-point dynamics, which explains a mechanism for implicit regularisation in overparameterised deep models.
 
+### Memorization and Optimization in Deep Neural Networks with Minimum Over-parameterization
+
+<https://www.arxiv.org/abs/2205.10217>
+
+Show a lower bound on the smallest NTK eigenvalue with the minimum possible over-parameterization with sqrt(N) width, and provide the memorization capacity and the optimization guarantee using this bound.
+
+### A Neural Tangent Kernel Formula for Ensembles of Soft Trees with Arbitrary Architectures
+
+<https://www.arxiv.org/abs/2205.12904>
+
+Formulate and analyze the NTK induced by soft tree ensembles for arbitrary tree architectures, and show that only the number of leaves at each depth is relevant with infinitely many trees.
+Also show that the NTK of asymmetric trees does not degenerate with infinite depth, which is contrast to binary tree.
+
+### Exact Convergence Rates of the Neural Tangent Kenrel in the Large Depth Limit
+
+<https://www.arxiv.org/abs/1905.13654>
+
+Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
+
 # Application
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping

@@ -106,11 +106,6 @@ Define weight expansion which is the signed volume of a parallelotope spanned by
 
 Derive upper bounds on generalization errors for deep NNs with Markov datasets, based on Koltchinskii and Panchenko's approach for bounding the generalization error of combined classifiers. 
 
-### Stability and Generalization Capabilities of Message Passing Graph Neural Networks
-
-<https://www.arxiv.org/abs/2202.00645>
-
-In graph classification where graph is sampled from different random graph model, derive a non-asymptotic bound on the generalization gap between the empirical and statistical loss, which decreases to zero as the graphs become larger. 
 
 ### Algorithm-Dependent Generalization Bounds for Overparameterized Deep Residual Networks
 
@@ -178,11 +173,6 @@ Hamiltonian neural network, which approximates the Hamiltonian with neural netwo
 
 In the teacher-student setup where the student network is trained by data generated from teacher network, show that the dynamics is captured by a set of differential equations, and calculate the generalization error fo student network.
 
-### Constant Time Graph Neural Networks
-
-<https://www.arxiv.org/abs/1901.07868>
-
-GNNs approximate huge graph by sampling the node, and this paper proves whether the query complexity for node sampling is constant time, for different activation, architecture, and forward/backward.
 
 ### Improving Generalization of Deep Neural Networks by Leveraging Margin Distribution
 
@@ -190,11 +180,6 @@ GNNs approximate huge graph by sampling the node, and this paper proves whether 
 
 Prove a generalization error bound based on statistics of the entire margin distribution, instead of using minimum margin. 
 
-### Stability and Generalization Capabilities of Message Passing Graph Neural Networks
-
-<https://www.arxiv.org/abs/2202.00645>
-
-Assuming some random graph models, derive a non-asymptotic bound on the generalization gap between the empirical loss and statistical loss for NPMM, which decreases to zero as the graphs become larger.
 
 ### Haredness of Noise-Free Learning for Two-Hidden-Layer Neural Networks
 
@@ -207,3 +192,27 @@ Give superpolynomial statistical query lower bound for learning two-hidden-layer
 <https://www.arxiv.org/abs/2205.07320>
 
 Hypothesize that the 'winning tickets' have relatively sharp minima, which is a disadvantage in terms of generalization ability, and confirm this hypothesis with PAC-Bayesian theory. Find that the flatness is useful for improving the accuracy and robustness to label noise, and the distance from the initial weights is deeply involved in winning tickets.
+
+### Training ReLU networks to high uniform accuracy is intractable
+
+<https://www.arxiv.org/abs/2205.13531>
+
+Quantify the number of training samples needed for any training algorithm to guarantee a given uniform accuracy on any learning problem of ReLU neural networks. Prove that the minimal number of training samples scales exponentially both in the depth and the input dimension, showing that uniform accuracy is intractable.
+
+### The Interplay Between Implicit Bias of Benign Overfitting in Two-Layer Linear Networks
+
+<https://www.arxiv.org/abs/2108.11489>
+
+Derive bounds on the excess risk when the covariates satisfy sub-Gaussianity and anti-concentration properties with sub-Gaussian, independent noise, with the two layer linear neural network trained with L2 loss, gradient fow. The bound emphasize the role of both the quality of the initialization and the properties of the data covariance matrix.
+
+### Learning to Reason with Neural Networks: Genearlization, Unseen Data and Boolean Measures
+
+<https://www.arxiv.org/abs/2205.13647>
+
+Show that for learning logical functions with GD on symmetric NNs, the generalization error can be lower bounded in terms of the noise-stability of target function. And show for the distribution shift setting, the generalization error of GD admits tight characterization in terms of the Boolean influence.
+
+### Excess Risk of Two-Layer ReLU Neural Networks in Teacher-Student Settings and its Superiority to Kernel Methods
+
+<https://www.arxiv.org/abs/2205.14818>
+
+Consider the excess risk of two-layer ReLU neural networks in a teacher-student regression models, in which a student network learns a unknown teacher network through its outputs. Show that the student network provably reaches a near-global optimal solution and outperforms any kernel methods estimator.

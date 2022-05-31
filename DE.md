@@ -39,3 +39,27 @@ Gives a general framework for implicit bias analysis, allowing a complete charac
 <https://www.arxiv.org/abs/2102.06559>
 
 In approximate inference of continuous depth Bayesian neural networks, the uncertainty of each weights follow a SDE. Demonstrate gradient-based SVI in infinite parameter setting, produces arbitrarily flexible approximate posteriors, and derive gradient estimator approaching zero variance as approximate posterior approaches the true posterior.
+
+### Framing RNN as a kernel method: A neural ODE approach
+
+<https://arxiv.org/abs/2106.01202>
+
+Show that under appropriate conditions, the solution of a RNN can be viewed as a linear function of a specific feature set of the input sequence, known as the signature, framing RNN as a kernel method in a suitable RKHS. Obtain theoretical guarantees on generalization and stability.
+
+### Augmented Neural ODE
+
+<https://proceedings.neurips.cc/paper/2019/file/21be9a4bd4f81549a9d1d241981cec3c-Paper.pdf>
+
+Show that Neural ODEs learn representation preserving the topology of the input space, hence there is function that Neural ODE can not represent. Solve this limitation by Augmented Neural ODE.
+
+### Quantized convolutional neural networks through the lens of partial differential equations
+
+<https://www.arxiv.org/abs/2109.00095>
+
+Explore ways to improved quantized CNNs using PDE-based perspective, harnessing the total variation approach to apply edge-aware smoothing.
+
+### Do Residual Neural Networks discretize Neural Ordinary Differential Equations?
+
+<https://www.arxiv.org/abs/2205.14612>
+
+Quantify the distance between the solution of Neural ODE and ResNet's hidden state. This tight bound shows that it does not go to 0 with large depth if the residual functions are not smooth with depth, but show that this smoothness is preserved by gradient descent for a ResNet with linear residual functions and small enough initial loss. Consider the use of memory-free discrete discrete adjoint method to train a ResNet, and show that this method succeeds ar large depth, and Heun's method allows for better gradient estimation with the adjoint method.

@@ -172,3 +172,9 @@ Recent works derives asymptotic mean-field limit of shallow neural network, wher
 <https://www.arxiv.org/abs/2111.02278>
 
 Under mean-field view with two-layer ReLU network, show that SGD is biased towards a simple solution, i.e., at convergence the number of 'know' points where tangent of ReLU network estimator change, is at most three between two consecutive training input. In particular, as the number of neurons grows, the SGD dynamics is captured by the solution of a gradient flow, and the distribution approaches the unique minimizer of a related free energy having Gibbs form.
+
+### Mean-Field Analysis of Two-Layer Neural Networks: Global Optimality with Linear Convergence Rates
+
+<https://www.arxiv.org/abs/2205.09860>
+
+Consider the two-layer neural network in the mean-field regime, establish a new linear convergence result for two-layer neural networks trained by continuous-time noisy gradient descent, relying on the logarithmic Sobolev inequality.

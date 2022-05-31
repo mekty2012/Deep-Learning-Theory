@@ -52,3 +52,6 @@ Optimal Transport Tool, allowing transport cost computation and transport map co
 
 Constrained gradient descent over Riemannian manifold, like orthogonal matrices or low rank constraint.
 
+### TorchNTK: A Library for Calculation of Neural Tangent Kernels of PyTorch Models
+
+A python library to calculate the empirical NTK of NN models in PyTorch framework. 

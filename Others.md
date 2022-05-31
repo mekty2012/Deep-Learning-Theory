@@ -36,12 +36,6 @@ Explain the reason that resampling outperforms reweighting using tools from dyna
 
 Provide a theoretical justification for the finding that adversarial training shrinks two important characteristics of the logit distribution: the max logit values and the logit gaps are on average lower for AT models. 
 
-### Quantized convolutional neural networks through the lens of partial differential equations
-
-<https://www.arxiv.org/abs/2109.00095>
-
-Explore ways to improved quantized CNNs using PDE-based perspective, harnessing the total variation approach to apply edge-aware smoothing.
-
 ### The emergence of a concept in shallow neural networks
 
 <https://www.arxiv.org/abs/2109.00454>
@@ -65,12 +59,6 @@ Introduce Layer-Peeled Model which is a nonconvex yet analytically tractable opt
 <https://www.arxiv.org/abs/2109.02355>
 
 Provides a succinct overview of this emerging theory of overparameterized ML that explains recent findings through a statistical signal processing perspective.
-
-### Minimal Variance Sampling with Provable Guarantees for Fast Training of Graph Neural Networks
-
-<https://www.arxiv.org/abs/2006.13866>
-
-Theoretically analyze the variance of sampling methods and show that, due to the composite structure of empirical risk, the variance of any sampling method can be decomposed into embedding approximation variance in the forward stage and stochastic gradient variance in the backward stage. Propose a decoupled variance reduction strategy.
 
 ### On the stability properties of Gated Recurrent Units neural networks
 
@@ -372,12 +360,6 @@ Prove that periodic points alone lead to suboptimal depth-width tradeoffs and im
 
 Provide convergence guarantees with rates for deep linear networks for both continuous and discrete dynamics on FA algorithms.
 
-### Analyzing the expressive power of graph neural networks in a spectral perspective
-
-<https://www.researchgate.net/publication/349119879_ANALYZING_THE_EXPRESSIVE_POWER_OF_GRAPH_NEURAL_NETWORKS_IN_A_SPECTRAL_PERSPECTIVE>
-
-By bridging the gap between the spectral and spatial design of graph convolutions, theoretically demonstrate some equivalence of the graph convolution process regardless it is designed in the spatial or the spectral domain.
-
 ### Early Stopping in Deep Networks: Double Descent and How to Eliminate It
 
 <https://arxiv.org/abs/2007.10099>
@@ -443,12 +425,6 @@ Formalize the question of online confidence intervals in the RKHS setting. It is
 <https://arxiv.org/abs/2106.04186>
 
 Explores Benevolent Training Hypothesis, that the complexity of target function can be deduced by training dynamics. Observe that the Lipscitz constant close to the training data affects various aspects of the parameter trajectory, with more complex network having longer trajectory, bigger variance. Show that NNs whose first layer bias is trained more steadily have bounded complexity, and find that steady training with dropout implies a training and data-dependent generalization bound growing poly-logarithmically with the number of parameters. 
-
-### Framing RNN as a kernel method: A neural ODE approach
-
-<https://arxiv.org/abs/2106.01202>
-
-Show that under appropriate conditions, the solution of a RNN can be viewed as a linear function of a specific feature set of the input sequence, known as the signature, framing RNN as a kernel method in a suitable RKHS. Obtain theoretical guarantees on generalization and stability.
 
 ### Collapse of Deep and Narrow Neural Nets
 
@@ -678,12 +654,6 @@ Design a graphical model neurashed, which inherits hierarchically structured, op
 
 Show that commonly used INN architectures suffer from explodinig inverses, and reveal failures including the non-applicability of the change-of-variables formula on in- and OOD data, incorrect gradients, inability to sample from normalizing flow. 
 
-### Asymptotics of l2 Regularized Network Embeddings
-
-<https://www.arxiv.org/abs/2201.01689>
-
-Study effects of regularization on embedding in unsupervised random walk, and prove that under exchangeability assumption on the graphs, it leads to learning a nuclear-norm type penalized graphon. In particular, the exact form of penalty depends on the choice of subsampling method used.
-
 ### The dynamics of representation learning in shallow, non-linear autoencoders
 
 <https://www.arxiv.org/abs/2201.02115>
@@ -701,30 +671,6 @@ Derive condition for the existence of fixed points of nonnegative neural network
 <https://www.arxiv.org/abs/2010.01184>
 
 Covariate shift adaption usually suffer from small effective sample size, which is common in high dimensional setting. Focus on unified view connecting ESS, data dimensionality, and generalization in covariate shift adaption, and demonstrate how dimensionality reduction or feature selection increase the ESS. 
-
-### Weisfeiler and Leman Go Neural: Higher-order Graph Neural Networks
-
-<https://www.arxiv.org/abs/1810.02244>
-
-Relate Graph Neural Network to 1-dimensional Weisfeiler-Leman graph isomorphism heuristics, show that GNNs have the same expressiveness as the 1-WL in terms of distinguishing non-isomorphic graphs, with same shortcomings. Propose a generalization of GNNs so-called k-dimensional GNNs that can take higher-order graph structures.
-
-### How Powerful are Graph Neural Networks?
-
-<https://www.arxiv.org/abs/1810.00826>
-
-Characterize the discriminative power of GNN variants like Graph Convolution Networks or GraphSAGE, and show that they cannot distinguish certain simple graph structures, and develop provably most expressive architecture, which is as powerful as the Weisfeiler-Lehman graph isomorphism test.
-
-### The Surprising Power of Graph Neural Networks with Random Node Initialization
-
-<https://www.arxiv.org/abs/2010.01179>
-
-Analyze the expressive power of GNNs with Random Node Initialization, prove that these models are universal.
-
-### Augmented Neural ODE
-
-<https://proceedings.neurips.cc/paper/2019/file/21be9a4bd4f81549a9d1d241981cec3c-Paper.pdf>
-
-Show that Neural ODEs learn representation preserving the topology of the input space, hence there is function that Neural ODE can not represent. Solve this limitation by Augmented Neural ODE.
 
 ### A mean-field optimal control formulation of deep learning
 
@@ -864,12 +810,6 @@ Propose a new approach named weight pathway analysis, which decomposes a neural 
 
 Study the population loss with its lower bound using influence functions, which connetcs the spectrum of the Hessian at the optimum, and exhibit a double descent behaviour at the interpolation threshold.
 
-### Transferability Properties of Graph Neural Networks
-
-<https://www.arxiv.org/abs/2112.04629>
-
-For the setting of training graph on moderate size and testing on large graphs, use the graph limit of graphons, and define graph filter and graphon filter to formulate graph/graphon convolution neural network. Using this formulation, bound the error of transferring in same graphon. Show that tranference error decreases with graph size, and graph filters have a transferability-discriminiability tradeoff.
-
 ### An error analysis of generative adversarial networks for learning distributions
 
 <https://www.arxiv.org/abs/2105.13010>
@@ -923,3 +863,21 @@ Prove a two-way correspondence between general CPE loss function GANs and the mi
 <https://www.arxiv.org/abs/1906.04267>
 
 Propose a system for calculating the scaling constant for layers and weights. Argue that the network is preconditioned by the scaling, an argue that geometric mean of fan-in and fan-out should be used for initialization of the variance of weights.
+
+### Why GANs are overkill for NLP
+
+<https://www.arxiv.org/abs/2205.09838>
+
+Show that, while it seems that maximizing likelihood is different than minimizing distinguishability criteria, this distinction is artifical and only holds for limited models. And show that minimizing KL-divergence is a more efficient approach to effectively minimizing the same distinguishability.
+
+### The Gaussian equivalence of generative models for learning with shallow neural networks
+
+<https://www.arxiv.org/abs/2006.14709>
+
+Establish rigorous conditions for the Gaussian Equivalence between single layer neural network and Gaussian models, with convergence rate. Use this equivalence to derive a closed set of equations of generalization performance of two-layer neural network trained with SGD or full batch pre-learned feature. 
+
+### Quasi-Equivalence of Width and Depth of Neural Networks
+
+<https://www.arxiv.org/abs/2002.02515>
+
+Formulate two transforms for mapping an arbitrary ReLU network to a wide network and a deep network respectively, for either regression or classification. 

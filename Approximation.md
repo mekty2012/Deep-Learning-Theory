@@ -141,3 +141,9 @@ For Lipscitz contrained network, ReLU networks have provable disadvantage. Propo
 <https://www.arxiv.org/abs/2105.02095>
 
 Study two-layer neural network with both domain and ranges are Banach spaces with separable preduals. For the lattice operation of taking positive part, prove the inverse and direct approximation theorems with Monte-Carlo rates. 
+
+### Near-Minimax Optimal Estimation With Shallow ReLU Neural Networks
+
+<https://www.arxiv.org/abs/2109.08844>
+
+Consider the problem of learning the function in second-order Radon-domain bounded variation space, and derive a minimax lower bound for the estimation problem for this function space, and show that the NN estimators are minimax optimal up to logarithmic factors, which do not depend on the curse of dimensionality.

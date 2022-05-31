@@ -76,3 +76,9 @@ Interpret finite deep linear Bayesian neural networks as data-dependent scale mi
 <https://www.arxiv.org/abs/2104.11734>
 
 Derive the exact solutions for the function space priors for finite fully-connected Bayesian neural networks. Linear activation gives simple expression in terms of the Meijer G-function, and the prior of a finite ReLU network is a mixture of the priors of linear networks of smaller widths.
+
+### How Tempering Fixes Data Augmentation in Bayesian Neural Networks
+
+<https://www.arxiv.org/abs/2205.13900>
+
+Identify two factors influencing the strength of the cold posterior effect, the correlated nature of augmentations and the degree of invariance of the employed model to such transformations. Analyzing simplified setting, prove that tempering implicitly reduces the misspecification arising from modeling augmentations as i.i.d. data, which mimics the role of the effect sample size. 
