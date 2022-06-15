@@ -71,13 +71,7 @@ Show that the output of a CNN with an appropriate prior is a Gaussian Process in
 
 <https://www.arxiv.org/abs/2106.06529>
 
-Decouples capacity and width via the genrealization of neural network to Deep Gaussian Process, aim to understand how width affects standard neural networks once they have sufficient capacity for a given modeling task. 
-
-## The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
-
-<https://www.arxiv.org/abs/2106.04013>
-
-Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in the infinite-depth-and-width limit, with parameters depending on the ratio d/n. Show that ReLU ResNet is hypoactivated, that fewer than half of the ReLUs are activated.
+Decouples capacity and width via the generalization of neural network to Deep Gaussian Process, aim to understand how width affects standard neural networks once they have sufficient capacity for a given modeling task. 
 
 ### Rate of Convergence of Polynomial Networks to Gaussian Processes
 
@@ -175,7 +169,7 @@ The truncated hierarchy can approximate the dynamic of the NTK up to arbitrary p
 
 ### On the neural tangent kernel of deep networks with orthogonal initialization
 
-<https://www.arxiv.org/abs/2004.05867?
+<https://www.arxiv.org/abs/2004.05867>
 
 Study dynamics of ultra-wide networks including FCN, CNN with orthogonal initialization via NTK. 
 Prove that Gaussian weight and orthogonal weight's NTK are equal in infinite width, and both stays constant. 
@@ -186,12 +180,6 @@ It suggests that orthogonal initialization does not speed up training.
 <https://www.arxiv.org/abs/1904.11955>
 
 First efficient exact algorithm for computing the extension of NTK to CNN, as well as an efficient GPU implementation. 
-
-### Finding sparse trainable neural networks through Neural Tangent Transfer
-
-<https://www.arxiv.org/abs/2006.08228>
-
-Introduce Neural Tangent Transfer, a method that finds trainable sparse networks in a label-free manner, that whose training dynamics computed by NTK is similar to dense ones.
 
 ### Beyond Linearization: On Quadratic and Higher-Order Approximation of Wide Neural Networks
 
@@ -224,12 +212,6 @@ Propose an imporved extrapolation of the standard parameterization that yields a
 
 Presents a new class of graph kernel, Graph Neural Tangent Kernels which corerespond to infinitely wide multi-layer GNNs trained by gradient descent.
 GNTKs provably learn a class of smooth functions on graphs.
-
-### Regularization Matters: Generalization and Optimization of Neural Nets v.s. their Induced Kernel
-
-<https://www.arxiv.org/abs/1810.05369>
-
-Sample efficiency depend on the presence of the regularizer, that regularized NN requires O(d) samples but the NTK requires O(d^2) samples. 
 
 ### On the Inductive Bias of Neural Tangent Kernels
 
@@ -268,12 +250,6 @@ Modify the kernel using a new operation called Local Average Pooling, and show t
 
 Prove taht overparameterized neural networks can learn some notable concept classes, and can be done by SGD in polynomial time. Uses a new notion of quadratic approximation of NTK, and connect it to the SGD theory of escaping saddle points.
 
-### Limitations of Lazy Training of Two-layers Neural Networks
-
-<https://www.arxiv.org/abs/1906.08899>
-
-In two-layers neural networks with quadratic activations, (RF) train only last layer (NT) linearized dynamics (NN) full training has unbounded gap of prediction risk.
-
 ### On the Random Conjugate Kernel and Neural Tangent Kernel
 
 <http://proceedings.mlr.press/v139/hu21b.html>
@@ -292,12 +268,6 @@ Study eigenvalue distributions for NN kernels, show that they converges to deter
 
 Given two low-dimensional submanifold of the unit sphere, show that given polynomially many samples w.r.t. depth, the feedforward network can perfectly classify manifolds,
 using NTK in the nonaymptotic analysis of training.
-
-### Why Do Deep Residual Networks Generalize Better than Deep Feedforward Networks? -- A Neural Tangent Kernel Perspective
-
-<https://www.arxiv.org/abs/2002.06262>
-
-Show that training ResNets can be viewed as learning reproducing kernel functions with some kernel function. THen compare the kernel of two networks, and show that the class of functions induced by FFNets is asymptotically not learnable, which does not happens in ResNets.
 
 ### Weighted Neural Tangent Kernel: A Generalized and Improved Network-Induced Kernel
 
@@ -580,7 +550,7 @@ Propose the equivalence between NN and SVM, especially infinite NNs trained by s
 
 <https://arxiv.org/abs/2105.11686>
 
-Empirical works show that input weights of hdiden neurons condense on isolated orientation with a small initialization. 
+Empirical works show that input weights of hidden neurons condense on isolated orientation with a small initialization. 
 
 ### Critical initialization of wide and deep neural networks through partial Jacobians: general theory and applications to LayerNorm
 
@@ -604,7 +574,7 @@ Study the NTK of matrix product states and the convergence, show that NTK of MPS
 
 <https://arxiv.org/abs/2112.03567>
 
-Contribute to the theoretical understanding of square loss in classification by how it performs for overparameterized neural networks int eh NTK regime. When non-separational case, fast convergence rate is established for both misclassification rate and calibration error, and separation case exponentially fast rate. Also prove lower bounded margin.
+Contribute to the theoretical understanding of square loss in classification by how it performs for overparameterized neural networks in the NTK regime. When non-separational case, fast convergence rate is established for both misclassification rate and calibration error, and separation case exponentially fast rate. Also prove lower bounded margin.
 
 ## On Lazy Training in Differentiable Programming
 
@@ -691,12 +661,6 @@ Show that for a large class of kernels including NTK, kernel methods can only pe
 
 Show that the infinite ReLU features obtained by infinite width limit is asymptotically maximally uncertain far away from the data while predictive power is unaffected near the data.
 
-### Neural Tangent Kenrel Beyond the Infinite-Width Limit: Effects of Depth and Initialization
-
-<https://www.arxiv.org/abs/2202.00553>
-
-Study NTK of ReLU NNs with depth comparable to width, proving that the NTK properties depend significantly on the depth-to-width ratio and initialization. This indicate the importance of ordered/chaotic regime and edge of chaos. Show that NTK variability grows exponentially at EOC and chaotic phase, but not in ordered phase. Also show that NTK of deep networks in ordered phase may stay constant during training.
-
 ### Stochastic Neural Networks with Infinite Width are Deterministic
 
 <https://www.arxiv.org/abs/2201.12724>
@@ -714,12 +678,6 @@ Prove that any positive-semidefinite dot-product kernel can be realized as eithe
 <https://www.arxiv.org/abs/2006.13198>
 
 Derive analytical expression for generalization error applicable to any kernel and data distribution, including those arising from infinite neural networks.
-
-### Neural Tangent Kernel Analysis of Deep Narrow Neural Networks
-
-<https://www.arxiv.org/abs/2202.02981>
-
-Study infinite depth limit of MLP with specific initialization, and establish a trainability guarantee with NTK theory.
 
 ### Double-descent curves in neural networks: a new perspective using Gaussian Processes
 
@@ -787,12 +745,6 @@ Consider the problem of removing finite variance of infinite width network in co
 
 Prove that fully connected deep neural network converge to a Gaussian mixture distribution with only last width goes to infinity.
 
-### Wide and Deep Neural Networks Achieve Optimality for Classification
-
-<https://www.arxiv.org/abs/2204.14126>
-
-Analyze infinitely wide and infinitely deep neural networks, and using the connection to NTK, provide explicit activation functions that are optimal in the sense of misclassification. Create a taxonomy of infinite networks and show that these models implement on of three classifiers depending the activation function, 1) 1-nearest neighbor, 2) majority vote, 3) singular kernel classfiers.
-
 ### Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks
 
 <https://www.arxiv.org/abs/2002.08517>
@@ -811,12 +763,6 @@ Show a lower bound on the smallest NTK eigenvalue with the minimum possible over
 
 Formulate and analyze the NTK induced by soft tree ensembles for arbitrary tree architectures, and show that only the number of leaves at each depth is relevant with infinitely many trees.
 Also show that the NTK of asymmetric trees does not degenerate with infinite depth, which is contrast to binary tree.
-
-### Exact Convergence Rates of the Neural Tangent Kernel in the Large Depth Limit
-
-<https://www.arxiv.org/abs/1905.13654>
-
-Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
 
 ### Spectral Bias Outside the Training Set for Deep Networks in the Kernel Regime
 
@@ -837,12 +783,6 @@ Deep Gaussian Process with RBF kernel can be viewed as a deep trigonometric netw
 Characterize the eigenstructure of empirical NTK in the overparameterized regime, which implies that the minimum eigenvalue is bounded away from zero, and therefore the network can exactly interpolate arbitrary labels in the same regime.
 Then characterize the generalization error of ridge regression, prove that the test error is well apprximated by the one of kernel ridge regression with respect to the infinite-width kernel.
 
-### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
-
-<https://www.arxiv.org/abs/2206.02766>
-
-Study the random covariance matrix of logits which is defined by the penultimate layer's activation, in infinite depth-and-width limit to consider the fluctuation accumulated over the layers. Identify the scaling of activation that this do not arrive at trivial limit, and show that this matrix is governed by a SDE named Neural Covariance SDE. 
-
 ### How infinitely Wide Neural Networks Benefit from Multi-task Learning -- an Exact Macroscopic Characterization
 
 <https://www.arxiv.org/abs/2112.15577>
@@ -855,7 +795,58 @@ Prove that optimizing wide ReLU neural networks with at least one hidden layer u
 
 Investigate the effect of normalization on shallow neural network in infinite width limit, show that to learning order in N, there is no bias-variance trade off and they both decreases.
 
+# Infinite Depth
+
+### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
+
+<https://www.arxiv.org/abs/2206.02766>
+
+Study the random covariance matrix of logits which is defined by the penultimate layer's activation, in infinite depth-and-width limit to consider the fluctuation accumulated over the layers. Identify the scaling of activation that this do not arrive at trivial limit, and show that this matrix is governed by a SDE named Neural Covariance SDE. 
+
+## The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization
+
+<https://www.arxiv.org/abs/2106.04013>
+
+Show that the ReLU ResNets exhibits log-Gaussian behaviour at initialization in the infinite-depth-and-width limit, with parameters depending on the ratio d/n. Show that ReLU ResNet is hypoactivated, that fewer than half of the ReLUs are activated.
+
+### Why Do Deep Residual Networks Generalize Better than Deep Feedforward Networks? -- A Neural Tangent Kernel Perspective
+
+<https://www.arxiv.org/abs/2002.06262>
+
+Show that training ResNets can be viewed as learning reproducing kernel functions with some kernel function. THen compare the kernel of two networks, and show that the class of functions induced by FFNets is asymptotically not learnable, which does not happens in ResNets.
+
+### Neural Tangent Kenrel Beyond the Infinite-Width Limit: Effects of Depth and Initialization
+
+<https://www.arxiv.org/abs/2202.00553>
+
+Study NTK of ReLU NNs with depth comparable to width, proving that the NTK properties depend significantly on the depth-to-width ratio and initialization. This indicate the importance of ordered/chaotic regime and edge of chaos. Show that NTK variability grows exponentially at EOC and chaotic phase, but not in ordered phase. Also show that NTK of deep networks in ordered phase may stay constant during training.
+
+### Neural Tangent Kernel Analysis of Deep Narrow Neural Networks
+
+<https://www.arxiv.org/abs/2202.02981>
+
+Study infinite depth limit of MLP with specific initialization, and establish a trainability guarantee with NTK theory.
+
+### Wide and Deep Neural Networks Achieve Optimality for Classification
+
+<https://www.arxiv.org/abs/2204.14126>
+
+Analyze infinitely wide and infinitely deep neural networks, and using the connection to NTK, provide explicit activation functions that are optimal in the sense of misclassification. Create a taxonomy of infinite networks and show that these models implement on of three classifiers depending the activation function, 1) 1-nearest neighbor, 2) majority vote, 3) singular kernel classfiers.
+
+### Exact Convergence Rates of the Neural Tangent Kernel in the Large Depth Limit
+
+<https://www.arxiv.org/abs/1905.13654>
+
+Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
+
+
 # Application
+
+### Finding sparse trainable neural networks through Neural Tangent Transfer
+
+<https://www.arxiv.org/abs/2006.08228>
+
+Introduce Neural Tangent Transfer, a method that finds trainable sparse networks in a label-free manner, that whose training dynamics computed by NTK is similar to dense ones.
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
 

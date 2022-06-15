@@ -240,3 +240,15 @@ Show that for some function set, the test error of the overfitted three-layer NT
 <https://www.arxiv.org/abs/2206.02659>
 
 Develop the Hessian distance-based generalization bounds for a wide range of fine-tuning methods. Design an algorithm that incorporates consistenct losses and distance-based regularization for fine-tuning. Also prove a generalization error bound of algorithm under class conditional independent noise in the training dataset labels.
+
+### Regularization Matters: Generalization and Optimization of Neural Nets v.s. their Induced Kernel
+
+<https://www.arxiv.org/abs/1810.05369>
+
+Sample efficiency depend on the presence of the regularizer, that regularized NN requires O(d) samples but the NTK requires O(d^2) samples. 
+
+### Limitations of Lazy Training of Two-layers Neural Networks
+
+<https://www.arxiv.org/abs/1906.08899>
+
+In two-layers neural networks with quadratic activations, (RF) train only last layer (NT) linearized dynamics (NN) full training has unbounded gap of prediction risk.
