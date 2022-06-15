@@ -216,3 +216,27 @@ Show that for learning logical functions with GD on symmetric NNs, the generaliz
 <https://www.arxiv.org/abs/2205.14818>
 
 Consider the excess risk of two-layer ReLU neural networks in a teacher-student regression models, in which a student network learns a unknown teacher network through its outputs. Show that the student network provably reaches a near-global optimal solution and outperforms any kernel methods estimator.
+
+### A general approximation lower bound in Lp norm, with applications to feed-forward neural networks
+
+<https://www.arxiv.org/abs/2206.04360>
+
+Prove a general lower bound on how well function set F can be approximated in Lp norm by another function set G, in terms of packing number, range of F and the fat-shattering dimnesion of G. Instantiate this bound to the case when G is piecewise-polynomial feed-forward neural network.
+
+### Trajectory-dependent Generalization Bounds for Deep Neural Networks via Fractional Brownian Motion
+
+<https://www.arxiv.org/abs/2206.04359>
+
+Characterize the SGD recursion via a SDE by assuming the incurred stochastic gradient noise follows the fractional Brownian motion. Then identify the Rademacher complexity in terms of the covering numbers and relate it to Hausdorff dimension of the optimization trajectory, and derive a novel generalization bound for deep neural network.
+
+### On the Generalization Power of the Overfitted Three-Layer Neural Tangent Kernel Model
+
+<https://www.arxiv.org/abs/2206.02047>
+
+Show that for some function set, the test error of the overfitted three-layer NTK is upper bounded by an expression that decreases with the number of neurons of the two hidden layers. 
+
+### Robust Fine-Tuning of Deep Neural Networks with Hessian-based Generalization Guarantees
+
+<https://www.arxiv.org/abs/2206.02659>
+
+Develop the Hessian distance-based generalization bounds for a wide range of fine-tuning methods. Design an algorithm that incorporates consistenct losses and distance-based regularization for fine-tuning. Also prove a generalization error bound of algorithm under class conditional independent noise in the training dataset labels.

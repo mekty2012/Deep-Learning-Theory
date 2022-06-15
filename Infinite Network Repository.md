@@ -812,11 +812,48 @@ Show a lower bound on the smallest NTK eigenvalue with the minimum possible over
 Formulate and analyze the NTK induced by soft tree ensembles for arbitrary tree architectures, and show that only the number of leaves at each depth is relevant with infinitely many trees.
 Also show that the NTK of asymmetric trees does not degenerate with infinite depth, which is contrast to binary tree.
 
-### Exact Convergence Rates of the Neural Tangent Kenrel in the Large Depth Limit
+### Exact Convergence Rates of the Neural Tangent Kernel in the Large Depth Limit
 
 <https://www.arxiv.org/abs/1905.13654>
 
 Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
+
+### Spectral Bias Outside the Training Set for Deep Networks in the Kernel Regime
+
+<https://www.arxiv.org/abs/2206.02927>
+
+Provide quantitative bounds measuring the L2 distance in function space between the trajectory of a finite-width network from the idealized kernel dynamics of infinite width and data. The bound imply that the network is biased to learn the top eigenfunctions of the NTK no just on the training set but over the entire input space.
+
+### On Connecting Deep Trigonometric Networks with Deep Gaussian Processes: Covariance, Expressivity, and Neural Tangent Kernel
+
+<https://www.arxiv.org/abs/2203.07411>
+
+Deep Gaussian Process with RBF kernel can be viewed as a deep trigonometric network with random feature layers and sine/cosine activation. In the wide limit with a bottleneck, show that the weight space view yield same effective covariance functions. Using this, DGPs ca be translated to deep trigonometric network which allows flexible and expressive prior distributions, and we can study DGP's neural tangent kernel.
+
+### The Interpolation Phase Transition in Neural Networks: Memorization and Generalization under Lazy Training
+
+<https://www.arxiv.org/abs/2007.12826>
+
+Characterize the eigenstructure of empirical NTK in the overparameterized regime, which implies that the minimum eigenvalue is bounded away from zero, and therefore the network can exactly interpolate arbitrary labels in the same regime.
+Then characterize the generalization error of ridge regression, prove that the test error is well apprximated by the one of kernel ridge regression with respect to the infinite-width kernel.
+
+### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
+
+<https://www.arxiv.org/abs/2206.02766>
+
+Study the random covariance matrix of logits which is defined by the penultimate layer's activation, in infinite depth-and-width limit to consider the fluctuation accumulated over the layers. Identify the scaling of activation that this do not arrive at trivial limit, and show that this matrix is governed by a SDE named Neural Covariance SDE. 
+
+### How infinitely Wide Neural Networks Benefit from Multi-task Learning -- an Exact Macroscopic Characterization
+
+<https://www.arxiv.org/abs/2112.15577>
+
+Prove that optimizing wide ReLU neural networks with at least one hidden layer using L2-regularization on the paramters enforces multi-task learning due to representaion-learning, even in the limiting regime.
+
+### Normalization effects on shallow neural networks and related asymptotic expansions
+
+<https://arxiv.org/abs/2011.10487>
+
+Investigate the effect of normalization on shallow neural network in infinite width limit, show that to learning order in N, there is no bias-variance trade off and they both decreases.
 
 # Application
 

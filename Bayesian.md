@@ -82,3 +82,9 @@ Derive the exact solutions for the function space priors for finite fully-connec
 <https://www.arxiv.org/abs/2205.13900>
 
 Identify two factors influencing the strength of the cold posterior effect, the correlated nature of augmentations and the degree of invariance of the employed model to such transformations. Analyzing simplified setting, prove that tempering implicitly reduces the misspecification arising from modeling augmentations as i.i.d. data, which mimics the role of the effect sample size. 
+
+### Asymptotic Properties for Bayesian Neural Network in Besov Space
+
+<https://arxiv.org/abs/2206.00241>
+
+Show that the BNN using spike-and-slab prior has consistency with nearly minimax cnovergence rate when the true function is in the Besov space.

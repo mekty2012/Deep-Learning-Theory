@@ -267,3 +267,53 @@ Consider the network with width not exceeding the input dimension, and prove tha
 <https://www.arxiv.org/abs/2205.13283>
 
 Prove an embedding principle in depth, that loss landscape of an NN contains all critical points of the loss landscape of shallower NNs. Propose a critical lifting operator that lift the critical point of a shallow network to critical manifold of the target network, while preserving the outputs which can change the local minimum to strict saddle point. 
+
+### Principal Components Bias in Over-parameterized Linear Models, and its Manifestation in Deep Neural Networks
+
+<https://www.arxiv.org/abs/2105.05553>
+
+Analyze the over-parameterized deep linear neural network, show that in wide enough hidden layers, the convergence rate of parameters is exponentially faster along the directions of the larger principal components of the data, nameing Principal Component bias. 
+
+### Training Two-Layer ReLU Networks with Gradient Descent is Inconsistent
+
+<https://www.arxiv.org/abs/2002.04861>
+
+Show that the training of two-layer ReLU network with gradient descent on a least-squares loss are not consistent, that they only finds a bad local minimum, since it is unable to move the biases far away from their initialization. And in these cases, the network essentially performs linear regression even if the target is nonlinear.
+
+### On Gradient Descent Convergence beyond the Edge of Stability
+
+<https://www.arxiv.org/abs/2206.04172>
+
+Study a local condition for an unstable convergence where the step-size is larger than the admissibility threshold, and establish the global convergence of a two-layer single-neuron ReLU student network aligning with the teacher neuron in a large learning rate.
+
+### The Convergence Rate of Neural Networks for Learned Functions of Different Frequencies
+
+<https://www.arxiv.org/abs/1906.00425>
+
+Study relationship between the frequency of a function and the speed at which a neural network learns it.
+Approximate by linear system, and compute eigenfunction which is spherical harmonic functions.
+Empirically, theoretically, shallow NN without bias can't learn simple low frequency functions with odd frequencies.
+
+### Understanding How Over-Parameterization Leads to Acceleration: A case of learning a single teacher neuron
+
+<https://arxiv.org/abs/2010.01637>
+
+In the setting with single teacher neuron with quadratic activation and over parametrization realized by having multiple student neurons, provably show that over-parameterization helps the gradient descent iteration enter the neighborhood of a global optimal solution.
+
+### Towards Statistical and Computational Complexities of Polyak Step Size Gradient Descent
+
+<https://arxiv.org/abs/2110.07810>
+
+Demonstrate that the Polyak step size gradient descent iterates reach a final statistical radius of convergence around the true parameter after logarithmic number of iterations.
+
+### Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs
+
+<https://arxiv.org/abs/2206.00939>
+
+Give precise description of the gradient flow dynamics of one-hidden-layer ReLU nets with the mean squared error, and show that it converges to zero loss with the implicit bias towards minimum variation norm.
+
+### Feature Learning in L2-regularized DNNs: Attraction/Repulsion and Sparsity
+
+<https://arxiv.org/abs/2205.15809>
+
+Consider the loss surface of DNN with L2-regularization, and show that the loss in terms of the parameters can be reformulated in terms of layerwise activations. So each hidden representations are optimal w.r.t. attraction/repulsion problem and interpolate between the input and output representations, keeping as little information from the input as necessary.

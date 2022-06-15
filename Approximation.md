@@ -147,3 +147,21 @@ Study two-layer neural network with both domain and ranges are Banach spaces wit
 <https://www.arxiv.org/abs/2109.08844>
 
 Consider the problem of learning the function in second-order Radon-domain bounded variation space, and derive a minimax lower bound for the estimation problem for this function space, and show that the NN estimators are minimax optimal up to logarithmic factors, which do not depend on the curse of dimensionality.
+
+### On the capacity of deep generative networks for approximating distributions
+
+<https://arxiv.org/abs/2101.12353>
+
+Prove that neural networks can transform a low-dimensional source distribution to a distribution that is arbitrarily close to a high-dimensional target distribution, when the closeness are measured by Wasserstein distances and maximum mean discrepancy. 
+
+### Convolutional Rectifier Networks as Generalized Tensor Decompositions
+
+<https://www.arxiv.org/abs/1603.00162>
+
+Describe a construction based on generalized tensor decompositions that transforms convolutional arithmetic circuits into convolutional rectifier networks, then use tools from the world of arithmetic circuits. Show that convolutional rectifier networks are universal with max pooling but not with average pooling. Also show that depth efficiency is weaker with convolutional rectifier networks than convolutional arithmetic circuits.
+
+### Deep neural networks can stably solve high-dimensional, noisy, non-linear inverse problems
+
+<https://arxiv.org/abs/2206.00934>
+
+Show that there exists a neural network that is robust to noise approximation of the finite-dimensional operator with Lipscitz-continuous inverse.

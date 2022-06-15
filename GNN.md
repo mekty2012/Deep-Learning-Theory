@@ -69,3 +69,27 @@ Despite the previous result on limitation of expressivity of GNN by WL algorithm
 <https://www.arxiv.org/abs/2202.00645>
 
 Show that when training a MPNN on a dataset from random graph models, the generalization gap increases in the complexity of the MPNN, and decreases by the number of samples and average number of nodes. 
+
+### Graph Neural Network Sensitivity Under Probabilistic Error Model
+
+<https://www.arxiv.org/abs/2203.07831>
+
+Study the effect of a probabilistic graph error model on the performance of GCNs. Prove that the adjacency matrix under the error model is bounded by a function of graph size and error probability.
+
+### Implicit Bias of Linear Equivariant Networks
+
+<https://arxiv.org/abs/2110.06084>
+
+Show that L layer full width linear GCNNs trained via gradient descent in a binary classification task converge to solutions with low-rank Fourier matrix coefficients, regularized by the 2/L-Schatten matrix norm. This generalizes previous analysis on the implicit bias of linear CNNs to linear GCNNs over all finite groups, including the challenging setting of non-commutative symmetry groups.
+
+### We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification
+
+<https://arxiv.org/abs/2206.05070>
+
+Show that the graph classifier verification is undecidable, however the node classification is verifiable when degree of graph is restricted.
+
+### Lower and Upper Bounds for Numbers of Linear Regions of Graph Convolutional Networks
+
+<https://arxiv.org/abs/2206.00228>
+
+Present the estimates for the number of linear regions of the GCNs, particularlay the optimal upper bound for one-layer GCN and both bounds for multi-layer case, where multi-layer has exponentially many regions than one-layer.

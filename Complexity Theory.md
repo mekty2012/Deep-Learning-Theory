@@ -21,3 +21,9 @@ Show that complexity of finding weight with total error below the threshold is e
 <https://www.arxiv.org/abs/2204.01368>
 
 Show that empirical risk minimization is exists R-complete, even with two output neurons, two input neuron, only 13 different labels, hidden neuron is a constant fraction of the number of data point, and ReLU activation. Generalize the previous work.
+
+### Learning (Very) Simple Generative Models Is Hard
+
+<https://arxiv.org/abs/2205.16003>
+
+For the distribution given by pushing standard Gaussian with unknown distribution, show that no polynomial-time algorithm can solve this learning problem.

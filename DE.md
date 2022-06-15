@@ -63,3 +63,9 @@ Explore ways to improved quantized CNNs using PDE-based perspective, harnessing 
 <https://www.arxiv.org/abs/2205.14612>
 
 Quantify the distance between the solution of Neural ODE and ResNet's hidden state. This tight bound shows that it does not go to 0 with large depth if the residual functions are not smooth with depth, but show that this smoothness is preserved by gradient descent for a ResNet with linear residual functions and small enough initial loss. Consider the use of memory-free discrete discrete adjoint method to train a ResNet, and show that this method succeeds ar large depth, and Heun's method allows for better gradient estimation with the adjoint method.
+
+### High-dimensional limit theorems for SGD: Effective dynamics and critical scaling
+
+<https://www.arxiv.org/abs/2206.04030>
+
+Prove the limit theorems for the trajectories of summary statistics of SGD as the dimension goes to infinity, which ields both ballistic (ODE) and diffusive (SDE) limits, depending on the initialization and step size. Find a critical scaling regime for the step size, below gives ballistic and above gives diffusive diagrams. Demonstrate on classification via two-layer NN.
