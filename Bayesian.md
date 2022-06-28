@@ -88,3 +88,9 @@ Identify two factors influencing the strength of the cold posterior effect, the 
 <https://arxiv.org/abs/2206.00241>
 
 Show that the BNN using spike-and-slab prior has consistency with nearly minimax cnovergence rate when the true function is in the Besov space.
+
+### Wide Bayesian neural networks have a simple weight posterior: theory and accelerated sampling
+
+<https://arxiv.org/abs/2206.07673>
+
+Introduce repriorisation, which transform the BNN posterior to a distribution whose KL divergence to the BNN prior vanishes as layer widths grow. This analytic simplicity complements the NNGP behaviour, and using this repriorisation, implement MCMC posterior sampling algorithm which mixes faster the wider the BNN is, and is effective in high dimensions.

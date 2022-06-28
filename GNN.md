@@ -93,3 +93,9 @@ Show that the graph classifier verification is undecidable, however the node cla
 <https://arxiv.org/abs/2206.00228>
 
 Present the estimates for the number of linear regions of the GCNs, particularlay the optimal upper bound for one-layer GCN and both bounds for multi-layer case, where multi-layer has exponentially many regions than one-layer.
+
+### How does Heterophily Impact Robustness of Graph Neural Networks? Theoretical Connections and Practical Implications
+
+<https://www.arxiv.org/abs/2106.07767>
+
+Show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degree.

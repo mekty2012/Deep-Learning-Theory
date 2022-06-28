@@ -317,3 +317,21 @@ Give precise description of the gradient flow dynamics of one-hidden-layer ReLU 
 <https://arxiv.org/abs/2205.15809>
 
 Consider the loss surface of DNN with L2-regularization, and show that the loss in terms of the parameters can be reformulated in terms of layerwise activations. So each hidden representations are optimal w.r.t. attraction/repulsion problem and interpolate between the input and output representations, keeping as little information from the input as necessary.
+
+### Support Vectors and Gradient Dynamics of Single-Neuron ReLU Networks
+
+<https://www.arxiv.org/abs/2202.05510>
+
+Examine the gradient flow dynamics in the parameter space when training snigle-neuron ReLU networks, and discover an implicit bias in terms of support vectors. Analyze this gradient flow w.r.t. the magnitude of the norm of initialization, and show that the norm of learned weights strictly increase. Finally prove the global convergence of single ReLU neuron with d=2.
+
+### Convergence of Policy Gradient for Entropy Regularized MDPs with Neural Network Approximation in the Mean-Field Regime
+
+<https://arxiv.org/abs/2201.07296>
+
+Show that the softmax policy with shallow NN in a mean-field regime, with infinite-horizon, continuous state and action space, and entropy-regularized MDPs, the objective function increases along the gradient flow. Further, prove that is the regularization is sufficient, the gradient flow converges exponentially fast to the unique stationary solution.
+
+### Neural Network Weights Do Not Converge to Stationary Points: An Invariant Measure Perspective
+
+<https://arxiv.org/abs/2110.06256>
+
+Find that the weight of NN do not converge to a stationary points even when the loss stabilizes. Propose a new perspective based on ergodic theory of dynamical system, and study the distribution of weight's dynamics, which converges to an approximate invariant measure.

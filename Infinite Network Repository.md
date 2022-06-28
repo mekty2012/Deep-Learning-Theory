@@ -85,6 +85,48 @@ Demonstrate that the rate of convergence in 2-Wasserstein metric is O(sqrt(n)), 
 
 Consider the DNNs trained with noisy gradient descent on a large training set and derive a self consistent Gaussian Process theory accounting for strong finite-DNN and feature learning effects. 
 
+### Deep Stable neural networks: large-width asymptotics and convergence rates
+
+<https://arxiv.org/abs/2108.02316>
+
+Show the deep stable neural network's weak convergence to stable stochastic process, with sup-norm convergence rate for joint growth and sequential growth. Show that joint growth leads to a slower rate than the sequential growth.
+
+### On Connecting Deep Trigonometric Networks with Deep Gaussian Processes: Covariance, Expressivity, and Neural Tangent Kernel
+
+<https://www.arxiv.org/abs/2203.07411>
+
+Deep Gaussian Process with RBF kernel can be viewed as a deep trigonometric network with random feature layers and sine/cosine activation. In the wide limit with a bottleneck, show that the weight space view yield same effective covariance functions. Using this, DGPs ca be translated to deep trigonometric network which allows flexible and expressive prior distributions, and we can study DGP's neural tangent kernel.
+
+### Normalization effects on shallow neural networks and related asymptotic expansions
+
+<https://arxiv.org/abs/2011.10487>
+
+Investigate the effect of normalization on shallow neural network in infinite width limit, show that to learning order in N, there is no bias-variance trade off and they both decreases.
+
+### Infinite-channel deep stable convolution neural networks
+
+<https://www.arxiv.org/abs/2102.03739>
+
+Consider the problem of removing finite variance of infinite width network in convolutional NNs, show that the limit model is a stochastic process with multivariate stable finite dimensional distributions.
+
+### Convergence of neural networks to Gaussian mixture distribution
+
+<https://www.arxiv.org/abs/2204.12100>
+
+Prove that fully connected deep neural network converge to a Gaussian mixture distribution with only last width goes to infinity.
+
+### Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks
+
+<https://www.arxiv.org/abs/2002.08517>
+
+Derive the infinite width kernel of MLPs with ELU and GELU and evaluate the performance of resulting GP. Analyze the fixed-point dynamics of iterated kernels for these activations, and show that unlike previous kernels, these kernels exhibit non-trivial fixed-point dynamics, which explains a mechanism for implicit regularisation in overparameterised deep models.
+
+### Quantitative Gaussian Approximation of Randomly Initialized Deep Neural Networks
+
+<https://www.arxiv.org/abs/2203.07379>
+
+Derive the upper bound of the quadratic Wasserstein distance between randomly initialized neural network's output distribution and suitable Gaussian Process.
+
 # NTK theory
 
 ### Neural tangent kernel: convergence and generalization in neural networks
@@ -709,12 +751,6 @@ Show that constancy of tangent kernel depends on infinity norm and l2 norm, whic
 
 Provide a new perspective that the transition to lienarity is property of assembly model, where neural network can viewed as assembly model recursively build from sub-models, which is neurons of former layers.
 
-### Quantitative Gaussian Approximation of Randomly Initialized Deep Neural Networks
-
-<https://www.arxiv.org/abs/2203.07379>
-
-Derive the upper bound of the quadratic Wasserstein distance between randomly initialized neural network's output distribution and suitable Gaussian Process.
-
 ### On the Spectral Bias of Convolutional Neural Tangent and Gaussian Process Kernels
 
 <https://www.arxiv.org/abs/2203.09255>
@@ -732,24 +768,6 @@ Show that randomly pruned FCNN's empirical NTK converges to original NTK with so
 <https://www.arxiv.org/abs/2203.17128>
 
 Develop a new numerical method for solving elliptic type PDEs by adapting the Q-learning, and using NTK approach, prove that the neural network converges, and for monotone PDE, despite the lack of a spectral gap in the NTK, prove that limit NN converges in L2 to the PDE solution.
-
-### Infinite-channel deep stable convolution neural networks
-
-<https://www.arxiv.org/abs/2102.03739>
-
-Consider the problem of removing finite variance of infinite width network in convolutional NNs, show that the limit model is a stochastic process with multivariate stable finite dimensional distributions.
-
-### Convergence of neural networks to Gaussian mixture distribution
-
-<https://www.arxiv.org/abs/2204.12100>
-
-Prove that fully connected deep neural network converge to a Gaussian mixture distribution with only last width goes to infinity.
-
-### Avoiding Kernel Fixed Points: Computing with ELU and GELU Infinite Networks
-
-<https://www.arxiv.org/abs/2002.08517>
-
-Derive the infinite width kernel of MLPs with ELU and GELU and evaluate the performance of resulting GP. Analyze the fixed-point dynamics of iterated kernels for these activations, and show that unlike previous kernels, these kernels exhibit non-trivial fixed-point dynamics, which explains a mechanism for implicit regularisation in overparameterised deep models.
 
 ### Memorization and Optimization in Deep Neural Networks with Minimum Over-parameterization
 
@@ -770,12 +788,6 @@ Also show that the NTK of asymmetric trees does not degenerate with infinite dep
 
 Provide quantitative bounds measuring the L2 distance in function space between the trajectory of a finite-width network from the idealized kernel dynamics of infinite width and data. The bound imply that the network is biased to learn the top eigenfunctions of the NTK no just on the training set but over the entire input space.
 
-### On Connecting Deep Trigonometric Networks with Deep Gaussian Processes: Covariance, Expressivity, and Neural Tangent Kernel
-
-<https://www.arxiv.org/abs/2203.07411>
-
-Deep Gaussian Process with RBF kernel can be viewed as a deep trigonometric network with random feature layers and sine/cosine activation. In the wide limit with a bottleneck, show that the weight space view yield same effective covariance functions. Using this, DGPs ca be translated to deep trigonometric network which allows flexible and expressive prior distributions, and we can study DGP's neural tangent kernel.
-
 ### The Interpolation Phase Transition in Neural Networks: Memorization and Generalization under Lazy Training
 
 <https://www.arxiv.org/abs/2007.12826>
@@ -788,12 +800,6 @@ Then characterize the generalization error of ridge regression, prove that the t
 <https://www.arxiv.org/abs/2112.15577>
 
 Prove that optimizing wide ReLU neural networks with at least one hidden layer using L2-regularization on the paramters enforces multi-task learning due to representaion-learning, even in the limiting regime.
-
-### Normalization effects on shallow neural networks and related asymptotic expansions
-
-<https://arxiv.org/abs/2011.10487>
-
-Investigate the effect of normalization on shallow neural network in infinite width limit, show that to learning order in N, there is no bias-variance trade off and they both decreases.
 
 # Infinite Depth
 
@@ -839,6 +845,11 @@ Analyze infinitely wide and infinitely deep neural networks, and using the conne
 
 Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
 
+### Neural tangent kenrel analysis of shallow alpha-Stable ReLU neural networks
+
+<https://arxiv.org/abs/2206.08065>
+
+Consider the NTK of alpha-stable NNs, showing that their training is equivalent to a kernel regression with an alpha/2-stable random kernel.
 
 # Application
 

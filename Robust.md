@@ -39,3 +39,9 @@ Prove a quantitative trade-off between spatial and adversarial robustness in a s
 <https://arxiv.org/abs/2012.12896>
 
 Provide a formal framework connecting the robustness of a network to the alignments between its architecture and target functions. Hypothesize that a network is more robust to noisy labels if its architecture is more aligned with the target function than the noise.
+
+### Adversarial Noises Are Linearly Separable for (Nearly) Random Neural Networks
+
+<https://www.arxiv.org/abs/2206.04316>
+
+Prove that the adversarial noises crafted by one-step gradient methods are linearly separable, for a two-layer network. The proof idea is to show that the label infromation can be efficiently propagated to the input while keeping the linear separability.

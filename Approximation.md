@@ -165,3 +165,9 @@ Describe a construction based on generalized tensor decompositions that transfor
 <https://arxiv.org/abs/2206.00934>
 
 Show that there exists a neural network that is robust to noise approximation of the finite-dimensional operator with Lipscitz-continuous inverse.
+
+### Approximation in shift-invariant spaces with deep ReLU neural networks
+
+<https://arxiv.org/abs/2005.11949>
+
+Study the expressive power of deep ReLU NNs for approximating functions in dilated shift-invariant spaces, with approximate error bounds w.r.t. width and depth, for the Sobolev spaces and Besov spaces. Also give lower bounds of the Lp approximation error for Sobolev spaces.

@@ -155,12 +155,6 @@ Propose continuum limit of Deep ResNet as ODE where depth tends to infinity, who
 
 Extends the mean field theory for DNNs, and show that heavy-tailed weights enable the emergence of an extended critical regime without fine-tuning of parameters. In this extended critical regime, DNNs exhibit rich and complex propagation dynamics.
 
-### Dynamical mean-field theory for stochastic gradient descent in Gaussian mixture classification
-
-<https://www.arxiv.org/abs/2006.06098>
-
-Analyze the closed form learning dynamics of SGD with single layer neural network, classifying high-dimensional Gaussian mixture. Apply dynamical mean field theory to track the SGD dynamics in the high dimensional limit.
-
 ### A Dynamical Central Limit Theorem for Shallow Neural Networks
 
 <https://www.arxiv.org/abs/2008.09623>
@@ -178,3 +172,9 @@ Under mean-field view with two-layer ReLU network, show that SGD is biased towar
 <https://www.arxiv.org/abs/2205.09860>
 
 Consider the two-layer neural network in the mean-field regime, establish a new linear convergence result for two-layer neural networks trained by continuous-time noisy gradient descent, relying on the logarithmic Sobolev inequality.
+
+### Unified field theoretical approach to deep and recurrent neuronal networks
+
+<https://arxiv.org/abs/2112.05589>
+
+Present a unified and systematic derivation of the mean-field theory by statistical physics. This theory elucidates that while the mean-field equations are different with their temporal structure, yet yield identical Gaussian kernels. Find that convergence towards the mean-field thoery is slower for recurrent networks than deep networks.

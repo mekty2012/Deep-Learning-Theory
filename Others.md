@@ -712,8 +712,50 @@ Establish rigorous conditions for the Gaussian Equivalence between single layer 
 
 Formulate two transforms for mapping an arbitrary ReLU network to a wide network and a deep network respectively, for either regression or classification. 
 
-### Adversarial Noises Are Linearly Separable for (Nearly) Random Neural Networks
+### Rank Diminishing in Deep Neural Networks
 
-<https://www.arxiv.org/abs/2206.04316>
+<https://www.arxiv.org/abs/2206.06072>
 
-Prove that the adversarial noises crafted by one-step gradient methods are linearly separable, for a two-layer network. The proof idea is to show that the label infromation can be efficiently propagated to the input while keeping the linear separability.
+Show that the rank of network monotonically decrease w.r.t. the depth. Also provide the empirical analysis of per-layer bahviour of network rank on ResNet and MLP, Transformers.
+
+### A Theoretical Understanding of Neural Network Compression from Sparse Linear Approximation
+
+<https://www.arxiv.org/abs/2206.05604>
+
+Propose to use sparsity-sensitive lq-norm with 0 < q < 1 to characterize the compressibility and provide a relationship between soft sparsity of the weights and the degree of compression with a controlled accuracy degradation bound.
+
+### SGD Noise and Implicit Low-Rank Bias in Deep Neural Networks
+
+<https://www.arxiv.org/abs/2206.05794>
+
+Prove that when training with weight decay, the only solutions of SGD at convergence are zero functions. Also show that when training with a neural network using SGD with weight decay and small batch size, the resulting weight matrices are expected to be of small rank.
+
+### Local Identifiability of Deep ReLU Neural Networks: the Theory
+
+<https://www.arxiv.org/abs/2206.07424>
+
+Introduce a local parameterization of a deep ReLU NN by fixing the values of some of its weights, which define local lifting operator whose inverses are charts of a smooth manifold of a high dimensional space. The function implemented by the deep ReLU NN composes the local lifting with a linear operator which depends on the sample. Using this representation, derive a necessary and sufficient condition of local identifiability.
+
+### The Role of Depth, Width, and Activation Complexity in the Number of Linear Regions of Neural Networks
+
+<https://arxiv.org/abs/2206.08615>
+
+Provide a precise bounds on the maximal number of linear regions of piecewise-linear networks based on depth, width, and activation complexity. Based on combinatorial structure of convex partition, show that the number of regions increase exponentially w.r.t. depth. Also show that along 1D path, the expected density is bounded by the product of depth, width, and a measure of activation complexity, showing the identical role for all three sources.
+
+### Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks
+
+<https://arxiv.org/abs/2201.11729>
+
+Theoretically analyze the implicit regularization in hierarchical tensor factorization which is a model equivalent to certain deep CNNs, and establish implicit regularization towards low hierarchical tensor rank. This translates to an implicit regularization towards locality for the associated convolutional networks.
+
+### Information Geometry of Dropout Training
+
+<https://arxiv.org/abs/2206.10936>
+
+Show that the dropout flattens the model manifold, and the regularization performance depends on the curvature. Then show that the dropout corresponds to a regularization that depends on the Fisher information.
+
+### Diagnoosing and Fixing Manifold Overfitting in Deep Generative Models
+
+<https://arxiv.org/abs/2204.07172>
+
+Investigate the pathology of maximum likelihood training with dimensionality mismatch, and prove that degenerate optima are achieved where the manifold itself is learned, but not the distribution on it. Propose a two-step procedure of dimensionality reduction and maximum-likelihood density estimation, and prove that this procedure recover the data-generating distribution in the nonparameteric regime.

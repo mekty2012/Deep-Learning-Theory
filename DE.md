@@ -69,3 +69,9 @@ Quantify the distance between the solution of Neural ODE and ResNet's hidden sta
 <https://www.arxiv.org/abs/2206.04030>
 
 Prove the limit theorems for the trajectories of summary statistics of SGD as the dimension goes to infinity, which ields both ballistic (ODE) and diffusive (SDE) limits, depending on the initialization and step size. Find a critical scaling regime for the step size, below gives ballistic and above gives diffusive diagrams. Demonstrate on classification via two-layer NN.
+
+### Scaling ResNets in the Large-depth Regime
+
+<https://www.arxiv.org/abs/2206.06929>
+
+Show that with standard initialization, the only nontrivial dynamics is given by aL = 1/sqrt(L), where other choices lead to exploration or identity mapping. This corresponds to continuous-time limit to a neural stochastic differential equation.

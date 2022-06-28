@@ -63,3 +63,9 @@ Following the previous approach that marginal likelihood offers a way to learn i
 <https://www.arxiv.org/abs/2106.10163>
 
 Derive G-steerability constraint that completely characterizes partial differential operators is equivariant, and fully solve the constraint for some important groups. Use this solution as equivariant drop-in replacement for convolution layers, and develop a framework for equivariant maps based on Schwartz distributions.
+
+### A Classification of G-invariant Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2205.09219>
+
+Prove a theorem that classifies all G-invariant single-hidden-layer neural network architectures with ReLU activations for any finite orthogonal group G. The proof is based on a correspondence of every G-SNN to a signed permutation representation of G acting on the hidden neurons, which is given in terms of the first cohomology classes of G. Finally prove that architectures with inequivalent cohomology classes in a given cohomology ring coincide only when their weight matrices are zero.

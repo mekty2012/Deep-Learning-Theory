@@ -81,3 +81,21 @@ Prove a two-way correspondence between general CPE loss function GANs and the mi
 <https://www.arxiv.org/abs/2104.05097>
 
 Show that the 1-Lipscitz networks are as accuracte as classical one, and can fit arbitrarily difficult boundaries. Then show these 1-Lipscitz neural networks generalize well under milder assumptions, and finally show that hyper-parameters of the loss are crucial for controlling the accuracy-robustness trade-off.
+
+### Universality and approximation bounds for echo state networks with random weights
+
+<https://www.arxiv.org/abs/2206.05669>
+
+For echo state network with only its readout weights are optimized, show that they are universal under weak conditions for the continuous casual time-invariant operators.
+
+### Optimal training of integer-valued neural networks with mixed integer programming
+
+<https://arxiv.org/abs/2009.03825>
+
+Formulate new MIP model improving the training efficiency which can train the integer-valued neural networks, with optimization of the number of neurons and batch training.
+
+### Concentration inequalities and optimal number of layers for stochastic deep neural networks
+
+<https://arxiv.org/abs/2206.11241>
+
+State the concentration and Markov inequality for output of hidden layers and output of SDNN. This introduce expected classifier, and the probabilistic upper bound for the classification error. Also state the optimal number of layers by optimal stopping procedure.
