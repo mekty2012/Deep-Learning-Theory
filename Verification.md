@@ -262,3 +262,9 @@ Propose a novel operator splitting method that can directly solve a convex relax
 <https://www.arxiv.org/abs/2205.05763>
 
 Using Mixed-Integer Linear Programming to overapproximate the individual fairness verification.
+
+### Abstraction and Refinement: Towards Scalable and Exact Verification of Neural Networks
+
+<https://www.arxiv.org/abs/2207.00759>
+
+Propose a novel abstraction to break down the size of DNNs by over-approximation, and counterexample-guided refinement that eliminate spurious counterexamples.

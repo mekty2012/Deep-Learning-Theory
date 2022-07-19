@@ -99,3 +99,4 @@ Formulate new MIP model improving the training efficiency which can train the in
 <https://arxiv.org/abs/2206.11241>
 
 State the concentration and Markov inequality for output of hidden layers and output of SDNN. This introduce expected classifier, and the probabilistic upper bound for the classification error. Also state the optimal number of layers by optimal stopping procedure.
+

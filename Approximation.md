@@ -171,3 +171,9 @@ Show that there exists a neural network that is robust to noise approximation of
 <https://arxiv.org/abs/2005.11949>
 
 Study the expressive power of deep ReLU NNs for approximating functions in dilated shift-invariant spaces, with approximate error bounds w.r.t. width and depth, for the Sobolev spaces and Besov spaces. Also give lower bounds of the Lp approximation error for Sobolev spaces.
+
+### ReLU Deep Neural Networks from the Hierarchical Basis Perspective
+
+<https://www.arxiv.org/abs/2105.04156>
+
+Show that the approximation scheme of ReLU DNN for x^2 and xy are composition versions of the hierarchical basis approximation in finite element methods, which gives interpretation and proof of approximation of polynomial.

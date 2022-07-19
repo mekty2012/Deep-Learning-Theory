@@ -45,3 +45,9 @@ Provide a formal framework connecting the robustness of a network to the alignme
 <https://www.arxiv.org/abs/2206.04316>
 
 Prove that the adversarial noises crafted by one-step gradient methods are linearly separable, for a two-layer network. The proof idea is to show that the label infromation can be efficiently propagated to the input while keeping the linear separability.
+
+### On the (Non-)Robustness of Two-Layer Neural Networks in Different Learning Regimes
+
+<https://www.arxiv.org/abs/2203.11864>
+
+Considering the over-parameterized networks in high dimensions with quaratic targets and infinite samples, identify the tradeoff between approximation and robustness. Also show that linearized lazy training regime can worsen robustness due to improperly scaled random initialization.

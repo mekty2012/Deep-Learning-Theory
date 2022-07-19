@@ -335,3 +335,21 @@ Show that the softmax policy with shallow NN in a mean-field regime, with infini
 <https://arxiv.org/abs/2110.06256>
 
 Find that the weight of NN do not converge to a stationary points even when the loss stabilizes. Propose a new perspective based on ergodic theory of dynamical system, and study the distribution of weight's dynamics, which converges to an approximate invariant measure.
+
+### The Rate of Convergence of variation-Constrained Deep Neural Networks
+
+<https://arxiv.org/abs/2106.12068>
+
+Show that a class of variation-constrained neural network with any width, can achieve near-parameteric rate of convergence n^(-1/2+delta) for an arbitrarily small positive constant, showing that the function space need not to be large as believed.
+
+### Bounding the Width of Neural Networks via Coupled Initialization -- A Worst Case Analysis
+
+<https://arxiv.org/abs/2206.12802>
+
+Show that by using same parameter twice for two-layer weight, show that the number of neuron required for convergence can be significantly decreased, for logistic loss and squared loss, implicitly also improving the running time bound also.
+
+### Consistency of Neural Networks with Regularization
+
+<https://www.arxiv.org/abs/2207.01538>
+
+Show that the estimated neural network with regularization converge to true underlying function as the sample size increases, based on method of sieves and the theory on minimal neural networks.

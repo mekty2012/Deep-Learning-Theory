@@ -759,3 +759,9 @@ Show that the dropout flattens the model manifold, and the regularization perfor
 <https://arxiv.org/abs/2204.07172>
 
 Investigate the pathology of maximum likelihood training with dimensionality mismatch, and prove that degenerate optima are achieved where the manifold itself is learned, but not the distribution on it. Propose a two-step procedure of dimensionality reduction and maximum-likelihood density estimation, and prove that this procedure recover the data-generating distribution in the nonparameteric regime.
+
+### Informed Learning by Wide Neural Networks: Convergence, Generalization and Sampling Complexity
+
+<https://www.arxiv.org/abs/2207.00751>
+
+Study the informed DNN with over-parameterization with domain-knowledge informed to the training objective. Domain knowledge regularizes the label-based supervision and supplements the labeled samples, and this reveals the trade-off between label and knowledge imperfectness in the bound of the population risk. 

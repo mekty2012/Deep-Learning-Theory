@@ -252,3 +252,9 @@ Sample efficiency depend on the presence of the regularizer, that regularized NN
 <https://www.arxiv.org/abs/1906.08899>
 
 In two-layers neural networks with quadratic activations, (RF) train only last layer (NT) linearized dynamics (NN) full training has unbounded gap of prediction risk.
+
+### Neural Networks can Learn Representations with Gradient Descent
+
+<https://www.arxiv.org/abs/2206.15144>
+
+Consider the problem of learning the solution g(Ux) with U projects to lower dimension, show that the gradient descent learns a representation depending only on the directions relevant to solution, with improved sample complexity compared to kernel regime. Also show that transfer learning setup with same U, show that popular heuristic has target complexity independent to input dimension.

@@ -801,6 +801,24 @@ Then characterize the generalization error of ridge regression, prove that the t
 
 Prove that optimizing wide ReLU neural networks with at least one hidden layer using L2-regularization on the paramters enforces multi-task learning due to representaion-learning, even in the limiting regime.
 
+### Neural tangent kenrel analysis of shallow alpha-Stable ReLU neural networks
+
+<https://arxiv.org/abs/2206.08065>
+
+Consider the NTK of alpha-stable NNs, showing that their training is equivalent to a kernel regression with an alpha/2-stable random kernel.
+
+### A note on Linear Bottleneck networks and their Transition to Multilinearity
+
+<https://arxiv.org/abs/2206.15058>
+
+Show that when the linear network has bottleneck layer, it learns a bilinear functions of the weights in a ball of radius O(1) around initialization. Moreover, for B-1 bottleneck layer, the network is a degree B multilinear function of weights.
+
+### Momentum Diminishes the Effect of Spectral Bias in Physics-Informed Neural Networks
+
+<https://arxiv.org/abs/2206.14862>
+
+Show that the spectral bias of Neural Tangent Kernel can be diminished by momentum training.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
@@ -844,12 +862,6 @@ Analyze infinitely wide and infinitely deep neural networks, and using the conne
 <https://www.arxiv.org/abs/1905.13654>
 
 Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
-
-### Neural tangent kenrel analysis of shallow alpha-Stable ReLU neural networks
-
-<https://arxiv.org/abs/2206.08065>
-
-Consider the NTK of alpha-stable NNs, showing that their training is equivalent to a kernel regression with an alpha/2-stable random kernel.
 
 # Application
 
@@ -954,6 +966,12 @@ First prove that MAML with over parameterized neural network is guaranteed to co
 <https://www.arxiv.org/abs/2204.04090>
 
 Replace discriminator with NTK based GP prediction, and conduct experiments that this approach solve three problems in GAN training, failure on convergence, mode collapse, and vanishing gradient in small data setting.
+
+### Making Look-Ahead Active Learning Strategies Feasible with Neural Tangent Kernels
+
+<https://arxiv.org/abs/2206.12569>
+
+Propose a new method for approximating active learning acquisition strategy based on retraining with hypothetically labelled data point, where the result of retraining is approximated with neural tangent kernel. This allows the sequential active learning without needing to retrain the model.
 
 # Empirical Study
 
