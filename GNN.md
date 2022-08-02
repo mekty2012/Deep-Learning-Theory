@@ -10,12 +10,6 @@ In graph classification where graph is sampled from different random graph model
 
 GNNs approximate huge graph by sampling the node, and this paper proves whether the query complexity for node sampling is constant time, for different activation, architecture, and forward/backward.
 
-### Stability and Generalization Capabilities of Message Passing Graph Neural Networks
-
-<https://www.arxiv.org/abs/2202.00645>
-
-Assuming some random graph models, derive a non-asymptotic bound on the generalization gap between the empirical loss and statistical loss for NPMM, which decreases to zero as the graphs become larger.
-
 ### Minimal Variance Sampling with Provable Guarantees for Fast Training of Graph Neural Networks
 
 <https://www.arxiv.org/abs/2006.13866>
@@ -99,3 +93,21 @@ Present the estimates for the number of linear regions of the GCNs, particularla
 <https://www.arxiv.org/abs/2106.07767>
 
 Show that for homophilous graph data, impactful structural attacks always lead to reduced homophily, while for heterophilous graph data the change in the homophily level depends on the node degree.
+
+### Stability of Aggregation Graph Neural Networks
+
+<https://www.arxiv.org/abs/2207.03678>
+
+Study the stability properties of aggregation graph neural networks considering perturbations of the underlying graph. Derive the stability bound, which is defined by the properties of the filters in the first layers of CNN.
+
+### Understanding the Dynamics of DNNs Using Graph Modularity
+
+<https://www.arxiv.org/abs/2111.12485>
+
+Experimentally observe that the modularity, which measures the evolution of communities, roughly tends to increase as the layer goes deeper and the degradation and plateau arise when the model complexity is great relative to the dataset. Through an asymptotic analysis, prove that modularity can be broadly used for different applications.
+
+### On the expressive power of message-passing neural networks as global feature map transformers
+
+<https://www.arxiv.org/abs/2203.09555>
+
+Investigate the power of MPNN, by using a simple language for feature map transformer, which can express every MPNN. Then give the condition for converse inclusion for exact and approximate expressiveness, or the use of arbitrary activation functions.

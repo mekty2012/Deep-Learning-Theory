@@ -51,3 +51,9 @@ Prove that the adversarial noises crafted by one-step gradient methods are linea
 <https://www.arxiv.org/abs/2203.11864>
 
 Considering the over-parameterized networks in high dimensions with quaratic targets and infinite samples, identify the tradeoff between approximation and robustness. Also show that linearized lazy training regime can worsen robustness due to improperly scaled random initialization.
+
+### Robustness Implies Generalization via Data-Dependent Generalization Bounds
+
+<https://www.arxiv.org/abs/2206.13497>
+
+Proves that robustness implies generalization via data-dependent generalization bound, which improves previous bound in two ways. First, reduce dependence on the covering number and remove the dependence on the hypothesis space.

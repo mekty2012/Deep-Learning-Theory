@@ -258,3 +258,27 @@ In two-layers neural networks with quadratic activations, (RF) train only last l
 <https://www.arxiv.org/abs/2206.15144>
 
 Consider the problem of learning the solution g(Ux) with U projects to lower dimension, show that the gradient descent learns a representation depending only on the directions relevant to solution, with improved sample complexity compared to kernel regime. Also show that transfer learning setup with same U, show that popular heuristic has target complexity independent to input dimension.
+
+### Learning and generalization of one-hidden-layer neural networks, goind beyong standard Gaussian data
+
+<https://www.arxiv.org/abs/2207.03615>
+
+Analyzes the convergence and generalization of shallow NN, when the input features follow finite mixture of Gaussians, with the labels are generated from teacher model.
+
+### Towards understanding how momentum improves generalization in deep learning
+
+<https://www.arxiv.org/abs/2207.05931>
+
+Formally study how momentum improves generalization, on a binary classification setting where a one-hidden layer CNN trained with GD+M provably generalizes better than the same network trained with GD. Key insight is that, momentum is beneficial in datasets where the examples share some feature but differ in their margin.
+
+### On the Study of Sample Complexity for Polynomial Neural Networks
+
+<https://www.arxiv.org/abs/2207.08896>
+
+Focus on depth-independent bound on sample complexity of general classes of polynomial neural networks, especially using the square function as activation. This is much easier to analyze due to its structure, while the generalization ability is not still well known.
+
+### On generalization bonds for deep networks based on loss surface implicit regularization
+
+<https://www.arxiv.org/abs/2201.04545>
+
+Study how local geometry of loss landscape around local minima affects the statistical properties of SGD with noise. Under reasonable assumptions, this geometry forces SGD to stay close to a low dimensional subspace, which gives implicit regularization and tighter bound on the generalization error for DNNs. Then derive the bound on the spectral norm of weights instead of number of network parameter, when stagnation occur.

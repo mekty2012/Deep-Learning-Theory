@@ -819,6 +819,18 @@ Show that when the linear network has bottleneck layer, it learns a bilinear fun
 
 Show that the spectral bias of Neural Tangent Kernel can be diminished by momentum training.
 
+### A theory of representation learning in deep neural networks gives a deep generalization of kernel methods
+
+<https://www.arxiv.org/abs/2108.13097>
+
+Proposes new infinite width limit, the representation learning limit, that exhibits representation learning unlike classical infinte width limit, however is extremely tractable. This gives multivariate Gaussian posteriors in deep Gaussian processes including isotropic kernels.
+
+### How to Train Your Wide Neural Network Without Backprop: An Input-Weight Alignment Perspective
+
+<https://www.arxiv.org/abs/2106.08453>
+
+Consider the NTK regime of biological neural networks, and theoretically show that gradient descent drives layerwise weight updates that are aligned with their input activity correlations weighted by error. This alignment allows to formulate backpropagation-free learning rule which is theoretically equivalent to backpropagation in infinite-width networks.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
@@ -862,6 +874,12 @@ Analyze infinitely wide and infinitely deep neural networks, and using the conne
 <https://www.arxiv.org/abs/1905.13654>
 
 Provide a comprehensive analysis of the convergence rates of the NTK regime to the infinite depth regimes.
+
+### Neural Network Gaussian Processes by Increasing Depth
+
+<https://www.arxiv.org/abs/2108.12862>
+
+Using a shortcut network, show that increasing the depth of a neural network can also give rise to a gaussian process with characterization of uniform tightness property and the smallest eigenvalue.
 
 # Application
 
@@ -972,6 +990,18 @@ Replace discriminator with NTK based GP prediction, and conduct experiments that
 <https://arxiv.org/abs/2206.12569>
 
 Propose a new method for approximating active learning acquisition strategy based on retraining with hypothetically labelled data point, where the result of retraining is approximated with neural tangent kernel. This allows the sequential active learning without needing to retrain the model.
+
+### TCT: Convexifying Federated Learning using Bootstrapped Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2207.06343>
+
+The federated learning fails to converge to a comparable solution to its centralized version, which is shown that this is reason of non-convexity of optimization. Specifically, early layers successfully find good features, where final layers fail to use them. Propose Train-Convexify-Train procedure, that learn features using off-the-shelf federated learning, then convexify with empirical NTK approximation, and optimize convex problem.
+
+### Neural Stein critics with staged L2-regularization
+
+<https://www.arxiv.org/abs/2207.03406>
+
+Show that the Stein critic with learned neural network is equivalent to regression problem, and using the NTK theory with its eigendecomposition, propose using different regularization during training time.
 
 # Empirical Study
 

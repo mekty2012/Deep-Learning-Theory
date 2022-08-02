@@ -177,3 +177,27 @@ Study the expressive power of deep ReLU NNs for approximating functions in dilat
 <https://www.arxiv.org/abs/2105.04156>
 
 Show that the approximation scheme of ReLU DNN for x^2 and xy are composition versions of the hierarchical basis approximation in finite element methods, which gives interpretation and proof of approximation of polynomial.
+
+### Nonparametric regression with modified ReLU networks
+
+<https://www.arxiv.org/abs/2207.08306>
+
+Considering the modified ReLU-net which sparsifies the network parameters, show that these class of networks with regularization attain the minimax rate of prediction of unknown beta-smooth functions.
+
+### Sharp Bounds on the Approximation Rates, Metric Entropy, and n-widths of Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2101.12365>
+
+Gives an upper bound for non-linear approximation rates, metric entropy, and n-widths of their absolute convex hull, for smoothly parameterized dictionary. Then apply these result for dictionaries of ridge functions that correspond to shallow neural networks. Also provides the lower bound of the metric entropy and n-widths, which gives sharp lower bound on approximation rate for the ReLU^k activations and sigmoidal acitvation, with bounded variatiation.
+
+### Neural Networks with linear threshold activations: structure and algorithms
+
+<https://www.arxiv.org/abs/2111.08117>
+
+Characterize the class of functions that are representable by linear threshold activation functions, and show that 2 hidden layer is necessary and sufficient. Also give precise bound on the sizes of neural networks to represent any function in the class.
+
+### Do ReLU Networks Have An Edge When Approximating Compactly-Supported Functions?
+
+<https://www.arxiv.org/abs/2204.11231>
+
+Construct the refinement of the usual topology on locally integrable function spaces, where compactly-supported functions can only be approximated in L1-norm by functions with matchine discretized support. Then establish the universality of ReLU-NN with bilinear pooling in this topology.

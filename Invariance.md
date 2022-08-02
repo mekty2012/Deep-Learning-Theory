@@ -69,3 +69,9 @@ Derive G-steerability constraint that completely characterizes partial different
 <https://www.arxiv.org/abs/2205.09219>
 
 Prove a theorem that classifies all G-invariant single-hidden-layer neural network architectures with ReLU activations for any finite orthogonal group G. The proof is based on a correspondence of every G-SNN to a signed permutation representation of G acting on the hidden neurons, which is given in terms of the first cohomology classes of G. Finally prove that architectures with inequivalent cohomology classes in a given cohomology ring coincide only when their weight matrices are zero.
+
+### On Non-Linear operators for Geometric Deep Learning
+
+<https://www.arxiv.org/abs/2207.03485>
+
+Study the operators mapping vector and scalar fields over a manifold that commutes with its group of diffeomorphisms. Prove that for scalar field, these operators correspond to point-wise non-linearities, while the vector fields only allows scalar multiplications. These justify the use of nonlinearities, however also indicates the diffeomorphism is too rich to motivate design over the symmetries of manifold.

@@ -476,7 +476,7 @@ Asymptotic of empirical distribution of parameters of a one-layer ANNs with spar
 
 <https://arxiv.org/abs/2106.08365>
 
-Propose an error function for piecewise linear NNs taking a local region of input space and smooth empirical training error, that is an average of empirical training erros from other regions weighted by network represenation distance. A bound on the expected smooth error for each region scales inversely with training sample desnsity in representation space.
+Propose an error function for piecewise linear NNs taking a local region of input space and smooth empirical training error, that is an average of empirical training erros from other regions weighted by network represenation distance. A bound on the expected smooth error for each region scales inversely with training sample density in representation space.
 
 ### On transversality of bent hyperplane arrangements and the topological expressiveness of ReLU neural networks
 
@@ -765,3 +765,27 @@ Investigate the pathology of maximum likelihood training with dimensionality mis
 <https://www.arxiv.org/abs/2207.00751>
 
 Study the informed DNN with over-parameterization with domain-knowledge informed to the training objective. Domain knowledge regularizes the label-based supervision and supplements the labeled samples, and this reveals the trade-off between label and knowledge imperfectness in the bound of the population risk. 
+
+### Wide Neural Networks Forget Less Catastrophically
+
+<https://www.arxiv.org/abs/2110.11526>
+
+Show that width has significant effect on forgetting, by studying the learning dynamics of the network from perspectives of gradient orthogonality, sparsity, and lazy training.
+
+### Hidden Progress in Deep Learning: SGD Learns Parities Near the Computational Limit
+
+<https://www.arxiv.org/abs/2207.08799>
+
+Considering the problem of learning k-sparse parities of n bits, observe that empirically, variety of architectures learn with n^O(k) examples with loss suddenly dropping at n^O(k) iterations, and match known sample query lower bound. Then elucidate the mechanism of this phenomena theoretically, that the phase transition is due to gradual amplification of Fourier gap in the population gradient, rather than SGD finding the hidden set of features.
+
+### Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks
+
+<https://www.arxiv.org/abs/2201.11729>
+
+Theoretically analyze the implicit regularization in hierarchical tensor factorization which is equivalent to certain deep CNNs, and show that there is an implicit regularization towards locality.
+
+### How Wide Convolutional Neural Networks Learn Hierarchical Tasks
+
+<https://www.arxiv.org/abs/2208.01003>
+
+Study the CNN in kernel regime, show that the spectrum of the kernel and its asymptotic inherit the hierarchical structure of the network. Then use generalization bounds to prove that deep CNNs adapt to the spatial scale of the target function. Illustrate this by computing the convergence rate in a teacher-student setting with teacher randomly initialized, and find that if teacher depends on low-dimensional subset then rate is determined by effective dimensionality, but if teacher depends on all input, then the rate is inversely proportional to the input dimension.

@@ -34,12 +34,6 @@ Show that gaussian mixture classification's Bayes optimal pointwise estimators b
 
 Propose a simple gradient-based algorithm that outputs an epsilon approximate second-order stationary point, which is an idea of implementing a robust Hessian power method using only gradients, which can find negative curvature near saddle points.
 
-### On the Stability Properties and the Optimization Landscape of Training Problems with Squared Loss for Neural Networks and General Nonlinear Conic Approximation Schemes
-
-<https://arxiv.org/abs/2011.03293>
-
-Show that nonlinear conic approximation's effectivenss then linear approximation is reason of saddle point and spurious local minima, which cannot resolved using regularization. Illustrate that the improved approximation properties of neural networks and general nonlinear conic approximation instruments are linked to undesirable properties of the optimization problems.
-
 ### When Are Solutions Connected in Deep Networks?
 
 <https://arxiv.org/abs/2102.09671>
@@ -353,3 +347,27 @@ Show that by using same parameter twice for two-layer weight, show that the numb
 <https://www.arxiv.org/abs/2207.01538>
 
 Show that the estimated neural network with regularization converge to true underlying function as the sample size increases, based on method of sieves and the theory on minimal neural networks.
+
+### When does SGD favor flat minima? A quantitative characterization via linear stability
+
+<https://www.arxiv.org/abs/2207.02628>
+
+Prove that if a global minimum is linearly stable for SGD, then the frobenius norm of Hessian should be bounded by batch size and learning rate, otherwise SGD will escape it exponentially fast. 
+
+### Blessing of Nonconvexity in Deep Linear Models: Depth Flattens the Optimization Landscape Around the True Solution
+
+<https://www.arxiv.org/abs/2207.07612>
+
+Study the robust and overparameterized setting of deep linear network, give one negative result and one positive result. On the negative side, show that there is a constant probabiltiy of having a solution corresponding to the ground truth which is neither local or global minimum, however on the positive side, prove that simple sub-gradient method escape from such problematic solution, and converges to a balanced solution that is close to ground truth with flat local landscape.
+
+### Robust Training of Neural Networks Using Scale Invariant Architectures
+
+<https://www.arxiv.org/abs/2202.00980>
+
+Propose an robust training of neural network by modifying it to be scale-invariant, then prove that its convergence only depends on logarithmically on the scale of initialization and loss, where standard SGD may not converge.
+
+### Stochastic Gradient Descent with Exponential Convergence Rates of Expected Classification Errors
+
+<https://www.arxiv.org/abs/1806.05438>
+
+The exponential convergence rate for square loss were shown under a strong low-noise condition, but the expected classification error's exponential convergence is not shown even with low noise condition, only exponential convergence of expected risk. Show an exponential convergence of the classification error in the final phase of ths SGD, for wide classes of differentiable convex loss functions.

@@ -100,3 +100,8 @@ Formulate new MIP model improving the training efficiency which can train the in
 
 State the concentration and Markov inequality for output of hidden layers and output of SDNN. This introduce expected classifier, and the probabilistic upper bound for the classification error. Also state the optimal number of layers by optimal stopping procedure.
 
+### Distribution Approximation and Statistical Estimation Guarantees of Generative Adversarial Networks
+
+<https://www.arxiv.org/abs/2002.03938>
+
+Consider the approximation of data distributions that have densities in Hoelder space, show that assuming both discriminator and generator are properly chosen, GAN becomes the consistent estimator of data distribution under strong discrepancy metrics including Wasserstein-1 distance. Moreover when data distribution exhibits low-dimensional structure, show that GANs are capable to capture this strcture and achieve a fast statistical convergence, free of curse of the ambient dimensionality.
