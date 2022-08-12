@@ -835,7 +835,7 @@ Consider the NTK regime of biological neural networks, and theoretically show th
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
 
-<https://www.arxiv.org/abs/2206.02766>
+<https://www.arxiv.org/abs/2206.02768>
 
 Study the random covariance matrix of logits which is defined by the penultimate layer's activation, in infinite depth-and-width limit to consider the fluctuation accumulated over the layers. Identify the scaling of activation that this do not arrive at trivial limit, and show that this matrix is governed by a SDE named Neural Covariance SDE. 
 
