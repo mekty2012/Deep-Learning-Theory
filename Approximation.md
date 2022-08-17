@@ -201,3 +201,15 @@ Characterize the class of functions that are representable by linear threshold a
 <https://www.arxiv.org/abs/2204.11231>
 
 Construct the refinement of the usual topology on locally integrable function spaces, where compactly-supported functions can only be approximated in L1-norm by functions with matchine discretized support. Then establish the universality of ReLU-NN with bilinear pooling in this topology.
+
+### Why Do Networks Need Negative Weights?
+
+<https://www.arxiv.org/abs/2208.03211>
+
+Prove that deep neural netwroks with all non-negative weights are not universal approximators.
+
+### Deep ReLU neural networks overcome the curse of dimensionality for partil integrodifferential equations
+
+<https://www.arxiv.org/abs/2102.11707>
+
+Show that the DNNs with ReLU activation functions are able to express viscosity solutions of linear PIDEs, which arises from a class of jump diffusions.

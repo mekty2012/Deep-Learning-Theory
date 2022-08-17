@@ -127,6 +127,12 @@ Derive the infinite width kernel of MLPs with ELU and GELU and evaluate the perf
 
 Derive the upper bound of the quadratic Wasserstein distance between randomly initialized neural network's output distribution and suitable Gaussian Process.
 
+### Deep Maxout Network Gaussian Process
+
+<https://www.arxiv.org/abs/2208.04468>
+
+Derive the equivalence of the deep, infinite-width maxout network and the Gaussian process and characterize the maxout kernel with a compositional structure.
+
 # NTK theory
 
 ### Neural tangent kernel: convergence and generalization in neural networks
@@ -1052,3 +1058,9 @@ Show that due to non-linear characteristics of modern architecture, NTK-based me
 <https://www.arxiv.org/abs/2204.07291>
 
 Study the learning process with simple supervised learning example, and find that in the training reponse, simple law descrbing NTK. The response is power law like decay multiplied by a simple response kernel, and conduct a simple mean-field dynamical model with given law, explaining how the network learns.
+
+### An Empirical Analysis of the Laplace and Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2208.039=761>
+
+It was shown that Laplace and NTK has same reproducing kernel Hilbert space. Analyze the practical equivalence of the two kernels, by matching the kernels exactly and then by matching posteriors of a Gaussian process.

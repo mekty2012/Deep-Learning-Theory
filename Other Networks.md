@@ -105,3 +105,15 @@ State the concentration and Markov inequality for output of hidden layers and ou
 <https://www.arxiv.org/abs/2002.03938>
 
 Consider the approximation of data distributions that have densities in Hoelder space, show that assuming both discriminator and generator are properly chosen, GAN becomes the consistent estimator of data distribution under strong discrepancy metrics including Wasserstein-1 distance. Moreover when data distribution exhibits low-dimensional structure, show that GANs are capable to capture this strcture and achieve a fast statistical convergence, free of curse of the ambient dimensionality.
+
+### Certified machine learning: A posteriori error estimation for physics-informed neural networks
+
+<https://www.arxiv.org/abs/2203.17055>
+
+Assuming that the underlying differential equation is ODE, derive a rigorous upper limit on the PINN prediction error, for arbitrary point without knowing the solution.
+
+### Convergence of denoising diffusion models under the manifold hypothesis
+
+<https://www.arxiv.org/abs/2208.05314>
+
+The theoretical analysis of denoising diffusion models assume that the target density is absolutely continuous w.r.t. Lebesgue measure, which does not cover setting when the target distribution is supported on a lower-dimensional manifold or is empirical distribution. Provide the first convergence result for more general setting, which is quantitative bounds on the Wasserstein distance of order one between target data distribution and the generative diftribution.

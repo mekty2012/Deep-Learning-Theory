@@ -111,3 +111,15 @@ Experimentally observe that the modularity, which measures the evolution of comm
 <https://www.arxiv.org/abs/2203.09555>
 
 Investigate the power of MPNN, by using a simple language for feature map transformer, which can express every MPNN. Then give the condition for converse inclusion for exact and approximate expressiveness, or the use of arbitrary activation functions.
+
+### Effects of Graph Convolutions in Multi-layer Networks
+
+<https://www.arxiv.org/abs/2204.09297>
+
+Study the effect of graph convolution for node classification with non-linearly separble Gaussian mixture model. Show that a single graph convolution expands the regime of the distance between the means where multi-layer network can classify the data, by a factor of at least E\[deg\]^(-1/4), and with a slightly stronger graph density, this factor is improced to n^(-1/4), where n is the number of nodes in the graph.
+
+### Rethinking Graph Neural Networks for the Graph Coloring Problem
+
+<https://www.arxiv.org/abs/2208.06975>
+
+For aggregation-combine GNNs, define the power of GNNs in the coloring problem as the capability to assign nodes different colors, and identify node pairs that AC-GNNs fail to discriminate. Also show that AC-GNN is a local coloring method, which becomes non-optimal in the limits over sparse random graphs. Finally prove the positive correlation between model depth and its coloring power.

@@ -754,7 +754,7 @@ Theoretically analyze the implicit regularization in hierarchical tensor factori
 
 Show that the dropout flattens the model manifold, and the regularization performance depends on the curvature. Then show that the dropout corresponds to a regularization that depends on the Fisher information.
 
-### Diagnoosing and Fixing Manifold Overfitting in Deep Generative Models
+### Diagnosing and Fixing Manifold Overfitting in Deep Generative Models
 
 <https://arxiv.org/abs/2204.07172>
 
@@ -789,3 +789,21 @@ Theoretically analyze the implicit regularization in hierarchical tensor factori
 <https://www.arxiv.org/abs/2208.01003>
 
 Study the CNN in kernel regime, show that the spectrum of the kernel and its asymptotic inherit the hierarchical structure of the network. Then use generalization bounds to prove that deep CNNs adapt to the spatial scale of the target function. Illustrate this by computing the convergence rate in a teacher-student setting with teacher randomly initialized, and find that if teacher depends on low-dimensional subset then rate is determined by effective dimensionality, but if teacher depends on all input, then the rate is inversely proportional to the input dimension.
+
+### Improving the Trainability of Deep Neural Networks through Layerwise Batch-Entropy Regularization
+
+<https://www.arxiv.org/abs/2208.01134>
+
+Introduce the batch entropy to analyze the flow of information through neural network, and prove that a positive batch-entropy is required for gradient descent based approaches to optimize given loss function succesfully. Introduce batch entropy regularization based on this insight, showing that we can train deep Vanilla networks with 500 layers without any techniques.
+
+### On the Activation Function Dependence of the Spectral Bias of Neural Networks
+
+<https://www.arxiv.org/abs/2208.04924>
+
+Provide a theoretical explanation for the spectral bias of ReLU neural networks via the connection with the finite element methods, and predict that switching the activation function to a piecewise linear B-spline will remove this spectral bias.
+
+### Imbalance Trouble: Revisiting Neural-Collapse Geometry
+
+<https://www.arxiv.org/abs/2208.05512>
+
+Adopting the unconstrained-features model which is a recent theoretical model for studying neural collapse, and introduce Simplex-Encoded-Labels Interpolation as characterization of the neural collapse phenomenon. Prove that for the UFM with cross-entropy and vanishing regularization, the embeddings and classifiers always interpolate simplex-encoded label matrix and their individual geometrices are determinied by the SVD factors.

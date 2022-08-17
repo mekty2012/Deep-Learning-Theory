@@ -371,3 +371,9 @@ Propose an robust training of neural network by modifying it to be scale-invaria
 <https://www.arxiv.org/abs/1806.05438>
 
 The exponential convergence rate for square loss were shown under a strong low-noise condition, but the expected classification error's exponential convergence is not shown even with low noise condition, only exponential convergence of expected risk. Show an exponential convergence of the classification error in the final phase of ths SGD, for wide classes of differentiable convex loss functions.
+
+### Training Overparametrization Neural Networks in Sublinear Time
+
+<https://www.arxiv.org/abs/2208.04508>
+
+Propose alternative training method of newton types, which gives much faster convergence rate m^(1-a)nd + n^3 for 0.01 < a < 1, m, n, d are each number of parameter, number of data point, and the input dimension. This method relies on the view of neural networks as a set of binary search tree, that each iteration corresponds to modifying a small subset of the nodes.
