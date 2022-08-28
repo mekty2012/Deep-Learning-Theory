@@ -94,3 +94,51 @@ Show that the BNN using spike-and-slab prior has consistency with nearly minimax
 <https://arxiv.org/abs/2206.07673>
 
 Introduce repriorisation, which transform the BNN posterior to a distribution whose KL divergence to the BNN prior vanishes as layer widths grow. This analytic simplicity complements the NNGP behaviour, and using this repriorisation, implement MCMC posterior sampling algorithm which mixes faster the wider the BNN is, and is effective in high dimensions.
+
+### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
+
+<https://www.arxiv.org/abs/2002.11187>
+
+Use GAN to estimate KL divergence, argue that high fluctuations in the estimates are a consequence of not controlling the complexity of the discriminator function space. Provide a theoretical underpinning and remedy for this problem by constructing a discriminator in the RKHS.
+
+### Forward Super-Resolution: How Can GANs Learn Hierarchical Generative Models for Real-World Distributions
+
+<https://arxiv.org/abs/2106.02619>
+
+Prove that when a distribution has a structure that referred as Forward Super-Resolution, then training GANs using gradient descent ascent can indeed learn this distribution efficiently both in terms of sample and time complexities.
+
+### On the Convergence of Gradient Descent in GANs: MMD GAN As a Gradient Flow
+
+<https://arxiv.org/abs/2011.02402>
+
+Show that parametric kernelized gradient flow provides a descent direction minimizing the MMD on a statistical manifold of probability distributions.
+
+### On some theoretical limitations of Generative Adversarial Networks
+
+<https://arxiv.org/abs/2110.10915>
+
+Provide a new result based on Extreme Value Theory showing that GANs can't generate heavy tailed distributions.
+
+### Diagnosing and Fixing Manifold Overfitting in Deep Generative Models
+
+<https://arxiv.org/abs/2204.07172>
+
+Investigate the pathology of maximum likelihood training with dimensionality mismatch, and prove that degenerate optima are achieved where the manifold itself is learned, but not the distribution on it. Propose a two-step procedure of dimensionality reduction and maximum-likelihood density estimation, and prove that this procedure recover the data-generating distribution in the nonparameteric regime.
+
+### An error analysis of generative adversarial networks for learning distributions
+
+<https://www.arxiv.org/abs/2105.13010>
+
+Establish the convergence rate of GANs under collection of integral probability metrics defined through Hoelder class lke Wasserstein distance. Also show that GANs are able to adaptively learn data distributions with low-dimensional structures or have Hoelder densities, with proper architecture. In particular, show that for low-dimensional structure, the convergence rate depends on intrinsic dimension, not ambient dimension.
+
+### Why GANs are overkill for NLP
+
+<https://www.arxiv.org/abs/2205.09838>
+
+Show that, while it seems that maximizing likelihood is different than minimizing distinguishability criteria, this distinction is artifical and only holds for limited models. And show that minimizing KL-divergence is a more efficient approach to effectively minimizing the same distinguishability.
+
+### The Gaussian equivalence of generative models for learning with shallow neural networks
+
+<https://www.arxiv.org/abs/2006.14709>
+
+Establish rigorous conditions for the Gaussian Equivalence between single layer neural network and Gaussian models, with convergence rate. Use this equivalence to derive a closed set of equations of generalization performance of two-layer neural network trained with SGD or full batch pre-learned feature. 

@@ -57,3 +57,15 @@ Considering the over-parameterized networks in high dimensions with quaratic tar
 <https://www.arxiv.org/abs/2206.13497>
 
 Proves that robustness implies generalization via data-dependent generalization bound, which improves previous bound in two ways. First, reduce dependence on the covering number and remove the dependence on the hypothesis space.
+
+### A Universal Law of Robustness via Isoperimetry
+
+<https://arxiv.org/abs/2105.12806>
+
+Show that smooth interpolation requires d times parameters than mere interpolation, where d is the ambient data dimension, for any smoothly parametrized function class with polynomial size weights, and any covaraiate distribution verifying isoperimetry.
+
+### Improved Regularization and Robustness for Fine-tuning in Neural Networks
+
+<https://arxiv.org/abs/2111.04578>
+
+Present a PAC-Bayes generalization bound that depends on the distance traveled in each layer during fine-tuning and the noise stability. 

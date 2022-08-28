@@ -117,3 +117,27 @@ Assuming that the underlying differential equation is ODE, derive a rigorous upp
 <https://www.arxiv.org/abs/2208.05314>
 
 The theoretical analysis of denoising diffusion models assume that the target density is absolutely continuous w.r.t. Lebesgue measure, which does not cover setting when the target distribution is supported on a lower-dimensional manifold or is empirical distribution. Provide the first convergence result for more general setting, which is quantitative bounds on the Wasserstein distance of order one between target data distribution and the generative diftribution.
+
+### Diversity and Generalization in Neural Network Ensembles
+
+<https://arxiv.org/abs/2110.13786>
+
+Provide sound answers to the following questions, how to measure diversity, how diversity relates to the generalization error of an ensemble, and how diversity is promoted by neural network ensemble algorithms.
+
+### On a Sparse Shortcut Topology of Artificial Neural Networks
+
+<https://arxiv.org/abs/1811.09003>
+
+Propose new shortcut architecture, and show that it can approximate any univariate continuous function in width-bounded setting, and show the generalization bound.
+
+### A Kernel-Expanded Stochastic Neural Network
+
+<https://www.arxiv.org/abs/2201.05319>
+
+Design new architecture which incorporates support vector regression at its first layer, allowing to break the high-dimensional nonconvex training of neural network to series of low-dimensional convex optimization, and can be trained using imputation-regularized optimization, with a theoretical guarantee to global convergence.
+
+### Deep Layer-wise Networks Have Closed-Form Weights
+
+<https://www.arxiv.org/abs/2202.01210>
+
+Show that layer-wise network, which trains one layer at a time, has a closed form weight given by kernel mean embedding with global optimum. 

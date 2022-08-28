@@ -282,3 +282,21 @@ Focus on depth-independent bound on sample complexity of general classes of poly
 <https://www.arxiv.org/abs/2201.04545>
 
 Study how local geometry of loss landscape around local minima affects the statistical properties of SGD with noise. Under reasonable assumptions, this geometry forces SGD to stay close to a low dimensional subspace, which gives implicit regularization and tighter bound on the generalization error for DNNs. Then derive the bound on the spectral norm of weights instead of number of network parameter, when stagnation occur.
+
+## Deep Learning and the Information Bottleneck Principle
+
+<https://www.arxiv.org/abs/1503.02406>
+
+Show that any DNN can be quantified by the mutual information between the layers and the input and output variables, and calculate the optimal information theoretical limits of the DNN and obtain finite sample generalization bounds.
+
+### Towards a theory of out-of-distribution learning
+
+<https://arxiv.org/abs/2109.14501>
+
+Define and prove the relationship between generalized notions of learnability, and show how this framework is sufficiently general to characterize transfer, multitask, meta, continual, and lifelong learning.
+
+### Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipscitz Functions
+
+<https://arxiv.org/abs/2109.12960>
+
+Prove a precise geometric description of all one layer ReLU networks with a single linear unit, with single input/output dimension, which interpolates a given dataset. Also show that ridgeless ReLU interpolants achieve the best possible generalization for learning 1d Lipscitz functions, up to universal constants.

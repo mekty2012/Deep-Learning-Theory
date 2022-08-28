@@ -87,3 +87,15 @@ DNN's Jacobian, both parameter and input are polynomials of layerwise Jacobians,
 <https://www.arxiv.org/abs/2203.06176>
 
 Find that classical GCV estimator accurately predicts generalzation risk even in overparameterized settings, prove that the GCV estimator converges to the generalization risk whenever a random matrix law holds. And apply this theory to explain why pretrained representations generalize better as well as what factors govern scaling laws for kernel regression.
+
+### Subquadratic Overparameterization for Shallow Neural Networks
+
+<https://arxiv.org/abs/2111.01875>
+
+Provide an analyical framework that allows to adopt standard initialization strategies, avoid lazy training, and train all layers simultaneously in basic shallow neural network while attaining a desirable subquadratic scaling on the network depth, using Polyak-Lojasiewicz condition, and random matrix theory.
+
+### Implicit Data-Driven Regularization in Deep Neural Networks under SGD
+
+<https://arxiv.org/abs/2111.13331>
+
+Analyze evolutions of weight matrices' spectra, and they are classified to Marchenko-Pastur, Marchenko-Pastur with few bleeding outliers, Heavy tailed spectrum. These are connected to the degree of regularization, and argue that degree depends on the quality of data.

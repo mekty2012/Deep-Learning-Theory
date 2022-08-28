@@ -837,6 +837,12 @@ Proposes new infinite width limit, the representation learning limit, that exhib
 
 Consider the NTK regime of biological neural networks, and theoretically show that gradient descent drives layerwise weight updates that are aligned with their input activity correlations weighted by error. This alignment allows to formulate backpropagation-free learning rule which is theoretically equivalent to backpropagation in infinite-width networks.
 
+### The Three Stages of Learning Dynamics in High-Dimensional Kernel Methods
+
+<https://arxiv.org/abs/2111.07167>
+
+Study the training dynamics of gradient flow on kernel least-squares objective, which is limiting dynamics of SGD trained NNs. 
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization

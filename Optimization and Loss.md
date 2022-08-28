@@ -377,3 +377,33 @@ The exponential convergence rate for square loss were shown under a strong low-n
 <https://www.arxiv.org/abs/2208.04508>
 
 Propose alternative training method of newton types, which gives much faster convergence rate m^(1-a)nd + n^3 for 0.01 < a < 1, m, n, d are each number of parameter, number of data point, and the input dimension. This method relies on the view of neural networks as a set of binary search tree, that each iteration corresponds to modifying a small subset of the nodes.
+
+### The large learning rate phase of deep learning: the catapult mechanism
+
+<https://www.arxiv.org/abs/2003.02218>
+
+Present a class of neural networks with solvable training dynamics, and see two learning rate phase with their phenomena. In small lr regime, the dynamics follow the theory of infinite width, where in large lr regime the convergence to flat minima occurs.
+
+### A Unifying View on Implicit Bias in Training Linear Neural Networks
+
+<https://www.arxiv.org/abs/2010.02501>
+
+Propose a tensor formulation, and characterize the convergence direction as singular vectors, and show that gradient flow finds a stationary point for separable classification, but finds a global minimum for underdetermined regression.
+
+### The staircase property: How hierarchical structure can guide deep learning
+
+<https://arxiv.org/abs/2108.10573>
+
+Defines a staircase property for functions over the boolean hypercube, which posits that high-order Fourier coefficients are reachable from low-order Fourier coefficients along increasing chains. Prove that functions with staircase property can be learned in polynomial time using layerwise stochastic coordinate descent on regular neural network. 
+
+### Embedding Principle: a hierarchical structure of loss landscape of deep neural networks
+
+<https://arxiv.org/abs/2111.15527>
+
+Prove a general embedding principle of loss landscape of DNNs that unravels a hierarchical structure of the loss landscape of NNs, loss landscape of an NN contains all critical points of all the narrower NNs. Provide a gross estimate of the dimension of critical submanifolds embedded from critical points of narrower NNs. Prove an irreversibility property of any critical embedding.
+
+### Continuous vs. Discrete Optimization of Deep Neural Networks
+
+<https://arxiv.org/abs/2107.06608>
+
+Find that the degree of approximation of gradient descent on gradient flow depends on the curvature around the gradient flow trajectory. Show that over DNNs with homogeneous activations, gradient flow trajectories enjoy favorable curvature, that they are well approximated by gradient descent.

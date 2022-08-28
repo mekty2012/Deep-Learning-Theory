@@ -82,3 +82,9 @@ Study the sequence of maps between manifolds, investigate the structures induced
 <https://www.arxiv.org/abs/2012.15834>
 
 Use the Morse complex of the loss function to relate local behavior of gradient descent trajectory with global properties, and define Topological Obstruction score with barcodes of the loss function, quantifying the badness of local minima for gradient-based optimization.
+
+### Topology-based Representative Datasets to Reduce Neural Network Training Resources
+
+<https://arxiv.org/abs/1903.08519>
+
+Prove that the accuracy of the learning process of a neural network on a representative dataset is similar to the accuracy on the original dataset, where representativeness is measured using persistence diagrams.
