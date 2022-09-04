@@ -407,3 +407,21 @@ Prove a general embedding principle of loss landscape of DNNs that unravels a hi
 <https://arxiv.org/abs/2107.06608>
 
 Find that the degree of approximation of gradient descent on gradient flow depends on the curvature around the gradient flow trajectory. Show that over DNNs with homogeneous activations, gradient flow trajectories enjoy favorable curvature, that they are well approximated by gradient descent.
+
+### Theoretical insights into the optimization landscape of over-parameterized shallow neural networks
+
+<https://www.arxiv.org/abs/1707.04926>
+
+Show that with quadratic activations, the optimization landscape of training of over-parameterized shallow neural networks has favorable characteristics so that globally optimal models can be found efficiently with various local search heuristics.
+
+### A proof of convergence for stoachastic gradient descent in the training of artificial neural networks with ReLU activation for constant target functions
+
+<https://www.arxiv.org/abs/2104.00277>
+
+Prove that the risk of the SGD process converges to zero if target function is contant.
+
+### Convergence Rates of Training Deep Neural Networks via Alternating Minimization Methods
+
+<https://www.arxiv.org/abs/2208.14318>
+
+Propose a unified framework for analyzing the convergence rate of AM-type training methods, based on j-step sufficient decrease conditions and the Kurdyka-Lojasiewicz property. Show that the detailed local convergence rate if the KL exponent varies in [0, 1).

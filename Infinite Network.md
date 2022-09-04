@@ -843,6 +843,12 @@ Consider the NTK regime of biological neural networks, and theoretically show th
 
 Study the training dynamics of gradient flow on kernel least-squares objective, which is limiting dynamics of SGD trained NNs. 
 
+### Graph Convolutional Networks from the Perspective of Sheaves and the Neural Tangent Kernel
+
+<https://arxiv.org/abs/2208.09309>
+
+Study the sheaf convolutional network's NTK, which is a topological generalization of GCNN. Derive a parameterization of this neural tangent kernel, which separates the function to two parts, forward diffusion process by the graph, and the composite effect of nodes' activations.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization

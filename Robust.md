@@ -69,3 +69,9 @@ Show that smooth interpolation requires d times parameters than mere interpolati
 <https://arxiv.org/abs/2111.04578>
 
 Present a PAC-Bayes generalization bound that depends on the distance traveled in each layer during fine-tuning and the noise stability. 
+
+### Why Robust Generalization in Deep Learning is Difficult: Perspective of Expressive Power
+
+<https://www.arxiv.org/abs/2205.13863>
+
+Even the robust training accuracy can be near zero, show that there exists a constant generalization gap unless the size of network is exponential in the data dimension. This holds for various architectures, as long as their VC dimension is at most polynomial in the number of paramters. Also establish an improved upper bound for the network capacity, depending on the intrinsic dimension.

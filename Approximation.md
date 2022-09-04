@@ -230,4 +230,22 @@ Prove that various types of simple and natural functions, including indicators o
 
 <https://arxiv.org/abs/2105.14835>
 
-Using techniques from mixed-integer optimization, polyhedral theory, tropical geometry, provide a counterbalance to the universal approximation theorem which suggest that a single hidden layer is sufficient for learning tasks. Inverstigate whether the class of exactly representablt functions strictly increases by adding more layers. Also present upper bounds on the sizes of neural networks required to represent functions in these neural hypothesis classes.
+Using techniques from mixed-integer optimization, polyhedral theory, tropical geometry, provide a counterbalance to the universal approximation theorem which suggest that a single hidden layer is sufficient for learning tasks. Inverstigate whether the class of exactly representablew functions strictly increases by adding more layers. Also present upper bounds on the sizes of neural networks required to represent functions in these neural hypothesis classes.
+
+### Shallow neural network represents of polynomials
+
+<https://www.arxiv.org/abs/2208.08138>
+
+Show that d-variate polynomials of degree R on interval can be represented as shallow neural networks with fixed width, and use this approximation to minimax optimal rate of convergence of unknown univariate regression function.
+
+### Neural Network Approximation of Lipschitz Functions in High Dimensions with Applications to Inverse Problems
+
+<https://www.arxiv.org/abs/2208.13305>
+
+Assuming the existence of a linear Johnson-Lindenstrauss embedding of a high dimensional set to low dimensional cube, the Lipschitz function from high dimension can be represented by Lipschitz function from low dimension. Using this, show that the neural network can approximate a function with high dimensional input without exponential scale, using JL-embedding as first layer.
+
+### Solving parametric partial differential equations with deep rectified quadratic unit neural networks
+
+<https://www.arxiv.org/abs/2203.06973>
+
+Derive an upper bound on the size of deep ReQU network for learning parameteric PDE, while taking full advantage of the inherent low-dimensionality of the solution manifolds. This upper bound is lower than the lower bound of ReLU network's complexity-bound.

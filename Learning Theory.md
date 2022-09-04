@@ -300,3 +300,33 @@ Define and prove the relationship between generalized notions of learnability, a
 <https://arxiv.org/abs/2109.12960>
 
 Prove a precise geometric description of all one layer ReLU networks with a single linear unit, with single input/output dimension, which interpolates a given dataset. Also show that ridgeless ReLU interpolants achieve the best possible generalization for learning 1d Lipscitz functions, up to universal constants.
+
+### Superior generalization of smaller models in the presence of significant label noise
+
+<https://www.arxiv.org/abs/2208.08003>
+
+Find that under the mislabeled examples, increasing the network size can be harmful, so that th best generalization is achieved by some model with intermediate size.
+
+### On the generalization of learning algorithms that do not converge
+
+<https://www.arxiv.org/abs/2208.07951>
+
+Focus on the generalization of neural networks whose training dynamics do not necessarily converges to fixed points. Propose statistical algorithmic stability, then prove that the stability of time-asymptotic behavior relates to its generalization.
+
+### Sample Complexity of Offline Reinforcement Learning with Deep ReLU Networks
+
+<https://www.arxiv.org/abs/2103.06671>
+
+Study the statistical theory of offline RL with deep ReLU network approximation, which depends on measure of distributional shift, dimension of state-action space, and the smoothness parameter of the MDP. This complexity holds under two consideration, Besov dynamic closure and the correlated structure from value regression.
+
+### An initial alignment between neural network and target is needed for gradient descent to learn
+
+<https://www.arxiv.org/abs/2202.12846>
+
+Consider the Boolean target function, and the FCNN with expressive enough activation. Show that without the alignment of initialization and the target function, the learning is impossible with polynomial number of steps and polynomial sized neural network.
+
+### Robust Fine-Tuning of Deep Neural Networks with Hessian-based Generalization Guarantees
+
+<https://www.arxiv.org/abs/2206.02659>
+
+Develop three generalization bound for deep neural networks, depending on the Hessian of parameter for the loss. Each of bound correspond to Vinalla fine-tnuning with or without early stopping, distance-based regularization, and consistent loss with regularization.

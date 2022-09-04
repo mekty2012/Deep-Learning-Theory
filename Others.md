@@ -603,3 +603,20 @@ Provide a theoretical explanation for the spectral bias of ReLU neural networks 
 
 Consider the setting of learning infinitely wide neural network's output with narrow network, and provide the error rate of this compression.
 
+### A Theory for Knowledge Transfer in Continual Learning
+
+<https://www.arxiv.org/abs/2208.06931>
+
+Present a theory for knowledge transfer in continual supervised learning, for both forward and backward transfer. derive error bounds for each of these transfer, which is agnostic to the architecture.
+
+### How Does Data Freshness Affect Real-time Supervised Learning?
+
+<https://www.arxiv.org/abs/2208.06948>
+
+Show that the performance of real time supervised learning degrades monotonically, if the feature and target data sequence can be closely approximated as a markov chain. The prediction error is a function of the Age of information, where the function could be non-monotonic.
+
+### On the Decision Boundaries of Neural Networks: A Tropical Geometry Perspective
+
+<https://www.arxiv.org/abs/2002.08838>
+
+Using the tropical geometry, show that the decision boundaries of shallow ReLU NN are a subset of a tropical hypersurface, related to a polyope formed by the convex hull of two zonotopes. Propose a tropical perspective to the lottery ticket hypothesis, tropical based reformulation of network pruning, and the generation of adversarial attack.

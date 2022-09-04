@@ -75,3 +75,9 @@ Prove a theorem that classifies all G-invariant single-hidden-layer neural netwo
 <https://www.arxiv.org/abs/2207.03485>
 
 Study the operators mapping vector and scalar fields over a manifold that commutes with its group of diffeomorphisms. Prove that for scalar field, these operators correspond to point-wise non-linearities, while the vector fields only allows scalar multiplications. These justify the use of nonlinearities, however also indicates the diffeomorphism is too rich to motivate design over the symmetries of manifold.
+
+### Deep Neural Network Approximation of Invariant Functions through Dynamical Systems
+
+<https://www.arxiv.org/abs/2208.08707>
+
+Study the approximation of functions which are invariant w.r.t. certain permutations, using flow maps. Prove sufficient condition for universal approximation, vieweing the abstraction of deep residual networks with symmetry constraints. 

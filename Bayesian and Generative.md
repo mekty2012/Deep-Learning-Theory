@@ -142,3 +142,15 @@ Show that, while it seems that maximizing likelihood is different than minimizin
 <https://www.arxiv.org/abs/2006.14709>
 
 Establish rigorous conditions for the Gaussian Equivalence between single layer neural network and Gaussian models, with convergence rate. Use this equivalence to derive a closed set of equations of generalization performance of two-layer neural network trained with SGD or full batch pre-learned feature. 
+
+### Score-Based Generative Models Detect Manifolds
+
+<https://www.arxiv.org/abs/2206.01018>
+
+Show that the SDEs arising from the diffusion models can exactly approximate the score, under the assumption on the SDE ensuring the reversal process, and the uniqueness of the reverse SDE.
+
+### High-Dimensional Distribution Generation Through Deep Neural Networks
+
+<https://www.arxiv.org/abs/2107.12466>
+
+Show that every d-dimensional probability distribution of bounded support can be generated through deep ReLU networks. The proof is based on generalization of space-filling approach.

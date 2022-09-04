@@ -141,3 +141,9 @@ Design new architecture which incorporates support vector regression at its firs
 <https://www.arxiv.org/abs/2202.01210>
 
 Show that layer-wise network, which trains one layer at a time, has a closed form weight given by kernel mean embedding with global optimum. 
+
+### Transformer Vs. MLP-Mixer Exponential Expressive Gap For NLP Problems
+
+<https://www.arxiv.org/abs/2208.08191>
+
+Analyze the expressive power of mlp-based architectures in modelling dependencies between multiple different inputs, and show an exponential gap between the attention and the mlp-based mechanisms.
