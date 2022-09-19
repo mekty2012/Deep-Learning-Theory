@@ -123,3 +123,9 @@ Study the effect of graph convolution for node classification with non-linearly 
 <https://www.arxiv.org/abs/2208.06975>
 
 For aggregation-combine GNNs, define the power of GNNs in the coloring problem as the capability to assign nodes different colors, and identify node pairs that AC-GNNs fail to discriminate. Also show that AC-GNN is a local coloring method, which becomes non-optimal in the limits over sparse random graphs. Finally prove the positive correlation between model depth and its coloring power.
+
+### How Powerful are K-hop Message Passing Graph Neural Networks
+
+<https://www.arxiv.org/abs/2205.13328>
+
+Show that the expressive power of K-hop message passing is more powerful than 1-hop message passing, however is still impossible to distinguish some simple regular graphs. Define the KP-GNN which also includes the peripheral subgraph information, and prove that it can distinguish almost all regular graphs.

@@ -620,3 +620,15 @@ Show that the performance of real time supervised learning degrades monotonicall
 <https://www.arxiv.org/abs/2002.08838>
 
 Using the tropical geometry, show that the decision boundaries of shallow ReLU NN are a subset of a tropical hypersurface, related to a polyope formed by the convex hull of two zonotopes. Propose a tropical perspective to the lottery ticket hypothesis, tropical based reformulation of network pruning, and the generation of adversarial attack.
+
+### Normalization effects on deep neural networks
+
+<https://www.arxiv.org/abs/2209.01018>
+
+Show that using 1/N for the normalization factor, which is known as mean field scaling, is the best choice in terms of the variance of output and test accurcay, with suitable learning rate choices. Also show that this is particularly true for the outer layers, since the behavior is more seneitive to outer layer's scalings.
+
+### Functional dimension of feedforward ReLU neural networks
+
+<https://www.arxiv.org/abs/2209.04036>
+
+ReLU NN's parameter space admits positive-dimensional spaces of symmetries, hence the local functional dimension near any parameter choice is lower than the parameteric dimension. Define the notion of this functional dimension, and show that it is inhomogeneous across the parameter space, and study it by finding when the functional dimension achieves its theoretical maximum, and fibers and quotient spaces.

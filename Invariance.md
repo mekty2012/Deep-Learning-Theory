@@ -81,3 +81,9 @@ Study the operators mapping vector and scalar fields over a manifold that commut
 <https://www.arxiv.org/abs/2208.08707>
 
 Study the approximation of functions which are invariant w.r.t. certain permutations, using flow maps. Prove sufficient condition for universal approximation, vieweing the abstraction of deep residual networks with symmetry constraints. 
+
+### Implicit Bias of Linear Equivariant Networks
+
+<https://arxiv.org/abs/2110.06084>
+
+Show that L-layer full-width linear, group convolution neural networks trained with gradient descent on binary classification, converge to solutions with low-rank Fourier matrix coefficient. This generalize the results in CNN to G-CNN for all finite groups.

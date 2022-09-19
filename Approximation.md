@@ -249,3 +249,27 @@ Assuming the existence of a linear Johnson-Lindenstrauss embedding of a high dim
 <https://www.arxiv.org/abs/2203.06973>
 
 Derive an upper bound on the size of deep ReQU network for learning parameteric PDE, while taking full advantage of the inherent low-dimensionality of the solution manifolds. This upper bound is lower than the lower bound of ReLU network's complexity-bound.
+
+### Extending the Universal Approximation Theorem for a Broad Class of Hypercomplex-Valued Neural Networks
+
+<https://www.arxiv.org/abs/2203.02456>
+
+Introduce the concept of non-degenerate hypercomplex algebra which includes complex numbers, quaternions, and tessariances, and state the universal approximation theorem for the hypercomplex-valued neural networks.
+
+### From Monte Carlo to neural networks approximations of boundary value problems
+
+<https://www.arxiv.org/abs/2209.01432>
+
+First show that the solution to Poisson equation can be numerically approximated by Monte Carlo methods which slightly change the walk on the spheres algorithm, which is efficient w.r.t. approximation error without the curse of dimensionality. Then show that this Monte Carlo solver renders ReLU DNN solutions to Poisson problem, showing that the random DNN provides a small approximation error and low polynomial complexity in the dimension.
+
+### Analytic function approximation by path norm regularized deep networks
+
+<https://www.arxiv.org/abs/2104.02095>
+
+Show that neural networks with absolute value activation function and the path norm, depth, width having logarithmic dependence on 1/eps can eps-approximate functions that are analytic on certain regions of complex numbers.
+
+### Optimal bump functions for shallow ReLU networks: Weight decay, depth separation and the curse of dimensionality
+
+<https://www.arxiv.org/abs/2209.01173>
+
+Consider the data from radially symmetric distribution with target label 1 at the origin, 0 outside the unit ball, otherwise unknown. With weight decay regularization and in infinite neuron, infinite data limit, prove that a unique radially symmetric minimizer exists, with decay regularizer grow as input dimension. Show that the regularizer decrease exponentially in input dimension if target label is on smaller ball rather than origin. And show that NN with two hidden layers can approximate the target function without this curse of dimensionality.

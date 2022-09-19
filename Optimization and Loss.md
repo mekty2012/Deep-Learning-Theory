@@ -425,3 +425,15 @@ Prove that the risk of the SGD process converges to zero if target function is c
 <https://www.arxiv.org/abs/2208.14318>
 
 Propose a unified framework for analyzing the convergence rate of AM-type training methods, based on j-step sufficient decrease conditions and the Kurdyka-Lojasiewicz property. Show that the detailed local convergence rate if the KL exponent varies in [0, 1).
+
+### Training Scale-Invariant Neural Networks on the Sphere Can Happen in Three Regimes
+
+<https://www.arxiv.org/abs/2209.03695>
+
+Show that there are three regimes of training depending on the effective learning rate value, convergence, chaotic equilibrium, and divergence when training scale-invaritn NNs on the sphere. By studying these regimes in the toy example, show that they have unique features and some specific properties.
+
+### Proxy Convexity: A Unified Framework for the Analysis of Neural Networks Trained by Gradient Descent
+
+<https://arxiv.org/abs/2106.013792>
+
+Introduce notion of proxy convexity and proxy Polyak-Lojasiewicz inequalities, which are satisfied if the original objective induces a proxy objective that is implicitly minimized during the gradient. Show that gradient descent on objectives satisfying proxy convexity of proxy PL inequality gives efficient guarantees for proxy objective functions, and many existing guarantees for neural networks can be unified using these two notions.

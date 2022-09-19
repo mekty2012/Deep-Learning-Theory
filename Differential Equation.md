@@ -75,3 +75,9 @@ Prove the limit theorems for the trajectories of summary statistics of SGD as th
 <https://www.arxiv.org/abs/2206.06929>
 
 Show that with standard initialization, the only nontrivial dynamics is given by aL = 1/sqrt(L), where other choices lead to exploration or identity mapping. This corresponds to continuous-time limit to a neural stochastic differential equation.
+
+### Do Residual Neural Networks discretize Neural Ordinary Differential Equations?
+
+<https://arxiv.org/abs/2205.14612>
+
+Quantify the distance between ResNet's hidden state trajectory and the solution of its corresponding Neural ODE, which is tight but does not converges to zero with depth N if the residual function are not smooth with depth. But show that this smoothness is preserved by gradient descent with linear residual functions and small enough initial loss, showing the implicit regularization towards limit Neural ODE.

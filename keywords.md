@@ -23,3 +23,11 @@ This phenomenon has been well used to analyze the training dynamics of neural ne
 
 Since the dataset is finite where real data is a distribution, due to the error from sampling, test error will be larger than training error.
 To theoretically bound these two quantities' difference, several tools including VC dimension or Rademacher complexity are developed, and are used in learning theory.
+
+### Curse of dimensionality
+
+In many cases, as the input dimension increases, many machine learning problems become inefficient or even incorrect. This is usually because as the input dimension increases, a 'general vector', for example having all its entries constant variance, will have its norm diverging to infinity. This, for example, will make the distance of two 'general vector's very far. We say some algorithm overcomes this curse of dimensionality if its loss polynomially, or log-polynomially depend on input dimension, and conversely suffers if it depends exponentially.
+
+### Manifold Hypothesis
+
+One of solution to the curse of dimensionality is assuming that, though the data is in high dimension, the data distribution itself actually forms low dimensional manifold. This assumption is well used in many generative networks, and has been checked for several popular dataset. We write intrinsic dimension to refer the low-dimensional manifold's dimension, so that sometimes the loss depend on this dimension rather than ambient dimension, which is the input dimension.

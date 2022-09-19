@@ -1021,6 +1021,12 @@ The federated learning fails to converge to a comparable solution to its central
 
 Show that the Stein critic with learned neural network is equivalent to regression problem, and using the NTK theory with its eigendecomposition, propose using different regularization during training time.
 
+### Beyond Double Ascent via Recurrent Neural Tangent Kernel in Sequential Recommendation
+
+<https://www.arxiv.org/abs/2209.03735>
+
+From the idea that double ascent in the performance of NN models, use the infinite width NN as tool to bypass the restriction of huge models. Use recurrent NTK as a similarity measurement for user sequence, and prove that RNTK for tied input output embeddings is the same as the RNTK for untied input output embeddings.
+
 # Empirical Study
 
 ### Finite versus infinite neural networks: an empirical study

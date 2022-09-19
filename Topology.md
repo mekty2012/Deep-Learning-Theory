@@ -1,3 +1,4 @@
+## Algebraic Topology
 
 ### Topological Data Analysis of Decision Boundaries with Application to Model election
 
@@ -16,12 +17,6 @@ Characterize two types of directed homology for MLP, show that the directed flag
 <https://www.arxiv.org/abs/1901.09496>
 
 Introduce a method for computing the persistent homology over the graphical activation structure of NN, which provides access to the task-relevant substructures activated throughout feed forward. Using this approach, show that existence of adversarial example is alternations to the dominant activation structures, suggesting the representation are sparse on the input space.
-
-### Riemannian Curvature of Deep Neural Networks
-
-<https://www.ieeexplore.ieee.org/abstract/document/8746812>
-
-Define a method for calculating Riemann and Ricci curvature tensors for a trained neural net. 
 
 ### Topological Measurement of Deep Neural Networks Using Persistent Homology
 
@@ -53,23 +48,25 @@ Derive the upper bounds of the Betti numbers on each layer within the network, r
 
 Show that the power of the topological capacity of a dataset in its decision region is a strictly limiting factor in its ability to generalize. 
 
-### The Intrinsic dimension of Images and Its Impact on Learning
-
-<https://arxiv.org/abs/2104.08894>
-
-Apply dimension estimation tools to popular datasets, find that common natural image datasets indeed have very low intrinsic dimension relative to the high number of pixels in the images. Find that low dimensional datasets are easier for NNs to learn, and models solving these tasks generalize better from training to test data.
-
 ## Intrinsic Dimension, Persistent Homology and Generalization in Neural Networks
 
 <https://arxiv.org/abs/2111.13171>
 
 By making a novel connection between learning theory and topological data analysis, illustrate that the generalization error can be bounded in terms of a notion called persistent homology dimension, which does not require assumptions on the training dynamics. Aslo develop an efficient algorithm to estimate PHD with visualization tools.
 
-### Leveraging The Topological Consistencies of Learning in Deep Neural Networks
+### Topology-based Representative Datasets to Reduce Neural Network Training Resources
 
-<https://arxiv.org/abs/2111.15651>
+<https://arxiv.org/abs/1903.08519>
 
-Define a new class of topological features that accurately characterize the process of learning, and equipped for backpropagation. Show that they can predict performance of a DNN without a testing set and high-performance computing.
+Prove that the accuracy of the learning process of a neural network on a representative dataset is similar to the accuracy on the original dataset, where representativeness is measured using persistence diagrams.
+
+## Manifolds
+
+### Riemannian Curvature of Deep Neural Networks
+
+<https://www.ieeexplore.ieee.org/abstract/document/8746812>
+
+Define a method for calculating Riemann and Ricci curvature tensors for a trained neural net. 
 
 ### A singular Riemannian geometry approach to Deep neural Networks I. Theoretical foundations
 
@@ -77,14 +74,26 @@ Define a new class of topological features that accurately characterize the proc
 
 Study the sequence of maps between manifolds, investigate the structures induced through pullbacks of Riemannian metric, showing that pullback is a degenerate Riemannian metric inducing a structure of pseudometric spac, and the Kolmogorov quotient yields a smooth metric.
 
+### Leveraging The Topological Consistencies of Learning in Deep Neural Networks
+
+<https://arxiv.org/abs/2111.15651>
+
+Define a new class of topological features that accurately characterize the process of learning, and equipped for backpropagation. Show that they can predict performance of a DNN without a testing set and high-performance computing.
+
 ### Topological obstructions in neural networks learning
 
 <https://www.arxiv.org/abs/2012.15834>
 
 Use the Morse complex of the loss function to relate local behavior of gradient descent trajectory with global properties, and define Topological Obstruction score with barcodes of the loss function, quantifying the badness of local minima for gradient-based optimization.
 
-### Topology-based Representative Datasets to Reduce Neural Network Training Resources
+### The Intrinsic dimension of Images and Its Impact on Learning
 
-<https://arxiv.org/abs/1903.08519>
+<https://arxiv.org/abs/2104.08894>
 
-Prove that the accuracy of the learning process of a neural network on a representative dataset is similar to the accuracy on the original dataset, where representativeness is measured using persistence diagrams.
+Apply dimension estimation tools to popular datasets, find that common natural image datasets indeed have very low intrinsic dimension relative to the high number of pixels in the images. Find that low dimensional datasets are easier for NNs to learn, and models solving these tasks generalize better from training to test data.
+
+### Do Neural Networks Compress Manifolds Optimality?
+
+<https://arxiv.org/abs/2205.08518>
+
+It was shown previously that ANN-based compressors can achieve the optimal entropy-distortion curve for some low-dimensinal manifolds in high-dimensional ambient spaces. Show that the optimal entropy-distortion tradeoffs for two low-dimensiaonl manifolds with circular structure, and show that SOTA ANN-based compressors fail to optimally compress them.

@@ -154,3 +154,15 @@ Show that the SDEs arising from the diffusion models can exactly approximate the
 <https://www.arxiv.org/abs/2107.12466>
 
 Show that every d-dimensional probability distribution of bounded support can be generated through deep ReLU networks. The proof is based on generalization of space-filling approach.
+
+### Dynamics of Fourier Modes in Torus Generative Adversarial Networks
+
+<https://www.arxiv.org/abs/2209.01842>
+
+Decompose the objective function of adversary min-max game defining a periodic GAN into its Fourier series, and study the dynamics of truncated Fourier series. Using this, approximate the real flow and identify the main features of convergence of the GAN, showing that convergence orbits in GANs are small perturbations of periodic orbits so the Nash equilibria are spiral attractors.
+
+### On the Nash equilibrium of moment-matching GANs for stationary Gaussian processes
+
+<https://arxiv.org/abs/2203.07136>
+
+Study the Nash equilibrium where discriminator defined on the second-order statistical moments. Show that they can result non-existence of Nash equilibrium, or existence of consistent non-Nash equilibrium, or existence and uniqueness of consistent Nash equilibrium. The symmetry property of the generator family determines which of the results hold.

@@ -1,7 +1,9 @@
-### Algebraic Topology
+### Topology
 
+Topology is a branch of mathematics that consider the space's property, via various tools including the Manifold theory and algebraic topology.
 Algebraic topology is a branch of mathematics that analyze the geometry of space using tools like homology and homotopy. 
 One of tool mainly used here is __Persistent Homology__, which records the change of space for varying parameter, and use this information to analyze the complexity of networks.
+Manifold is a generalization of curve or curved surfaces, which is well used to represent some spaces in Euclidean space, where neural networks sometimes show that they learn this structure.
 
 ### Approximation
 

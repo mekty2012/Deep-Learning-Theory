@@ -330,3 +330,27 @@ Consider the Boolean target function, and the FCNN with expressive enough activa
 <https://www.arxiv.org/abs/2206.02659>
 
 Develop three generalization bound for deep neural networks, depending on the Hessian of parameter for the loss. Each of bound correspond to Vinalla fine-tnuning with or without early stopping, distance-based regularization, and consistent loss with regularization.
+
+### On the Study of Sample Complexity for Polynomial Neural Networks
+
+<https://www.arxiv.org/abs/2207.08896>
+
+Obtain novel results on sample complexity of PNNs, providing some insights in explaining the generalization ability of PNNs.
+
+### Weight Expansion: A New Perspective on Dropout and Generalization
+
+<https://www.arxiv.org/abs/2201.09209>
+
+Introduce the concept of weight expansion, an increase in the signed volume of a parallelotope spanned by the column or row vectors of weight covariance matrix, and show that this is an effective means of increasing the generalization in a PAC-Bayesian setting. Provide that the dropout leads to the weight expansion, and other methods that achieve weight expansion increase generaliation capacity.
+
+### Bounding The Rademacher Complexity of Fourier Neural Operator
+
+<https://arxiv.org/abs/2209.05150>
+
+Investigate the bounding of Rademacher complexity of FNO based on some group norms, and the generalization error of the FNO models. 
+
+### Generalization Bounds for Deep Transfer Learning Using Majority Predictor Accuracy
+
+<https://arxiv.org/abs/2209.05709>
+
+Analyze new generalization bound for tranfer learning, which utilize a quantity called majority predictor accuracy. This bound can be computed efficiently from data, so that it can be used as tranferability measure.
