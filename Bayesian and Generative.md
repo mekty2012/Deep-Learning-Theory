@@ -166,3 +166,15 @@ Decompose the objective function of adversary min-max game defining a periodic G
 <https://arxiv.org/abs/2203.07136>
 
 Study the Nash equilibrium where discriminator defined on the second-order statistical moments. Show that they can result non-existence of Nash equilibrium, or existence of consistent non-Nash equilibrium, or existence and uniqueness of consistent Nash equilibrium. The symmetry property of the generator family determines which of the results hold.
+
+### Mitigating the Effects of Non-Identiability on Inference for Bayesian Neural Networks with Latent Variables
+
+<https://www.arxiv.org/abs/1911.00569>
+
+Demonstrate that in the limit of infinite data, the posterior mode over the NN weights and latent variables is asymptotically biased away from the ground-truth. Due to this bias, the traditional inferences may yield parameters that generalize poorly.
+
+### Convergence of score-based generative modeling for general data distributions
+
+<https://arxiv.org/abs/2209.12381>
+
+Give polynomial convergence guarantees for denoising diffusion models without functional inequalities or strong smoothness assumptions. With L2 accurate score estimates, obtain Wasserstein distance guarantee for any bounded support or fast decaying tails, and total variation guarantee with further smoothness assumptions.

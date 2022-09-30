@@ -632,3 +632,9 @@ Show that using 1/N for the normalization factor, which is known as mean field s
 <https://www.arxiv.org/abs/2209.04036>
 
 ReLU NN's parameter space admits positive-dimensional spaces of symmetries, hence the local functional dimension near any parameter choice is lower than the parameteric dimension. Define the notion of this functional dimension, and show that it is inhomogeneous across the parameter space, and study it by finding when the functional dimension achieves its theoretical maximum, and fibers and quotient spaces.
+
+### Why neural networks find simple solutions: the many regularizers of geometric complexity
+
+<https://www.arxiv.org/abs/2209.13083>
+
+Develop the notion of geometric complexity, that measures variability of the model function using a discrete Dirichlet energy. Show that many training heuristics such as norm regularization. spectral norm regularization, flatness regularization, implicit gradient regularization, noise regularization, and the choices of initialization all act to control this geometric complexity.

@@ -147,3 +147,15 @@ Show that layer-wise network, which trains one layer at a time, has a closed for
 <https://www.arxiv.org/abs/2208.08191>
 
 Analyze the expressive power of mlp-based architectures in modelling dependencies between multiple different inputs, and show an exponential gap between the attention and the mlp-based mechanisms.
+
+### Fixed Points of Cone Mapping with the Application to Neural Networks
+
+<https://www.arxiv.org/abs/2207.09947>
+
+The cone mappings are often modelled with non-negative weight neural networks, however the nonnegative data usually do not guarantee nonnegative weight, hence this assumption often fails, and require weakening on the assumption for fixed point, scalability. Derive condition for the existence of fixed points of cone mappings without assuming scalability of functions, therefore available to applied to such NNs.
+
+### A Closer Look at Learned Optimization: Stability, Robustness, and Inductive Biases
+
+<https://www.arxiv.org/abs/2209.11208>
+
+Use tools from dynamical systems to analyze the inductive bias and stability of the optimization algorithms, which allows us to design inductive biases for blackbox optimizers. Then apply this to noisy quadratic model and introduce modification on learned optimizer.

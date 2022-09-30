@@ -81,3 +81,9 @@ Show that with standard initialization, the only nontrivial dynamics is given by
 <https://arxiv.org/abs/2205.14612>
 
 Quantify the distance between ResNet's hidden state trajectory and the solution of its corresponding Neural ODE, which is tight but does not converges to zero with depth N if the residual function are not smooth with depth. But show that this smoothness is preserved by gradient descent with linear residual functions and small enough initial loss, showing the implicit regularization towards limit Neural ODE.
+
+### Vanilla feedforward neural networks as a discretization of dynamics systems
+
+<https://arxiv.org/abs/2209.10909>
+
+Show that the not only ResNet, but the classical network structure can also be a numerical discretization of dynamic systems, which is based the properties of the leaky-ReLU function.

@@ -354,3 +354,27 @@ Investigate the bounding of Rademacher complexity of FNO based on some group nor
 <https://arxiv.org/abs/2209.05709>
 
 Analyze new generalization bound for tranfer learning, which utilize a quantity called majority predictor accuracy. This bound can be computed efficiently from data, so that it can be used as tranferability measure.
+
+### Deep Linear Networks can Benignly Overfit when Shallow Ones Do
+
+<https://www.arxiv.org/abs/2209.09315>
+
+Bound the excess risk of deep linear networks under gradient flow, and show that the randomly initialized deep linear network achieve closely approximate or known bounds for the minimum risk, and with same conditional variance.
+
+### Stability and Generalization Analysis of Gradient Methods for Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2209.09298>
+
+Study the generalization behavior of shallow neural networks via algorithmic stability. For both GD and SGD, develop consistent excess risk bounds by balancing the optimization and generalization via early stopping.
+
+### Periodic Extrapolative Generalisation in Neural Networks
+
+<https://www.arxiv.org/abs/2209.10280>
+
+Formalize the problem of periodic extrapolation, and investigate the generalisation abilities of various architectures. Find that periodic and snake activation functions fail, while traditional sequential models still outperform, bounded by population based training.
+
+### Neural Networks Efficiently Learn Low-Dimensional Representations with SGD
+
+<https://www.arxiv.org/abs/2209.14863>
+
+Prove that the first-layer weight of the NN converge to the k-dimensional principal subspace spanned by true model's basis. This gives generalization bound independent to the width of NN, and outperforming the kernel regime's generalization bound for the degree p polynomials.

@@ -849,6 +849,18 @@ Study the training dynamics of gradient flow on kernel least-squares objective, 
 
 Study the sheaf convolutional network's NTK, which is a topological generalization of GCNN. Derive a parameterization of this neural tangent kernel, which separates the function to two parts, forward diffusion process by the graph, and the composite effect of nodes' activations.
 
+### What can be learnt with wide convolutional networks?
+
+<https://www.arxiv.org/abs/2208.01003>
+
+Study the deep CNNs in the kernel regime, show that the spectrum of kernel inherits the hierarchical structure. Then use this result to generalization bound that deep CNNs adapt to the spatial scale of the target functions.
+
+### Self-Consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks
+
+<https://arxiv.org/abs/2205.09653>
+
+Analyze feature learning in the infinite-width neural network trained with gradient flow, through self-consistent dynamical field theory. Construct a collection of deterministic dynamical order parameters, defining the hidden layer activation distribution and evolution of NTK. For deep linear networks, these kernels satisf algebraic matrix equations, and nonlinear networks have sampling procedure.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
@@ -1026,6 +1038,12 @@ Show that the Stein critic with learned neural network is equivalent to regressi
 <https://www.arxiv.org/abs/2209.03735>
 
 From the idea that double ascent in the performance of NN models, use the infinite width NN as tool to bypass the restriction of huge models. Use recurrent NTK as a similarity measurement for user sequence, and prove that RNTK for tied input output embeddings is the same as the RNTK for untied input output embeddings.
+
+### Fast Neural Kernel Embeddings for General Activations
+
+<https://www.arxiv.org/abs/2209.04121>
+
+Present method for approximating the dual kernel of general activation via Hermite expansion, with approximate errors. Then accelerate this expansion using sketching method, which results speedup than exact NTK computation.
 
 # Empirical Study
 

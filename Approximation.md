@@ -273,3 +273,9 @@ Show that neural networks with absolute value activation function and the path n
 <https://www.arxiv.org/abs/2209.01173>
 
 Consider the data from radially symmetric distribution with target label 1 at the origin, 0 outside the unit ball, otherwise unknown. With weight decay regularization and in infinite neuron, infinite data limit, prove that a unique radially symmetric minimizer exists, with decay regularizer grow as input dimension. Show that the regularizer decrease exponentially in input dimension if target label is on smaller ball rather than origin. And show that NN with two hidden layers can approximate the target function without this curse of dimensionality.
+
+### Achieve the Minimum Width of Neural Networks for Universal Approximation
+
+<https://www.arxiv.org/abs/2209.11395>
+
+Consider neural networks with an arbitrary set of activation functions, show that both continuous and Lp UAP on compact domain share a universal lower bound of max(dx, dy). The proof is based on the approximation power of neural ODE and ability to approximate it by neural network.

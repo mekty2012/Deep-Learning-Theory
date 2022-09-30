@@ -83,3 +83,9 @@ Improve the description of neural networks in terms of Wilsonian effective field
 <https://www.arxiv.org/abs/2204.01058>
 
 Give estimate of the joint correlation function of network output and derivative in deep FCNN, which is controlled by depth-to-width ratio.
+
+### The Mori-Zwanzi formulation of deep learning
+
+<https://www.arxiv.org/abs/2209.05544>
+
+Using the duality between deep neural networks and discrete stochastic dynamical systems, that allows to propagate conditional expectations and probability density functions forward and backward. This introduces memory of the network, and develop sufficient conditions for the memory to decay with the number of layers.
