@@ -178,3 +178,9 @@ Consider the two-layer neural network in the mean-field regime, establish a new 
 <https://arxiv.org/abs/2112.05589>
 
 Present a unified and systematic derivation of the mean-field theory by statistical physics. This theory elucidates that while the mean-field equations are different with their temporal structure, yet yield identical Gaussian kernels. Find that convergence towards the mean-field thoery is slower for recurrent networks than deep networks.
+
+### Rigorous dynamical mean field theory for stochastic gradient descent methods
+
+<https://www.arxiv.org/abs/2210.06591>
+
+Prove closed-form equation for the exact high-dimensional asymptotic from observations on Gaussian data, for shallow neural network and first order gradient methods. These match results from the discretization of DMFT.

@@ -159,3 +159,27 @@ The cone mappings are often modelled with non-negative weight neural networks, h
 <https://www.arxiv.org/abs/2209.11208>
 
 Use tools from dynamical systems to analyze the inductive bias and stability of the optimization algorithms, which allows us to design inductive biases for blackbox optimizers. Then apply this to noisy quadratic model and introduce modification on learned optimizer.
+
+### On the optimization and generalization of overparameterized implicit neural networks
+
+<https://www.arxiv.org/abs/2209.15562>
+
+Usual analysis on implicit neural network collapse to studying only last layer, so study the case when optimizing the implicit layer only. Show that global convergence is guaranteed, and give generalization that is initialization sensitive.
+
+### Rethinking Lipschitz Neural Networks for Certified L-infinity Robustness
+
+<https://www.arxiv.org/abs/2210.01787>
+
+Show that using the norm-bounded affine layers and Lipschitz activation lose the expressive power, while other Lipschitz networks like GroupSort and L-infinity networks bypass these impossibilities.
+
+### Is L2 Physics-Informed Loss Always Suitable for Training Physics-Informed Neural Networks?
+
+<https://www.arxiv.org/abs/2206.02016>
+
+Show that for Hamilton-Jacobi-Bellman equations, for general Lp Physics informed loss, the equation is stable only if p is sufficiently large. Hence it is better to choose L-infinity loss.
+
+### A Functional Perspective on Learning Symmetric Functions with Neural Networks
+
+<https://www.arxiv.org/abs/2008.06952>
+
+View the permutation-invariant network as function over probability measures, and establish approximation and generalization bounds under different regularizations.

@@ -378,3 +378,9 @@ Formalize the problem of periodic extrapolation, and investigate the generalisat
 <https://www.arxiv.org/abs/2209.14863>
 
 Prove that the first-layer weight of the NN converge to the k-dimensional principal subspace spanned by true model's basis. This gives generalization bound independent to the width of NN, and outperforming the kernel regime's generalization bound for the degree p polynomials.
+
+### Beyond Lipschitz: Sharp Generalization and Excess Risk Bounds for Full-Batch GD
+
+<https://www.arxiv.org/abs/2204.12446>
+
+Give sharp path-dependent generalization and excess risk guarantees for the full-batch GD. Prove that for nonconvex smooth loss, the full batch GD efficiently generalize close to any stationary point and recovers the generalization error guarantees of stochastic algorithms. For convex smooth loss, show that the generalization error is tigher than the existing bounds for SGD.

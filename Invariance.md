@@ -87,3 +87,15 @@ Study the approximation of functions which are invariant w.r.t. certain permutat
 <https://arxiv.org/abs/2110.06084>
 
 Show that L-layer full-width linear, group convolution neural networks trained with gradient descent on binary classification, converge to solutions with low-rank Fourier matrix coefficient. This generalize the results in CNN to G-CNN for all finite groups.
+
+### Approximation of nearly-periodic symplectic maps via structure-preserving neural networks
+
+<https://www.arxiv.org/abs/2210.05087>
+
+Propose a novel structure-preserving neural network to approximate nearly-periodic symplectic maps, which gives rise to a discrete-time adiabatic invariant and a long-time stability.
+
+### Universality of Group Convolutional Neural Networks Based on Ridgelet Analysis on Groups
+
+<https://www.arxiv.org/abs/2205.14819>
+
+Show the universality of depth-2 group convolutional neural networks based on the ridgelet theory. By formulating the GCNN parameter realizer function, find the analysis operator named ridgelet transform that maps a given function to parameter space. This includes permutation invariant, E(n)-equivariant networks.

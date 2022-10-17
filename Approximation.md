@@ -279,3 +279,9 @@ Consider the data from radially symmetric distribution with target label 1 at th
 <https://www.arxiv.org/abs/2209.11395>
 
 Consider neural networks with an arbitrary set of activation functions, show that both continuous and Lp UAP on compact domain share a universal lower bound of max(dx, dy). The proof is based on the approximation power of neural ODE and ability to approximate it by neural network.
+
+### Transformers Implement First-Order Logic with Majority Quantifiers
+
+<https://www.arxiv.org/abs/2210.02671>
+
+Show that any transformer neural network can be translated into an equivlaent fixed-size first-order logic formula which may also use majority quantifiers.

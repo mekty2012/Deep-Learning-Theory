@@ -129,3 +129,27 @@ For aggregation-combine GNNs, define the power of GNNs in the coloring problem a
 <https://www.arxiv.org/abs/2205.13328>
 
 Show that the expressive power of K-hop message passing is more powerful than 1-hop message passing, however is still impossible to distinguish some simple regular graphs. Define the KP-GNN which also includes the peripheral subgraph information, and prove that it can distinguish almost all regular graphs.
+
+### How Powerful is Implicit Denoising in Graph Neural Networks
+
+<https://www.arxiv.org/abs/2209.14514>
+
+It is believed that GNNs implicitly remove the non-predictive noise, and this work analyze when and why this happens in GNN, by studying the convergence property of noise matrix. Suggest this denoising largely depends on the connextivity, graph size, and GNN architecture. Define adversarial graph signal denoising, and derive a robust graph convolution.
+
+### Tree Mover's Distance: Bridging Graph Metrics and Stability of Graph Neural Networks
+
+<https://www.arxiv.org/abs/2210.01906>
+
+Define a pseudometric for attributed graphs, the Tree Mover's distance, and study its realation to the generalization. Via a hierarachical optimal transport, TMD reflects both local distribution of node attribute and the distribution of local computation tree.
+
+### Graph Neural Networks as Gradient Flows: understanding graph convolutions via energy
+
+<https://www.arxiv.org/abs/2206.10991>
+
+Derive GNNs as a gradient flow, and show that the positive/negative eigenvalues of the channel mixing matrix correspond to attractive/replusive forces. Rigorously prove how the channel mixing can learn to steer the dynamics towards low or high frequencies.
+
+### Graph Neural Networks are Dynamic Programmers
+
+<https://www.arxiv.org/abs/2203.15544>
+
+Using the methods from category thoery, show that there is an intricate connection between GNNs and DP. With this connection, find several prior findings for the algorithmically aligned GNNs.

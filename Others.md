@@ -36,6 +36,12 @@ Study the implicit bias of SGD to favor low-depth solutions when training deep n
 
 Adopting the unconstrained-features model which is a recent theoretical model for studying neural collapse, and introduce Simplex-Encoded-Labels Interpolation as characterization of the neural collapse phenomenon. Prove that for the UFM with cross-entropy and vanishing regularization, the embeddings and classifiers always interpolate simplex-encoded label matrix and their individual geometrices are determinied by the SVD factors.
 
+### Are All Losses Created Equal: A Neural Collapse Perspective
+
+<https://www.arxiv.org/abs/2210.02192>
+
+Extend the results on the neural collapse, show that label smoothing, focal loss also exhibit neural collapse and give equivalent feature. Show that the only global minimizers are neural collapse solutions.
+
 ## Hierarchical Tensor Decomposition
 
 ### Analysis and Design of Convolutional Networks via Hierarchical Tensor Decompositions
@@ -638,3 +644,21 @@ ReLU NN's parameter space admits positive-dimensional spaces of symmetries, henc
 <https://www.arxiv.org/abs/2209.13083>
 
 Develop the notion of geometric complexity, that measures variability of the model function using a discrete Dirichlet energy. Show that many training heuristics such as norm regularization. spectral norm regularization, flatness regularization, implicit gradient regularization, noise regularization, and the choices of initialization all act to control this geometric complexity.
+
+### Implicit Bias of Large Depth Networks: a Notion of Rank for Nonlinear Functions
+
+<https://www.arxiv.org/abs/2209.15055>
+
+Show that the representation cost of FCNNs converges to a notion of rank over nonlinear functions, as the depth of the network goes to infinity. Show that too large depths give global minimum to approximately rank 1.
+
+### Overparameterized ReLU Neural Networks Learn the Simplest Models: Neural Isometry and Exact Recovery
+
+<https://www.arxiv.org/abs/2209.15265>
+
+Show that the ReLU networks with an arbitrary numbers of parameters learn only simple models that explain the data, which is analogous to the recovery of the sparsest linear model in compressed sensing. 
+
+### The Asymmetric Maximum Margin Bias of Quasi-Homogeneous Neural Networks
+
+<https://www.arxiv.org/abs/2210.03820>
+
+Define quasi-homogeneous models that is expressive enough to describe homogeneous activations, biases, residual connections, and normalization. Show that they also have marimum-margin bias, however the gradient flow favors a subset of parameters unlike homogeneous networks.

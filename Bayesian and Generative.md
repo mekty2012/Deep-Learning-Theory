@@ -178,3 +178,15 @@ Demonstrate that in the limit of infinite data, the posterior mode over the NN w
 <https://arxiv.org/abs/2209.12381>
 
 Give polynomial convergence guarantees for denoising diffusion models without functional inequalities or strong smoothness assumptions. With L2 accurate score estimates, obtain Wasserstein distance guarantee for any bounded support or fast decaying tails, and total variation guarantee with further smoothness assumptions.
+
+### Scale-Invariant Bayesian Neural Networks with Connextivity Tangent Kernel
+
+<https://arxiv.org/abs/2209.15208>
+
+The generalization bound by loss landscapes usually can be chaned arbitrarily to the scale of a parameter. Propose new prior distribution that is invariant to scaling transformations, giving generalization bound that works for more practical class of transformations such as weight decay.
+
+### A Variational Perspective on Generative Flow Networks
+
+<https://www.arxiv.org/abs/2210.07992>
+
+Define the variational objectives for GFNs in terms of KL distribution between the forward and backward distribution, and show that variational inference is equivalent to minimizing the trajectory balance objective when sampling trajectories from the forward model. 

@@ -268,3 +268,9 @@ Using Mixed-Integer Linear Programming to overapproximate the individual fairnes
 <https://www.arxiv.org/abs/2207.00759>
 
 Propose a novel abstraction to break down the size of DNNs by over-approximation, and counterexample-guided refinement that eliminate spurious counterexamples.
+
+### Fundamenatl Limits in Formal Verification of Message-Passing Neural Networks
+
+<https://www.arxiv.org/abs/2206.05070>
+
+Show that the output reachability of graph-classifier MPNN over graphs with unbounded size, with sufficiently expressive node labels cannot be verified formally. However, such verification is possible when a limit on the degree is given.

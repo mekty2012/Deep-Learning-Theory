@@ -861,6 +861,12 @@ Study the deep CNNs in the kernel regime, show that the spectrum of kernel inher
 
 Analyze feature learning in the infinite-width neural network trained with gradient flow, through self-consistent dynamical field theory. Construct a collection of deterministic dynamical order parameters, defining the hidden layer activation distribution and evolution of NTK. For deep linear networks, these kernels satisf algebraic matrix equations, and nonlinear networks have sampling procedure.
 
+### The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks 
+
+<https://www.arxiv.org/abs/2210.02157>
+
+Study other learning rules including feedback alignment, direct feedback alignement, error modulated Hebbian learning, and gated linear netwroks. Show that they all have effective Neural Tangent Kernel, which is static in lazy training limit, and self-consistently determined in mean-field regime.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
@@ -910,6 +916,12 @@ Provide a comprehensive analysis of the convergence rates of the NTK regime to t
 <https://www.arxiv.org/abs/2108.12862>
 
 Using a shortcut network, show that increasing the depth of a neural network can also give rise to a gaussian process with characterization of uniform tightness property and the smallest eigenvalue.
+
+### On the infinite-depth limit of finite-width neural networks
+
+<https://www.arxiv.org/abs/2210.00688>
+
+Show that the infinite depth network converges in distribution to a zero-drift diffusion process, while choice of activation function makes distribution changes largely. Show that there is phase-transition of post-activation norms when the width increases from 3 to 4.
 
 # Application
 

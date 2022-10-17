@@ -437,3 +437,21 @@ Show that there are three regimes of training depending on the effective learnin
 <https://arxiv.org/abs/2106.013792>
 
 Introduce notion of proxy convexity and proxy Polyak-Lojasiewicz inequalities, which are satisfied if the original objective induces a proxy objective that is implicitly minimized during the gradient. Show that gradient descent on objectives satisfying proxy convexity of proxy PL inequality gives efficient guarantees for proxy objective functions, and many existing guarantees for neural networks can be unified using these two notions.
+
+### Self-Stabilization: The implicit Bias of Gradient Descent at the Edge of Stability
+
+<https://www.arxiv.org/abs/2209.15594>
+
+Demonstrate that the dynamics of gradient descent at the edge of stability can be captured by cubic Taylor expansion. The cubic term causes the curvature to decrease so that stability is restored, named self-stabilization. Self-stabilization makes gradient descent at EoS to follow the projected gradient descent while largest eigenvalue of Hessian is less than 2 / learning rate.
+
+### Plateau in Monotonic Linear Interpolation -- A "Biased" View of Loss Landscape of Deep Networks
+
+<https://www.arxiv.org/abs/2210.01019>
+
+Show that the interpolation over parameter space for both weight and bias gives very different influences on the final output, and there will be a long plateau in the both loss and accuracy interpolation, if different classes have different last-layer biases. This is the phenomena that MLI cannot explain.
+
+### Implicit Bias in Leaky ReLU Networks Trained on High-Dimensional Data
+
+<https://www.arxiv.org/abs/2210.07082>
+
+Consider the two-layer fully-connected neural networks with leaky-ReLU activation. Show that the gradient flow produces a neural network with rank at most two, and is an l2-max-margin solution with linear decision boundary. For the gradient descent, a single step is sufficient to reduce the rank of the network and small rank is preserved throughout training.
