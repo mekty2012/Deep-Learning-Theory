@@ -99,3 +99,15 @@ Propose a novel structure-preserving neural network to approximate nearly-period
 <https://www.arxiv.org/abs/2205.14819>
 
 Show the universality of depth-2 group convolutional neural networks based on the ridgelet theory. By formulating the GCNN parameter realizer function, find the analysis operator named ridgelet transform that maps a given function to parameter space. This includes permutation invariant, E(n)-equivariant networks.
+
+### A Functional Perspective on Learning Symmetric Functions with Neural Networks
+
+<https://www.arxiv.org/abs/2008.06952>
+
+View the permutation-invariant network as function over probability measures, and establish approximation and generalization bounds under different regularizations.
+
+### On the Approximation and Complexity of Deep Neural Networks to Invariant Functions
+
+<https://arxiv.org/abs/2210.15279>
+
+Prove that the invariant functions can be universally approximated by deep neural networks, including complex-valued NN, CNN, and Bayesian NN.

@@ -153,3 +153,21 @@ Derive GNNs as a gradient flow, and show that the positive/negative eigenvalues 
 <https://www.arxiv.org/abs/2203.15544>
 
 Using the methods from category thoery, show that there is an intricate connection between GNNs and DP. With this connection, find several prior findings for the algorithmically aligned GNNs.
+
+### On Representing Mixed-Integer Linear Program by Graph Neural Networks
+
+<https://arxiv.org/abs/2210.10759>
+
+Show that there are both feasible and infeasible MILPs that all GNNs treat equally, which indicate that GNN lacks to express general MILP. However show that restricting the MILPs to unfoldable ones or adding random features, there exist GNNs that can predict MILP feasibility, optimal objective value, and optimal solution.
+
+### Superiority of GNN over NN in generalizing bandlimited functions
+
+<https://arxiv.org/abs/2206.05904>
+
+Show that GNN architecture outperform the NN in approximating bandlimited functions on compact d-dimensional Euclidean grids, which only uses few sampled functional values.
+
+### Boosting the Cycle Counting Power of Graph Neural Networks with I^2-GNNs
+
+<https://arxiv.org/abs/2210.13978>
+
+Show that subgraph MPNN cannot count more-than-4-cycles at node level, meaning that the node representation cannot encode the structure like ring with four atomes. Propose I^2-GNN which extend the Subgraph MPNN, that has stronger discriminative power.

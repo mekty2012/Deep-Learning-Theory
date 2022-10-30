@@ -70,12 +70,6 @@ Use tamed unadjusted stocahstic Langevin algorithm to train NN, provide non-asym
 
 Derive non-asymptotic error bound of random feature regression in high dimension with SGD training, show that due to unimodal variance and monotonic decrement of bias, there is double descent phenomenon.
 
-### On generalization bounds for deep networks based on loss surface implicit regularization
-
-<https://www.arxiv.org/abs/2201.04545>
-
-Study how local geometry aroung local minima affects stochastic gradient descent with Gaussian noise, that the local geometry forces SGD to stay close to a low dimensional subspace giving implicit regularization, hence tighter bound for deep neural network. To derive generalization error bound, introduce notion of stagnation set around the local minima, then if stagnation occur, the generalization error is given by spectral norm of weights instead of number of parameters.
-
 ### The Implicit Regularization of Momentum Gradient Descent with Early Stopping
 
 <https://www.arxiv.org/abs/2201.05405>
@@ -455,3 +449,27 @@ Show that the interpolation over parameter space for both weight and bias gives 
 <https://www.arxiv.org/abs/2210.07082>
 
 Consider the two-layer fully-connected neural networks with leaky-ReLU activation. Show that the gradient flow produces a neural network with rank at most two, and is an l2-max-margin solution with linear decision boundary. For the gradient descent, a single step is sufficient to reduce the rank of the network and small rank is preserved throughout training.
+
+### Non-convergence of stochastic gradient descent in the training of deep neural networks
+
+<https://arxiv.org/abs/2006.07075>
+
+Show that stochastic gradient descent can fail if depth is much larger than their width, and the number of random initialization does not increase to infinity fast enough.
+
+### The alignment property of SGD noise and how it helps select flat minima: A stability analysis
+
+<https://arxiv.org/abs/2207.02628>
+
+Show that if a global minimum is linearly stable for SGD, then it allows to bound the Frobenius norm of Hessian, by learning rate and batch size, otherwise SGD will escape from global minima.
+
+### Learning Ability of Interpolating Convolutional Neural Networks
+
+<https://arxiv.org/abs/2210.14184>
+
+Establish the best learning rates of underparamterized DCNNs without parameter restrictions, and show that adding well-defined layer gives interpolating DCNNs with good learning rate of underparamtereized DCNN.
+
+### An initial alignment between neural network and target is needed for gradient descent to learn
+
+<https://www.arxiv.org/abs/2202.12846>
+
+Consider the Boolean target function, and the FCNN with expressive enough activation. Show that without the alignment of initialization and the target function, the learning is impossible with polynomial number of steps and polynomial sized neural network.

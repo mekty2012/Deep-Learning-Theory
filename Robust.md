@@ -75,3 +75,27 @@ Present a PAC-Bayes generalization bound that depends on the distance traveled i
 <https://www.arxiv.org/abs/2205.13863>
 
 Even the robust training accuracy can be near zero, show that there exists a constant generalization gap unless the size of network is exponential in the data dimension. This holds for various architectures, as long as their VC dimension is at most polynomial in the number of paramters. Also establish an improved upper bound for the network capacity, depending on the intrinsic dimension.
+
+### Adversarial Robustness is at Odds with Lazy Training
+
+<https://arxiv.org/abs/2207.00411>
+
+Show that the over-parameterized neural networks that generalize well due to lazy training, remain vulnerable to attacks with single gradient ascent steps.
+
+### Deep Learning is Provably Robust to Symmetric Label Noise
+
+<https://arxiv.org/abs/2210.15083>
+
+Show that for multiclass classification, L1-consistent DNN classifiers trained with symmetric label noise achieve Bayes optimality asymptotically.
+
+### On the uncertainty principle of neural networks
+
+<https://arxiv.org/abs/2205.01493>
+
+Show that the accuracy-robustness trade-off is an intrinsic property, and is closely related to the uncertainty principle. In specific, relate the loss function to the wave function in quantum mechanics, showing that both inputs and conjugate can't be resolved simultaneously.
+
+### An Analysis of Robustness of Non-Lipschitz Networks
+
+<https://arxiv.org/abs/2010.06154>
+
+Prove that the adversarial attack that moves feature in low-dimensional subspace can be quite powerful. However allowing the network not to predict for unusal inputs, such adversaries can be overcome given well-separation assumption.

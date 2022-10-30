@@ -85,6 +85,12 @@ Propose a pruning algorithm so called spectral pruning for RNN, and provide the 
 
 Characterizes the performance of training a pruned neural network by analyzing the geometric structure of the objective function and the sample complexity to achieve zero generalization error. Show that the convex region near a desirable model with guaranteed generalization enlarges as the neural network model is pruned. 
 
+### Analyzing Lottery ticket Hypothesis from PAC-Bayesian Theory Perspective
+
+<https://www.arxiv.org/abs/2205.07320>
+
+Hypothesize that the 'winning tickets' have relatively sharp minima, which is a disadvantage in terms of generalization ability, and confirm this hypothesis with PAC-Bayesian theory. Find that the flatness is useful for improving the accuracy and robustness to label noise, and the distance from the initial weights is deeply involved in winning tickets.
+
 ## Other training
 
 ### Global Optimality Beyond Two Layers: Training Deep ReLU Networks via Convex Programs
@@ -138,6 +144,38 @@ Prove that GF on ReLU networks may no longer tend to minimize ranks, while revea
 <https://www.arxiv.org/abs/2203.07337>
 
 Study the population loss with its lower bound using influence functions, which connects the spectrum of the Hessian at the optimum, and exhibit a double descent behaviour at the interpolation threshold.
+
+## Linear Neural Network
+
+### The Power of Contrast for Feature Learning: A Theoretical Analysis
+
+<https://arxiv.org/abs/2110.02473>
+
+By using connection between PCA and linear Autoencoder, GAN, contrast learning, show that contrastive learning outperforms autoender for both feature learning and downstream tasks.
+
+### Deep Contrastive Learning is Provably (almost) Principal Component Analysis
+
+<https://www.arxiv.org/abs/2201.12680>
+
+Show that contrastive learning has a game-theoretical formulation, where max-player maximizes contrastiveness, min-player puts weights on pairs of samples with similar representation. Show that max player reduces to PCA for deep linear networks, with all local minima as global minima. This is also extended to 2-layer ReLU networks, and prove that feature composition is preferred then single dominant feature under strong augmentation.
+
+### Principal Components Bias in Over-parameterized Linear Models, and its Manifestation in Deep Neural Networks
+
+<https://www.arxiv.org/abs/2105.05553>
+
+In over-parameterized deep linear network with enough width, the convergence rate of parameters is exponentially fast along the larger principal components of the data, with rate governed by the singular value, named principal-component bias. Discuss how this may explain benefits of early stopping and why deep networks converge slowly with random labels.
+
+### A spectral-based analysis of the separation between two-layer neural networks and linear methods
+
+<https://www.arxiv.org/abs/2108.04964>
+
+Propose a spectral based approach to analyze how two-layer neural networks separate from linear methods. This can be reduced to estimating the Kolmogorov width of two-layer neural networks, which can be characterized using the spectrum of an associated kernel. This allows upper bound, lower bound, and identifying explicit hard functions, and systematic study of choice of activation's effect on the separation.
+
+### Exact Solutions of a Deep Linear Network
+
+<https://www.arxiv.org/abs/2204.04777>
+
+Find the analytical expression of global minima of deep linear networks with weight decay and stochastic neurons. Show that weight decay can create bad minima at zero, and that most of the initialisation are insufficient.
 
 ## Others
 
@@ -387,12 +425,6 @@ Give a complete characterization of families of probability distributions that a
 
 Number of activation regions are used as a complexity measure, and it has shown that practical complexity of Deep ReLU networks is often far from the theoretical maximum. Show that this also occurs in maxout activation, and give nontrivial lower bounds on the complexity, finally gives that different initialization can increase speed of convergence.
 
-### The Power of Contrast for Feature Learning: A Theoretical Analysis
-
-<https://arxiv.org/abs/2110.02473>
-
-By using connection between PCA and linear Autoencoder, GAN, contrast learning, show that contrastive learning outperforms autoender for both feature learning and downstream tasks.
-
 ### Neurashed: A Phenomenological Model for Imitating Deep Learning Training
 
 <https://arxiv.org/abs/2112.09741>
@@ -459,23 +491,11 @@ Provide a complete description of the asymptotic joint distribution of the empir
 
 Introduce k-local and k-global functions, and find that depth is beneficial for learning local functions but detrimental to learning global functions.
 
-### Deep Contrastive Learning is Provably (almost) Principal Component Analysis
-
-<https://www.arxiv.org/abs/2201.12680>
-
-Show that contrastive learning has a game-theoretical formulation, where max-player maximizes contrastiveness, min-player puts weights on pairs of samples with similar representation. Show that max player reduces to PCA for deep linear networks, with all local minima as global minima. This is also extended to 2-layer ReLU networks, and prove that feature composition is preferred then single dominant feature under strong augmentation.
-
 ### Spectral Analysis and Fixed Point Stability of Deep Neural Dynamics
 
 <https://www.arxiv.org/abs/2011.13492>
 
 Analyze the eigenvalue spectra and stability of discrete-time dynamics systems parameterized by DNNs, viewing neural network as affine parameter varying maps, and analyze using classical system methods. 
-
-### Principal Components Bias in Over-parameterized Linear Models, and its Manifestation in Deep Neural Networks
-
-<https://www.arxiv.org/abs/2105.05553>
-
-In over-parameterized deep linear network with enough width, the convergence rate of parameters is exponentially fast along the larger principal components of the data, with rate governed by the singular value, named principal-component bias. Discuss how this may explain benefits of early stopping and why deep networks converge slowly with random labels.
 
 ### The Implicit Bias of Gradient Descent on Generalized Gated Linear Networks
 
@@ -488,12 +508,6 @@ Derive infinite-time training limit of a mathematically tractable class of deep 
 <https://www.arxiv.org/abs/2202.06526>
 
 Show that when the signal-to-noise ratio satisfies a certain condition, a two-layer CNN with gradient descent arbitrary small training and test loss, giving benign overfitting. Conversely if this condition does not hold, the CNN only achieve constant level test loss, giving harmful overfitting.
-
-### A spectral-based analysis of the separation between two-layer neural networks and linear methods
-
-<https://www.arxiv.org/abs/2108.04964>
-
-Propose a spectral based approach to analyze how two-layer neural networks separate from linear methods. This can be reduced to estimating the Kolmogorov width of two-layer neural networks, which can be characterized using the spectrum of an associated kernel. This allows upper bound, lower bound, and identifying explicit hard functions, and systematic study of choice of activation's effect on the separation.
 
 ### How and what to learn:The modes of machine learning
 

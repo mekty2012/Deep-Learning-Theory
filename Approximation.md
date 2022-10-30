@@ -285,3 +285,15 @@ Consider neural networks with an arbitrary set of activation functions, show tha
 <https://www.arxiv.org/abs/2210.02671>
 
 Show that any transformer neural network can be translated into an equivlaent fixed-size first-order logic formula which may also use majority quantifiers.
+
+### Deep neural network expressivity for optimal stopping problems
+
+<https://arxiv.org/abs/2210.10443>
+
+Show that the value function and continuation value of an optimal stopping time of high dimensional discrete time Markov process can be approximated with error at most epsilon, with polynomial on dimension.
+
+### A new activation for neural networks and its approximation
+
+<https://arxiv.org/abs/2210.10264>
+
+Propose new activation named 'DLU', and show that it has competitive performance for approximation to ReLU and rational network, while having several advantages.

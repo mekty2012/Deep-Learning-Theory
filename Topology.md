@@ -97,3 +97,9 @@ Apply dimension estimation tools to popular datasets, find that common natural i
 <https://arxiv.org/abs/2205.08518>
 
 It was shown previously that ANN-based compressors can achieve the optimal entropy-distortion curve for some low-dimensinal manifolds in high-dimensional ambient spaces. Show that the optimal entropy-distortion tradeoffs for two low-dimensiaonl manifolds with circular structure, and show that SOTA ANN-based compressors fail to optimally compress them.
+
+### Tangent Bundle Filters and Neural Networks: from Manifolds to Cellular Sheaves and Back
+
+<https://arxiv.org/abs/2210.15058>
+
+Define the convolution over the tangent bundles via connection Laplacian operator, and tangent bundle NN. Show that the discretization of TNN is Sheaf neural networks, and show that this discrete architecture converges to underlying continuous TNN.

@@ -64,12 +64,6 @@ Relaxing the assumption that distribution of observed task and target task is eq
 
 Show that a functional variance characterizes the generalization gap even in overparameterized settings. Propose a computationally efficient approximation of the function variance, a Langevin approximation of the functional variance.
 
-### Estimates on the generalization error of Physics Informed Neural Networks (PINNs) for approximating PDEs
-
-<https://www.arxiv.org/abs/2006.16144>
-
-Provide upper bound on the generalization error of PINNs approximating solutions of the forward problem for PDEs.
-
 ### PACMAN: PAC-style bounds accounting for the Mismatch between Accuracy and Negative log-loss
 
 <https://arxiv.org/abs/2112.05547>
@@ -88,12 +82,6 @@ Show how averaging over an ensembles of stochastic neural networks enables new p
 
 Show the optimization and generalization under polylogarithmic width network w.r.t. n and epsilon^-1.
 
-### Approximation bounds for norm constrained neural networks with applications to regression and GANs
-
-<https://www.arxiv.org/abs/2201.09418>
-
-Prove approximation capacity of ReLU NN with norm constraint on the weights, especially upper and lower bound of approximation error of smooth function class, where lower bound comes from Rademacher complexity. Using this bounds, analyze convergence of regression and distribution estimation by GANs.
-
 ### Weight Expansion: A New Perspective on Dropout and Generalization
 
 <https://www.arxiv.org/abs/2201.09209>
@@ -105,7 +93,6 @@ Define weight expansion which is the signed volume of a parallelotope spanned by
 <https://www.arxiv.org/abs/2201.11059>
 
 Derive upper bounds on generalization errors for deep NNs with Markov datasets, based on Koltchinskii and Panchenko's approach for bounding the generalization error of combined classifiers. 
-
 
 ### Algorithm-Dependent Generalization Bounds for Overparameterized Deep Residual Networks
 
@@ -155,24 +142,11 @@ Studies excess capacity, that is given a capacity measure like Rademacher comple
 
 Study O(d) sample complexitiy in large ambient dimension d, of data with binary input which depend on latent low dimensional subspace, and two-layer network in mean-field regime, characterizes a hierarchical property "merged-staircase property" which is necessary and nearly sufficient. Show that non-linear training is necessary, that NTK-like learning is inefficient.
 
-### On PAC-Bayesian reconstruction guarantees for VAEs
-
-<https://www.arxiv.org/abs/2202.11455>
-
-Analyze the VAE's reconstruction ability for unseen test data with PAC-Bayes theory. Provide generalisation bounds on the theoretical reconstruction error and provide insights on the regularisation effect of VAE objective.
-
-### KAM Theory Meets Statistical Learning Theory: Hamiltonian Neural Networks with Non-Zero Training Loss
-
-<https://www.arxiv.org/abs/2102.11923>
-
-Hamiltonian neural network, which approximates the Hamiltonian with neural network, is perturbation from the true dynamics under non-zero loss. To apply perturbation theory for this, called KAM theory, provide a generalization error bound for Hamiltonian neural networks by deriving an estimate of the covering number of the gradient of the MLP, then giving L infinity bound on the Hamiltonian.
-
 ### Dynamics of stochastic gradient descent for two-layer neural networks in the teacher-student setup
 
 <https://www.arxiv.org/abs/1906.08632>
 
 In the teacher-student setup where the student network is trained by data generated from teacher network, show that the dynamics is captured by a set of differential equations, and calculate the generalization error fo student network.
-
 
 ### Improving Generalization of Deep Neural Networks by Leveraging Margin Distribution
 
@@ -180,18 +154,11 @@ In the teacher-student setup where the student network is trained by data genera
 
 Prove a generalization error bound based on statistics of the entire margin distribution, instead of using minimum margin. 
 
-
-### Haredness of Noise-Free Learning for Two-Hidden-Layer Neural Networks
+### Hardness of Noise-Free Learning for Two-Hidden-Layer Neural Networks
 
 <https://www.arxiv.org/abs/2202.05258>
 
 Give superpolynomial statistical query lower bound for learning two-hidden-layer ReLU networks w.r.t. Gaussian input noise free model, where no general SQ lower bound were known for ReLU network of any depth, only having only for adversarial noise or restricted models.
-
-### Analyzing Lottery ticket Hypothesis from PAC-Bayesian Theory Perspective
-
-<https://www.arxiv.org/abs/2205.07320>
-
-Hypothesize that the 'winning tickets' have relatively sharp minima, which is a disadvantage in terms of generalization ability, and confirm this hypothesis with PAC-Bayesian theory. Find that the flatness is useful for improving the accuracy and robustness to label noise, and the distance from the initial weights is deeply involved in winning tickets.
 
 ### Training ReLU networks to high uniform accuracy is intractable
 
@@ -319,12 +286,6 @@ Focus on the generalization of neural networks whose training dynamics do not ne
 
 Study the statistical theory of offline RL with deep ReLU network approximation, which depends on measure of distributional shift, dimension of state-action space, and the smoothness parameter of the MDP. This complexity holds under two consideration, Besov dynamic closure and the correlated structure from value regression.
 
-### An initial alignment between neural network and target is needed for gradient descent to learn
-
-<https://www.arxiv.org/abs/2202.12846>
-
-Consider the Boolean target function, and the FCNN with expressive enough activation. Show that without the alignment of initialization and the target function, the learning is impossible with polynomial number of steps and polynomial sized neural network.
-
 ### Robust Fine-Tuning of Deep Neural Networks with Hessian-based Generalization Guarantees
 
 <https://www.arxiv.org/abs/2206.02659>
@@ -342,12 +303,6 @@ Obtain novel results on sample complexity of PNNs, providing some insights in ex
 <https://www.arxiv.org/abs/2201.09209>
 
 Introduce the concept of weight expansion, an increase in the signed volume of a parallelotope spanned by the column or row vectors of weight covariance matrix, and show that this is an effective means of increasing the generalization in a PAC-Bayesian setting. Provide that the dropout leads to the weight expansion, and other methods that achieve weight expansion increase generaliation capacity.
-
-### Bounding The Rademacher Complexity of Fourier Neural Operator
-
-<https://arxiv.org/abs/2209.05150>
-
-Investigate the bounding of Rademacher complexity of FNO based on some group norms, and the generalization error of the FNO models. 
 
 ### Generalization Bounds for Deep Transfer Learning Using Majority Predictor Accuracy
 
@@ -384,3 +339,9 @@ Prove that the first-layer weight of the NN converge to the k-dimensional princi
 <https://www.arxiv.org/abs/2204.12446>
 
 Give sharp path-dependent generalization and excess risk guarantees for the full-batch GD. Prove that for nonconvex smooth loss, the full batch GD efficiently generalize close to any stationary point and recovers the generalization error guarantees of stochastic algorithms. For convex smooth loss, show that the generalization error is tigher than the existing bounds for SGD.
+
+### Uniform convergence may be unable to explain generalization in deep learning
+
+<https://arxiv.org/abs/1902.04742>
+
+Present examples of overparameterized linear classifiers and neural networks trained by gradient descent where uniform convergence provably cannot explain generalization, even if we take into account the implicit bias of GD. 

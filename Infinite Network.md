@@ -867,6 +867,18 @@ Analyze feature learning in the infinite-width neural network trained with gradi
 
 Study other learning rules including feedback alignment, direct feedback alignement, error modulated Hebbian learning, and gated linear netwroks. Show that they all have effective Neural Tangent Kernel, which is static in lazy training limit, and self-consistently determined in mean-field regime.
 
+### Empirical Phase Diagram for Three-layer Neural Networks with Infinite Width
+
+<https://arxiv.org/abs/2205.12101>
+
+Obtain two independent quantities that distinguish dynamical regimes for common initialisation, and find that there are two regime of linear regime and condensed regime, with the criteria is the relative change of input weights while the width tends to infinity.
+
+### A high-resolution dynamical view on momentum methods for over-parameterized neural networks
+
+<https://arxiv.org/abs/2208.03941>
+
+Provide the convergence analysis of Heavy Ball method and Nesterov's accelerated method for two-layer neural networks with ReLU activation, via dynamical systems and NTK theory. By characterizing the effect of gradient correction term, show the acceleration of NAG over HB.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization

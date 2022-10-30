@@ -1,3 +1,5 @@
+## Bayesian
+
 ### Global inducing point varaitional posteriors for Bayesian neural networks and deep Gaussian processes
 
 <https://www.arxiv.org/abs/2005.08140>
@@ -22,24 +24,6 @@ Find that CNN weights display strong spatial correlations, while FCNNs display h
 <https://arxiv.org/abs/2110.04020>
 
 Weight-space inference in transformers does not work well, regardless of the approximate posterior. Also find that the prior is at least partially at fault but that it is very hard to find well-specified weight priors for these models.
-
-### A global convergence theory for deep ReLU implicit networks via over-parameterization
-
-<https://arxiv.org/abs/2110.05645>
-
-Show that a randomly initialized gradient descent converges to a global minimum at a linear rate for the square loss function if the implicit neural network is over parameterized.
-
-### Non-convergence of stochastic gradient descent in the training of deep neural networks
-
-<https://arxiv.org/abs/2006.07075>
-
-Show that stochastic gradient descent can fail if depth is much larger than their width, and the number of random initialization does not increase to infinity fast enough.
-
-### Uniform convergence may be unable to explain generalization in deep learning
-
-<https://arxiv.org/abs/1902.04742>
-
-Present examples of overparameterized linear classifiers and neural networks trained by gradient descent where uniform convergence provably cannot explain generalization, even if we take into account the implicit bias of GD. 
 
 ### Asymptotics of representation learning in finite Bayesian neural networks
 
@@ -94,6 +78,20 @@ Show that the BNN using spike-and-slab prior has consistency with nearly minimax
 <https://arxiv.org/abs/2206.07673>
 
 Introduce repriorisation, which transform the BNN posterior to a distribution whose KL divergence to the BNN prior vanishes as layer widths grow. This analytic simplicity complements the NNGP behaviour, and using this repriorisation, implement MCMC posterior sampling algorithm which mixes faster the wider the BNN is, and is effective in high dimensions.
+
+### Mitigating the Effects of Non-Identiability on Inference for Bayesian Neural Networks with Latent Variables
+
+<https://www.arxiv.org/abs/1911.00569>
+
+Demonstrate that in the limit of infinite data, the posterior mode over the NN weights and latent variables is asymptotically biased away from the ground-truth. Due to this bias, the traditional inferences may yield parameters that generalize poorly.
+
+### Scale-Invariant Bayesian Neural Networks with Connextivity Tangent Kernel
+
+<https://arxiv.org/abs/2209.15208>
+
+The generalization bound by loss landscapes usually can be chaned arbitrarily to the scale of a parameter. Propose new prior distribution that is invariant to scaling transformations, giving generalization bound that works for more practical class of transformations such as weight decay.
+
+## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
 
@@ -167,26 +165,68 @@ Decompose the objective function of adversary min-max game defining a periodic G
 
 Study the Nash equilibrium where discriminator defined on the second-order statistical moments. Show that they can result non-existence of Nash equilibrium, or existence of consistent non-Nash equilibrium, or existence and uniqueness of consistent Nash equilibrium. The symmetry property of the generator family determines which of the results hold.
 
-### Mitigating the Effects of Non-Identiability on Inference for Bayesian Neural Networks with Latent Variables
-
-<https://www.arxiv.org/abs/1911.00569>
-
-Demonstrate that in the limit of infinite data, the posterior mode over the NN weights and latent variables is asymptotically biased away from the ground-truth. Due to this bias, the traditional inferences may yield parameters that generalize poorly.
-
 ### Convergence of score-based generative modeling for general data distributions
 
 <https://arxiv.org/abs/2209.12381>
 
 Give polynomial convergence guarantees for denoising diffusion models without functional inequalities or strong smoothness assumptions. With L2 accurate score estimates, obtain Wasserstein distance guarantee for any bounded support or fast decaying tails, and total variation guarantee with further smoothness assumptions.
 
-### Scale-Invariant Bayesian Neural Networks with Connextivity Tangent Kernel
-
-<https://arxiv.org/abs/2209.15208>
-
-The generalization bound by loss landscapes usually can be chaned arbitrarily to the scale of a parameter. Propose new prior distribution that is invariant to scaling transformations, giving generalization bound that works for more practical class of transformations such as weight decay.
-
 ### A Variational Perspective on Generative Flow Networks
 
 <https://www.arxiv.org/abs/2210.07992>
 
 Define the variational objectives for GFNs in terms of KL distribution between the forward and backward distribution, and show that variational inference is equivalent to minimizing the trajectory balance objective when sampling trajectories from the forward model. 
+
+### How Well Generative Adversarial Networks Learn Distributions
+
+<https://arxiv.org/abs/1811.03179>
+
+Nonparametrically, derive the optimal minimax rates for distribution estimation under the adversarial framework. Parametrically, estabilsh a theory for general neural network classes that characterized the interplay on the choice of generator and discriminator pair.
+
+### Certifiably Robust Variational Autoencoders
+
+<https://arxiv.org/abs/2102.07559>
+
+Derive actionable bounds on the minimal size of an input perturbation required to change a VAE's reconstruction by more than an allowed amount. Then show how these parameters can be controlled, providing a mechanism to ensure desired level of robustness.
+
+### alpha-GAN: Convergence and Estimation Guarantees
+
+<https://www.arxiv.org/abs/2205.06393>
+
+Prove a two-way correspondence between general CPE loss function GANs and the minimization of associated f-divergence. Show that the Arimoto divergences induced by a alpha-GAN equivalently converge for all alpha, and provide estimation bounds.
+
+### Distribution Approximation and Statistical Estimation Guarantees of Generative Adversarial Networks
+
+<https://www.arxiv.org/abs/2002.03938>
+
+Consider the approximation of data distributions that have densities in Hoelder space, show that assuming both discriminator and generator are properly chosen, GAN becomes the consistent estimator of data distribution under strong discrepancy metrics including Wasserstein-1 distance. Moreover when data distribution exhibits low-dimensional structure, show that GANs are capable to capture this strcture and achieve a fast statistical convergence, free of curse of the ambient dimensionality.
+
+### Convergence of denoising diffusion models under the manifold hypothesis
+
+<https://www.arxiv.org/abs/2208.05314>
+
+The theoretical analysis of denoising diffusion models assume that the target density is absolutely continuous w.r.t. Lebesgue measure, which does not cover setting when the target distribution is supported on a lower-dimensional manifold or is empirical distribution. Provide the first convergence result for more general setting, which is quantitative bounds on the Wasserstein distance of order one between target data distribution and the generative diftribution.
+
+### identifiability of deep generative models without auxiliary information
+
+<https://arxiv.org/abs/2206.10044>
+
+Show that for a generative models with universal approximation capabilities, the side information is not necessary. Prove the identifiability of the entire generative model without side information, only data.
+
+### On PAC-Bayesian reconstruction guarantees for VAEs
+
+<https://www.arxiv.org/abs/2202.11455>
+
+Analyze the VAE's reconstruction ability for unseen test data with PAC-Bayes theory. Provide generalisation bounds on the theoretical reconstruction error and provide insights on the regularisation effect of VAE objective.
+
+### Embrace the Gap: VAEs Perform Independent Mechanism Analysis
+
+<https://www.arxiv.org/abs/2206.02416>
+
+Prove that in the limit of near-determinstic decoders, optimal encoder approximately inverts the decoder. Using this phenomenon, show that ELBO converges to a regularized log-likelihood, and allow VAE to perform independent mechanism analysis that adds an inductive bias towards column-orthogonal Jacobians for decoders.
+
+### Approximation bounds for norm constrained neural networks with applications to regression and GANs
+
+<https://www.arxiv.org/abs/2201.09418>
+
+Prove approximation capacity of ReLU NN with norm constraint on the weights, especially upper and lower bound of approximation error of smooth function class, where lower bound comes from Rademacher complexity. Using this bounds, analyze convergence of regression and distribution estimation by GANs.
