@@ -473,3 +473,15 @@ Establish the best learning rates of underparamterized DCNNs without parameter r
 <https://www.arxiv.org/abs/2202.12846>
 
 Consider the Boolean target function, and the FCNN with expressive enough activation. Show that without the alignment of initialization and the target function, the learning is impossible with polynomial number of steps and polynomial sized neural network.
+
+### A Convergence Theory for Deep Learning via Over-Parametrization
+
+<https://www.arxiv.org/abs/1811.03962>
+
+When network is overparametrized, SGD can find global minima in polynomial time.
+
+### Gradient Descent Provably Optimizes Over-parametrized Neural Networks
+
+<https://www.arxiv.org/abs/1810.02054>
+
+In two-layer FC ReLU NN, if width is large enough and no two inputs are parallel, gradient descent converges to a globally optimal solution at a linear convergence rate.

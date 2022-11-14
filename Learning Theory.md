@@ -1,15 +1,3 @@
-### A Convergence Theory for Deep Learning via Over-Parametrization
-
-<https://www.arxiv.org/abs/1811.03962>
-
-When network is overparametrized, SGD can find global minima in polynomial time.
-
-### Gradient Descent Provably Optimizes Over-parametrized Neural Networks
-
-<https://www.arxiv.org/abs/1810.02054>
-
-In two-layer FC ReLU NN, if width is large enough and no two inputs are parallel, gradient descent converges to a globally optimal solution at a linear convergence rate.
-
 ## Deep learning generalizes because the parameter-function map is biased towards simple functions
 
 <https://www.arxiv.org/abs/1805.08522>
