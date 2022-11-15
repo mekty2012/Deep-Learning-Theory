@@ -62,7 +62,6 @@ By dynamical system approach, analyzes the implicit regularization in hierarchic
 
 Theoretically analyze the implicit regularization in hierarchical tensor factorization which is a model equivalent to certain deep CNNs, and establish implicit regularization towards low hierarchical tensor rank. This translates to an implicit regularization towards locality for the associated convolutional networks.
 
-
 ## Memorization
 
 ### On the Optimal Memorization Power of ReLU Neural Networks
@@ -116,6 +115,18 @@ Introduce a new technique for faster NN training using sample-based approximatio
 <https://arxiv.org/abs/2111.11542>
 
 Gradient descent has implicit inductive bias, that the parameterization gives different optimization trajectory. Natural gradient descent is approximately invariant to such parameterization, giving same trajectory and same minimum. Show that there exist learning problem where natural gradient descent fails to generalize while gradient descent performs well.
+
+### Provably Training Overparameterized Neural Network Classifiers with Non-convex Constraints
+
+<https://www.arxiv.org/abs/2012.15274>
+
+Show that overparameterized neural networks could achieve a near-optimal and near-feasible solution of non-convex constrained optimization via the projected SGD, using the no-regret analysis of online learning.
+
+### How Does Sharpness-Aware minimization Minimize Sharpness?
+
+<https://www.arxiv.org/abs/2211.05729>
+
+SAM generally minimizes the two step approximation of sharpness which is computationally efficient, so study whether this difference creates difference in empirical results. Clarify the exact sharpness notion that SAM regularizes, and show that the two step approximations individually lead inaccurate local conclusion, but gives correct effect combined.
 
 ## implicit Regularization
 

@@ -30,6 +30,24 @@ Analyze the expressive power of mlp-based architectures in modelling dependencie
 
 For echo state network with only its readout weights are optimized, show that they are universal under weak conditions for the continuous casual time-invariant operators.
 
+### Your Transformer May Not be as Powerful as You Expect
+
+<https://arxiv.org/abs/2205.13401>
+
+Analyze the power of relative positional encoding based Transformer, show that there exists continuous seq2seq function that RPE-transformer cannot approximate no matter how deep and wide is. The key reason is that most RPEs are placed in the softmax attention so generate a right stochastic matrix, which restricts the network from capturing positional information. Find sufficient condition for universal approximation of Transformer, and suggest attention module satisfying this.
+
+### Memory Capacity of Recurrent Neural Networks with Matrix Representation
+
+<https://www.arxiv.org/abs/2104.07454>
+
+Define a probabilistic notion of memory capacity based on Fisher information for RNNs, and show that this memory capacity is usually bounded by size of state matrix. Show that the models with external state memory has increase in memory capacity.
+
+### Recurrent Neural Networks and Universal Approximatins of Bayesian Filters
+
+<https://www.arxiv.org/abs/2211.00335>
+
+Consider the Bayesian optimal filtering problem, that estimates conditional statistics of a latent time series signal, using the RNN. Provide the approximation error bounds that is time-uniform.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
@@ -83,6 +101,12 @@ Show that the 1-Lipscitz networks are as accuracte as classical one, and can fit
 <https://www.arxiv.org/abs/2210.01787>
 
 Show that using the norm-bounded affine layers and Lipschitz activation lose the expressive power, while other Lipschitz networks like GroupSort and L-infinity networks bypass these impossibilities.
+
+### Improving Lipschitz-Constrained Neural Networks by Learning Activation Functions
+
+<https://www.arxiv.org/abs/2210.16222>
+
+Study the networks with learnable 1-Lipschitz linear spline activations, and show that they are the solutions of a functional optimization problem with second-order total-variation regularization.
 
 ## Implicit Models
 

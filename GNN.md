@@ -171,3 +171,9 @@ Show that GNN architecture outperform the NN in approximating bandlimited functi
 <https://arxiv.org/abs/2210.13978>
 
 Show that subgraph MPNN cannot count more-than-4-cycles at node level, meaning that the node representation cannot encode the structure like ring with four atomes. Propose I^2-GNN which extend the Subgraph MPNN, that has stronger discriminative power.
+
+### Incompleteness of graph neural networks for points clouds in three dimensions
+
+<https://www.arxiv.org/abs/2201.07136>
+
+Prove that the distance graph NN are not complete even on fully-connected graph with 3D atoms, by constructing pair of points clouds that are distinct, but have equivalent first-order WL test.

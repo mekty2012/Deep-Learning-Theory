@@ -184,3 +184,9 @@ Present a unified and systematic derivation of the mean-field theory by statisti
 <https://www.arxiv.org/abs/2210.06591>
 
 Prove closed-form equation for the exact high-dimensional asymptotic from observations on Gaussian data, for shallow neural network and first order gradient methods. These match results from the discretization of DMFT.
+
+### A Functional-Space Mean-Field Theory of Partially-Trained Three-Layer Neural Networks
+
+<https://www.arxiv.org/abs/2210.16288>
+
+Study the infinite-width limit of three-layer NN without training the first layer. By generalizing the MFT of two-layer-NNs to functional space, prove that the training loss for L2 regression decays to zero at a linear rate.

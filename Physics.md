@@ -89,3 +89,9 @@ Give estimate of the joint correlation function of network output and derivative
 <https://www.arxiv.org/abs/2209.05544>
 
 Using the duality between deep neural networks and discrete stochastic dynamical systems, that allows to propagate conditional expectations and probability density functions forward and backward. This introduces memory of the network, and develop sufficient conditions for the memory to decay with the number of layers.
+
+### Do ideas have shape? Idea registration as the continuous limit of artificial neural networks
+
+<https://www.arxiv.org/abs/2008.03920>
+
+Show that ResNet and their GP generalization converge, in the infinite depth limit, to a generalization of image registration variational algorithms. Then prove that the convergence with trained weights toward a Hamiltonian dynamics driven flow.

@@ -333,3 +333,15 @@ Give sharp path-dependent generalization and excess risk guarantees for the full
 <https://arxiv.org/abs/1902.04742>
 
 Present examples of overparameterized linear classifiers and neural networks trained by gradient descent where uniform convergence provably cannot explain generalization, even if we take into account the implicit bias of GD. 
+
+### On the Importance of Gradient Norm in PAC-Bayesian Bounds
+
+<https://www.arxiv.org/abs/2210.06143>
+
+Relax uniform bounds assumption by using on-average bounded loss and on-average bounded gradient norm, propose a new generalization bounds exploiting contractivity of the log-Sobolev inequalities. This adds loss-gradient term to the generalization bound which is a surrogate of the model complexity.
+
+### Instance-Dependent Generalization Bounds via Optimal Transport
+
+<https://www.arxiv.org/abs/2211.01258>
+
+Propose a optimal transport interpretation of the generalization problem, which gives instance-dependent generalization bounds depending on the local Lipschitz regularity of prediction function in the data space.

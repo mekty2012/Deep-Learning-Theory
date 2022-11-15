@@ -63,3 +63,9 @@ Develop a variational framework to understand the properties of functions learne
 <https://arxiv.org/abs/2105.13462>
 
 Show that SGD tends to impose constraints on high-order moments of the gradient noise, by a linear analysis of SGD aroung global minima. Identify Sobolev regularization effect of SGD, that SGD regularizes the Sobolev seminorms of the model functions w.r.t. the input data.
+
+### Duality for Neural Networks through Reproducing Kernel Banach Spaces
+
+<https://www.arxiv.org/abs/2211.05020>
+
+Barron spaces used to prove generalization bounds for neural network, is not Hilbert space due to the strong nonlinear coupling of the weights. Show that this can be understood as an infinite union of RKHS spaces, and the dual space is again an RKBS with role of data and parameters interchanged.

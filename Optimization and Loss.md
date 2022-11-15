@@ -485,3 +485,9 @@ When network is overparametrized, SGD can find global minima in polynomial time.
 <https://www.arxiv.org/abs/1810.02054>
 
 In two-layer FC ReLU NN, if width is large enough and no two inputs are parallel, gradient descent converges to a globally optimal solution at a linear convergence rate.
+
+### Toward Equation of Mothion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis
+
+<https://www.arxiv.org/abs/2210.15898>
+
+Derive and solve an Equation of Motion of DNNs, starting from gradient flow and derive the counter term canceling the discretization error. Then derive continuous differential equation that describes the discrete learning dynamics.

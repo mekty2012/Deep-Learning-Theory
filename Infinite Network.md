@@ -879,6 +879,12 @@ Obtain two independent quantities that distinguish dynamical regimes for common 
 
 Provide the convergence analysis of Heavy Ball method and Nesterov's accelerated method for two-layer neural networks with ReLU activation, via dynamical systems and NTK theory. By characterizing the effect of gradient correction term, show the acceleration of NAG over HB.
 
+### Information in Infinite Ensembles of Infinitely-Wide Neural Networks
+
+<https://www.arxiv.org/abs/1911.09189>
+
+Study the generalization properties of infinite-ensembles of infinitely-wide neural networks, which admits tractable calculations for many information theoretical quantities.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
