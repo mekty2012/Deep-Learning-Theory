@@ -80,6 +80,12 @@ Show that for Hamilton-Jacobi-Bellman equations, for general Lp Physics informed
 
 Provide upper bound on the generalization error of PINNs approximating solutions of the forward problem for PDEs.
 
+### Convergence analysis of unsupervised Legendre-Galerkin neural networks for linear second-order elliptic PDEs
+
+<https://www.arxiv.org/abs/2211.08900>
+
+ULGNet express solution as a spectral expansion w.r.t. Legendre basis and predict the coefficient with DNNs. Prove that the minimizer of discrete loss function converges to the weak solution of the PDEs.
+
 ## Invertible NN
 
 ### Understanding and Mitigating Exploding Inverses in Invertible Neural Networks

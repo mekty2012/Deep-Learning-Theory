@@ -491,3 +491,9 @@ In two-layer FC ReLU NN, if width is large enough and no two inputs are parallel
 <https://www.arxiv.org/abs/2210.15898>
 
 Derive and solve an Equation of Motion of DNNs, starting from gradient flow and derive the counter term canceling the discretization error. Then derive continuous differential equation that describes the discrete learning dynamics.
+
+### Improved Overparameterization Bounds for Global Convergence of Stochastic Gradient Descent for Shallow Neural Networks
+
+<https://www.arxiv.org/abs/2201.12052>
+
+Improve the SOTA results in terms of the required hidden layer width. Establish the global convergence of continuous solution of the diffeerntial inclusion, and provide relating solutions to the stochastic gradient sequences.

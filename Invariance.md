@@ -111,3 +111,15 @@ View the permutation-invariant network as function over probability measures, an
 <https://arxiv.org/abs/2210.15279>
 
 Prove that the invariant functions can be universally approximated by deep neural networks, including complex-valued NN, CNN, and Bayesian NN.
+
+### Group-Equivariant Neural Networks with Fusion Diagrams
+
+<https://www.arxiv.org/abs/2211.07482>
+
+Propose to use fusion diagram which simulates SU(2) symmetric quantum many-body problems, to design equivariant component for equivariant NN. Show that these blocks are universal approximators of any continuous equivariant function.
+
+### On the symmetries in the dynamics of wide two-layer neural networks
+
+<https://www.arxiv.org/abs/2211.08771>
+
+Consider the infinitely wide neural network's gradient flow, and study the effect of symmetries on the learned parameters. Describe the class of symmetries, are preserved the dynamics. For special cases, show that odd true function gives linear predictor's dynamics, and low-dimensional structure have lower-dimensional PDE dynamics.

@@ -91,6 +91,11 @@ Demonstrate that in the limit of infinite data, the posterior mode over the NN w
 
 The generalization bound by loss landscapes usually can be chaned arbitrarily to the scale of a parameter. Propose new prior distribution that is invariant to scaling transformations, giving generalization bound that works for more practical class of transformations such as weight decay.
 
+### Do Bayesian Neural Networks Need To Be Fully Stochastic?
+
+<https://www.arxiv.org/abs/2211.06291>
+
+Prove that the partially stochastic neural networks with only n stochastic biases are universal probabilistic predictors for n-dimensional predictive problems.
 ## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
@@ -230,3 +235,9 @@ Prove that in the limit of near-determinstic decoders, optimal encoder approxima
 <https://www.arxiv.org/abs/2201.09418>
 
 Prove approximation capacity of ReLU NN with norm constraint on the weights, especially upper and lower bound of approximation error of smooth function class, where lower bound comes from Rademacher complexity. Using this bounds, analyze convergence of regression and distribution estimation by GANs.
+
+### Learning (Very) Simple Generative Models Is Hard
+
+<https://arxiv.org/abs/2205.16003>
+
+Show that under the SQ model, no polynomial time algorithm can solve the generative model problem, even when the hidden layer of true function is only logarithmically many. Show this by stacking the discrete distribution that matches small moments to N(0, I).

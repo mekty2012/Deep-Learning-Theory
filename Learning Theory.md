@@ -345,3 +345,9 @@ Relax uniform bounds assumption by using on-average bounded loss and on-average 
 <https://www.arxiv.org/abs/2211.01258>
 
 Propose a optimal transport interpretation of the generalization problem, which gives instance-dependent generalization bounds depending on the local Lipschitz regularity of prediction function in the data space.
+
+### Overparameterized random feature regression with nearly orthogonal data
+
+<https://www.arxiv.org/abs/2211.06077>
+
+Consider the random feature ridge regression given by two-layer NN, where number of parameter is much larger than the sample size. Establish the concentration of training error, cross-validation, and generalization errors around kernel ridge regression. Then approximate the performance of KRR by a polynomial kernel matrix, finally giving lower bound of the generalization error of RFRR.

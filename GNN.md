@@ -177,3 +177,15 @@ Show that subgraph MPNN cannot count more-than-4-cycles at node level, meaning t
 <https://www.arxiv.org/abs/2201.07136>
 
 Prove that the distance graph NN are not complete even on fully-connected graph with 3D atoms, by constructing pair of points clouds that are distinct, but have equivalent first-order WL test.
+
+### Analysis of Graph Neural Networks with Theory of Markov Chains
+
+<https://www.arxiv.org/abs/2211.06605>
+
+Use markov chain on graphs to model the forward process of GNN, and show that operator-consistent GNN cannot avoid over-smoothing at exponential rate, where operator-inconsistent GNN can avoid over-smoothing under some condition.
+
+### Exponentially Improving the Complexities of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks
+
+<https://arxiv.org/abs/2211.03232>
+
+The classical equivalence of GNN to WL test required exponentially many features with graph-dependent weights. Improve this to polynomially many features with independent weight, by incorporating the stochastic approximation of hashing.

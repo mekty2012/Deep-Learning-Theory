@@ -99,3 +99,15 @@ Show that the accuracy-robustness trade-off is an intrinsic property, and is clo
 <https://arxiv.org/abs/2010.06154>
 
 Prove that the adversarial attack that moves feature in low-dimensional subspace can be quite powerful. However allowing the network not to predict for unusal inputs, such adversaries can be overcome given well-separation assumption.
+
+### Gradient Methods Provably Converge to Non-Robust Networks
+
+<https://arxiv.org/abs/2202.04347>
+
+Show that there exists robust parameter for 2-layer network, but gradient flow gives non-robust network which can be solved that KKT condition of the max-margin problem is non-robust.
+
+### Adversarial Robustness is at Odds with Lazy Training
+
+<https://arxiv.org/abs/2207.00411>
+
+Show that the lazy-training of the neural network always lead to the vulnerable model, that can be attacked with single step of gradient ascent.

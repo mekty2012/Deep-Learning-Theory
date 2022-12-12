@@ -87,3 +87,9 @@ Quantify the distance between ResNet's hidden state trajectory and the solution 
 <https://arxiv.org/abs/2209.10909>
 
 Show that the not only ResNet, but the classical network structure can also be a numerical discretization of dynamic systems, which is based the properties of the leaky-ReLU function.
+
+### Surprising Instabilities in Training Deep Networks and a Theoretical Analysis
+
+<https://arxiv.org/abs/2206.02001>
+
+To analyze the numerical error due to the floating point computation, derive the gradient descent PDE of the NN learning, and analyze it using the Pon-Neumann analysis to study its stability.

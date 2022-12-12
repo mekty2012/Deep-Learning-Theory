@@ -280,3 +280,9 @@ Show that the output reachability of graph-classifier MPNN over graphs with unbo
 <https://www.arxiv.org/abs/2211.01022>
 
 Show that the input-output behaviour of a DNN can be captured precisely by a weak Buchi automaton with exponential size, and these can address verification tasks like adversarial robustness and minimum sufficient reasons.
+
+### Probabilistic Verification of ReLU Neural Networks via Characteristic Functions
+
+<https://arxiv.org/abs/2212.01544>
+
+Interpret the DNN as discrete dynamical system, and use characteristic function to propagate the distribution of the input data. Using the inverse Fourier transform, obtain the cumulative distribution function of the ouptut set, that can be used to check if the network is performing as expected.

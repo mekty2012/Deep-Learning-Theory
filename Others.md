@@ -687,3 +687,15 @@ Show that the ReLU networks with an arbitrary numbers of parameters learn only s
 <https://www.arxiv.org/abs/2210.03820>
 
 Define quasi-homogeneous models that is expressive enough to describe homogeneous activations, biases, residual connections, and normalization. Show that they also have marimum-margin bias, however the gradient flow favors a subset of parameters unlike homogeneous networks.
+
+### Unifying and Boosting Gradient-Based Training-Free Neural Architecture Search
+
+<https://arxiv.org/abs/2201.09785>
+
+Show that the training-free NAS metrics are equal up to constant, which allows us to derive single generalzation bound results for all NAS metrics.
+
+### Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent
+
+<https://arxiv.org/abs/2207.04036>
+
+Show that under natural condition of commuting parameterization, the reparameterized gradient flow model is equivalent to the continuous mirror descent with a related Legendere function.

@@ -297,3 +297,21 @@ Show that the value function and continuation value of an optimal stopping time 
 <https://arxiv.org/abs/2210.10264>
 
 Propose new activation named 'DLU', and show that it has competitive performance for approximation to ReLU and rational network, while having several advantages.
+
+### Simultaneous approximation of a smooth function and its derivatives by deep neural networks with piecewise-polynomial activations
+
+<https://arxiv.org/abs/2206.09527>
+
+Derive the required depth, width, and sparsity of the deep neural network to approximate any Hoelder smooth function in Hoelder norm, when all weights are bounded by 1.
+
+### Limitations on approximation by deep and shallow neural networks
+
+<https://arxiv.org/abs/2212.02223>
+
+Prove the Carl's type ineuqalities for the error of approximation of compact sets by deep and shallow neural networks, which gives lower bound on how well we can approximate the functions in K.
+
+### A general approximation lower bound in Lp norm, with applications to feed-forward neural networks
+
+<https://arxiv.org/abs/2206.04360>
+
+Show that the approximation of space F by space G in Lp norm can be described with the packing number and range of F, and fat-shattering dimension of G. Using this result, show the lower bound for special function classes like Hoelder balls or multivariate monotonic functions that matches with upper bound up to log factors.
