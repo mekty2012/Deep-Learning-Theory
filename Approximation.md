@@ -315,3 +315,9 @@ Prove the Carl's type ineuqalities for the error of approximation of compact set
 <https://arxiv.org/abs/2206.04360>
 
 Show that the approximation of space F by space G in Lp norm can be described with the packing number and range of F, and fat-shattering dimension of G. Using this result, show the lower bound for special function classes like Hoelder balls or multivariate monotonic functions that matches with upper bound up to log factors.
+
+### Your Transformer May Not be as Powerful as You Expect
+
+<https://arxiv.org/abs/2205.13401>
+
+Show that the general relative positional encoding based Transformer is not universal approximator as absolute positional encoding, because the softmax attention always generate the right stochastic matrix. Derive sufficient condition for universal approximation, and derive URPE attention that satisfy this condition which multiplies single Toeplitz matrix.
