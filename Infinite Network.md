@@ -39,13 +39,13 @@ In infinite network with bottleneck, which is some finite width hidden layers, t
 
 ### Scale Mixtures of Neural Network Gaussian Processes
 
-<https://arxiv.org/abs/2107.01408>
+<https://www.arxiv.org/abs/2107.01408>
 
 Show that simply introducing a scale prior on the last-layer parameters can turn infinitely wide neural networks of any architecture into a richer class of stochastic process, like heavy-tailed stochastic processes.
 
 ### alpha-Stable convergence of heavy-tailed infinitely-wide neural networks
 
-<https://arxiv.org/abs/2106.11064>
+<https://www.arxiv.org/abs/2106.11064>
 
 Assuming that the weights of an MLP are initialized with i.i.d. samples from either a light-tailed or heavy-tailed distribution in the domain of attraction of a symmetric alpha-stable distribution for alpha in (0, 2]. Show that the vector of pre-activation values at all nodes of a given hidden layer converges in the limit, to a vecctor of i.i.d. random variables with symmetric alpha-stable distributions.
 
@@ -75,7 +75,7 @@ Decouples capacity and width via the generalization of neural network to Deep Ga
 
 ### Rate of Convergence of Polynomial Networks to Gaussian Processes
 
-<https://arxiv.org/abs/2111.03175>
+<https://www.arxiv.org/abs/2111.03175>
 
 Demonstrate that the rate of convergence in 2-Wasserstein metric is O(sqrt(n)), where n is the number of hidden neurons in one hidden-layer neural network. Show the convergence rate for other atcivations, power-law for ReLU and inverse-sqrt for erf. 
 
@@ -87,7 +87,7 @@ Consider the DNNs trained with noisy gradient descent on a large training set an
 
 ### Deep Stable neural networks: large-width asymptotics and convergence rates
 
-<https://arxiv.org/abs/2108.02316>
+<https://www.arxiv.org/abs/2108.02316>
 
 Show the deep stable neural network's weak convergence to stable stochastic process, with sup-norm convergence rate for joint growth and sequential growth. Show that joint growth leads to a slower rate than the sequential growth.
 
@@ -99,7 +99,7 @@ Deep Gaussian Process with RBF kernel can be viewed as a deep trigonometric netw
 
 ### Normalization effects on shallow neural networks and related asymptotic expansions
 
-<https://arxiv.org/abs/2011.10487>
+<https://www.arxiv.org/abs/2011.10487>
 
 Investigate the effect of normalization on shallow neural network in infinite width limit, show that to learning order in N, there is no bias-variance trade off and they both decreases.
 
@@ -319,79 +319,79 @@ Introduce weighted NTK, that can capture the training dynamics for different opt
 
 ### Neural tangent kernels, transportation mappings, and universal approximation
 
-<https://arxiv.org/abs/1910.06956>
+<https://www.arxiv.org/abs/1910.06956>
 
 Provides a generic scheme to aproximate functions with the NTK by sampling from transport mappings, and the construction of transport mappings via Fourier transforms
 
 ### Deep Neural Tangent Kernel and Laplace Kernel Have the Same RKHS
 
-<https://arxiv.org/abs/2009.10683>
+<https://www.arxiv.org/abs/2009.10683>
 
 Prove that RKHS of NTK and the Laplace kernel include the same set of functions, and show that the exponential power kernel with a smaller power leads to a larger RKHS.
 
 ### Convergence of Adversarial Training in Overparametrized Neural Networks
 
-<https://arxiv.org/abs/1906.07916>
+<https://www.arxiv.org/abs/1906.07916>
 
 Show that the adversarial training converges to a network where the surrogate loss w.r.t. attack algorithm has small optimal robust loss, and show that the optimal robust loss is also close to zero, giving robust classifier.
 
 ### A Deep Conditioning Treatment of Neural Networks
 
-<https://arxiv.org/abs/2002.01523>
+<https://www.arxiv.org/abs/2002.01523>
 
 Show that depth improves trainability of NNs by improving the conditioning of certain kernel matrices of the input data. 
 
 ### Towards an Understanding of Residual Networks Using Neural Tangent Hierarchy (NTH)
 
-<https://arxiv.org/abs/2007.03714>
+<https://www.arxiv.org/abs/2007.03714>
 
 Study dynamics of the NTK for finite width ResNet using the NTH, reducing the requirement on the layer width w.r.t. number of training samples from quartic to cubic.
 
 ### Scalable Neural Tangent Kernel of Recurrent Architectures
 
-<https://arxiv.org/abs/2012.04859>
+<https://www.arxiv.org/abs/2012.04859>
 
 Extend the family of kernels associated with RNNs, to more complex architectures like bidirectional RNNs and average pooling. Also develop a fast GPU implementation for these.
 
 ### The Surprising Simplicity of the Early-Time Learning Dynamics of Neural Networks
 
-<https://arxiv.org/abs/2006.14599>
+<https://www.arxiv.org/abs/2006.14599>
 
 Prove that for a class of well-behaved input distributions, the early-time learning dynamics of a two-layer fully-connected neural network can be mimicked by training a simple linear model on the inputs, by bounding the spectral norm of the difference between the NTK at init and an affine transform of the data kernel, while allowing the network to escape the kernel regime later.
 
 ### Benefits of Jointly Training Autoencoders: An Improved Neural Tangent Kernel Analysis
 
-<https://arxiv.org/abs/1911.11983>
+<https://www.arxiv.org/abs/1911.11983>
 
 Prove the linear convergence of gradient descent in two learning regimes, only encoder is trained or jointly trained, in two-layer over-parameterized autoencoders, giving the considerable benefits of joint training over weak training.
 
 ### Neural Tangent Kernel Maximum Mean Discrepancy
 
-<https://arxiv.org/abs/2106.03227>
+<https://www.arxiv.org/abs/2106.03227>
 
 Present NN MMD statistic by identifying connection between NTK and MMD statics, allowing us to understand the properties of the new test statistic like Type-1 error and testing power.
 
 ### A Neural Tangent Kernel Perspective of GANs
 
-<https://arxiv.org/abs/2106.05566>
+<https://www.arxiv.org/abs/2106.05566>
 
 Use NTK on GAN, show that GAN trainability primarily depends on the discriminator's architecture.
 
 ### The Neural Tangent Kernel in High Dimensions: Triple Descent and a Multi-Scale Theory of Generalization
 
-<https://arxiv.org/abs/2008.06786>
+<https://www.arxiv.org/abs/2008.06786>
 
 Provide a precise high-dimensional asymptotics analysis of generalization under kernel regression with NTK, and show that the test error has non-monotonic behavior in the overparameterized regime.
 
 ### Optimal Rates for Averaged Stochastic Gradient Descent under Neural Tangent Kernel Regime
 
-<https://arxiv.org/abs/2006.12297>
+<https://www.arxiv.org/abs/2006.12297>
 
 Show that the averaged stochastic gradient descent can achieve the minimax optimal convergence rate, with the global convergence guarantee, by exploiting the complexities of the target function and the RKHS of NTK. 
 
 ### A Generalized Neural Tangent Kernel Analysis for Two-layer Neural Networks
 
-<https://arxiv.org/abs/2002.04026>
+<https://www.arxiv.org/abs/2002.04026>
 
 Provide a generalized NTK analysis and show that noisy gradient descent with weight decay can still exhibit a kernel-like behavior.
 
@@ -433,73 +433,73 @@ Obtain the limiting spectral distributions of CK and NTK, in the ultra width reg
 
 ### Predicting the outputs of finite deep neural networks trained with noisy gradients
 
-<https://arxiv.org/abs/2004.01190>
+<https://www.arxiv.org/abs/2004.01190>
 
 In the infinite-width limit, establish a correspondence between DNNs with noisy gradients and the NNGP, provide a general analytical form for the finite width corrections with predicion of outputs, finally flesh out algebraically how these FWCs can improve the performance of finite convolutional neural networks relative to their GP counterparts.
 
 ### Regularization Matters: A Nonparametric Perspective on Overparametrized Neural Network
 
-<https://arxiv.org/abs/2007.02486>
+<https://www.arxiv.org/abs/2007.02486>
 
 Prove that for overparametrized one-hidden-layer ReLU neural networks with l2 regularization, the output is close to that of the kernel ridge regression with the corresponding neural tnagent kernel, and minimax optimal rate of L2 estimation error can be achieved.
 
 ### On the Provable Generalization of Recurrent Neural Networks
 
-<https://arxiv.org/abs/2109.14142>
+<https://www.arxiv.org/abs/2109.14142>
 
 Using detailed analysis about the NTK matrix, prove a generalization error bound to learn such functions without normalized conditions and show that some notable concept classes are learnable with the numbers of iterations and samples scaling almost-poynomially in the input length L. 
 
 ### Order and Chaos: NTK views on DNN Normalization, Checkerboard and Boundary Artifacts
 
-<https://arxiv.org/abs/1907.05715>
+<https://www.arxiv.org/abs/1907.05715>
 
 Show the order and chaos regime, and show that scaled ReLU gives ordered regime, layer normalization and batch normalization leads chaotic regime, which also appears in CNN. Analysis explains so called checkerboard patterns and border artifacts, with proposal of methods removing these effects.
 
 ### Label Propagation across Graphs: Node Classification using Graph Neural Tangent Kernels
 
-<https://arxiv.org/abs/2110.03763>
+<https://www.arxiv.org/abs/2110.03763>
 
 In the inductive setting of node classification, where the unlabeled target graph is completely separate, that there are no connections between labeled and unlabeled nodes, using GNTK to find correpondences between nodes in different graphs.
 
 ### New Insights into Graph Convolutional Networks using Neural Tangent Kernels
 
-<https://arxiv.org/abs/2110.04060>
+<https://www.arxiv.org/abs/2110.04060>
 
 Using the NTK, try to explain the behavior that performance of GCNs degrades with increasing network depth, and it improves marginally with depth using skip connections. Identify that with suitable normalization, network depth does not always drastically reduce the performance of GCNs.
 
 ### On the Convergence and Calibration of Deep Learning with Differential Privacy
 
-<https://arxiv.org/abs/2106.07830>
+<https://www.arxiv.org/abs/2106.07830>
 
 Precisely characterize the effect of per-sample clipping on the NTK matrix and show that the noise level of DP optimizers does not affect the convergence in the gradient flow regime. In particular, the local clipping breaks the positive semi-definiteness of NTK, which can be preserved by the global clipping. 
 
 ### DNN-Based Topology Optimisation: Spatial Invariance and Neural Tangent Kernel
 
-<https://arxiv.org/abs/2106.05710>
+<https://www.arxiv.org/abs/2106.05710>
 
 Study the Solid Isotropic Material Penalisation method with a desntiy field generated by a FCNN. Show that the use of DNNs leads to a filtering effect similar to traditional filtering techniques for SIMP in th large width limit, with a filter described by the NTK.
 
 ### The Local Elasticity of Neural Networks
 
-<https://arxiv.org/abs/1910.06943>
+<https://www.arxiv.org/abs/1910.06943>
 
 A classifier is said to be locally elastic if its prediction at a feature vector is not significantly perturbed after the classifier is updated via SGD. Offer a geometric interpretation of local elasticity using NTK, and obtain pairwise similarity measures between feature vectors.
 
 ### Deformed semicircle law and concentration of nonlinear random matrices for ultra-wide neural networks
 
-<https://arxiv.org/abs/2109.09304>
+<https://www.arxiv.org/abs/2109.09304>
 
 Obtain the limiting spectra distributions of conjugate kernel and NTK in two-layer fully connected networks. Under the ultra-width regime, a deformed semicircle law appears. Also prove non-asymptotic concentrations of of empirical CK and NTK around their limiting kernel in the spectra norms.
 
 ### Enhanced Recurrent Neural Tangent Kernels for Non-Time-Series Data
 
-<https://arxiv.org/abs/2012.04859>
+<https://www.arxiv.org/abs/2012.04859>
 
 Extend the family of kernels associated with RNNs, to more complex architectures including bidirectional RNNs and RNNs with average pooling.
 
 ### How Neural Networks Extraploate: From Feedforward to Graph Neural Networks
 
-<https://arxiv.org/abs/2009.11848>
+<https://www.arxiv.org/abs/2009.11848>
 
 Quantify the observation that ReLU MLPs quickly converge to linear functions along any direction from the origin, which implies that ReLU MLPs do not extrapolate most nonlinear functions. And show that the success of GNNs in extrapolating algorithmic tasks to new data relies on encoding task-specific non-linearities in the architecture or features. Theoretical analysis builds on a connection of over-parameterized networks to the NTK.
 
@@ -517,67 +517,67 @@ Analyze the learning dynamics of infinitely wide neural networks with a finite s
 
 ### Tighter Sparse Approximation Bounds for ReLU Neural Networks
 
-<https://arxiv.org/abs/2110.03673>
+<https://www.arxiv.org/abs/2110.03673>
 
 Derive sparse neural network approximation bounds that refine previous works, and show that infinite-width neural network representations on bounded open sets are not unique.
 
 ### Deep Networks Provably Classify Data on Curves
 
-<https://arxiv.org/abs/2107.14324>
+<https://www.arxiv.org/abs/2107.14324>
 
 Prove that when the network depth is large relative to geometric properties and the network width and number of samples is polynomial in depth, randomly initialized gradient descent quickly learns to correctly classify all points on the two curves with high probability. Analyze by a reduction to dynamics in the NTK regime, using the fine-grained control of the decay properties, showing that NTK can be locally approximated by a translationally invariance operator on the manifolds and stable inverted over smooth functions, which guarantees convergence and generalization.
 
 ### Training Integrable Parameterizations of Deep Neural Networks in the Infinite-Width Limit
 
-<https://arxiv.org/abs/2110.15596>
+<https://www.arxiv.org/abs/2110.15596>
 
 Study a specific choice of small initialization corresponding to mean-field limit, calling integrable parameterization. Show that under standard i.i.d. zero-mean init, integrable parameterization with more than four layers start at a stationary point in the infinite-width limit with no learning. Then propose various methods to avoid this triviality, for example using large initial learning rates which is equivalent to maximal update parameterization.
 
 ### Quantifying the generalization error in deep learning in terms of data distribution and neural network smoothness
 
-<https://arxiv.org/abs/1905.11427>
+<https://www.arxiv.org/abs/1905.11427>
 
 Introduce the cover complexity to measure the difficulty of a data set and the inverse of the modulus of continuity to quantify neural network smoothness, deriving quantitative bound for expected error.
 
 ### When Do Neural Networks Outperform Kernel Methods?
 
-<https://arxiv.org/abs/2006.13409>
+<https://www.arxiv.org/abs/2006.13409>
 
 Show that the curse of dimensioanlity of RKHS methods becomes milder if the covaraiates display the same low-dimensional structure as the target function, and we precisely characterize this tradeoff. 
 
 ## On the Equivalence between Neural Network and Support Vector Machine
 
-<https://arxiv.org/abs/2111.06063>
+<https://www.arxiv.org/abs/2111.06063>
 
 Propose the equivalence between NN and SVM, especially infinite NNs trained by soft margin loss and soft margin SVM with NTK. Show that every finite-width NN with regularized loss functions is approximately a kernel machine, with generalization bound for NN using the kernel machine, robustness certificate for infinite-width NNs, instrinsically more robust infinite-width NNs.
 
 ### Towards Understanding the Condensation of Neural Networks at Initial Training
 
-<https://arxiv.org/abs/2105.11686>
+<https://www.arxiv.org/abs/2105.11686>
 
 Empirical works show that input weights of hidden neurons condense on isolated orientation with a small initialization. 
 
 ### Critical initialization of wide and deep neural networks through partial Jacobians: general theory and applications to LayerNorm
 
-<https://arxiv.org/abs/2111.12143>
+<https://www.arxiv.org/abs/2111.12143>
 
 Describe a new way to diagnose criticality of NN, by partial Jacobians, which is a derivative of preacitvations in layer l for earlier layers, and discuss various properties of the partial Jacobians such as scaling and relation to NTK. Using the recurrence relation for partial Jacobian, analyze the criticality of deep MLP, with/without LayerNorm.
 
 ### Neural Optimization Kernel: Towards Robust Deep Learning
 
-<https://arxiv.org/abs/2106.06097>
+<https://www.arxiv.org/abs/2106.06097>
 
 Establish the connection between DNN and kernel family Neural Optimization Kernel. NOK performs monotonic descent updates of implicit regularization problems, and can implicitly choose by different activation functions, establishing a new generalization bound.
 
 ### Neural Tangent Kernel of Matrix Product States: Convergence and Applications
 
-<https://arxiv.org/abs/2111.14046>
+<https://www.arxiv.org/abs/2111.14046>
 
 Study the NTK of matrix product states and the convergence, show that NTK of MPS asymptotically converges to a constant matrix as the bond dimension of MPS go to infinity. 
 
 ### Understanding Square Loss in Training Overparametrized Neural Network Classifiers
 
-<https://arxiv.org/abs/2112.03567>
+<https://www.arxiv.org/abs/2112.03567>
 
 Contribute to the theoretical understanding of square loss in classification by how it performs for overparameterized neural networks in the NTK regime. When non-separational case, fast convergence rate is established for both misclassification rate and calibration error, and separation case exponentially fast rate. Also prove lower bounded margin.
 
@@ -595,19 +595,19 @@ Use k-th Taylor expansion of the neurl network at initialization, and show that 
 
 ### On the Provable Generalization of Recurrent Neural Networks
 
-<https://arxiv.org/abs/2109.14142>
+<https://www.arxiv.org/abs/2109.14142>
 
 Prove a generalization error bound using NTK analysis, for the RNN withtout normalization, for additive concept class and N-variables functions.
 
 ### Rethinking Influence Functions of Neural Networks in the Over-parameterized Regime
 
-<https://arxiv.org/abs/2112.08297>
+<https://www.arxiv.org/abs/2112.08297>
 
 Utilize NTK theory to calculate influence function for network trained with regularized mean-squared loss, proving that approximate error can be arbitrarily small, analyze the error bound for classic IHVP method, which depends on regularization term and probability density of corresponding training points.
 
 ### Training Integrable Parameterization of Deep Neural Networks in the Infinite-Width Limit
 
-<https://arxiv.org/abs/2110.15596>
+<https://www.arxiv.org/abs/2110.15596>
 
 Study integrable parameterization, which corresponds to mean-field limit, show that with more than four layers the initialization is already stationary and no learning occurs. Then propose methods to escape this behavior, like large learning rate, which is equivalent to maximal update parameterization.
 
@@ -710,13 +710,13 @@ Prove that optimizing wide ReLU neural networks with at least one hidden layer u
 
 ### Neural tangent kenrel analysis of shallow alpha-Stable ReLU neural networks
 
-<https://arxiv.org/abs/2206.08065>
+<https://www.arxiv.org/abs/2206.08065>
 
 Consider the NTK of alpha-stable NNs, showing that their training is equivalent to a kernel regression with an alpha/2-stable random kernel.
 
 ### A note on Linear Bottleneck networks and their Transition to Multilinearity
 
-<https://arxiv.org/abs/2206.15058>
+<https://www.arxiv.org/abs/2206.15058>
 
 Show that when the linear network has bottleneck layer, it learns a bilinear functions of the weights in a ball of radius O(1) around initialization. Moreover, for B-1 bottleneck layer, the network is a degree B multilinear function of weights.
 
@@ -734,19 +734,19 @@ Consider the NTK regime of biological neural networks, and theoretically show th
 
 ### The Three Stages of Learning Dynamics in High-Dimensional Kernel Methods
 
-<https://arxiv.org/abs/2111.07167>
+<https://www.arxiv.org/abs/2111.07167>
 
 Study the training dynamics of gradient flow on kernel least-squares objective, which is limiting dynamics of SGD trained NNs. 
 
 ### Graph Convolutional Networks from the Perspective of Sheaves and the Neural Tangent Kernel
 
-<https://arxiv.org/abs/2208.09309>
+<https://www.arxiv.org/abs/2208.09309>
 
 Study the sheaf convolutional network's NTK, which is a topological generalization of GCNN. Derive a parameterization of this neural tangent kernel, which separates the function to two parts, forward diffusion process by the graph, and the composite effect of nodes' activations.
 
 ### Self-Consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks
 
-<https://arxiv.org/abs/2205.09653>
+<https://www.arxiv.org/abs/2205.09653>
 
 Analyze feature learning in the infinite-width neural network trained with gradient flow, through self-consistent dynamical field theory. Construct a collection of deterministic dynamical order parameters, defining the hidden layer activation distribution and evolution of NTK. For deep linear networks, these kernels satisf algebraic matrix equations, and nonlinear networks have sampling procedure.
 
@@ -758,13 +758,13 @@ Study other learning rules including feedback alignment, direct feedback alignem
 
 ### Empirical Phase Diagram for Three-layer Neural Networks with Infinite Width
 
-<https://arxiv.org/abs/2205.12101>
+<https://www.arxiv.org/abs/2205.12101>
 
 Obtain two independent quantities that distinguish dynamical regimes for common initialisation, and find that there are two regime of linear regime and condensed regime, with the criteria is the relative change of input weights while the width tends to infinity.
 
 ### A high-resolution dynamical view on momentum methods for over-parameterized neural networks
 
-<https://arxiv.org/abs/2208.03941>
+<https://www.arxiv.org/abs/2208.03941>
 
 Provide the convergence analysis of Heavy Ball method and Nesterov's accelerated method for two-layer neural networks with ReLU activation, via dynamical systems and NTK theory. By characterizing the effect of gradient correction term, show the acceleration of NAG over HB.
 
@@ -776,13 +776,13 @@ Study the generalization properties of infinite-ensembles of infinitely-wide neu
 
 ### Identifying good directions to escape the NTK regime and efficiently learn low-degree plus sparse polynomials
 
-<https://arxiv.org/abs/2206.06388>
+<https://www.arxiv.org/abs/2206.06388>
 
 The NTK is bad at learning sparse polynomial, where QuadNTK, which is second-order Taylor term is bad at learning low-degree polynomial. By leveraging both of them, we can achieve optimal rate that can't be obtained with only one of two, which can be achieved in finite NN with regularization that is given by linear combination of four terms.
 
 ### Transition to Linearity of General Feedforward Neural Networks with DAG architectures
 
-<https://arxiv.org/abs/2205.117866>
+<https://www.arxiv.org/abs/2205.117866>
 
 Show that the Transition to linearity, which results constancy of NTK happens for DAG architecture network including DenseNet, by induction on the nodes.
 
@@ -808,37 +808,37 @@ Study eigenvalue distributions for NN kernels, show that they converges to deter
 
 ### On the Similarity between the Laplace and Neural Tangent Kernels
 
-<https://arxiv.org/abs/2007.01580>
+<https://www.arxiv.org/abs/2007.01580>
 
 Theoretically show that for normalized data on the hypersphere, both NTK and Laplace kernel have the same eigenfunctions and their eigenvalues decay polynomially at the same rate, implying that their RKHS are equal, and they share same smoothness properties.
 
 ### Tight Bounds on the Smallest Eigenvalue of the Neural Tangent Kernel for Deep ReLU Networks
 
-<https://arxiv.org/abs/2012.11654>
+<https://www.arxiv.org/abs/2012.11654>
 
 Smallest eigenvalue of the NTK has been related to the memorization capacity, the global convergence, and the generalization. Provide tight bounds on the smallest eigenvalue of NTK matrices for deep ReLU nets, both infinite and finite width.
 
 ### Neural Tangent Kernel Eigenvalues Accurately Predict Generalization
 
-<https://arxiv.org/abs/2110.03922>
+<https://www.arxiv.org/abs/2110.03922>
 
 We extend recent results to demonstrate that, by examining the eigensystem of a neural network's "neural tangent kernel", one can predict its generalization performance when learning arbitrary functions, not only mean-squared-error but all first and second-order statistics of learned function. Also prove a new NFL theorem characterizing a fundamental tradeoff in the inductive bias of wide neural networks: improving a network's generalization for a given target function must worsen its generalization for orthogonal functions.
 
 ### Neural Networks as Kernel Learners: The Silent Alignment Effect
 
-<https://arxiv.org/abs/2111.00034>
+<https://www.arxiv.org/abs/2111.00034>
 
 Demonstrate that neural networks in the rich feature learning regime can learn a kernel machine with a data-dependent kernel, due to a phenomenon termed silent alignment, requiring that the NTK evolves in eigenstructure while small and before the loss decreases, and grows noly in overall scale afterwards. Show that such an effect takes place in homogeneour NNs with small initialization and whitened data. 
 
 ### Understanding Layer-wise Contributions in Deep Neural Networks through Spectral Analysis
 
-<https://arxiv.org/abs/2111.03972>
+<https://www.arxiv.org/abs/2111.03972>
 
 Analyze the layer-wise spectral bias of DNNs and relate it to the contributions of different layers in the reduction of generalization error for a given target function. Using Hermite polynomials and spherical harmonics, prove that initial layers exhibit a larger bias towards high-frequency functions defined on the unit sphere.
 
 ### Eigenspace Restructuring: a Principle of Space and Frequency in Neural Networks
 
-<https://arxiv.org/abs/2112.05611>
+<https://www.arxiv.org/abs/2112.05611>
 
 Show that the topologies from deep CNNs restructure the associated eigenspaces into finer subspaes, then MLPs. This new structure also depends on the concept class, measuring the spatial distance among nonlinear interaction terms, and this analysis improves the network's learnability. Finally prove a sharp characterization of generalization error for infinite width CNNs.
 
@@ -882,7 +882,7 @@ Then characterize the generalization error of ridge regression, prove that the t
 
 ### Momentum Diminishes the Effect of Spectral Bias in Physics-Informed Neural Networks
 
-<https://arxiv.org/abs/2206.14862>
+<https://www.arxiv.org/abs/2206.14862>
 
 Show that the spectral bias of Neural Tangent Kernel can be diminished by momentum training.
 
@@ -894,7 +894,7 @@ Study the deep CNNs in the kernel regime, show that the spectrum of kernel inher
 
 ### Spectral Bias Outside the Training Set for Deep Networks in the Kernel Regime
 
-<https://arxiv.org/abs/2206.02927>
+<https://www.arxiv.org/abs/2206.02927>
 
 Provide quantitative bounds measuring the L2 distance in function space between the trajectory of a finite-width network from the idealized kernel dynamics of infinite width and data. The bound imply that the network is biased to learn the top eigenfunctions of the NTK no just on the training set but over the entire input space.
 
@@ -909,6 +909,12 @@ Prove that eigenfunctions of CNN's NTK and NNGP kernel with the uniform measure 
 <https://www.arxiv.org/abs/2209.07736>
 
 Show that PNNs also have deterministic and consistent NTK, while they admit slower decay of eigenvalues than NTK for MLP, which leads the faster learning towards high-frequency functions.
+
+### Characterizing the Spectrum of the NTK via a Power Serires Expansion
+
+<https://www.arxiv.org/abs/2211.07844>
+
+Provide the power series expansion of NTK depending on the Hermite coefficient of activation function and the depth. Show that the faster decay of Hermite coefficient leads faster decay in NTK eigenvalues, and relate the rank of NTK gram with input gram. 
 
 # Infinite Depth
 
@@ -976,7 +982,7 @@ Introduce Neural Tangent Transfer, a method that finds trainable sparse networks
 
 ### Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
 
-<https://arxiv.org/abs/2110.01765>
+<https://www.arxiv.org/abs/2110.01765>
 
 Using NTK theory and Q/C map analysis, identify the main pathologies in deep networks that prevent them from training fast and generalizing to unseen data, and show how these can be avoided by carefully controlling the shape of the network's initialization-time kernel function. Develop a method called DKS, which accomplishes this using a combination of precise parameter initilization, activation function transformation, and small architectural tweaks. 
 
@@ -988,7 +994,7 @@ Generalize MAML to function space, eliminating need of sub-optimal iterative inn
 
 ### FL-NTK: A Neural Tangent Kernel-based Framework for Federated Learning Convergence Analysis
 
-<https://arxiv.org/abs/2105.05001>
+<https://www.arxiv.org/abs/2105.05001>
 
 Presents a new class of convergence analysis for federated learning, which corresponds to overparameterized ReLU NNs trained by gradient descent in FL. Theoretically FL-NTK converges to a global optimal solution at a linear rate, and also achieve good generalizations.
 
@@ -1006,37 +1012,37 @@ Using the NTK, add bias to initialization derive bayesian interpretation for dee
 
 ### Exact marginal prior distributions of finite Bayesian neural networks
 
-<https://arxiv.org/abs/2104.11734>
+<https://www.arxiv.org/abs/2104.11734>
 
 Derive exact solutions for the function space priors for individual input examples of a class of finite fully-connected feedforward Bayesian neural networks. Deep linear networks have prior as a simple expression in terms of the Meijer G-function. The prior of a finite-ReLU network is a mixture of the priors of linear networks of smaller widths.
 
 ### Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective
 
-<https://arxiv.org/abs/2102.11535>
+<https://www.arxiv.org/abs/2102.11535>
 
 By analyzing the spectrum of the NTK and the number of linear regions in the input spaces, show that these two measurements imply the trainability and expressivity of a neural network and they strongly correlate with the network's test accuracy. 
 
 ### Neural Tangent Kernel Empowered Federated Learning
 
-<https://arxiv.org/abs/2110.03681>
+<https://www.arxiv.org/abs/2110.03681>
 
 Propose a novel FL paradigm empowered by the NTK framework, which addresses the challenge of statistical heterogenity by transmitting update data that are more expressive than those of the traditional FL paradigms.
 
 ### An Infinite-Feature Extension for Bayesian ReLU Nets That Fixes Their Asymptotic Overconfidence
 
-<https://arxiv.org/abs/2010.02709>
+<https://www.arxiv.org/abs/2010.02709>
 
 Extend finite BNNs with infinite ReLU features via the GP, showing that the resulting model is asymptotically maximally uncertain far away from the data, while the BNN's predictive power is unaffected near the data.
 
 ### DNN-Based Topology Optimisation: Spatial Invariance and Neural Tangent Kernel
 
-<https://arxiv.org/abs/2106.05710>
+<https://www.arxiv.org/abs/2106.05710>
 
 Show that the use of DNN in Solid Isotropic Material Penalisation leads to a filtering effect with filter described by a NTK. Though the filter may not be invariant under translation, and propose embedding leads to spatial invariance of the NTK, and filter.
 
 ### Fast Graph Neural Tangent Kernel via Kronecker Sketching
 
-<https://arxiv.org/abs/2112.02446>
+<https://www.arxiv.org/abs/2112.02446>
 
 Sketching has become increasingly used in speeding up kernel regression, however it takes O(n^2 N^4) for GNTK, and this paper provides first algorithm to construct kernel matrix in o(n^2 N^3) running time.
 
@@ -1072,7 +1078,7 @@ Replace discriminator with NTK based GP prediction, and conduct experiments that
 
 ### Making Look-Ahead Active Learning Strategies Feasible with Neural Tangent Kernels
 
-<https://arxiv.org/abs/2206.12569>
+<https://www.arxiv.org/abs/2206.12569>
 
 Propose a new method for approximating active learning acquisition strategy based on retraining with hypothetically labelled data point, where the result of retraining is approximated with neural tangent kernel. This allows the sequential active learning without needing to retrain the model.
 

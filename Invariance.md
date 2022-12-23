@@ -1,36 +1,36 @@
 ## Noether's Learning Dynamics: Role of Symmetry Breaking in Neural Networks
 
-<https://arxiv.org/abs/2105.02716>
+<https://www.arxiv.org/abs/2105.02716>
 
 Develop a theoretical framework studying the geometry of learning dynamics, reveal a key nechanism of explicit symmetry breaking behind the efficiency and stability. Model the discrete learning dynmaics of gradient descent using a continuous time Lagrangian formulation, and identify kinetic symmetry breaking, and generalize Neother's theorem to KSB and show how KSB introduces a mechanisms of implicit adaptive optimization.
 
 ### Understanding the Generalization Benefit of Model Invariance from a Data Perspective
 
-<https://arxiv.org/abs/2111.05529>
+<https://www.arxiv.org/abs/2111.05529>
 
 Studies the generalization benefit of model invariance by introducing the sample cover induced by transformations. Proveide refined generalization bounds for invariant models based on the sample cover. 
 
 ### Exploiting Invariance in Training Deep Neural Networks
 
-<https://arxiv.org/abs/2103.16634>
+<https://www.arxiv.org/abs/2103.16634>
 
 Introduce a feature transform techniques that imposes invariance properties. Enforce GL(n) invariance property with global statistics from a batch.
 
 ### Provably Strict Generalisation Benefit for Invariance in Kernel Methods
 
-<https://arxiv.org/abs/2106.02346>
+<https://www.arxiv.org/abs/2106.02346>
 
 From function space perspective, derive non-zero generalization benefit of incorporating invariance in kernel ridge regression when target is invariant to the action of a compact group.
 
 ### Meta-Learning Symmetries by Reparameterization
 
-<https://arxiv.org/abs/2007.02933>
+<https://www.arxiv.org/abs/2007.02933>
 
 Present a method for learning and encoding equivariances into networks by learning corresponding parameter sharing patterns from data, which can provably represent equivariance inducing parameter sharing for any group of symmetry transformations.
 
 ### On the Universality of Invariant Networks
 
-<https://arxiv.org/abs/1901.09342>
+<https://www.arxiv.org/abs/1901.09342>
 
 Present two main results, any subgroup G of Sn are universal if high-order tensors are allowed, and there are groups that higher-order tensors are unavoidable for universality.
 
@@ -84,7 +84,7 @@ Study the approximation of functions which are invariant w.r.t. certain permutat
 
 ### Implicit Bias of Linear Equivariant Networks
 
-<https://arxiv.org/abs/2110.06084>
+<https://www.arxiv.org/abs/2110.06084>
 
 Show that L-layer full-width linear, group convolution neural networks trained with gradient descent on binary classification, converge to solutions with low-rank Fourier matrix coefficient. This generalize the results in CNN to G-CNN for all finite groups.
 
@@ -108,7 +108,7 @@ View the permutation-invariant network as function over probability measures, an
 
 ### On the Approximation and Complexity of Deep Neural Networks to Invariant Functions
 
-<https://arxiv.org/abs/2210.15279>
+<https://www.arxiv.org/abs/2210.15279>
 
 Prove that the invariant functions can be universally approximated by deep neural networks, including complex-valued NN, CNN, and Bayesian NN.
 
@@ -123,3 +123,15 @@ Propose to use fusion diagram which simulates SU(2) symmetric quantum many-body 
 <https://www.arxiv.org/abs/2211.08771>
 
 Consider the infinitely wide neural network's gradient flow, and study the effect of symmetries on the learned parameters. Describe the class of symmetries, are preserved the dynamics. For special cases, show that odd true function gives linear predictor's dynamics, and low-dimensional structure have lower-dimensional PDE dynamics.
+
+### Connecting Permutation Equivariant Neural Networks and Partition Diagrams
+
+<https://www.arxiv.org/abs/2212.08648>
+
+Show that Schur-Weyl duality between partition algebra and the symmetric group results theoretical foundation for all possible permutation equivariant neural networks. 
+
+### VC dimensions of group convolutional neural networks
+
+<https://www.arxiv.org/abs/2212.09507>
+
+Study the generalization capacity of group convolutional neural networks, via the VC dimension. For infinite groups and arbitrary convolution kernel, show that two-parameter family have an infinite VC dimension.

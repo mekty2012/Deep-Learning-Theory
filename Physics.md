@@ -1,6 +1,6 @@
 ### Universality of Deep Neural Networks Lottery Tickets: A Renormalization Group Perspective
 
-<https://arxiv.org/abs/2110.03210>
+<https://www.arxiv.org/abs/2110.03210>
 
 Using renormalization group theory, find that iterative magnitude pruning is a renormalization group scheme, which is the method used for discovering winning tickets.
 
@@ -32,13 +32,13 @@ marginally integrating random variables, reminiscent of renormalization-group fl
 
 ### Learning through atypical "phase transitions" in overparameterized neural networks
 
-<https://arxiv.org/abs/2110.00683>
+<https://www.arxiv.org/abs/2110.00683>
 
 Use methods from statistical physics to analytically study the computational fallout of overparameterization in nonconvex neural network models. 
 
 ### A Theoretical Connection Between Statistical Physics and Reinforcement Learning
 
-<https://arxiv.org/abs/1906.10228>
+<https://www.arxiv.org/abs/1906.10228>
 
 Construct a partition function from the ensemble of possible trajectories, which gives its own Bellman equation with solution tightly linked Boltzmann-like policy parameterizations.
 
@@ -95,3 +95,9 @@ Using the duality between deep neural networks and discrete stochastic dynamical
 <https://www.arxiv.org/abs/2008.03920>
 
 Show that ResNet and their GP generalization converge, in the infinite depth limit, to a generalization of image registration variational algorithms. Then prove that the convergence with trained weights toward a Hamiltonian dynamics driven flow.
+
+### Renormalization in the neural network-quantum field theory correspondence
+
+<https://www.arxiv.org/abs/2212.11811>
+
+Describe how to implement renormalization of finite N correction of infinite neural networks. 

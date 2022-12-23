@@ -1,66 +1,66 @@
 ### On the Stability Properties and the Optimization Landscape of Training Problems with Squared Loss for Neural Networks and General Nonlinear Conic Approximation Schemes
 
-<https://arxiv.org/abs/2011.03293>
+<https://www.arxiv.org/abs/2011.03293>
 
 With the assumption of nonlinear conic approximation and unrealizable label vectors, show that a training problem with squared loss is necessarily unstable, i.e., its solution set depends discontinuously on the label vector in the training data. 
 
 ### Convex Geometry and Duality of Over-parameterized Neural Networks
 
-<https://arxiv.org/abs/2002.11219>
+<https://www.arxiv.org/abs/2002.11219>
 
 Prove that an optimal solution to the regularized training problem can be characerized as extreme points of a convex set, so simple solutions are encouraged via its convex geometrical properties. 
 
 ### Spurious Local Minima are Common in Two-Layer ReLU Neural Networks
 
-<https://arxiv.org/abs/1712.08968>
+<https://www.arxiv.org/abs/1712.08968>
 
 Show that two-layer ReLU networks w.r.t. the squared loss has local minima, even if the input distribution is standard Gaussian, dimension is arbitrarilty large, and orthonormal parameter vectors, using computer-assisted proof.
 
 ### Unveiling the structure of wide flat minima in neural networks
 
-<https://arxiv.org/abs/2107.01163>
+<https://www.arxiv.org/abs/2107.01163>
 
 Show that wide flat minima arise as complex extensive structures from the coalscence of minima aroung 'high-margin' configurations. Despite being exponentially rare compared to zero-margin ones, high-margin minima tend to concentrate in particular regious, surrounded by other solutions of smaller margin.
 
 ### Entropic gradient descent algorithms and wide flat minima
 
-<https://arxiv.org/abs/2006.07897>
+<https://www.arxiv.org/abs/2006.07897>
 
 Show that gaussian mixture classification's Bayes optimal pointwise estimators belongs to minimizers in wide flat regions, found by applying maximum flatness algorithms. Then using entropy-SGD and replicated-SGD, improve the generalization error.
 
 ### Escape saddle points by a simple gradient-descent based algorithm
 
-<https://arxiv.org/abs/2111.14069>
+<https://www.arxiv.org/abs/2111.14069>
 
 Propose a simple gradient-based algorithm that outputs an epsilon approximate second-order stationary point, which is an idea of implementing a robust Hessian power method using only gradients, which can find negative curvature near saddle points.
 
 ### When Are Solutions Connected in Deep Networks?
 
-<https://arxiv.org/abs/2102.09671>
+<https://www.arxiv.org/abs/2102.09671>
 
 Show that under generic assumptions on the features of intermediate layers, it suffices that the last two hiddne layers have order of sqrt(N) neurons, and if subsets of features at each layer are linearly separable, then no over-parameterization is needed to show the connectivity. 
 
 ### Convergence rates for the stochastic gradient descent method for non-convex opjective functions
 
-<https://arxiv.org/abs/1904.01517>
+<https://www.arxiv.org/abs/1904.01517>
 
 Prove the local convergence to minima and estimates on the rate of convergence in the case of not necessarily globally convex nor contracting objective functions.
 
 ### Convergence proof for stochastic gradient descent in the training of deep neural networks with ReLU activation for constant target functions
 
-<https://arxiv.org/abs/2112.07369>
+<https://www.arxiv.org/abs/2112.07369>
 
 Prove that under assumptions that the learning rates are sufficiently small but not L1 summable and target function is a constant function, the expectation of the risk converges to zero as step increases to infinity.
 
 ### On the existence of global minima and convergence analyses for gradient descent methods in the training of deep neural networks
 
-<https://arxiv.org/abs/2112.09684>
+<https://www.arxiv.org/abs/2112.09684>
 
 Prove convergence of risk in gradient descent, when input data's probability distribution is piecewise polynomial, target function is also piecewise polynomial, and with at least one regular global minimum. Also show that there is global minimum for Lipscitz continuous function for shallow NN, and finally prove that gradient flow DE converges with polynomial rate.
 
 ### Taming neural networks with TUSLA: Non-convex learning via adaptive stochastic gradient Langevin algorithms
 
-<https://arxiv.org/abs/2006.14514>
+<https://www.arxiv.org/abs/2006.14514>
 
 Use tamed unadjusted stocahstic Langevin algorithm to train NN, provide non-asymptotic analysis of convergence properties and finite-time guarantees for TUSLA to find approximate minimizer.
 
@@ -284,25 +284,25 @@ Empirically, theoretically, shallow NN without bias can't learn simple low frequ
 
 ### Understanding How Over-Parameterization Leads to Acceleration: A case of learning a single teacher neuron
 
-<https://arxiv.org/abs/2010.01637>
+<https://www.arxiv.org/abs/2010.01637>
 
 In the setting with single teacher neuron with quadratic activation and over parametrization realized by having multiple student neurons, provably show that over-parameterization helps the gradient descent iteration enter the neighborhood of a global optimal solution.
 
 ### Towards Statistical and Computational Complexities of Polyak Step Size Gradient Descent
 
-<https://arxiv.org/abs/2110.07810>
+<https://www.arxiv.org/abs/2110.07810>
 
 Demonstrate that the Polyak step size gradient descent iterates reach a final statistical radius of convergence around the true parameter after logarithmic number of iterations.
 
 ### Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs
 
-<https://arxiv.org/abs/2206.00939>
+<https://www.arxiv.org/abs/2206.00939>
 
 Give precise description of the gradient flow dynamics of one-hidden-layer ReLU nets with the mean squared error, and show that it converges to zero loss with the implicit bias towards minimum variation norm.
 
 ### Feature Learning in L2-regularized DNNs: Attraction/Repulsion and Sparsity
 
-<https://arxiv.org/abs/2205.15809>
+<https://www.arxiv.org/abs/2205.15809>
 
 Consider the loss surface of DNN with L2-regularization, and show that the loss in terms of the parameters can be reformulated in terms of layerwise activations. So each hidden representations are optimal w.r.t. attraction/repulsion problem and interpolate between the input and output representations, keeping as little information from the input as necessary.
 
@@ -314,25 +314,25 @@ Examine the gradient flow dynamics in the parameter space when training snigle-n
 
 ### Convergence of Policy Gradient for Entropy Regularized MDPs with Neural Network Approximation in the Mean-Field Regime
 
-<https://arxiv.org/abs/2201.07296>
+<https://www.arxiv.org/abs/2201.07296>
 
 Show that the softmax policy with shallow NN in a mean-field regime, with infinite-horizon, continuous state and action space, and entropy-regularized MDPs, the objective function increases along the gradient flow. Further, prove that is the regularization is sufficient, the gradient flow converges exponentially fast to the unique stationary solution.
 
 ### Neural Network Weights Do Not Converge to Stationary Points: An Invariant Measure Perspective
 
-<https://arxiv.org/abs/2110.06256>
+<https://www.arxiv.org/abs/2110.06256>
 
 Find that the weight of NN do not converge to a stationary points even when the loss stabilizes. Propose a new perspective based on ergodic theory of dynamical system, and study the distribution of weight's dynamics, which converges to an approximate invariant measure.
 
 ### The Rate of Convergence of variation-Constrained Deep Neural Networks
 
-<https://arxiv.org/abs/2106.12068>
+<https://www.arxiv.org/abs/2106.12068>
 
 Show that a class of variation-constrained neural network with any width, can achieve near-parameteric rate of convergence n^(-1/2+delta) for an arbitrarily small positive constant, showing that the function space need not to be large as believed.
 
 ### Bounding the Width of Neural Networks via Coupled Initialization -- A Worst Case Analysis
 
-<https://arxiv.org/abs/2206.12802>
+<https://www.arxiv.org/abs/2206.12802>
 
 Show that by using same parameter twice for two-layer weight, show that the number of neuron required for convergence can be significantly decreased, for logistic loss and squared loss, implicitly also improving the running time bound also.
 
@@ -386,19 +386,19 @@ Propose a tensor formulation, and characterize the convergence direction as sing
 
 ### The staircase property: How hierarchical structure can guide deep learning
 
-<https://arxiv.org/abs/2108.10573>
+<https://www.arxiv.org/abs/2108.10573>
 
 Defines a staircase property for functions over the boolean hypercube, which posits that high-order Fourier coefficients are reachable from low-order Fourier coefficients along increasing chains. Prove that functions with staircase property can be learned in polynomial time using layerwise stochastic coordinate descent on regular neural network. 
 
 ### Embedding Principle: a hierarchical structure of loss landscape of deep neural networks
 
-<https://arxiv.org/abs/2111.15527>
+<https://www.arxiv.org/abs/2111.15527>
 
 Prove a general embedding principle of loss landscape of DNNs that unravels a hierarchical structure of the loss landscape of NNs, loss landscape of an NN contains all critical points of all the narrower NNs. Provide a gross estimate of the dimension of critical submanifolds embedded from critical points of narrower NNs. Prove an irreversibility property of any critical embedding.
 
 ### Continuous vs. Discrete Optimization of Deep Neural Networks
 
-<https://arxiv.org/abs/2107.06608>
+<https://www.arxiv.org/abs/2107.06608>
 
 Find that the degree of approximation of gradient descent on gradient flow depends on the curvature around the gradient flow trajectory. Show that over DNNs with homogeneous activations, gradient flow trajectories enjoy favorable curvature, that they are well approximated by gradient descent.
 
@@ -428,7 +428,7 @@ Show that there are three regimes of training depending on the effective learnin
 
 ### Proxy Convexity: A Unified Framework for the Analysis of Neural Networks Trained by Gradient Descent
 
-<https://arxiv.org/abs/2106.013792>
+<https://www.arxiv.org/abs/2106.013792>
 
 Introduce notion of proxy convexity and proxy Polyak-Lojasiewicz inequalities, which are satisfied if the original objective induces a proxy objective that is implicitly minimized during the gradient. Show that gradient descent on objectives satisfying proxy convexity of proxy PL inequality gives efficient guarantees for proxy objective functions, and many existing guarantees for neural networks can be unified using these two notions.
 
@@ -452,19 +452,19 @@ Consider the two-layer fully-connected neural networks with leaky-ReLU activatio
 
 ### Non-convergence of stochastic gradient descent in the training of deep neural networks
 
-<https://arxiv.org/abs/2006.07075>
+<https://www.arxiv.org/abs/2006.07075>
 
 Show that stochastic gradient descent can fail if depth is much larger than their width, and the number of random initialization does not increase to infinity fast enough.
 
 ### The alignment property of SGD noise and how it helps select flat minima: A stability analysis
 
-<https://arxiv.org/abs/2207.02628>
+<https://www.arxiv.org/abs/2207.02628>
 
 Show that if a global minimum is linearly stable for SGD, then it allows to bound the Frobenius norm of Hessian, by learning rate and batch size, otherwise SGD will escape from global minima.
 
 ### Learning Ability of Interpolating Convolutional Neural Networks
 
-<https://arxiv.org/abs/2210.14184>
+<https://www.arxiv.org/abs/2210.14184>
 
 Establish the best learning rates of underparamterized DCNNs without parameter restrictions, and show that adding well-defined layer gives interpolating DCNNs with good learning rate of underparamtereized DCNN.
 
@@ -486,7 +486,7 @@ When network is overparametrized, SGD can find global minima in polynomial time.
 
 In two-layer FC ReLU NN, if width is large enough and no two inputs are parallel, gradient descent converges to a globally optimal solution at a linear convergence rate.
 
-### Toward Equation of Mothion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis
+### Toward Equation of Motion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis
 
 <https://www.arxiv.org/abs/2210.15898>
 
@@ -496,4 +496,4 @@ Derive and solve an Equation of Motion of DNNs, starting from gradient flow and 
 
 <https://www.arxiv.org/abs/2201.12052>
 
-Improve the SOTA results in terms of the required hidden layer width. Establish the global convergence of continuous solution of the diffeerntial inclusion, and provide relating solutions to the stochastic gradient sequences.
+Improve the SOTA results in terms of the required hidden layer width. Establish the global convergence of continuous solution of the differential inclusion, and provide relating solutions to the stochastic gradient sequences.

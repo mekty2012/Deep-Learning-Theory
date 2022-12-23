@@ -43,37 +43,37 @@ Using Riemannian geometry with the mean field theory, study the nature of signal
 
 ### Limiting fluctuations and trajectorial stability of multilayer neural networks with mean field training
 
-<https://arxiv.org/abs/2110.15954>
+<https://www.arxiv.org/abs/2110.15954>
 
 Leveraging on the neuronal embedding framework, systemically derive a system of dynamical equations called second-order MF limit, capturing the limiting fluctuation distribution. Applying this result, show a stability property of gradient descent MF training, that training trajectory progressively biases towards a solution with minimal fluctuation.
 
 ### Mean-field Analysis of Piecewise Linear Solutions for Wide ReLU Networks
 
-<https://arxiv.org/abs/2111.02278>
+<https://www.arxiv.org/abs/2111.02278>
 
 In mean-field view, shwo that at convergence, the ReLU network implements a piecewise linear map with at most three 'knot' points, points where the tangent of the ReLU network estimator changes. 
 
 ### Mean-Field and Kinetic Descriptions of Neural Differential Equations
 
-<https://arxiv.org/abs/2001.04294>
+<https://www.arxiv.org/abs/2001.04294>
 
 Analyze steady states and sensitivity w.r.t. the parameters of the ResNets, where the study of moments provides insights on the choice of the parameters. Modification of the microscopic dynmaics leads to a Fokker-Planck formulation of the network, where the concept of network training is replaced by the task of fitting distributions.
 
 ### Overparameterization of deep ResNet: zero loss and mean-field analysis
 
-<https://arxiv.org/abs/2105.14417>
+<https://www.arxiv.org/abs/2105.14417>
 
 Using a mean-field-limit, prove that the gradient descent becomes a gradient flow for a probability distribution characterized by a PDE in the large NN limit. And show that the solution converges to a zero-loss solution, suggesting that the training of the ResNet gives a near-zero loss. 
 
 ### Dynamical mean-field theory for stochastic gradient descent in Gaussian mixture classification
 
-<https://arxiv.org/abs/2006.06098>
+<https://www.arxiv.org/abs/2006.06098>
 
 Analyze the learning dynamics of SGD for a single-layer NN classifying a high-dimensional Gaussian mixture in binary classification. Define a particular stochastic process where SGD is modelled by stochastic gradient flow, then apply dynamical mean-field theory to track the dynamics via a self-consistent stochastic process.
 
 ### On the Global Convergence of Gradient Descent for multi-layer ResNets in the mean-field regime.
 
-<https://arxiv.org/abs/2110.02926>
+<https://www.arxiv.org/abs/2110.02926>
 
 Study global convergence of gradient descent in ResNet using mean-field analysis, translating the training process by gradient flow PDE and examine the convergence properties. Show that sufficiently large ResNet can be globally minimized by first-order optimization methods.
 
@@ -91,13 +91,13 @@ Investigate the asymptotic statistics of the FIM's eigenvalues and reveal that m
 
 ### Unified Field Theory for Deep and Recurrent Neural Networks
 
-<https://arxiv.org/abs/2112.05589>
+<https://www.arxiv.org/abs/2112.05589>
 
 Present a unified and systematic derivation of the mean-field theory for both architectures from first principles by employing established methods from statistical physics. While mean-field equations are different to temporal structure, yet yield identical Gaussian kernels when readouts are taken. Find that convergence towards the mean-field theory is slower for recurrent networks than for deep networks, which depends non-trivally on the parameters of the weight priors and depth, time steps. 
 
 ### Global Convergence of ResNets: From fininte to infinite width using linear parameterization
 
-<https://arxiv.org/abs/2112.05531>
+<https://www.arxiv.org/abs/2112.05531>
 
 Design ResNet with residual blok having linear parameterization, which admits infinite width/depth limit. Prove a local Polyak-Lojasiewicz inequality, thus every critical point is a global minimizer and a local convergence result of GD holds, similar to lazy regime.
 
@@ -175,7 +175,7 @@ Consider the two-layer neural network in the mean-field regime, establish a new 
 
 ### Unified field theoretical approach to deep and recurrent neuronal networks
 
-<https://arxiv.org/abs/2112.05589>
+<https://www.arxiv.org/abs/2112.05589>
 
 Present a unified and systematic derivation of the mean-field theory by statistical physics. This theory elucidates that while the mean-field equations are different with their temporal structure, yet yield identical Gaussian kernels. Find that convergence towards the mean-field thoery is slower for recurrent networks than deep networks.
 

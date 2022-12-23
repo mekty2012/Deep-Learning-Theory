@@ -1,6 +1,6 @@
 ### Approximation Properties of Deep ReLU CNNs
 
-<https://arxiv.org/abs/2109.00190>
+<https://www.arxiv.org/abs/2109.00190>
 
 Analyzes the L2 approximation properties of deep ReLU convolutional neural networks on two-dimensional space. Using the decomposition of convolutional kernels, show the universal approximation.
 
@@ -24,61 +24,61 @@ Prove that operator NNs of bounded width and arbitrary depth are universal appro
 
 ### Sharp Lower Bounds on the Approximation Rate of Shallow Neural Networks
 
-<https://arxiv.org/abs/2106.14997>
+<https://www.arxiv.org/abs/2106.14997>
 
 Prove sharp lower bounds on the approximation rates for shallow neural networks, obtained by lower bounding L2 metric entropy of the convex hull of basis functions. 
 
 ### Deep Network Approximation for Smooth Functions
 
-<https://arxiv.org/abs/2001.03040>
+<https://www.arxiv.org/abs/2001.03040>
 
 Prove that multivariate polynomials can be approximated by deep ReLU networks of with small enough approximation error, then through local Taylor expansions, show that deep ReLU networks can approximate C^s functions.
 
 ### A proof that deep artificial neural networks overcome the curse of dimensionality in the numerical approximation of Komogorov partial differential equations with constant diffusion and nonlinear drift coefficients
 
-<https://arxiv.org/abs/1809.07321>
+<https://www.arxiv.org/abs/1809.07321>
 
 Prove that the number of parameters used to describe the employed DNN grows at most polynomially in both the PDE dimension d and the reciprocal of the prescribed approximation accuracy.
 
 ### Uniform error estimates for artificial neural network approximations for heat equations
 
-<https://arxiv.org/abs/1911.09647>
+<https://www.arxiv.org/abs/1911.09647>
 
 Develop the techniques to obtain error estimates between solutions of PDEs and approximating ANNs in the uniform L infty sense. Prove that the number of parameters of an ANN to uniformly approximate the classical solution of the heat equation in a region \[a,b\]^d for a fixed time point T grows at most polynomially in the dimension d and the reciprocal of the approximation precision. 
 
 ### Approximation capabilities of neural networks on unbounded domains
 
-<https://arxiv.org/abs/1910.09293>
+<https://www.arxiv.org/abs/1910.09293>
 
 Prove that a shallow neural network with some activation functions can arbitrarily well approximate any Lp integrable functions defined on R * \[0,1\]^n, and moreover integrable function on the Euclidean plane.
 
 ### Approximation properties of Residual Neural Networks for Kolmogorov PDEs
 
-<https://arxiv.org/abs/2111.00215>
+<https://www.arxiv.org/abs/2111.00215>
 
 Show that ResNets are able to approximate solutions of Kolmogorov PDEs with constant diffusion and possibly nonlinear drift coefficients without suffering the curse of dimensionality.
 
 ### Deep Learning in High Dimension: Neural Network Approximation of Analytic Functions in L2(R^d, gamma_d)
 
-<https://arxiv.org/abs/2111.07080>
+<https://www.arxiv.org/abs/2111.07080>
 
 Prove expression rates for analytic function, L2 in the gaussian product measure, show the exponential convergence rate. The rate only depend on quantified holomorphy of F, to a product of strips in C^d. 
 
 ### Tighter Sparse Approximation Bounds for ReLU Neural Networks
 
-<https://arxiv.org/abs/2110.03673>
+<https://www.arxiv.org/abs/2110.03673>
 
 Extend the previous work using Radon transform, define Radon-based semi-norms, that function admits an infinite-width neural network representation on a bounded open set when its norm is finite. Derive sparse finite width neural network approximation bounds, and show that infinite width representations are not unique.
 
 ### Optimal Approximation Rate of ReLU Netowrks in terms of Width and Depth
 
-<https://arxiv.org/abs/2103.00502>
+<https://www.arxiv.org/abs/2103.00502>
 
 Construct ReLU networks approximating Hoelder continuous function on \[0,1\]^d, which is optimal up to constant.
 
 ### Optimal learning of high-dimensional classification problems using deep neural networks
 
-<https://arxiv.org/abs/2112.12555>
+<https://www.arxiv.org/abs/2112.12555>
 
 Establish universal lower bounds for classification under regularity of decision boundary, and show that for locally Barron-regular decision boundary, the optimal estimation rate are independent of underlying dimension and can be realized by empirical risk minimization.
 
@@ -150,7 +150,7 @@ Consider the problem of learning the function in second-order Radon-domain bound
 
 ### On the capacity of deep generative networks for approximating distributions
 
-<https://arxiv.org/abs/2101.12353>
+<https://www.arxiv.org/abs/2101.12353>
 
 Prove that neural networks can transform a low-dimensional source distribution to a distribution that is arbitrarily close to a high-dimensional target distribution, when the closeness are measured by Wasserstein distances and maximum mean discrepancy. 
 
@@ -162,13 +162,13 @@ Describe a construction based on generalized tensor decompositions that transfor
 
 ### Deep neural networks can stably solve high-dimensional, noisy, non-linear inverse problems
 
-<https://arxiv.org/abs/2206.00934>
+<https://www.arxiv.org/abs/2206.00934>
 
 Show that there exists a neural network that is robust to noise approximation of the finite-dimensional operator with Lipscitz-continuous inverse.
 
 ### Approximation in shift-invariant spaces with deep ReLU neural networks
 
-<https://arxiv.org/abs/2005.11949>
+<https://www.arxiv.org/abs/2005.11949>
 
 Study the expressive power of deep ReLU NNs for approximating functions in dilated shift-invariant spaces, with approximate error bounds w.r.t. width and depth, for the Sobolev spaces and Besov spaces. Also give lower bounds of the Lp approximation error for Sobolev spaces.
 
@@ -222,13 +222,13 @@ Show that initial representations generated by common random initializations are
 
 ### Depth-Width Tradeoffs in Approximating Natural Functions with Neural Networks
 
-<https://arxiv.org/abs/1610.09887>
+<https://www.arxiv.org/abs/1610.09887>
 
 Prove that various types of simple and natural functions, including indicators of balls and ellipses, non-linear radial functions, smooth non-linear functions, can be better approximated using deeper networks than shallower ones, even if the shallower networks are much larger.
 
 ### Towards Lower Bounds on the Depth of ReLU Neural Networks
 
-<https://arxiv.org/abs/2105.14835>
+<https://www.arxiv.org/abs/2105.14835>
 
 Using techniques from mixed-integer optimization, polyhedral theory, tropical geometry, provide a counterbalance to the universal approximation theorem which suggest that a single hidden layer is sufficient for learning tasks. Inverstigate whether the class of exactly representablew functions strictly increases by adding more layers. Also present upper bounds on the sizes of neural networks required to represent functions in these neural hypothesis classes.
 
@@ -288,36 +288,42 @@ Show that any transformer neural network can be translated into an equivlaent fi
 
 ### Deep neural network expressivity for optimal stopping problems
 
-<https://arxiv.org/abs/2210.10443>
+<https://www.arxiv.org/abs/2210.10443>
 
 Show that the value function and continuation value of an optimal stopping time of high dimensional discrete time Markov process can be approximated with error at most epsilon, with polynomial on dimension.
 
 ### A new activation for neural networks and its approximation
 
-<https://arxiv.org/abs/2210.10264>
+<https://www.arxiv.org/abs/2210.10264>
 
 Propose new activation named 'DLU', and show that it has competitive performance for approximation to ReLU and rational network, while having several advantages.
 
 ### Simultaneous approximation of a smooth function and its derivatives by deep neural networks with piecewise-polynomial activations
 
-<https://arxiv.org/abs/2206.09527>
+<https://www.arxiv.org/abs/2206.09527>
 
 Derive the required depth, width, and sparsity of the deep neural network to approximate any Hoelder smooth function in Hoelder norm, when all weights are bounded by 1.
 
 ### Limitations on approximation by deep and shallow neural networks
 
-<https://arxiv.org/abs/2212.02223>
+<https://www.arxiv.org/abs/2212.02223>
 
 Prove the Carl's type ineuqalities for the error of approximation of compact sets by deep and shallow neural networks, which gives lower bound on how well we can approximate the functions in K.
 
 ### A general approximation lower bound in Lp norm, with applications to feed-forward neural networks
 
-<https://arxiv.org/abs/2206.04360>
+<https://www.arxiv.org/abs/2206.04360>
 
 Show that the approximation of space F by space G in Lp norm can be described with the packing number and range of F, and fat-shattering dimension of G. Using this result, show the lower bound for special function classes like Hoelder balls or multivariate monotonic functions that matches with upper bound up to log factors.
 
 ### Your Transformer May Not be as Powerful as You Expect
 
-<https://arxiv.org/abs/2205.13401>
+<https://www.arxiv.org/abs/2205.13401>
 
 Show that the general relative positional encoding based Transformer is not universal approximator as absolute positional encoding, because the softmax attention always generate the right stochastic matrix. Derive sufficient condition for universal approximation, and derive URPE attention that satisfy this condition which multiplies single Toeplitz matrix.
+
+### Exponential ReLU Neural Network Approximation Rates for Point and Edge Singularities
+
+<https://www.arxiv.org/abs/2010.12217>
+
+Prove the exponential expressivity with ReLU NN in H1 function space, that is locally analytic but admits point singularities and edge singularities, for dimension 2 and 3. This imply the exponential expressivity for the elliptic boundary and eigenvalue problems.

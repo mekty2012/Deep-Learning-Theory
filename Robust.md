@@ -18,25 +18,25 @@ Provide a theoretical justification for the finding that adversarial training sh
 
 ### On the Effect of Low-Rank Weights on Adversarial Robustness of Neural Networks
 
-<https://arxiv.org/abs/1901.10371>
+<https://www.arxiv.org/abs/1901.10371>
 
 Show that adversarial training tends to promote simultaneously low-rank and sparse structure. In the reverse direction, when the low rank structure is promoted by nclear norm regularization, neural networks show significantly improved robustness.
 
 ### Exploring Architectural Ingredients of Adversarially Robust Deep Neural Networks
 
-<https://arxiv.org/abs/2110.03825>
+<https://www.arxiv.org/abs/2110.03825>
 
 Provide a theoretical analysis explaning on following observations, that 1) model parameters does not necessarily help adversarial robustness, 2) reducing capacity at the last stage of the network can actually improve adversarial robustness, and 3) under the same parameter budget, there exists an optimal architectural configuration for adversarial robustness.
 
 ### Can we have it all? On the Trade-off between Spatial and Adversarial Robustness of Neural Networks
 
-<https://arxiv.org/abs/2002.11318>
+<https://www.arxiv.org/abs/2002.11318>
 
 Prove a quantitative trade-off between spatial and adversarial robustness in a simple statistical setting. 
 
 ### How Does a Neural Network's Architecture Impact Its Robustness to Noisy Labels?
 
-<https://arxiv.org/abs/2012.12896>
+<https://www.arxiv.org/abs/2012.12896>
 
 Provide a formal framework connecting the robustness of a network to the alignments between its architecture and target functions. Hypothesize that a network is more robust to noisy labels if its architecture is more aligned with the target function than the noise.
 
@@ -60,13 +60,13 @@ Proves that robustness implies generalization via data-dependent generalization 
 
 ### A Universal Law of Robustness via Isoperimetry
 
-<https://arxiv.org/abs/2105.12806>
+<https://www.arxiv.org/abs/2105.12806>
 
 Show that smooth interpolation requires d times parameters than mere interpolation, where d is the ambient data dimension, for any smoothly parametrized function class with polynomial size weights, and any covaraiate distribution verifying isoperimetry.
 
 ### Improved Regularization and Robustness for Fine-tuning in Neural Networks
 
-<https://arxiv.org/abs/2111.04578>
+<https://www.arxiv.org/abs/2111.04578>
 
 Present a PAC-Bayes generalization bound that depends on the distance traveled in each layer during fine-tuning and the noise stability. 
 
@@ -78,36 +78,36 @@ Even the robust training accuracy can be near zero, show that there exists a con
 
 ### Adversarial Robustness is at Odds with Lazy Training
 
-<https://arxiv.org/abs/2207.00411>
+<https://www.arxiv.org/abs/2207.00411>
 
 Show that the over-parameterized neural networks that generalize well due to lazy training, remain vulnerable to attacks with single gradient ascent steps.
 
 ### Deep Learning is Provably Robust to Symmetric Label Noise
 
-<https://arxiv.org/abs/2210.15083>
+<https://www.arxiv.org/abs/2210.15083>
 
 Show that for multiclass classification, L1-consistent DNN classifiers trained with symmetric label noise achieve Bayes optimality asymptotically.
 
 ### On the uncertainty principle of neural networks
 
-<https://arxiv.org/abs/2205.01493>
+<https://www.arxiv.org/abs/2205.01493>
 
 Show that the accuracy-robustness trade-off is an intrinsic property, and is closely related to the uncertainty principle. In specific, relate the loss function to the wave function in quantum mechanics, showing that both inputs and conjugate can't be resolved simultaneously.
 
 ### An Analysis of Robustness of Non-Lipschitz Networks
 
-<https://arxiv.org/abs/2010.06154>
+<https://www.arxiv.org/abs/2010.06154>
 
 Prove that the adversarial attack that moves feature in low-dimensional subspace can be quite powerful. However allowing the network not to predict for unusal inputs, such adversaries can be overcome given well-separation assumption.
 
 ### Gradient Methods Provably Converge to Non-Robust Networks
 
-<https://arxiv.org/abs/2202.04347>
+<https://www.arxiv.org/abs/2202.04347>
 
 Show that there exists robust parameter for 2-layer network, but gradient flow gives non-robust network which can be solved that KKT condition of the max-margin problem is non-robust.
 
 ### Adversarial Robustness is at Odds with Lazy Training
 
-<https://arxiv.org/abs/2207.00411>
+<https://www.arxiv.org/abs/2207.00411>
 
 Show that the lazy-training of the neural network always lead to the vulnerable model, that can be attacked with single step of gradient ascent.

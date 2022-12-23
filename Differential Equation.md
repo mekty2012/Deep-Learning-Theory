@@ -1,30 +1,30 @@
 ### Rethinking the limiting dynamics of SGD: modified loss, phase space oscillations, and anomalous diffusion
 
-<https://arxiv.org/abs/2107.09133>
+<https://www.arxiv.org/abs/2107.09133>
 
 Derive a continuous-time model for SGD with finite learning rates and batch sizes as an underdamped Langevin equation. Show that the key ingredient driving these dynamics is not the origianl training loss, but rather the combination of a modified loss.
 
 ## Imitiating Deep Learning Dynamics via Locally Elastic Stochastic Differential Equations
 
-<https://arxiv.org/abs/2110.05960>
+<https://www.arxiv.org/abs/2110.05960>
 
 Model the evolution of features during deep learning training using a set of SDEs that each corresponds to a training sample, where each SDE constains a drift term that reflects the impact of backpropagation at an input on the features of all samples. This uncovers a sharp phase transition phenomenon regarding the intra-class impact: if the SDEs are locally elastic - the impact is more significant on samples from the same class as the input - the featrues of the training data become linearly separable, vanishing trainin loss; otherwise, the features are not separable. Also show the emergence of a simple geometric structure called the neural collapse of the features.
 
 ### Towards Theoretically Understanding Why SGD Generalizes Better Than ADAM in Deep Learning
 
-<https://arxiv.org/abs/2010.05627>
+<https://www.arxiv.org/abs/2010.05627>
 
 Observe the heavy tails of gradient noise, and analyze SGD and ADAM through their Levy-deriven SDEs. Establish the escaping time of SDEs from a local basin, and show that the escaping time depends on the Radon measure of the basin positively and the heaviness of gradient noise negatively, for same basin, SGD enjoys smaller escaping time, because of geometric adaption in ADAM and exponential graident average in ADAM.
 
 ### On Large Batch Training and Sharp Minima: A Fokker-Planck Perspective
 
-<https://arxiv.org/abs/2112.00987>
+<https://www.arxiv.org/abs/2112.00987>
 
 Approximate the mini-batch SGD and the momentum SGD with SDE, and use the theory of Fokker-Planck equations to develop new results on the escaping phenomenon and the relationship with large batch and sharp minima. Find that the stochastic process solution tends to converge to flatter minima regardless of the batch size in the asymptotic regime, but the convergence rate depend on the batch size.
 
 ### Scaling Properties of Deep Residual Networks
 
-<https://arxiv.org/abs/2105.12245>
+<https://www.arxiv.org/abs/2105.12245>
 
 Depending some certain features of neural network architectures, like smoothness of activation function, the scaling regime is different, either neural ODE limit, SDE, or neither of these.
 
@@ -42,7 +42,7 @@ In approximate inference of continuous depth Bayesian neural networks, the uncer
 
 ### Framing RNN as a kernel method: A neural ODE approach
 
-<https://arxiv.org/abs/2106.01202>
+<https://www.arxiv.org/abs/2106.01202>
 
 Show that under appropriate conditions, the solution of a RNN can be viewed as a linear function of a specific feature set of the input sequence, known as the signature, framing RNN as a kernel method in a suitable RKHS. Obtain theoretical guarantees on generalization and stability.
 
@@ -78,18 +78,30 @@ Show that with standard initialization, the only nontrivial dynamics is given by
 
 ### Do Residual Neural Networks discretize Neural Ordinary Differential Equations?
 
-<https://arxiv.org/abs/2205.14612>
+<https://www.arxiv.org/abs/2205.14612>
 
 Quantify the distance between ResNet's hidden state trajectory and the solution of its corresponding Neural ODE, which is tight but does not converges to zero with depth N if the residual function are not smooth with depth. But show that this smoothness is preserved by gradient descent with linear residual functions and small enough initial loss, showing the implicit regularization towards limit Neural ODE.
 
 ### Vanilla feedforward neural networks as a discretization of dynamics systems
 
-<https://arxiv.org/abs/2209.10909>
+<https://www.arxiv.org/abs/2209.10909>
 
 Show that the not only ResNet, but the classical network structure can also be a numerical discretization of dynamic systems, which is based the properties of the leaky-ReLU function.
 
 ### Surprising Instabilities in Training Deep Networks and a Theoretical Analysis
 
-<https://arxiv.org/abs/2206.02001>
+<https://www.arxiv.org/abs/2206.02001>
 
 To analyze the numerical error due to the floating point computation, derive the gradient descent PDE of the NN learning, and analyze it using the Pon-Neumann analysis to study its stability.
+
+### Asymptotic Analysis of Deep Residual Networks
+
+<https://www.arxiv.org/abs/2212.08199>
+
+Show the existence of scaling regime for trained weights different from those implicitly assumed. Study the convergence, that one can obtain either ODE, SDE, or neither of these which is existence of diffusive regime.
+
+### Convergence Analysis for Training Stochastic Neural Networks via Stochastic Gradient Descent
+
+<https://www.arxiv.org/abs/2212.08924>
+
+Consider the training of discretization of SDE as stochastic neural network via sample-wise back propagation, with adjoint backward SDE. Derive the convergence analysis with and without the convexity analysis, and show that the SNN training steps should be proportional to the squares of the number of layers.

@@ -8,7 +8,7 @@ Introduce Layer-Peeled Model which is a nonconvex yet analytically tractable opt
 
 ### An Unconstrained Layer-Peeled Perspective on Neural Collapse
 
-<https://arxiv.org/abs/2110.02796>
+<https://www.arxiv.org/abs/2110.02796>
 
 Prove that gradient flow on unconstrained layer-peeled model converges to critical points of a minimum-norm separation problem exhibiting neural collapse in its global minimizer. Then prove that all the critical points are strict saddle points except the global minimizers that exhibit the neural collapse phenomenon.
 
@@ -58,7 +58,7 @@ By dynamical system approach, analyzes the implicit regularization in hierarchic
 
 ### Implicit Regularization in Hierarchical Tensor Factorization and Deep Convolutional Neural Networks
 
-<https://arxiv.org/abs/2201.11729>
+<https://www.arxiv.org/abs/2201.11729>
 
 Theoretically analyze the implicit regularization in hierarchical tensor factorization which is a model equivalent to certain deep CNNs, and establish implicit regularization towards low hierarchical tensor rank. This translates to an implicit regularization towards locality for the associated convolutional networks.
 
@@ -66,7 +66,7 @@ Theoretically analyze the implicit regularization in hierarchical tensor factori
 
 ### On the Optimal Memorization Power of ReLU Neural Networks
 
-<https://arxiv.org/abs/2110.03187>
+<https://www.arxiv.org/abs/2110.03187>
 
 Show that networks can memorize any N points using sqrt(N) parameters with some separability assumptions, which is optimal up to logarithmic factors.
 
@@ -74,13 +74,13 @@ Show that networks can memorize any N points using sqrt(N) parameters with some 
 
 ### Spectral Pruning for Recurrent Neural Networks
 
-<https://arxiv.org/abs/2105.10832>
+<https://www.arxiv.org/abs/2105.10832>
 
 Propose a pruning algorithm so called spectral pruning for RNN, and provide the generalization error bounds for compressed RNNs.
 
 ### Why Lottery Ticket Wins? A Theoretical Perspective of Sample Complexity on Pruned Neural Networks
 
-<https://arxiv.org/abs/2110.05667>
+<https://www.arxiv.org/abs/2110.05667>
 
 Characterizes the performance of training a pruned neural network by analyzing the geometric structure of the objective function and the sample complexity to achieve zero generalization error. Show that the convex region near a desirable model with guaranteed generalization enlarges as the neural network model is pruned. 
 
@@ -94,25 +94,25 @@ Hypothesize that the 'winning tickets' have relatively sharp minima, which is a 
 
 ### Global Optimality Beyond Two Layers: Training Deep ReLU Networks via Convex Programs
 
-<https://arxiv.org/abs/2110.05518>
+<https://www.arxiv.org/abs/2110.05518>
 
 Show that the training of multiple three-layer ReLU sub-networks with weight decay regularization can be equivalently cast as a convex optimization problem in a higher dimensional space, where sparsity is enforced via a group l1-norm regularization. Then prove that equivalent convex problem can be globally optimized by a standard convex optimization solve with a polynomial-time complexity w.r.t. number of samples and data dimension.
 
 ### Convergence Analysis and Implicit Regularization of Feedback Alignment for Deep Linear Networks
 
-<https://arxiv.org/abs/2110.10815>
+<https://www.arxiv.org/abs/2110.10815>
 
 Provide convergence guarantees with rates for deep linear networks for both continuous and discrete dynamics on FA algorithms.
 
 ### Faster Neural Network Training with Approximate Tensor Operations
 
-<https://arxiv.org/abs/1805.08079>
+<https://www.arxiv.org/abs/1805.08079>
 
 Introduce a new technique for faster NN training using sample-based approximation to the tensor operations, prove that they provide the same convergence guarantees.
 
 ### Depth Without the Magic: Inductive Bias of Natural Gradient Descent
 
-<https://arxiv.org/abs/2111.11542>
+<https://www.arxiv.org/abs/2111.11542>
 
 Gradient descent has implicit inductive bias, that the parameterization gives different optimization trajectory. Natural gradient descent is approximately invariant to such parameterization, giving same trajectory and same minimum. Show that there exist learning problem where natural gradient descent fails to generalize while gradient descent performs well.
 
@@ -132,13 +132,13 @@ SAM generally minimizes the two step approximation of sharpness which is computa
 
 ### The Equilibrium Hypothesis: Rethinking implicit regularization in Deep Neural Networks
 
-<https://arxiv.org/abs/2110.11749>
+<https://www.arxiv.org/abs/2110.11749>
 
 Recent work showed that some layers are much more aligned with data labels than other layers, called impricial layer selection. Introduce and empirically validate the Equilibrium Hypothesis stating that the layers achieve some balance between forward and backward information loss are the ones with the highest alignment to data labels.
 
 ### The Geometric Occam's Razor Implicit in Deep Learning
 
-<https://arxiv.org/abs/2111.15090>
+<https://www.arxiv.org/abs/2111.15090>
 
 Over-parameterized neural networks trained with SGD are subject to a Geometric Occam's Razor, that they are implicitly regularized by the geometric model complexity, which is a Dirichlet energy of the function.
 
@@ -160,7 +160,7 @@ Study the population loss with its lower bound using influence functions, which 
 
 ### The Power of Contrast for Feature Learning: A Theoretical Analysis
 
-<https://arxiv.org/abs/2110.02473>
+<https://www.arxiv.org/abs/2110.02473>
 
 By using connection between PCA and linear Autoencoder, GAN, contrast learning, show that contrastive learning outperforms autoender for both feature learning and downstream tasks.
 
@@ -216,229 +216,229 @@ Propose a simple tensor decomposition model to study how hidden representations 
 
 ### Understanding Black-box Predictions via Influence Functions
 
-<https://arxiv.org/abs/1703.04730>
+<https://www.arxiv.org/abs/1703.04730>
 
 Show that even on non-convex and non-differentiable models, approximations to influence functions can still provide valuable information. 
 
 ### Understanding Convolutional Neural Networks with Information Theory: An Initial Exploration
 
-<https://arxiv.org/abs/1804.06537>
+<https://www.arxiv.org/abs/1804.06537>
 
 Show that the estimators enable straightforward measurement of information flow in realistic convolutional neural networks without any approximation, and introduce the partial information decomposition framework, develop three quantities to analyze the synergy and redundancy in convolutional layer representations.
 
 ### Searching for Minimal Optimal Neural Networks
 
-<https://arxiv.org/abs/2109.13061>
+<https://www.arxiv.org/abs/2109.13061>
 
 Propose a rigorous mathematical framework for studying the asymptotic theory of the destructive technique, and prove that Adaptive group Lasso is consistent and can reconstruct the correct number of hidden nodes of one-hidden-layer feedforward networks with high probability.
 
 ### On the Variance of the Fisher Information for Deep Learning
 
-<https://arxiv.org/abs/2107.04205>
+<https://www.arxiv.org/abs/2107.04205>
 
 Investigate two estimators based on two equivalent representations of the FIM, and bound their variances and analyze how the parametric structure of a deep neural network can impact the variance.
 
 ### Avoiding pathologies in very deep networks
 
-<https://arxiv.org/abs/1402.5836>
+<https://www.arxiv.org/abs/1402.5836>
 
 Show that in standard architectures, the representational capacity of the network tends to capture fewer degrees of freedom as the number of layers increases, and propose an alternate architecture which does not suffer from this pathology.
 
 ### Optimizing Neural Networks via Koopman Operator Theory
 
-<https://arxiv.org/abs/2006.02361>
+<https://www.arxiv.org/abs/2006.02361>
 
 Show that Koopman operator theoretic methods allow for accurate predictions of weights and biases of MLPs over a non-trivial range of training time.
 
 ### Stability of Neural Networks on Manifold to Relative Perturbations
 
-<https://arxiv.org/abs/2110.04702>
+<https://www.arxiv.org/abs/2110.04702>
 
 Prove that manifold neural networks composed of frequency ratio threshold filters, which separates the infinite-dimensional spectrum of the Laplace-Beltrami operator, are stable to relative operator perturbations. Observe that manifold neural networks exhibit a trade-off between stability and discriminability.
 
 ### Phase Collapse in Neural Networks
 
-<https://arxiv.org/abs/2110.05283>
+<https://www.arxiv.org/abs/2110.05283>
 
 By defining simplified complex-valued convolutional network architecture, which implements convolution with wavelet filters and uses a complex modulus to collapse phase variables, demonstrate that it is a different phase collapse mechanism which explains the ability to progressively eliminate spatial variability.
 
 ### Does Preprocessing Help Training Over-parameterized Neural Networks?
 
-<https://arxiv.org/abs/2110.04622>
+<https://www.arxiv.org/abs/2110.04622>
 
 Design preprocessing algorithm for layer and input data, with convergence guarantee and lower train cost.
 
 ### Understanding Learning Dynamics of Binary Neural Networks via Information Bottleneck
 
-<https://arxiv.org/abs/2006.07522>
+<https://www.arxiv.org/abs/2006.07522>
 
 Analyze BNNs through the information bottleneck principle and observe that the training dynamics of BNNs is different from that of DNNs. While DNNs have a separate empirical risk minimization and representation compression phases, BNNs tend to find efficient hidden representations concurrently with label fitting.
 
 ### Well-classified Examples are Underestimated in Classification with Deep Neural Networks
 
-<https://arxiv.org/abs/2110.06537>
+<https://www.arxiv.org/abs/2110.06537>
 
 Theoretically show that giving less gradient for well-classified examples hinders representation learning, energy optimization, and the growth of margin. Propose to reward well-classified examples with additive bonuses to revive their contribution to learning.
 
 ### Detecting Modularity in Deep Neural Networks
 
-<https://arxiv.org/abs/2110.08058>
+<https://www.arxiv.org/abs/2110.08058>
 
 Consider the problem of assessing the modularity exhibited by a partitioning of a network's neurons. Propose two proxies, importance and coherence measured by statistical methods. Then apply the proxies to partitionings generated by spectrally clustering neurons and show that these partitionings reveal groups of neurons that are important and coherent.
 
 ### Dropout as a Regularizer of Interaction Effects
 
-<https://arxiv.org/abs/2007.00823>
+<https://www.arxiv.org/abs/2007.00823>
 
 Prove that dropout regularizes against higher-order interactions. 
 
 ### Understanding Convolutional Neural Networks from Theoretical Perspective via Volterra Convolution
 
-<https://arxiv.org/abs/2110.09902>
+<https://www.arxiv.org/abs/2110.09902>
 
 Show that CNN is an approximation of the finite term Volterra convolution, whose order increases exponentially with the number of layers and kernel size increases exponentially with the strides.
 
 ### Expressivity of Neural Networks via Chaotic Itineraries beyond Sharkovsky's Theorem
 
-<https://arxiv.org/abs/2110.10295>
+<https://www.arxiv.org/abs/2110.10295>
 
 Prove that periodic points alone lead to suboptimal depth-width tradeoffs and improve upon them by demonstrating that certain "chaotic itineraries" give stronger exponential tradeoffs. Identify a phase transition to the chaotic regime that exactly coincides with an abrupt shift in other notions of function complexity, including VC-dimension and topological entropy.
 
 ### Early Stopping in Deep Networks: Double Descent and How to Eliminate It
 
-<https://arxiv.org/abs/2007.10099>
+<https://www.arxiv.org/abs/2007.10099>
 
 Show that epoch-wise double descent arises by a superposition of two or more bias-variance tradeoff that arise because different parts of the network are learned at different epochs, and eliminating this by proper scaling of stepsizes can significantly improve the early stopping performance. Show this analytically for linear regression and a two-layer neural network.
 
 ### Wide Neural Networks Forget Less Catastrophically
 
-<https://arxiv.org/abs/2110.11526>
+<https://www.arxiv.org/abs/2110.11526>
 
 Focus on the model and study the impact of width of the NN architecture on catastrophic forgetting, and show that width has a suprisingly significant effect. Study the learning dynamics of the network from various perspectives, including gradient norm, sparsity, orthogonalization, lazy training.
 
 ### Does the Data Induce Capacity Control in Deep Learning?
 
-<https://arxiv.org/abs/2110.14163>
+<https://www.arxiv.org/abs/2110.14163>
 
 Show that the data correlation matrix, Hessian, Fisher Information Matrix all share 'sloppy' eigenspectrum where a large number of small eigenvalues are distributed uniformly over an exponentially large range. Show that this structure in the data can give to non-vacuous PAC-Bayes generalization bounds analytically.
 
 ### What training reveals about neural network complexity
 
-<https://arxiv.org/abs/2106.04186>
+<https://www.arxiv.org/abs/2106.04186>
 
 Explores Benevolent Training Hypothesis, that the complexity of target function can be deduced by training dynamics. Observe that the Lipscitz constant close to the training data affects various aspects of the parameter trajectory, with more complex network having longer trajectory, bigger variance. Show that NNs whose first layer bias is trained more steadily have bounded complexity, and find that steady training with dropout implies a training and data-dependent generalization bound growing poly-logarithmically with the number of parameters. 
 
 ### Collapse of Deep and Narrow Neural Nets
 
-<https://arxiv.org/abs/1808.04947>
+<https://www.arxiv.org/abs/1808.04947>
 
 Show that even for ReLU activation, deep and narrow NNs will converge to errorneous mean or median states of the target function depending on the loss with high probability. 
 
 ### Why Stable Learning Works? A Theory of Covariate Shift Generalization
 
-<https://arxiv.org/abs/2111.02355>
+<https://www.arxiv.org/abs/2111.02355>
 
 Prove that under ideal conditions, stable learning algorithms could identify minimal stable variable set, that is minimal and optimal to deal with covariate shift generalization for common loss functions.
 
 ### Early-stopped neural networks are consistent
 
-<https://arxiv.org/abs/2106.05932>
+<https://www.arxiv.org/abs/2106.05932>
 
 Show that gradient descent with early stopping achieves population risk arbitrarily close to optimal in terms of not just logistic and misclassification losses, but also in terms of calibration.
 
 ### Multiple Descent: Design Your Own Generalization Curve
 
-<https://arxiv.org/abs/2008.01036>
+<https://www.arxiv.org/abs/2008.01036>
 
 Show that the generalization curve can have an arbitrary number of peaks, and the locations of those peaks can be explicitly controlled in variable parameterized families of models on linear regression. The emergence of double descnet is due to the interaction between the properties of the data and the inductive bias of learnin algorithms.
 
 ### Stability & Generalisation of Gradient Descent for Shallow Neural Networks without the Neural Tangent Kernel
 
-<https://arxiv.org/abs/2107.12723>
+<https://www.arxiv.org/abs/2107.12723>
 
 Show oracle type bounds which reveal that the generalisation and excess risk of GD is controlle by an interpolating network with the shortest GD path from inistialisation. Also show that this analysis is tighter then existing NTK-based risk bounds, and show that GD with early stoppping is constant.
 
 ### ReLU Neural Networks of Polynomial Size for Exact Maximum Flow Computation
 
-<https://arxiv.org/abs/2102.06635>
+<https://www.arxiv.org/abs/2102.06635>
 
 Introduce the concept of Max-Affine Arithmetic Programs, and use them to show that undirected graph's minimum spanning tree and maximum flow computation is possible with NNs of cubic/quadratic width.
 
 ### Assessing Deep Neural Networks as Probability Estimators
 
-<https://arxiv.org/abs/2111.08239>
+<https://www.arxiv.org/abs/2111.08239>
 
 Find that the likelihood probability density and the inter-categorical sparsity have greater impacts than the prior probability to DNN's classification uncertainty.
 
 ### Towards Understanding the Condensation of Neural Networks at Initial Training
 
-<https://arxiv.org/abs/2105.11686>
+<https://www.arxiv.org/abs/2105.11686>
 
 Empirically, it is observed that input weights condense on isolated orientation with a small initialization. Show that maximal number of condensed orientation in the initial stage is twice the multiplicity of the acitvation function, where multiplicity is multiple roots of activation function at origin. 
 
 ### Improved Fine-tuning by Leveraging Pre-training Data: Theory and Practice
 
-<https://arxiv.org/abs/2111.12292>
+<https://www.arxiv.org/abs/2111.12292>
 
 Show that final prediction precision may have a weak dependency on the pre-trained model especially in the case of large training terations. Shows that the final performance can be improved when appropriate pre-training data is included in fine-tuning, and design a novel selection strategy to select a subset from pre-training data to help improve the generalization.
 
 ### Gradient Starvation: A Learning Proclivity in Neural Networks
 
-<https://arxiv.org/abs/2011.09468>
+<https://www.arxiv.org/abs/2011.09468>
 
 Gradient Starvation arises when cross-entropy loss is minimized by capturing only a subset of features relevant for the task, despite the presence of other predictive features that fail to be discovered. Using tools from dynamical systems theory, identify simple properties of learning dynamics during gradient descent that lead to this imbalance, and prove that such a situation can be expected given certain statistical structure in training data.
 
 ### Error Bounds for a Matrix-Vector Product Approximation with Deep ReLU Neural Networks
 
-<https://arxiv.org/abs/2111.12963>
+<https://www.arxiv.org/abs/2111.12963>
 
 Derive error bounds in Lebesgue and Sobolev norms to approximate arbitrary matrix-vector product using ReLU NN.
 
 ### On the rate of convergence of a classifier based on a Transformer encoder
 
-<https://arxiv.org/abs/2111.14574>
+<https://www.arxiv.org/abs/2111.14574>
 
 The rate of convergence of the misclassification probability towards the optimal misclassification probability, and shown that this classifier is able to circumvent the curse of dimensionality.
 
 ### Breaking the Convergence Barrier: Optimization via Fixed-Time Convergent Flows
 
-<https://arxiv.org/abs/2112.01363>
+<https://www.arxiv.org/abs/2112.01363>
 
 Design gradient based optimization for achieving acceleration, by first leveraging a continuous time framework for designing fixed-time stable dynamical systems, provigding a consistent discretization strategy such that the equiavlent discrete-time algorithm tracks the optimizer in a practically fixed number of iterations. Provide the convergence behavior of the proposed gradient flow and robustness to additive disturbances. 
 
 ### Asymptotic properties of one-layer artificial neural networks with sparse connectivity
 
-<https://arxiv.org/abs/2112.00732>
+<https://www.arxiv.org/abs/2112.00732>
 
 Asymptotic of empirical distribution of parameters of a one-layer ANNs with sparse connectivity, with increasing number of parameter and iteration steps.
 
 ### Test Sample Accuracy Scales with Training Sample Density in Neural Networks
 
-<https://arxiv.org/abs/2106.08365>
+<https://www.arxiv.org/abs/2106.08365>
 
 Propose an error function for piecewise linear NNs taking a local region of input space and smooth empirical training error, that is an average of empirical training erros from other regions weighted by network represenation distance. A bound on the expected smooth error for each region scales inversely with training sample density in representation space.
 
 ### On transversality of bent hyperplane arrangements and the topological expressiveness of ReLU neural networks
 
-<https://arxiv.org/abs/2008.09052>
+<https://www.arxiv.org/abs/2008.09052>
 
 Define notion of a generic transversal ReLU neural network, and show that almost all ReLU networks are generic and transversal. Using the obstruction, prove that a decision region of a generic, transversal ReLU network with a single hidden layer of dimension n+1 can have no more than one bounded connected components.
 
 ### A Complete Characterisation of ReLU-Invariant Distributions
 
-<https://arxiv.org/abs/2112.06532>
+<https://www.arxiv.org/abs/2112.06532>
 
 Give a complete characterization of families of probability distributions that are invariant under the action of ReLU NN layers, proving that no invariant parameterised can exist unless one of follwoing holds, network's width is one, probability measure have finite support, and the parameterization is not locally Lipscitz continuous.
 
 ### On the Expected Complexity of Maxout Networks
 
-<https://arxiv.org/abs/2107.00379>
+<https://www.arxiv.org/abs/2107.00379>
 
 Number of activation regions are used as a complexity measure, and it has shown that practical complexity of Deep ReLU networks is often far from the theoretical maximum. Show that this also occurs in maxout activation, and give nontrivial lower bounds on the complexity, finally gives that different initialization can increase speed of convergence.
 
 ### Neurashed: A Phenomenological Model for Imitating Deep Learning Training
 
-<https://arxiv.org/abs/2112.09741>
+<https://www.arxiv.org/abs/2112.09741>
 
 Design a graphical model neurashed, which inherits hierarchically structured, optimized through SGD, and information evolving compressively, and enables insights into implicit regularization, information bottleneck, and local elasticity.
 
@@ -582,13 +582,13 @@ Introduce a local parameterization of a deep ReLU NN by fixing the values of som
 
 ### The Role of Depth, Width, and Activation Complexity in the Number of Linear Regions of Neural Networks
 
-<https://arxiv.org/abs/2206.08615>
+<https://www.arxiv.org/abs/2206.08615>
 
 Provide a precise bounds on the maximal number of linear regions of piecewise-linear networks based on depth, width, and activation complexity. Based on combinatorial structure of convex partition, show that the number of regions increase exponentially w.r.t. depth. Also show that along 1D path, the expected density is bounded by the product of depth, width, and a measure of activation complexity, showing the identical role for all three sources.
 
 ### Information Geometry of Dropout Training
 
-<https://arxiv.org/abs/2206.10936>
+<https://www.arxiv.org/abs/2206.10936>
 
 Show that the dropout flattens the model manifold, and the regularization performance depends on the curvature. Then show that the dropout corresponds to a regularization that depends on the Fisher information.
 
@@ -690,12 +690,18 @@ Define quasi-homogeneous models that is expressive enough to describe homogeneou
 
 ### Unifying and Boosting Gradient-Based Training-Free Neural Architecture Search
 
-<https://arxiv.org/abs/2201.09785>
+<https://www.arxiv.org/abs/2201.09785>
 
 Show that the training-free NAS metrics are equal up to constant, which allows us to derive single generalzation bound results for all NAS metrics.
 
 ### Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent
 
-<https://arxiv.org/abs/2207.04036>
+<https://www.arxiv.org/abs/2207.04036>
 
 Show that under natural condition of commuting parameterization, the reparameterized gradient flow model is equivalent to the continuous mirror descent with a related Legendere function.
+
+### Learning threshold neurons via the "edge of stability"
+
+<https://www.arxiv.org/abs/2212.07469>
+
+Consider the simple model of two-layer NN with single neuron, trained with EoS learning rate. When trained on small learning rate, it fails to have 'threshold neuron' where EoS learning rate can. The threshold neuron is function that is zero near origin and abs(x) - b outside.

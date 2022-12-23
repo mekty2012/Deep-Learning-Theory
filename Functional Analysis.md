@@ -54,13 +54,13 @@ Provide a function space characterization of the inductive bias resulting from l
 
 ### What Kinds of Functions do Deep Neural Networks Learn? Insights from Variational Spline Theory
 
-<https://arxiv.org/abs/2105.03361>
+<https://www.arxiv.org/abs/2105.03361>
 
 Develop a variational framework to understand the properties of functions learned by fitting deep neural networks with rectified linear unit activations to data. Propose a new function space, that captures the compositional structure associated deep neural networks. Derive a representer theorem showing that deep ReLU networks are solutions to regularized data fitting problems over functions from this space.
 
 ### On Linear Stability of SGD and Input-Smoothness of Neural Networks
 
-<https://arxiv.org/abs/2105.13462>
+<https://www.arxiv.org/abs/2105.13462>
 
 Show that SGD tends to impose constraints on high-order moments of the gradient noise, by a linear analysis of SGD aroung global minima. Identify Sobolev regularization effect of SGD, that SGD regularizes the Sobolev seminorms of the model functions w.r.t. the input data.
 

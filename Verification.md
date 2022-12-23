@@ -43,13 +43,13 @@ Approximates the RL system by piecewise linear function and finds safety invaria
 
 ### Scalable and Modular Robustness Analysis of Deep Neural Networks
 
-<https://arxiv.org/abs/2108.11651>
+<https://www.arxiv.org/abs/2108.11651>
 
 Propose the network block summarization technique to capture the behaviors within a network block using a block summary, and leverage the summary to speed up the analysis process. By segmenting a network into blocks and conduct the analysis for each block, modularly analyzes neural networks.
 
 ### Proof Transfer for Neural Network Verification
 
-<https://arxiv.org/abs/2109.00542>
+<https://www.arxiv.org/abs/2109.00542>
 
 Show that by generating proof templates that capture and generalize existing proofs, can speed up subsequent proofs. We create these templates from previous proofs on the same neural network.
 
@@ -91,67 +91,67 @@ Propose a new universal probabilistic certification approach based on Chernoff-C
 
 ### A Sequential Framework TOwards an Exact SDP Verification of Neural Networks
 
-<https://arxiv.org/abs/2010.08603>
+<https://www.arxiv.org/abs/2010.08603>
 
 Adress SDP's problem that is prone to a large relaxation gap by developing a sequential framework to shring the gap to zero by adding non-convex cuts to the optimization problem via disjunctive programming.
 
 ### Continuous Safety Verification of Neural Networks
 
-<https://arxiv.org/abs/2010.05689>
+<https://www.arxiv.org/abs/2010.05689>
 
 Develop several sufficient conditions that only require formally analyzing a small part of the DNN in the new problem, by reusing state abstractions, network abstractions, and Lipscitz constants.
 
 ### Local Repair of Neural Networks Using Optimization
 
-<https://arxiv.org/abs/2109.14041>
+<https://www.arxiv.org/abs/2109.14041>
 
 Define the NN repair problem as a Mixed Integer Quadratic Program to adjust the weights of a single layer subject to the given predicates while minimizing the original loss function over the original training domain.
 
 ### Improved Branch and Bound for Neural Network Verification via Lagrangian Decomposition
 
-<https://arxiv.org/abs/2104.06178>
+<https://www.arxiv.org/abs/2104.06178>
 
 Propose novel bounding algorithm based on Lagrangian decomposition which restricts the optimization to a subspace of the dual domain, resulting in accelerated convergence with parallel implementation, with activation based branching strategy.
 
 ### FedlPR: Ownership Verification for Federated Deep Neural Network Models
 
-<https://arxiv.org/abs/2109.13236>
+<https://www.arxiv.org/abs/2109.13236>
 
 Add ownership verification scheme that allows signatures to be embedded and verified to claim legitimate intellectural property rights, when models are illegally copied, re-distributed or misused. 
 
 ### Permutation Invariance of Deep Neural Networks with ReLUs
 
-<https://arxiv.org/abs/2110.09578>
+<https://www.arxiv.org/abs/2110.09578>
 
 Proposes a sound, abstraction-based technique to establish permutation invariance in DNNs. The technique computes an over-approximation of the reachable state, and an under-approximation of the safe states, and propagates this information both forward and backward. 
 
 ### Minimal Multi-Layer Modifications of Deep Neural Networks
 
-<https://arxiv.org/abs/2110.09929>
+<https://www.arxiv.org/abs/2110.09929>
 
 Computes a modification to the netowrk's weights that corrects its behavior, and attempts to minimize this change via a sequence of calls to a backend, black-box DNN verification engine. Splitts the network into sub-networks, and apply a single-layer repairing technique to each component, allowing repair of the network by simulateneously modifying multiple layers.
 
 ### Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers
 
-<https://arxiv.org/abs/2011.13824>
+<https://www.arxiv.org/abs/2011.13824>
 
 Propose to use the backward mode linear relaxation based perturbation analysis to replace linear programming during the brandch-and-bound process, that can be efficiently implemented in GPUs. LiPRA can produce much weaker bounds, so apply a fast gradient based bound tightening procedure combined with batch splits.
 
 ### Static analysis of ReLU neural networks with tropical polyhedra
 
-<https://arxiv.org/abs/2108.00893>
+<https://www.arxiv.org/abs/2108.00893>
 
 Abstracts ReLU feedforward neural networks, and show that tropical polyhedra can efficiently abstract ReLU activation function, while being able to control the loss of precision due to linear computations. Show how the connection between ReLU networks and tropical rational functions can provide approaches for range analysis of ReLU neural networks.
 
 ### Exploiting Verified Neural Networks via Floating Point Numerical Error
 
-<https://arxiv.org/abs/2003.03021>
+<https://www.arxiv.org/abs/2003.03021>
 
 Show that the negligence of floating point error leads to unsound verification that can be systematically exploited in practice. Present a method that efficiently searches inputs as witnesses for the incorrectness of robustness claims made by a complete verifier.
 
 ### Verifying Low-dimensional Input Neural Networks via Input Quantization
 
-<https://arxiv.org/abs/2108.07961>
+<https://www.arxiv.org/abs/2108.07961>
 
 Prepend input quantization layer to the network, which allows efficient verficiation via input state enumeration. 
 
@@ -163,13 +163,13 @@ By combining a sound forward pre-analysis and an exact backward analysis, levera
 
 ### PRIMA: Precise and General Neural Network Certification via Multi-Neuron Convex Relaxations
 
-<https://arxiv.org/abs/2103.03638>
+<https://www.arxiv.org/abs/2103.03638>
 
 Using convex hull approximation algorithms from computational geometry, create precise and general verification methods with polynomial complexity.
 
 ### Interval Universal Approximation for Neural Networks
 
-<https://arxiv.org/abs/2007.06093>
+<https://www.arxiv.org/abs/2007.06093>
 
 Shows that neural networks not only can approximate any continuous function, but can find neural networks with arbitrarily close interval bound. Constructing such neural network takes Delta 2-intermediate program, which is strictly harder than NPc problems.
 
@@ -181,55 +181,55 @@ Design new abstract interpretation that bounds Clarke Jacobian, over-approximate
 
 ### epsilon-weakened Robustness of Deep Neural Networks
 
-<https://arxiv.org/abs/2110.15764>
+<https://www.arxiv.org/abs/2110.15764>
 
 Define epsilon-weakened robustness which allows proportion of adversarial examples, and prove that decision problem is PP-complete, and finally devise an algorithm to find the maximum epsilon-weakened robustness radius.
 
 ### Traversing the Local Polytopes of ReLU Neural Networks: A Unified Approach for Network Verification
 
-<https://arxiv.org/abs/2111.08922>
+<https://www.arxiv.org/abs/2111.08922>
 
 Design a traversing algorithm based on adjacency of local polytopes, which can be adapted to verify network properties related to robustness and interpretability. 
 
 ### Fast BATLLNN: Fast Box Analysis of Two-Level Lattice Neural Networks
 
-<https://arxiv.org/abs/2111.09293>
+<https://www.arxiv.org/abs/2111.09293>
 
 Design a verification tool on two-level lattice neural networks, that determines whether convex polytope in input's output always lies within a specified hyper-rectangle. Using the decoupled nature of box-like output contraint, improve verification performance.
 
 ### AMITE: A Novel Polynomial Expansion for Analyzing Neural Network Nonlinearities
 
-<https://arxiv.org/abs/2007.06226>
+<https://www.arxiv.org/abs/2007.06226>
 
 Develop an analytically modieifed integral transform expansion, a novel expansion via integral transforms modified using derived criteria for convergence. This can provide six desired properties like exact formulas and exact expansion. As a result, multivariate polynomial form can be efficiently extracted to facilitate equivalence testing and a variety of NN architectures having 3~7 layers are bounded using Taylor models.
 
 ### QNNVerifier: A Tool for Verifying Neural Networks using SMT-Based Model Checking
 
-<https://arxiv.org/abs/2111.13110>
+<https://www.arxiv.org/abs/2111.13110>
 
 Translate the implementation of neural networks to a decidable fragment of first-order logic based SMT, where floating-point operations are represented by direct implementation given a hardware determined precision. 
 
 ### ArchRepair: Block-Level Architecture-Oriented Repairing for Deep Neural Networks
 
-<https://arxiv.org/abs/2111.13330>
+<https://www.arxiv.org/abs/2111.13330>
 
 Repair DNNs by jointly optimizing the architecture and weights. Propose adversarial-aware spectrum analysis for vulnerable block localization, which enables more accurate candidate localization. Then do architecture-oriented search-based repairing.
 
 ### SoK: Certified Robustness for Deep Neural Networks
 
-<https://arxiv.org/abs/2009.04131>
+<https://www.arxiv.org/abs/2009.04131>
 
 Systemize the certifiably robust approaches and related practical and theoretical implications, provide the first comprehensive benchmark on existing robust verification and training approaches. 
 
 ### The Fundamental Limits of Interval Arithmetic for Neural Network
 
-<https://arxiv.org/abs/2112.05235>
+<https://www.arxiv.org/abs/2112.05235>
 
 Show that any neural network classifying just three points, there is a valid specifiation that interval analysis can not prove. In one-hidden-layer network, show that there is O(x^-1) points at robust radius x, can not be proven through interval analysis. 
 
 ### Geometric Path Enumeration for Equivalence Verification of Neural Networks
 
-<https://arxiv.org/abs/2112.06582>
+<https://www.arxiv.org/abs/2112.06582>
 
 Tries to formally verify equivalence of two NNs, for showing correctness of compressed version using Path Enumeration algorithm.
 
@@ -283,6 +283,12 @@ Show that the input-output behaviour of a DNN can be captured precisely by a wea
 
 ### Probabilistic Verification of ReLU Neural Networks via Characteristic Functions
 
-<https://arxiv.org/abs/2212.01544>
+<https://www.arxiv.org/abs/2212.01544>
 
 Interpret the DNN as discrete dynamical system, and use characteristic function to propagate the distribution of the input data. Using the inverse Fourier transform, obtain the cumulative distribution function of the ouptut set, that can be used to check if the network is performing as expected.
+
+### Fairify: Fairness Verification of Neural Networks
+
+<https://www.arxiv.org/abs/2212.06140>
+
+Using the SMT based approach, verify individual fairness that two similar individual get similar treatment independent to protected attribute, using the idea that many neurons remain inactive when a smaller part of input is considered.

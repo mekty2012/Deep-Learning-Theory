@@ -8,13 +8,13 @@ Provide sufficient conditions for guaranteeing the Input-to-State Stability and 
 
 ### Theory of gating in recurrent neural network
 
-<https://arxiv.org/abs/2007.14823>
+<https://www.arxiv.org/abs/2007.14823>
 
 Show that gating offers flexible control of two salient features, timescales and dimensionality.
 
 ### MomentumRNN: Integrating Momentum into Recurrent Neural Networks
 
-<https://arxiv.org/abs/2006.06919>
+<https://www.arxiv.org/abs/2006.06919>
 
 Establish a connection between the hidden state dynamics in an RNN and gradient descent, integrating the momentum to this framework, prove that MomentumRNNs alleviate the vanishing gradient issue.
 
@@ -32,7 +32,7 @@ For echo state network with only its readout weights are optimized, show that th
 
 ### Your Transformer May Not be as Powerful as You Expect
 
-<https://arxiv.org/abs/2205.13401>
+<https://www.arxiv.org/abs/2205.13401>
 
 Analyze the power of relative positional encoding based Transformer, show that there exists continuous seq2seq function that RPE-transformer cannot approximate no matter how deep and wide is. The key reason is that most RPEs are placed in the softmax attention so generate a right stochastic matrix, which restricts the network from capturing positional information. Find sufficient condition for universal approximation of Transformer, and suggest attention module satisfying this.
 
@@ -90,7 +90,7 @@ ULGNet express solution as a spectral expansion w.r.t. Legendre basis and predic
 
 ### Understanding and Mitigating Exploding Inverses in Invertible Neural Networks
 
-<https://arxiv.org/abs/2006.09347>
+<https://www.arxiv.org/abs/2006.09347>
 
 Show that commonly used INN architectures suffer from explodinig inverses, and reveal failures including the non-applicability of the change-of-variables formula on in- and OOD data, incorrect gradients, inability to sample from normalizing flow. 
 
@@ -130,7 +130,7 @@ The cone mappings are often modelled with non-negative weight neural networks, h
 
 ### A global convergence theory for deep ReLU implicit networks via over-parameterization
 
-<https://arxiv.org/abs/2110.05645>
+<https://www.arxiv.org/abs/2110.05645>
 
 Show that a randomly initialized gradient descent converges to a global minimum at a linear rate for the square loss function if the implicit neural network is over parameterized.
 
@@ -144,7 +144,7 @@ Usual analysis on implicit neural network collapse to studying only last layer, 
 
 ### Deep Autoencoders: From Understanding to Generalization Guarantees
 
-<https://arxiv.org/abs/2009.09525>
+<https://www.arxiv.org/abs/2009.09525>
 
 Reformulate AEs by continuous piecewise affine structure, to show how AEs approximate the data manifold, giving some insights for reconstruction guarantees and interpretation of regularization guarantees. Design two new regularization that leverages the inherent symmetry learning, prove that the regularizations ensure the generalization with assumption on symmetry of the data with Lie group.
 
@@ -162,25 +162,25 @@ Construct classes of neural networks with ReLU and BiSU activation, emulating th
 
 ### Optimal training of integer-valued neural networks with mixed integer programming
 
-<https://arxiv.org/abs/2009.03825>
+<https://www.arxiv.org/abs/2009.03825>
 
 Formulate new MIP model improving the training efficiency which can train the integer-valued neural networks, with optimization of the number of neurons and batch training.
 
 ### Concentration inequalities and optimal number of layers for stochastic deep neural networks
 
-<https://arxiv.org/abs/2206.11241>
+<https://www.arxiv.org/abs/2206.11241>
 
 State the concentration and Markov inequality for output of hidden layers and output of SDNN. This introduce expected classifier, and the probabilistic upper bound for the classification error. Also state the optimal number of layers by optimal stopping procedure.
 
 ### Diversity and Generalization in Neural Network Ensembles
 
-<https://arxiv.org/abs/2110.13786>
+<https://www.arxiv.org/abs/2110.13786>
 
 Provide sound answers to the following questions, how to measure diversity, how diversity relates to the generalization error of an ensemble, and how diversity is promoted by neural network ensemble algorithms.
 
 ### On a Sparse Shortcut Topology of Artificial Neural Networks
 
-<https://arxiv.org/abs/1811.09003>
+<https://www.arxiv.org/abs/1811.09003>
 
 Propose new shortcut architecture, and show that it can approximate any univariate continuous function in width-bounded setting, and show the generalization bound.
 
@@ -204,7 +204,7 @@ Use tools from dynamical systems to analyze the inductive bias and stability of 
 
 ### A theory of learning with constrained weight-distribution
 
-<https://arxiv.org/abs/2206.08933>
+<https://www.arxiv.org/abs/2206.08933>
 
 Derived an analytic solution of the memorical capacity of perceptron with constraints on its weights, which shows that the reduction is related to the Wasserstein distance between the imposed distribution and the standard normal distribution.
 
@@ -216,6 +216,6 @@ Hamiltonian neural network, which approximates the Hamiltonian with neural netwo
 
 ### Bounding The Rademacher Complexity of Fourier Neural Operator
 
-<https://arxiv.org/abs/2209.05150>
+<https://www.arxiv.org/abs/2209.05150>
 
 Investigate the bounding of Rademacher complexity of FNO based on some group norms, and the generalization error of the FNO models. 

@@ -12,31 +12,31 @@ Show that pointwise nonlinearities can be incorporated into a standard method of
 
 ### Asymptotic Freeness of Layerwise Jacobians Caused by Invariance of Multilayer Perceptron: The Haar Orthogonal Case
 
-<https://arxiv.org/abs/2103.13466>
+<https://www.arxiv.org/abs/2103.13466>
 
 Prove asymptotic freeness of layerwise Jacobians of multilayer perceptrons, using an invariance of the MLP. 
 
 ### A Random Matrix Perspective on Mixtures of Nonlinearities for Deep Learning
 
-<https://arxiv.org/abs/1912.00827>
+<https://www.arxiv.org/abs/1912.00827>
 
 Analyze the performance of a simple regression model trained on the random features for a random weight matrix and random bias vector, obtaining an exact formula for the asymptotic training error on a noisy autoencoding task. Find that a mixture of nonlinearities can outperform the best single nonlinearity on the noisy autoencoding task.
 
 ### Learning Rates as a Function of a Batch Size: A Random Matrix Theory Approach to Neural Network Training
 
-<https://arxiv.org/abs/2006.09092>
+<https://www.arxiv.org/abs/2006.09092>
 
 Demonstrate that the magnitude of the extremal values of the batch Hessian are larger than those of the empirical Hessian, using spiked field-dependent random matrix theory. Derive an analytical expressions for the maximal learning rates as a function of batch size.
 
 ### Free Probability, Newton lilypads and Jacobians of neural networks
 
-<https://arxiv.org/abs/2111.00841>
+<https://www.arxiv.org/abs/2111.00841>
 
 Spectral density of the Jacobian is crucial in analyzing robustness, where such Jacobians are modeled using free multiplicative convolutions from Free Probability Theory. Present a reliable and very fast method for computing the associated spectral desnities, based on an adaptive Newton-Raphson scheme.
 
 ### Appearance of Random Matrix Theory in Deep Learning
 
-<https://arxiv.org/abs/2102.06740>
+<https://www.arxiv.org/abs/2102.06740>
 
 Propose a novel model for the true loss surfaces of neural networks which allows for Hessian spectral densities with rank degeneracy and outliers, and predicts a growing independence of loss gradients as a function of distance in weight-space. 
 
@@ -48,7 +48,7 @@ Using the tools from free probability theory, prove a detailed analytic understa
 
 ### Analysis of One-Hidden-Layer Neural Networks via the Resolvent Method
 
-<https://arxiv.org/abs/2105.05115>
+<https://www.arxiv.org/abs/2105.05115>
 
 Investigate spectral density of random feature matrix M = YY^* where Y=f(WX+B), which extends previous result without bias, and show that it is impossible to choose an activation function preserving the layer-to-layer singular value distribution. Use resolvent method using the cumulant expansion, since it is more robust and less combinatorial than the moment method.
 
@@ -90,12 +90,12 @@ Find that classical GCV estimator accurately predicts generalzation risk even in
 
 ### Subquadratic Overparameterization for Shallow Neural Networks
 
-<https://arxiv.org/abs/2111.01875>
+<https://www.arxiv.org/abs/2111.01875>
 
 Provide an analyical framework that allows to adopt standard initialization strategies, avoid lazy training, and train all layers simultaneously in basic shallow neural network while attaining a desirable subquadratic scaling on the network depth, using Polyak-Lojasiewicz condition, and random matrix theory.
 
 ### Implicit Data-Driven Regularization in Deep Neural Networks under SGD
 
-<https://arxiv.org/abs/2111.13331>
+<https://www.arxiv.org/abs/2111.13331>
 
 Analyze evolutions of weight matrices' spectra, and they are classified to Marchenko-Pastur, Marchenko-Pastur with few bleeding outliers, Heavy tailed spectrum. These are connected to the degree of regularization, and argue that degree depends on the quality of data.

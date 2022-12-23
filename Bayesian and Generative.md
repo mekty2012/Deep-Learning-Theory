@@ -15,19 +15,19 @@ Derive exact solutions for the output priors for individual input examples of a 
 
 ### Bayesian Neural Network Priors Revisited
 
-<https://arxiv.org/abs/2102.06571>
+<https://www.arxiv.org/abs/2102.06571>
 
 Find that CNN weights display strong spatial correlations, while FCNNs display heavy-tailed weight distributions.
 
 ### Pathologies in priors and inference for Bayesian transformers
 
-<https://arxiv.org/abs/2110.04020>
+<https://www.arxiv.org/abs/2110.04020>
 
 Weight-space inference in transformers does not work well, regardless of the approximate posterior. Also find that the prior is at least partially at fault but that it is very hard to find well-specified weight priors for these models.
 
 ### Asymptotics of representation learning in finite Bayesian neural networks
 
-<https://arxiv.org/abs/2106.00651>
+<https://www.arxiv.org/abs/2106.00651>
 
 Argue that the leading finite-width corrections to the average feature kernels for any Bayesian network with linear readout and Gaussian likelihood have a largely universal form. Illustrate this explicitly for linear MLP or CNN and single nonlinear hidden layer.
 
@@ -69,13 +69,13 @@ Identify two factors influencing the strength of the cold posterior effect, the 
 
 ### Asymptotic Properties for Bayesian Neural Network in Besov Space
 
-<https://arxiv.org/abs/2206.00241>
+<https://www.arxiv.org/abs/2206.00241>
 
 Show that the BNN using spike-and-slab prior has consistency with nearly minimax cnovergence rate when the true function is in the Besov space.
 
 ### Wide Bayesian neural networks have a simple weight posterior: theory and accelerated sampling
 
-<https://arxiv.org/abs/2206.07673>
+<https://www.arxiv.org/abs/2206.07673>
 
 Introduce repriorisation, which transform the BNN posterior to a distribution whose KL divergence to the BNN prior vanishes as layer widths grow. This analytic simplicity complements the NNGP behaviour, and using this repriorisation, implement MCMC posterior sampling algorithm which mixes faster the wider the BNN is, and is effective in high dimensions.
 
@@ -87,7 +87,7 @@ Demonstrate that in the limit of infinite data, the posterior mode over the NN w
 
 ### Scale-Invariant Bayesian Neural Networks with Connextivity Tangent Kernel
 
-<https://arxiv.org/abs/2209.15208>
+<https://www.arxiv.org/abs/2209.15208>
 
 The generalization bound by loss landscapes usually can be chaned arbitrarily to the scale of a parameter. Propose new prior distribution that is invariant to scaling transformations, giving generalization bound that works for more practical class of transformations such as weight decay.
 
@@ -106,25 +106,25 @@ Use GAN to estimate KL divergence, argue that high fluctuations in the estimates
 
 ### Forward Super-Resolution: How Can GANs Learn Hierarchical Generative Models for Real-World Distributions
 
-<https://arxiv.org/abs/2106.02619>
+<https://www.arxiv.org/abs/2106.02619>
 
 Prove that when a distribution has a structure that referred as Forward Super-Resolution, then training GANs using gradient descent ascent can indeed learn this distribution efficiently both in terms of sample and time complexities.
 
 ### On the Convergence of Gradient Descent in GANs: MMD GAN As a Gradient Flow
 
-<https://arxiv.org/abs/2011.02402>
+<https://www.arxiv.org/abs/2011.02402>
 
 Show that parametric kernelized gradient flow provides a descent direction minimizing the MMD on a statistical manifold of probability distributions.
 
 ### On some theoretical limitations of Generative Adversarial Networks
 
-<https://arxiv.org/abs/2110.10915>
+<https://www.arxiv.org/abs/2110.10915>
 
 Provide a new result based on Extreme Value Theory showing that GANs can't generate heavy tailed distributions.
 
 ### Diagnosing and Fixing Manifold Overfitting in Deep Generative Models
 
-<https://arxiv.org/abs/2204.07172>
+<https://www.arxiv.org/abs/2204.07172>
 
 Investigate the pathology of maximum likelihood training with dimensionality mismatch, and prove that degenerate optima are achieved where the manifold itself is learned, but not the distribution on it. Propose a two-step procedure of dimensionality reduction and maximum-likelihood density estimation, and prove that this procedure recover the data-generating distribution in the nonparameteric regime.
 
@@ -166,13 +166,13 @@ Decompose the objective function of adversary min-max game defining a periodic G
 
 ### On the Nash equilibrium of moment-matching GANs for stationary Gaussian processes
 
-<https://arxiv.org/abs/2203.07136>
+<https://www.arxiv.org/abs/2203.07136>
 
 Study the Nash equilibrium where discriminator defined on the second-order statistical moments. Show that they can result non-existence of Nash equilibrium, or existence of consistent non-Nash equilibrium, or existence and uniqueness of consistent Nash equilibrium. The symmetry property of the generator family determines which of the results hold.
 
 ### Convergence of score-based generative modeling for general data distributions
 
-<https://arxiv.org/abs/2209.12381>
+<https://www.arxiv.org/abs/2209.12381>
 
 Give polynomial convergence guarantees for denoising diffusion models without functional inequalities or strong smoothness assumptions. With L2 accurate score estimates, obtain Wasserstein distance guarantee for any bounded support or fast decaying tails, and total variation guarantee with further smoothness assumptions.
 
@@ -184,13 +184,13 @@ Define the variational objectives for GFNs in terms of KL distribution between t
 
 ### How Well Generative Adversarial Networks Learn Distributions
 
-<https://arxiv.org/abs/1811.03179>
+<https://www.arxiv.org/abs/1811.03179>
 
 Nonparametrically, derive the optimal minimax rates for distribution estimation under the adversarial framework. Parametrically, estabilsh a theory for general neural network classes that characterized the interplay on the choice of generator and discriminator pair.
 
 ### Certifiably Robust Variational Autoencoders
 
-<https://arxiv.org/abs/2102.07559>
+<https://www.arxiv.org/abs/2102.07559>
 
 Derive actionable bounds on the minimal size of an input perturbation required to change a VAE's reconstruction by more than an allowed amount. Then show how these parameters can be controlled, providing a mechanism to ensure desired level of robustness.
 
@@ -214,7 +214,7 @@ The theoretical analysis of denoising diffusion models assume that the target de
 
 ### identifiability of deep generative models without auxiliary information
 
-<https://arxiv.org/abs/2206.10044>
+<https://www.arxiv.org/abs/2206.10044>
 
 Show that for a generative models with universal approximation capabilities, the side information is not necessary. Prove the identifiability of the entire generative model without side information, only data.
 
@@ -238,6 +238,6 @@ Prove approximation capacity of ReLU NN with norm constraint on the weights, esp
 
 ### Learning (Very) Simple Generative Models Is Hard
 
-<https://arxiv.org/abs/2205.16003>
+<https://www.arxiv.org/abs/2205.16003>
 
 Show that under the SQ model, no polynomial time algorithm can solve the generative model problem, even when the hidden layer of true function is only logarithmically many. Show this by stacking the discrete distribution that matches small moments to N(0, I).

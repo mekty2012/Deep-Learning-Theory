@@ -24,43 +24,43 @@ Introduce desiderata for techniques that predict generalization errors for deep 
 
 ### Stronger generalization bounds for deep nets via a compression approach
 
-<https://arxiv.org/abs/1802.05296>
+<https://www.arxiv.org/abs/1802.05296>
 
 Use an explicit and efficient compression, which yields generalization bounds via a simple compression-based framework, and provide some theoretical justification for widespread empirical success in compressing deep nets.
 
 ### Generalization Bounds For Meta-Learning: An Information-Theoretical Analysis
 
-<https://arxiv.org/abs/2109.14595>
+<https://www.arxiv.org/abs/2109.14595>
 
 Derive a novel information-theoretic analysis of the generalization property of meta-learning algorithms.
 
 ### VC dimension of partially quantized neural networks in the overparameterized regime
 
-<https://arxiv.org/abs/2110.02456>
+<https://www.arxiv.org/abs/2110.02456>
 
 Focus hyperplane arrangement neural networks, and show that HANNs can have VC dimension significantly smaller than the number of weights while being highly expressive.
 
 ### Bridging the Gap Between Practice and PAC-Bayes Theory in Few-Shot Meta-Learning
 
-<https://arxiv.org/abs/2105.14099>
+<https://www.arxiv.org/abs/2105.14099>
 
 Relaxing the assumption that distribution of observed task and target task is equal, develop two PAC-Bayes bounds for the few-shot learning setting, thereby bridging the gap between practice and PAC_Bayesian theories.
 
 ### A generalization gap estimation for overparameterized models via Langevin functional variance
 
-<https://arxiv.org/abs/2112.03660>
+<https://www.arxiv.org/abs/2112.03660>
 
 Show that a functional variance characterizes the generalization gap even in overparameterized settings. Propose a computationally efficient approximation of the function variance, a Langevin approximation of the functional variance.
 
 ### PACMAN: PAC-style bounds accounting for the Mismatch between Accuracy and Negative log-loss
 
-<https://arxiv.org/abs/2112.05547>
+<https://www.arxiv.org/abs/2112.05547>
 
 Introduce an analysis based on point-wise PAC approach over the generalization error accounting mismatch of training loss and test accuracy.
 
 ### Differentiable PAC-Bayes Objectives with Partially Aggregated Neural Networks
 
-<https://arxiv.org/abs/2006.12228>
+<https://www.arxiv.org/abs/2006.12228>
 
 Show how averaging over an ensembles of stochastic neural networks enables new partially-aggregated estimators, leading provably lower-varaince to gradietn estimates, and reformulate a PAC-Bayesian bound to derive optimisable differentiable objective. 
 
@@ -246,13 +246,13 @@ Show that any DNN can be quantified by the mutual information between the layers
 
 ### Towards a theory of out-of-distribution learning
 
-<https://arxiv.org/abs/2109.14501>
+<https://www.arxiv.org/abs/2109.14501>
 
 Define and prove the relationship between generalized notions of learnability, and show how this framework is sufficiently general to characterize transfer, multitask, meta, continual, and lifelong learning.
 
 ### Ridgeless Interpolation with Shallow ReLU Networks in 1D is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipscitz Functions
 
-<https://arxiv.org/abs/2109.12960>
+<https://www.arxiv.org/abs/2109.12960>
 
 Prove a precise geometric description of all one layer ReLU networks with a single linear unit, with single input/output dimension, which interpolates a given dataset. Also show that ridgeless ReLU interpolants achieve the best possible generalization for learning 1d Lipscitz functions, up to universal constants.
 
@@ -294,7 +294,7 @@ Introduce the concept of weight expansion, an increase in the signed volume of a
 
 ### Generalization Bounds for Deep Transfer Learning Using Majority Predictor Accuracy
 
-<https://arxiv.org/abs/2209.05709>
+<https://www.arxiv.org/abs/2209.05709>
 
 Analyze new generalization bound for tranfer learning, which utilize a quantity called majority predictor accuracy. This bound can be computed efficiently from data, so that it can be used as tranferability measure.
 
@@ -330,7 +330,7 @@ Give sharp path-dependent generalization and excess risk guarantees for the full
 
 ### Uniform convergence may be unable to explain generalization in deep learning
 
-<https://arxiv.org/abs/1902.04742>
+<https://www.arxiv.org/abs/1902.04742>
 
 Present examples of overparameterized linear classifiers and neural networks trained by gradient descent where uniform convergence provably cannot explain generalization, even if we take into account the implicit bias of GD. 
 

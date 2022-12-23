@@ -72,19 +72,19 @@ Study the effect of a probabilistic graph error model on the performance of GCNs
 
 ### Implicit Bias of Linear Equivariant Networks
 
-<https://arxiv.org/abs/2110.06084>
+<https://www.arxiv.org/abs/2110.06084>
 
 Show that L layer full width linear GCNNs trained via gradient descent in a binary classification task converge to solutions with low-rank Fourier matrix coefficients, regularized by the 2/L-Schatten matrix norm. This generalizes previous analysis on the implicit bias of linear CNNs to linear GCNNs over all finite groups, including the challenging setting of non-commutative symmetry groups.
 
 ### We Cannot Guarantee Safety: The Undecidability of Graph Neural Network Verification
 
-<https://arxiv.org/abs/2206.05070>
+<https://www.arxiv.org/abs/2206.05070>
 
 Show that the graph classifier verification is undecidable, however the node classification is verifiable when degree of graph is restricted.
 
 ### Lower and Upper Bounds for Numbers of Linear Regions of Graph Convolutional Networks
 
-<https://arxiv.org/abs/2206.00228>
+<https://www.arxiv.org/abs/2206.00228>
 
 Present the estimates for the number of linear regions of the GCNs, particularlay the optimal upper bound for one-layer GCN and both bounds for multi-layer case, where multi-layer has exponentially many regions than one-layer.
 
@@ -156,19 +156,19 @@ Using the methods from category thoery, show that there is an intricate connecti
 
 ### On Representing Mixed-Integer Linear Program by Graph Neural Networks
 
-<https://arxiv.org/abs/2210.10759>
+<https://www.arxiv.org/abs/2210.10759>
 
 Show that there are both feasible and infeasible MILPs that all GNNs treat equally, which indicate that GNN lacks to express general MILP. However show that restricting the MILPs to unfoldable ones or adding random features, there exist GNNs that can predict MILP feasibility, optimal objective value, and optimal solution.
 
 ### Superiority of GNN over NN in generalizing bandlimited functions
 
-<https://arxiv.org/abs/2206.05904>
+<https://www.arxiv.org/abs/2206.05904>
 
 Show that GNN architecture outperform the NN in approximating bandlimited functions on compact d-dimensional Euclidean grids, which only uses few sampled functional values.
 
 ### Boosting the Cycle Counting Power of Graph Neural Networks with I^2-GNNs
 
-<https://arxiv.org/abs/2210.13978>
+<https://www.arxiv.org/abs/2210.13978>
 
 Show that subgraph MPNN cannot count more-than-4-cycles at node level, meaning that the node representation cannot encode the structure like ring with four atomes. Propose I^2-GNN which extend the Subgraph MPNN, that has stronger discriminative power.
 
@@ -186,6 +186,12 @@ Use markov chain on graphs to model the forward process of GNN, and show that op
 
 ### Exponentially Improving the Complexities of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks
 
-<https://arxiv.org/abs/2211.03232>
+<https://www.arxiv.org/abs/2211.03232>
 
 The classical equivalence of GNN to WL test required exponentially many features with graph-dependent weights. Improve this to polynomially many features with independent weight, by incorporating the stochastic approximation of hashing.
+
+### A Non-Asymptotic Analysis of Oversmoothing in Graph Neural Networks
+
+<https://www.arxiv.org/abs/2212.10701>
+
+Precise characterize the oversmoothing phenomenon via non-asymptotic analysis. Distinguish two effects, mixing effect and denoising effect, and quantify these two effects and derive the number of the layers to have transition to mixing given nodes.
