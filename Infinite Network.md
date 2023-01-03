@@ -798,6 +798,24 @@ Upper bound the generalization error of three-layer NN via NTK, whose learnable 
 
 Derive new strategy to prove the global convergence of NTK model, which is using the Kurdyka-Lojasiewicz inequalities with the Rayleigh quotients. This strategy can be used without the over-parameterization as smallest eigenvalue of NTK.
 
+### The Onset of Variance-Limited Behavior for Networks in the Lazy and Rich Regimes
+
+<https://www.arxiv.org/abs/2212.12147>
+
+Empirically show that beyond the critical sample size, the finite network perform worse than infinite network, and study this phase transition in the variance limited regime, for sample size and network width. Find that finite-size effect become relevant for small dataset size sqrt(N) for polynomial regression, by argument on the variance of the NN's final NTK.
+
+### Learning Lipschitz Functions by GD-trained Shallow Overparameterized ReLU Neural Networks
+
+<https://www.arxiv.org/abs/2212.13848>
+
+Focus on training the shallow ReLU NN to learn Lipschitz, non-differentiable, bounded function with additive noise. Consider the early-stopped GD with the NTK approximation of finite network, and show that the early stopping is guaranteed to give an optimal rate on the RKHS, and same rules can be used to achieve minimax optimal rate for learning on the class of considered Lipschitz functions.
+
+### Sharper analysis of sparsely activated wide neural networks with trainable biases
+
+<https://www.arxiv.org/abs/2301.00327>
+
+Show the convergence of network trained on gradient descent, after the sparsification which is as fast as the original network. Also provide the width-sparsity dependent localized Rademacher complexity and a generalization bound. Including the trainable bias improves width requirement, the trainable bias also help to identify a nice data-dependent region and sharper lower bound and non-vacuous generalization bound.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks

@@ -219,3 +219,15 @@ Hamiltonian neural network, which approximates the Hamiltonian with neural netwo
 <https://www.arxiv.org/abs/2209.05150>
 
 Investigate the bounding of Rademacher complexity of FNO based on some group norms, and the generalization error of the FNO models. 
+
+### A Convergence Rate for Manifold Neural Networks
+
+<https://www.arxiv.org/abs/2212.12606>
+
+Show that the manifold NN, which uses spectral decomposition of Laplace Beltrami operator to simulate neural network in non-Euclidean domain, converges to the continuum limit as the number of sample points tends to infinity. This rate of convergence depends on the intrinsic dimension, but is independent of the ambient dimension, and the rate dependency of depth and filter number is discussed.
+
+### Fundamenatl Limits of Two-Layer Autoencoders, and Achieving Them with Gradient Methods
+
+<https://www.arxiv.org/abs/2212.13468>
+
+Focus on the two-layer Nonlinear Autoencoder, whose input dimension scales linearly with the size of the representation, and show the structure of minimizers and that the minimizers can be achieved with gradient methods. For the sign activation function, show the fundamental limit of lossy compression of Gaussian sources.

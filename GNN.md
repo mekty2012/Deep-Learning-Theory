@@ -195,3 +195,15 @@ The classical equivalence of GNN to WL test required exponentially many features
 <https://www.arxiv.org/abs/2212.10701>
 
 Precise characterize the oversmoothing phenomenon via non-asymptotic analysis. Distinguish two effects, mixing effect and denoising effect, and quantify these two effects and derive the number of the layers to have transition to mixing given nodes.
+
+### Statistical Mechanics of Generalization In Graph Convolution Networks
+
+<https://www.arxiv.org/abs/2212.13069>
+
+Using tools from statistical physics and random matrix theory, characterize the generalization in simple graph CNN on contextual stochastic block model. The derived generalization curve explain distinction between homophily and heterophily, and predict the double descent also. 
+
+### On the Ability of Graph Neural Networks to Model Interactions Between Vertices
+
+<https://www.arxiv.org/abs/2211.16494>
+
+Show that the ability of GNNs to model intercation between partition of vertices is primarily determined by the partition's walk index, which is the number of walks originating from the boundary of the partition. Suggest Walk Index Sparsification, which preserves the ability to model interactions when input edges are removed.

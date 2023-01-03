@@ -42,6 +42,12 @@ Adopting the unconstrained-features model which is a recent theoretical model fo
 
 Extend the results on the neural collapse, show that label smoothing, focal loss also exhibit neural collapse and give equivalent feature. Show that the only global minimizers are neural collapse solutions.
 
+### Neural Collapse in Deep Linear Network: From Balanced to Imbalanced Data
+
+<https://www.arxiv.org/abs/2301.00437>
+
+Prove that the neural collapse occur in deep linear network for MSE and CE loss, and extend this setting to imbalanced data and present the geometric analysis.
+
 ## Hierarchical Tensor Decomposition
 
 ### Analysis and Design of Convolutional Networks via Hierarchical Tensor Decompositions
@@ -705,3 +711,15 @@ Show that under natural condition of commuting parameterization, the reparameter
 <https://www.arxiv.org/abs/2212.07469>
 
 Consider the simple model of two-layer NN with single neuron, trained with EoS learning rate. When trained on small learning rate, it fails to have 'threshold neuron' where EoS learning rate can. The threshold neuron is function that is zero near origin and abs(x) - b outside.
+
+### Gaussian Pre-Activations in Neural Networks: Myth or Reality?
+
+<https://www.arxiv.org/abs/2205.12379>
+
+Derive the family of pairs of activation function and initialization distribution that ensure the pre-activation remain Gaussian throughout the network's depth, even in narrow neural networks. Discover a set of constraints that ensure this property, and build an exact Edge of Chaos analysis.
+
+### A Dynamics Theory of Implicit Regularization In Deep Low-Rank Matrix Factorization
+
+<https://www.arxiv.org/abs/2212.14150>
+
+Introduce the landscape analysis to explain implicit regularization in deep low-rank matrix factorization, focusing on gradient region like saddle point and local minima. Theoretically establish the connection between saddle point escaping stages and the matrix rank, prove that DMF will converge to a second-order critical point after R stages of SPE where R is rank.

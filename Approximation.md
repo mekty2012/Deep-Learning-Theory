@@ -327,3 +327,9 @@ Show that the general relative positional encoding based Transformer is not univ
 <https://www.arxiv.org/abs/2010.12217>
 
 Prove the exponential expressivity with ReLU NN in H1 function space, that is locally analytic but admits point singularities and edge singularities, for dimension 2 and 3. This imply the exponential expressivity for the elliptic boundary and eigenvalue problems.
+
+### Approximation of Functionals by Neural Network without Curse of Dimensionality
+
+<https://www.arxiv.org/abs/2205.14421>
+
+Establish the approximation error of the neural network to approximate functional, which are mapping from infinite dimensional space to finite dimension space, which scales as O(1/sqrt(m)), with m as the width, overcoming the curse of dimensionality. The key idea is using Barron spectral space of functionals. 

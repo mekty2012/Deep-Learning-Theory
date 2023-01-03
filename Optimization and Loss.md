@@ -497,3 +497,21 @@ Derive and solve an Equation of Motion of DNNs, starting from gradient flow and 
 <https://www.arxiv.org/abs/2201.12052>
 
 Improve the SOTA results in terms of the required hidden layer width. Establish the global convergence of continuous solution of the differential inclusion, and provide relating solutions to the stochastic gradient sequences.
+
+### Convergence to gool non-optimal critical points in the training of neural networks: Gradient descent optimization with one random initialization overcomes all bad non-global local minima with high probability
+
+<https://www.arxiv.org/abs/2212.13111>
+
+Show that in simplified shallow NN with gradient flow overcomes all bad non-global local minima with high probability, and converge to the critical point with risk value close to optimal one. This analysis allow to establish convergence to zero risk value with infinite width.
+
+### A proof of convergence for the gradient descent optimization method with random initialization in the training of neural entworks with ReLU activation for piecewise linear target function
+
+<https://www.arxiv.org/abs/2108.04620>
+
+Prove that the risk of the ANN converges to zero if width, number of initialization, and gradietn step increase to infinity, when target function is piecewise linear and input distribution is uniform distribution on a compact interval. The proof show that the suitable set of global minima form C2 submanifold of parameter space, and the Hessian on this set satisfy maximal rank condition.
+
+### How do noise tails impact on deep ReLU networks?
+
+<https://www.arxiv.org/abs/2203.10418>
+
+Consider the regression of deep ReLU NN under the finite p-th moment noise, and characterize how the optimal rate of convergence depends on p, degree of smoothness, and the intrinsic dimension in a class of nonparametric regression functions with hierarchical composition structure when both the adaptive Huber loss is used. This optimal rate of convergence is not achievable with least square, but can be achieved by the Huber loss with properly chosen parameter adapts to the sample size, smoothness, and moment parameters. Also give concentration inequality for the adaptive estimators.

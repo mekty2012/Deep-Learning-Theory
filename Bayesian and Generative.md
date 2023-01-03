@@ -96,6 +96,13 @@ The generalization bound by loss landscapes usually can be chaned arbitrarily to
 <https://www.arxiv.org/abs/2211.06291>
 
 Prove that the partially stochastic neural networks with only n stochastic biases are universal probabilistic predictors for n-dimensional predictive problems.
+
+### Bayesian Interpolation with Deep Linear Networks
+
+<https://www.arxiv.org/abs/2212.14457>
+
+Consider the Bayeisan inference using deep linear network. For the zero noise, show that both the predictive posterior and the ayesian model evidence can be written in closed form in terms of Meijer-G functions. This result is non-asymptotic, and holds for all depth, width, giving exact solution to Bayesian interpolation using a deep GP with a Euclidean covariance at each layer. 
+
 ## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
