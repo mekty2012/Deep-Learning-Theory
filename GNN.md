@@ -207,3 +207,15 @@ Using tools from statistical physics and random matrix theory, characterize the 
 <https://www.arxiv.org/abs/2211.16494>
 
 Show that the ability of GNNs to model intercation between partition of vertices is primarily determined by the partition's walk index, which is the number of walks originating from the boundary of the partition. Suggest Walk Index Sparsification, which preserves the ability to model interactions when input edges are removed.
+
+### Neural Sheaf Diffusion: A Topological Perspective on Heterophily and Oversmoothing in GNNs
+
+<https://www.arxiv.org/abs/2202.04579>
+
+The GNN implicitly assume a graph with trivial sheaf, which is reflected in the graph Laplacian operator, and corresponding diffusion equation. Use cellular sheaf theory to show that underlying geometry of the graph is linked with performance in heterophilic settings, and oversmoothing. Show that sheaf diffusion process can achieve linear separation of classes in infinite time expansion, and show that using non-trivial sheaf gives greater control.
+
+### Adversarial Weight Perturbation Improves Generalization in Graph Neural Networks
+
+<https://www.arxiv.org/abs/2212.04983>
+
+In AWP, we minimiize the loss w.r.t. a bounded worst case perturbation of the model parameters, thereby favoring local inima with a small loss in a neighborhodd. Study this on graph data, derivae a generalization bound for non-i.i.d. node classification task.

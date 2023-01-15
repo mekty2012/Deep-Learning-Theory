@@ -333,3 +333,9 @@ Prove the exponential expressivity with ReLU NN in H1 function space, that is lo
 <https://www.arxiv.org/abs/2205.14421>
 
 Establish the approximation error of the neural network to approximate functional, which are mapping from infinite dimensional space to finite dimension space, which scales as O(1/sqrt(m)), with m as the width, overcoming the curse of dimensionality. The key idea is using Barron spectral space of functionals. 
+
+### Exploring the Approximatino Capabilities of Multiplicative Neural Networks for Smooth Functions
+
+<https://www.arxiv.org/abs/2301.04605>
+
+Consider deep neural network with intermediate neurons connected by multiplication operation. Consider two classes of target functions, generalized bandlimited functions and Sobolev-type balls. Show that the multiplicative NN achieves fewer layers and neuron compared to ReLU neural networks.

@@ -515,3 +515,9 @@ Prove that the risk of the ANN converges to zero if width, number of initializat
 <https://www.arxiv.org/abs/2203.10418>
 
 Consider the regression of deep ReLU NN under the finite p-th moment noise, and characterize how the optimal rate of convergence depends on p, degree of smoothness, and the intrinsic dimension in a class of nonparametric regression functions with hierarchical composition structure when both the adaptive Huber loss is used. This optimal rate of convergence is not achievable with least square, but can be achieved by the Huber loss with properly chosen parameter adapts to the sample size, smoothness, and moment parameters. Also give concentration inequality for the adaptive estimators.
+
+### On the Convergence of Stochastic Gradient Descent in Low-precision Number Formats
+
+<https://www.arxiv.org/abs/2301.01651>
+
+Study the analysis of SGD for both deterministic and stochastic, obtaining bound that show the effect of number formats.

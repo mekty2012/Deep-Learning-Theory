@@ -292,3 +292,15 @@ Interpret the DNN as discrete dynamical system, and use characteristic function 
 <https://www.arxiv.org/abs/2212.06140>
 
 Using the SMT based approach, verify individual fairness that two similar individual get similar treatment independent to protected attribute, using the idea that many neurons remain inactive when a smaller part of input is considered.
+
+### Verifying Inverse Model Neural Networks
+
+<https://www.arxiv.org/abs/2202.02429>
+
+Overapproximate the nonlinear stochastic forward model with piecewise linear constraints, and encode both forward model and inverse model as a mixed integer problem.
+
+### A Domain-Theoretic Framework for Robustness Analysis for Neural Networks
+
+<https://www.arxiv.org/abs/2203.00295>
+
+Use domain theorytic L-derivative, which coincides with Clarke's generalized gradient, develop an algorithm that estimates Lipschitz constant of feedforward regressor, which is validated. 

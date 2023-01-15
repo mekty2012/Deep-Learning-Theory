@@ -69,3 +69,9 @@ Show that SGD tends to impose constraints on high-order moments of the gradient 
 <https://www.arxiv.org/abs/2211.05020>
 
 Barron spaces used to prove generalization bounds for neural network, is not Hilbert space due to the strong nonlinear coupling of the weights. Show that this can be understood as an infinite union of RKHS spaces, and the dual space is again an RKBS with role of data and parameters interchanged.
+
+### Implicit Bias of Gradient Descent for Mean Squared Error Regression with Two-Layer Wide Neural Networks
+
+<https://www.arxiv.org/abs/2006.07356>
+
+Show that for wide enough network, training on the adjusted dataset with gradient descent converges to zero solution error. Moreover, there exists some variational solution which fits the training data while minimizing some curvature penalty for difference of its intiialization, that the difference of it to solution is bounded by n^(-1/2). This formulation applies to other activations, stochastic GD, and multivariate regression also.

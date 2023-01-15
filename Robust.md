@@ -111,3 +111,9 @@ Show that there exists robust parameter for 2-layer network, but gradient flow g
 <https://www.arxiv.org/abs/2207.00411>
 
 Show that the lazy-training of the neural network always lead to the vulnerable model, that can be attacked with single step of gradient ascent.
+
+### On the Minimal Adversarial Perturbation for Deep Neural Networks with Provable Estimation Error
+
+<https://www.arxiv.org/abs/2201.01235>
+
+Propose two strategy to find the minimal adversarial perturbation, which allows to formulate an estimation error of approximate distance compared to theoretical one.

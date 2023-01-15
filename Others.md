@@ -96,6 +96,18 @@ Characterizes the performance of training a pruned neural network by analyzing t
 
 Hypothesize that the 'winning tickets' have relatively sharp minima, which is a disadvantage in terms of generalization ability, and confirm this hypothesis with PAC-Bayesian theory. Find that the flatness is useful for improving the accuracy and robustness to label noise, and the distance from the initial weights is deeply involved in winning tickets.
 
+### Theoretical Characterization of How Neural Network Pruning Affects its Generalization
+
+<https://www.arxiv.org/abs/2301.00335>
+
+Study how different pruning fractions affect the model's gradient descent dynamics and generalization. Show that for two-laer NN, as long as the pruning fraction is below a certain threhold, the neural network still gives zero training loss with good generalization error. Moreover, the generalization bound is better with large pruning fraction. However there exists large pruning fraction that gradient descent gives zero training loss but generalization similar to random guessing.
+
+### Most Activation Functions Can Win the Lottery Without Excessive Depth
+
+<https://www.arxiv.org/abs/2205.02321>
+
+Show that the target network with depth L can be approximated by the subnetwork of a randomly initialized network with depth L+1, and wider by a logarithmic factor. This analysis extends to large class of activation functions, those can be asymptotically approximated by LeakyReLU.
+
 ## Other training
 
 ### Global Optimality Beyond Two Layers: Training Deep ReLU Networks via Convex Programs
