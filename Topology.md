@@ -103,3 +103,15 @@ It was shown previously that ANN-based compressors can achieve the optimal entro
 <https://www.arxiv.org/abs/2210.15058>
 
 Define the convolution over the tangent bundles via connection Laplacian operator, and tangent bundle NN. Show that the discretization of TNN is Sheaf neural networks, and show that this discrete architecture converges to underlying continuous TNN.
+
+### Neural networks learn to magnify areas near decision boundaries
+
+<https://www.arxiv.org/abs/2301.11375>
+
+Show that random parameter of neural network induces the metric on input space for infinite width neural networks, and applying this to finite Bayesian neural networks empirically show that the volume magnifies along decision boundaries.
+
+### Complex Critical Points of Deep Linear Neural Networks
+
+<https://www.arxiv.org/abs/2301.12651>
+
+Give an improved bound on the number of complex critical point of loss function, of linear shallow neural network with single data point. Also show that for any number of hidden layers, complex critical points with zero coordinates arise in certain patterns, which are classified for one hidden layer.

@@ -27,3 +27,9 @@ Show that empirical risk minimization is exists R-complete, even with two output
 <https://www.arxiv.org/abs/2205.16003>
 
 For the distribution given by pushing standard Gaussian with unknown distribution, show that no polynomial-time algorithm can solve this learning problem.
+
+### Recurrent Convolutional Neural Networks Learn Succinct Learning Algorithms
+
+<https://www.arxiv.org/abs/2209.00735>
+
+Exhibit a NN architecture that can learn any learning algorithm that is written in constant-size program, in polynomial time. 

@@ -816,6 +816,48 @@ Focus on training the shallow ReLU NN to learn Lipschitz, non-differentiable, bo
 
 Show the convergence of network trained on gradient descent, after the sparsification which is as fast as the original network. Also provide the width-sparsity dependent localized Rademacher complexity and a generalization bound. Including the trainable bias improves width requirement, the trainable bias also help to identify a nice data-dependent region and sharper lower bound and non-vacuous generalization bound.
 
+### Expected Gradients of Maxout Networks and Consequences to Parameter Initialization
+
+<https://www.arxiv.org/abs/2301.06956>
+
+Study the gradient of a maxout network by bounding the moments depending on the architectures and parameter distribution, where it depends on the input. Using the moments derived, design parameter initialization that avoid vanishing or exploding, and obtain refined bounds on the expected number of linear regions, expected curve length distortion, and NTK.
+
+### Catapult Dynamics and Phase Trnasitions in Quadratic Nets
+
+<https://www.arxiv.org/abs/2301.07737>
+
+Prove that the catapult phase, where the training loss gros exponentially before rapidly decrease to a small value, exists for models including quadratic model and two-layer NN.
+
+### Graph Neural Tangent Kernel: Convergence on Large Graphs
+
+<https://www.arxiv.org/abs/2301.10808>
+
+Show that the GNTK for growing graphs converge to graphon NTK. Also show that the eigenspace of GNTK converges to spectrum of graphon NTK, which implies that GNTK fitted on a graph of moderate size can be transferred to large graphs.
+
+### Convergence and Generalization of Wide Neural Networks with Large Bias
+
+<https://www.arxiv.org/abs/2301.00327>
+
+Consider the one-hidden-layer overparameterized neural network with nonzero bias. This increases the sparsity of neural network, which gives same rate of convergence as dense network, and the required width is improved to ensure the gradient descent's global convergence. The rademacher complexity is also computed for the width-sparsity dependence, and finally by studying the smallest eigenvalue of the limiting NTK, show that the trainable biases helps to identify a nice data-dependent region.
+
+### Gradient Descent in Neural Networks as Sequential Learning in RKBS
+
+<https://www.arxiv.org/abs/2302.00205>
+
+Extends the NTK theory, by constructing an exact power-series representation of the neural network in a finite neighborhood of the initial weights as an inner product of two feature maps, from data and weight-step space, so that the training is analyzed as sequential learning in RKBS.
+
+### Over-parameterised Shallow Neural Networks with Asymmetrical Node Scaling: Global Convergence Guarantees and Feature Learning
+
+<https://www.arxiv.org/abs/2302.01002>
+
+Consider the large and shallow neural network, where the output of each hidden nodes is scaled with positive parameter. Focus on the case where scalings are non-identical, and prove that the gradient flow converges to a global minimum and can learn features.
+
+### Rethinking Gauss-Newton for learning over-parameterized models
+
+<https://www.arxiv.org/abs/2302.02904>
+
+Prove a linear global convergence rate for the continuous time limit of generalized GN in over-parameterized regime.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks
@@ -990,6 +1032,12 @@ Using a shortcut network, show that increasing the depth of a neural network can
 
 Show that the infinite depth network converges in distribution to a zero-drift diffusion process, while choice of activation function makes distribution changes largely. Show that there is phase-transition of post-activation norms when the width increases from 3 to 4.
 
+### Width and Depth Limits Commute in Residual Networks
+
+<https://www.arxiv.org/abs/2302.00453>
+
+Show that the skip connections with scaled by 1/sqrt(depth), give the same covariance structure regardless of how the limit is taken. 
+
 # Application
 
 ### Finding sparse trainable neural networks through Neural Tangent Transfer
@@ -1123,6 +1171,12 @@ From the idea that double ascent in the performance of NN models, use the infini
 <https://www.arxiv.org/abs/2209.04121>
 
 Present method for approximating the dual kernel of general activation via Hermite expansion, with approximate errors. Then accelerate this expansion using sketching method, which results speedup than exact NTK computation.
+
+### Generalization Properties of NAS under Activation and Skip Connection Search
+
+<https://www.arxiv.org/abs/2209.07238>
+
+Use the bounds for minimium eigenvalue of NTK under (in-)finite width setting for mixed activations and skip connection, use this info to establish the generalization error which allow to do NAS.
 
 # Empirical Study
 

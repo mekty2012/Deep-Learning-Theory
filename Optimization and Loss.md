@@ -521,3 +521,27 @@ Consider the regression of deep ReLU NN under the finite p-th moment noise, and 
 <https://www.arxiv.org/abs/2301.01651>
 
 Study the analysis of SGD for both deterministic and stochastic, obtaining bound that show the effect of number formats.
+
+### Stability Analysis of Sharpness-Aware Minimization
+
+<https://www.arxiv.org/abs/2301.06308>
+
+Demonstrate that SAM dynamics can have convergence instability that occurs near a saddle point. Theoretically prove that saddle point can be an attractor of SAM, and prove that SAM diffusion is worse than vanilla GD in terms of saddle point escape.
+
+### Optimization-Based Separations for Neural Networks
+
+<https://www.arxiv.org/abs/2112.02393>
+
+Prove that under mild assumptions on data distribution, gradient descent can efficiently learn ball indicator functions with depth 2 neural network. Simultaneously show that there are radial distribution on d-dimension data such that ball indicator cannot be learned efficiently by any algorithm better than Omega(d^(-4)), nor by gradient descent to accuracy better than a constant.
+
+### On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias
+
+<https://www.arxiv.org/abs/2205.09072>
+
+Show that when labels are determined by target network with r neurons, GF converges to the case with at most O(r) linear regions implying a generailzation bound.
+
+### On a continuous time model of gradient descent dynamics and instability in deep learning
+
+<https://www.arxiv.org/abs/2302.01952>
+
+Propose the principal flow, which is a continuous time flow that approximates the gradient descent dynamics, admitting the divergence and oscillatory behavior including the local minimia and saddle point escape.

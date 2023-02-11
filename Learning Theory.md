@@ -351,3 +351,21 @@ Propose a optimal transport interpretation of the generalization problem, which 
 <https://www.arxiv.org/abs/2211.06077>
 
 Consider the random feature ridge regression given by two-layer NN, where number of parameter is much larger than the sample size. Establish the concentration of training error, cross-validation, and generalization errors around kernel ridge regression. Then approximate the performance of KRR by a polynomial kernel matrix, finally giving lower bound of the generalization error of RFRR.
+
+### Understanding the Generalization Benefit of Normalization Layers: Sharpness Reductino
+
+<https://www.arxiv.org/abs/2206.07085>
+
+Mathematically analyze the normalization error, showing that it encourages GD to reduce the sharpness of loss surface. In spcific, for the networks with normalization, explain how GD enters EoS regime and characterize the trajectory of GD in this regime, via continuous sharpness reduction flow.
+
+### Norm-based Generalization Bounds for Compositionally Sparse Neural Networks
+
+<https://www.arxiv.org/abs/2301.12033>
+
+Investigate the Rademacher complexity of sparse neural networks, where each neuron receives small number of inputs. These bounds only consider the norm of convolutional filter, not the Toeplitz matrixces. These bound can be better than standard bound, and almost non-vacuous invarious simple classification problems.
+
+### Optimal Learning of Deep Random Networks of Extensive-width
+
+<https://www.arxiv.org/abs/2302.00375>
+
+Derive the asymptotic limit where number of samples, input dmension, and network width are proportiaonally large, derive the Bayesian posterior of outputs and Bayes-optimal test error for regression and classification error.

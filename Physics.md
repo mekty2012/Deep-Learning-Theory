@@ -101,3 +101,9 @@ Show that ResNet and their GP generalization converge, in the infinite depth lim
 <https://www.arxiv.org/abs/2212.11811>
 
 Describe how to implement renormalization of finite N correction of infinite neural networks. 
+
+### Random Fully Connected Neural Networks as Perturbatively Solvable Hierarchies
+
+<https://www.arxiv.org/abs/2204.01058>
+
+For polynomially bounded activations, derive sharp estiamte in powers of 1/width, for joint cumulants of the network output and its derivatives. Show that the form perturbatively solvable hierarchy in powers of 1/width, so that k-th order cumulant have recursion depending on leading order in 1/width only for earlier layers and j <= k cumulants. 

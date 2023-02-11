@@ -105,3 +105,9 @@ Show the existence of scaling regime for trained weights different from those im
 <https://www.arxiv.org/abs/2212.08924>
 
 Consider the training of discretization of SDE as stochastic neural network via sample-wise back propagation, with adjoint backward SDE. Derive the convergence analysis with and without the convexity analysis, and show that the SNN training steps should be proportional to the squares of the number of layers.
+
+### An SDE for Modeling SAM: Theory and Insights
+
+<https://www.arxiv.org/abs/2301.08203>
+
+Derive the continuous-time model for SAM and unnormalized variant USAM, for both full-batch and mini-batch. These models offer explanation wh SAM prefers flat minima over sharp ones, that they minize an implicitly regularized loss with a Hessian-dependent noise structure. 

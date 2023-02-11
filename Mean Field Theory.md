@@ -190,3 +190,9 @@ Prove closed-form equation for the exact high-dimensional asymptotic from observ
 <https://www.arxiv.org/abs/2210.16288>
 
 Study the infinite-width limit of three-layer NN without training the first layer. By generalizing the MFT of two-layer-NNs to functional space, prove that the training loss for L2 regression decays to zero at a linear rate.
+
+### Mean-field analysis for heavy ball methods: Dropout-stability, connectivity, and global convergence
+
+<https://www.arxiv.org/abs/2210.06819>
+
+Show that the stochastic heavy ball method admits limit differential equation for mean field regime, and show the global optimum convergence. Derive the quantitative bound between the mean-field limit and the SHB dynamics of a finite-width network, and establish the dropout-stability and connectivity of SHB solutions.

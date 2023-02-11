@@ -117,3 +117,9 @@ Show that the lazy-training of the neural network always lead to the vulnerable 
 <https://www.arxiv.org/abs/2201.01235>
 
 Propose two strategy to find the minimal adversarial perturbation, which allows to formulate an estimation error of approximate distance compared to theoretical one.
+
+### Beyond the Universal Law of Robustness: Sharper Laws for Random Features and Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2302.01629>
+
+Prove that for random features, the model is not robust for any degree of over-parameterization. In contrast, the NTK model meets the universal lower bound, and is robust as soon as the necessary condition of over-parameterization is satisfied.

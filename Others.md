@@ -735,3 +735,51 @@ Derive the family of pairs of activation function and initialization distributio
 <https://www.arxiv.org/abs/2212.14150>
 
 Introduce the landscape analysis to explain implicit regularization in deep low-rank matrix factorization, focusing on gradient region like saddle point and local minima. Theoretically establish the connection between saddle point escaping stages and the matrix rank, prove that DMF will converge to a second-order critical point after R stages of SPE where R is rank.
+
+### On the Symmetries of Deep Learning Models and their Internal Representation
+
+<https://www.arxiv.org/abs/2205.14258>
+
+Find the symmetry group of DL model, which is the set of matrices A satisfying phi(Ax) = B phi(x), for activation phi, named interwiner group. 
+
+### SGD and Weight Decay Provably Induces a Low-Rank Bias in Neural Networks
+
+<https://www.arxiv.org/abs/2206.05794>
+
+Show that the SGD with small batch size, high learning rate, and large weight decay induces the bias toward rank minimization over weight matrices.
+
+### On the Global Convergence of Fitted Q-Iteration with Two-layer Neural Network Parametrization
+
+<https://www.arxiv.org/abs/2211.07675>
+
+Study the sample complex guarantee of fitted Q-iteration with two-layer NN parameterization. This estimates Q-function in each iteration with a convex optimization problem, and achieve order-optimal sample complexity, without any assumption on the MDP like linearity or low rank.
+
+### Revisiting Estimation Bias in Policy Gradients for Deep Reinforcement Learning
+
+<https://www.arxiv.org/abs/2301.08442>
+
+Extend the study of estimation bias in the tabular and softmax case to DRL setting, and how this bias can lead to suboptimal policies. Show that the estimation bias can be reduced with small learning rate, adaptive optimizer, and KL regularization, and the first two methods makes the policy optimization robust ot the bias.
+
+### Inductive Bias of Gradient Descent for Weight Normalized Smooth Homogeneous Neural Nets
+
+<https://www.arxiv.org/abs/2010.12909>
+
+Consider the weight normalized smooth homogeneous neural nets, especially standard weight normalization and exponential weight normalization. Show that EWN is equivalent to gradient flow on standard network with an adaptive learning rate, and establish asymptotic relation between weights and gradients for both SWN and EWN. Show that EWN perfers asymptotic relative sparsity, and give finite-time convergence rate of the loss.
+
+### Simplicity Bias in 1-Hidden Layer Neural Networks
+
+<https://www.arxiv.org/abs/2302.00457>
+
+Show that the shallow neural network have bias towards depending on low dimensional projection of the inputs, by proving that if the data is linearly separable, the netwrok primarily depends on linearly separable subspace.
+
+### Stochastic Gradient Descent-induced drift of representation in a two-layer neural network
+
+<https://www.arxiv.org/abs/2302.02563>
+
+Study the drift induced by the noise of SGD in a continual learning. By decomposing the learning dynamics into the normal and tangent space of the minimum loss manifold, show that former correspond to a finite variance fluctuation and the latter correspondence as an effective diffusion process. Analytically compute the fluctuation and the diffusion coefficient.
+
+### How degenerate is the parametrization of neural networks with the ReLU activation function?
+
+<https://www.arxiv.org/abs/1905.09803>
+
+Show that the inverse stability, which allow to show that realization's local minimum property transfer to parameter's local minimum property fails in neural network, and present pathologies that prevents inverse stability. Propose restricted set of parameters for shallow neural network that is inverse stable w.r.t. Sobolev norm.

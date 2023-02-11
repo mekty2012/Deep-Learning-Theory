@@ -248,3 +248,21 @@ Prove approximation capacity of ReLU NN with norm constraint on the weights, esp
 <https://www.arxiv.org/abs/2205.16003>
 
 Show that under the SQ model, no polynomial time algorithm can solve the generative model problem, even when the hidden layer of true function is only logarithmically many. Show this by stacking the discrete distribution that matches small moments to N(0, I).
+
+### Rate of convergence for density estimation with generative adversarial networks
+
+<https://www.arxiv.org/abs/2102.00199>
+
+Prove a sharp oracle inequality of Jensen-Shannon inequality between true density and vanilla GAN estimate. Also study the rate of convergence, where the JS-divergence decays as fast by the term determined by number of samples, and smoothness of true density.
+
+### Optimal precisions for GANs
+
+<https://www.arxiv.org/abs/2207.10541>
+
+Using the geometric measure theory, prove a sufficient condition for optimality where the dimension of the latent space is larger than the number of modes.
+
+### Geometry of Score Based Generative Models
+
+<https://www.arxiv.org/abs/2302.04411>
+
+Show that the forward and backward process of score based generative model is Wasserstein gradient flow. 

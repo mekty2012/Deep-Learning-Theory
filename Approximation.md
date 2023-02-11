@@ -334,8 +334,38 @@ Prove the exponential expressivity with ReLU NN in H1 function space, that is lo
 
 Establish the approximation error of the neural network to approximate functional, which are mapping from infinite dimensional space to finite dimension space, which scales as O(1/sqrt(m)), with m as the width, overcoming the curse of dimensionality. The key idea is using Barron spectral space of functionals. 
 
-### Exploring the Approximatino Capabilities of Multiplicative Neural Networks for Smooth Functions
+### Exploring the Approximation Capabilities of Multiplicative Neural Networks for Smooth Functions
 
 <https://www.arxiv.org/abs/2301.04605>
 
 Consider deep neural network with intermediate neurons connected by multiplication operation. Consider two classes of target functions, generalized bandlimited functions and Sobolev-type balls. Show that the multiplicative NN achieves fewer layers and neuron compared to ReLU neural networks.
+
+### On Enhancing Expressive Power via Compositions of Single Fixed-Size ReLU Network
+
+<https://www.arxiv.org/abs/2301.12353>
+
+Show that the repeated composition of single fixed-size ReLU network with linear map at before and after networks, can approximate any 1-Lipschitz continuous functions with an error O(r^(-1/d)), and for continuous function with error characterized by the modulus of continuity.
+
+### Optimal Approximation Complexity of High-Dimensional Functions with Neural Networks
+
+<https://www.arxiv.org/abs/2301.13091>
+
+Show that the neural network with ReLU and x^2 as activation function, can approximate any analytic function and functions in Sobolev space, with constant depth and arbitrary accuracy. Then show how to leverage low local dimensionality to overcome the curse of dimensionality, giving approximation rate that is optimal for unknown lower-dimensional subspace.
+
+### How Powerful are Shallow Neural Networks with Bandlimited Random Weights?
+
+<https://www.arxiv.org/abs/2008.08427>
+
+Show that for the networks with hidden parameter are distributed in a bounded domain, the network may not achieve zero approximation error, and derive a nontrivial approximation error lower bound via ridgelet analysis.
+
+### The necessity of depth for artificial neural networks to approximate certain classes of smooth and bounded functions without the curse of dimensionality
+
+<https://www.arxiv.org/abs/2301.08284>
+
+Show that the product of inputs coordinates or its sign value can neither be approximated without the curse of dimensionality, with shallow or insufficiently deep ReLU NNs, but can be approximated without curse of dimensionality with DNNs. 
+
+### Sharp Lower Bounds on Interpolation by Deep ReLU Neural Networks at Irregularly Spaced Data
+
+<https://www.arxiv.org/abs/2302.00834>
+
+Show that for the N data that are separated by distance d, needs Omega(N) parameters when d is exponentially small in N, which is sharp result in this regime.

@@ -219,3 +219,51 @@ The GNN implicitly assume a graph with trivial sheaf, which is reflected in the 
 <https://www.arxiv.org/abs/2212.04983>
 
 In AWP, we minimiize the loss w.r.t. a bounded worst case perturbation of the model parameters, thereby favoring local inima with a small loss in a neighborhodd. Study this on graph data, derivae a generalization bound for non-i.i.d. node classification task.
+
+### Understanding and Improving Deep Graph Neural Networks: A Probabilistic Graphical Model Perspective
+
+<https://www.arxiv.org/abs/2301.10536>
+
+Show that for the variational inference's fixed point equation for Markov random field, the deep GNNs like JKNet, GCN, DGCN, GAT, APPNP, can be viewed as approximations of FPE.
+
+### Graph Neural Networks can Recover the Hidden Features Solely from the Graph Structure
+
+<https://www.arxiv.org/abs/2301.10956>
+
+If the graph is constructed from the hidden features' distance with threshold, show that there exists GNN parameter that recover the hidden features and threshold function.
+
+### WL meet VC
+
+<https://www.arxiv.org/abs/2301.11039>
+
+Show that the bitlength of GNN's weight and the number of colors produced by 1-WL bounds the VC dimension. And if the order is upper bounded, show the tight connection between the number of graphs distinguishable by the 1-WL and GNN's VC dimension.
+
+### Rethinking the Expressive Power of GNNs via Graph Biconnextivity
+
+<https://www.arxiv.org/abs/2301.09505>
+
+Introduce a novel class of expressivity metric via graph biconnectivity, which can be computed in linear computational cost, but most of GNN architecture fail to compute it except ESAN. Introduce mroe efficient approach called Generalized Distance WL, which is expressive for all biconnectivity metrics and can be implemented by a Transformer-like architectures.
+
+### Is Signed Message Essential for Graph Neural Networks?
+
+<https://www.arxiv.org/abs/2301.08918>
+
+Extend the previous result on signed message of Message Passing GNNs, from binary class to multiclass scenarios, which have two drawbacks, the sign depends on the path and may incur inconsistency, and it increases prediction uncertainty. Introduce a novel strategy to extend to multi-class graphs.
+
+### Complete Neural Networks for Euclidean Graphs
+
+<https://www.arxiv.org/abs/2301.13821>
+
+Propose 2-WL like geometric graph isomorphism test, which is complete for R^3 Euclidean graphs. Derive geometric GNN with same separation power.
+
+### On Over-Squashing in Message Passing Neural Networks: The Impact of Width, Depth, and Topology
+
+<https://www.arxiv.org/abs/2302.02941>
+
+Prove that width can mitigate over-squashing but makes the network to be more sensitive, depth cannot help mitigating oversquashing, and graph topology has the gratest role.
+
+### Generalization in Graph Neural Networks: Improved PAC-Bayesian Bounds on Graph Diffusion
+
+<https://www.arxiv.org/abs/2302.04451>
+
+Present the generalization bound that scale with the largest singular value of GNN's diffusion matrix, instead of maximum degree. Also construct the lower bound on the generalization gap, which asymptotically match the upper bound derived.

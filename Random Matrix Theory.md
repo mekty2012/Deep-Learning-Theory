@@ -99,3 +99,9 @@ Provide an analyical framework that allows to adopt standard initialization stra
 <https://www.arxiv.org/abs/2111.13331>
 
 Analyze evolutions of weight matrices' spectra, and they are classified to Marchenko-Pastur, Marchenko-Pastur with few bleeding outliers, Heavy tailed spectrum. These are connected to the degree of regularization, and argue that degree depends on the quality of data.
+
+### Deterministic equivalent and error universality of deep random features learning
+
+<https://www.arxiv.org/abs/2302.00401>
+
+Prove the Gaussian universality of the test error of fully connected layer where only readout layer is trainable, in a ridge regression setting. This requires proving a deterministic equivalent for traces of the deep random features sample covariance matrix.

@@ -86,6 +86,12 @@ Provide upper bound on the generalization error of PINNs approximating solutions
 
 ULGNet express solution as a spectral expansion w.r.t. Legendre basis and predict the coefficient with DNNs. Prove that the minimizer of discrete loss function converges to the weak solution of the PDEs.
 
+## Error estimates for physics informed neural networks approximating the Navier-Stokes equations
+
+<https://www.arxiv.org/abs/2203.09346>
+
+Prove the rigorous bounds on the errors resulting from the approximation of the incompressible Navier-Stokes equations with (X)PINNs. Show that the PDE residual can be arbitrarily small for tanh neural networks with two hidden layers.
+
 ## Invertible NN
 
 ### Understanding and Mitigating Exploding Inverses in Invertible Neural Networks
@@ -231,3 +237,9 @@ Show that the manifold NN, which uses spectral decomposition of Laplace Beltrami
 <https://www.arxiv.org/abs/2212.13468>
 
 Focus on the two-layer Nonlinear Autoencoder, whose input dimension scales linearly with the size of the representation, and show the structure of minimizers and that the minimizers can be achieved with gradient methods. For the sign activation function, show the fundamental limit of lossy compression of Gaussian sources.
+
+### Neural Network Architecture Beyond Width and Depth
+
+<https://www.arxiv.org/abs/2205.09459>
+
+Design the network named as NestNet, which uses the neural network as the network. Show that height s NestNet require n parameters to approximate 1-Lipschitz continuous function with error O(n^(-(s+1)/d)), where the standard ReLUNet has O(n^(-2/d)).
