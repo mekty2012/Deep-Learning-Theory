@@ -33,3 +33,9 @@ For the distribution given by pushing standard Gaussian with unknown distributio
 <https://www.arxiv.org/abs/2209.00735>
 
 Exhibit a NN architecture that can learn any learning algorithm that is written in constant-size program, in polynomial time. 
+
+### Fast Attention Requires Bounded Entries
+
+<https://www.arxiv.org/abs/2302.13214>
+
+Show that the approximation of attention weight matrix depends on the bound of the key, query, and values, where for bound o(sqrt(log n)) there is n^(1+o(1)) time algorithm that approximates attention matrix, where larger than this value makes impossible to approximate the attention matrix in subquadratic time, given strong exponential time hypothesis.

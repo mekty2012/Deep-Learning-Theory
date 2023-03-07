@@ -148,7 +148,7 @@ Prove a generalization error bound based on statistics of the entire margin dist
 
 Give superpolynomial statistical query lower bound for learning two-hidden-layer ReLU networks w.r.t. Gaussian input noise free model, where no general SQ lower bound were known for ReLU network of any depth, only having only for adversarial noise or restricted models.
 
-### Training ReLU networks to high uniform accuracy is intractable
+### Learning ReLU networks to high uniform accuracy is intractable
 
 <https://www.arxiv.org/abs/2205.13531>
 
@@ -369,3 +369,33 @@ Investigate the Rademacher complexity of sparse neural networks, where each neur
 <https://www.arxiv.org/abs/2302.00375>
 
 Derive the asymptotic limit where number of samples, input dmension, and network width are proportiaonally large, derive the Bayesian posterior of outputs and Bayes-optimal test error for regression and classification error.
+
+### Precise Asymptotic Analysis of Deep Random Feature Models
+
+<https://www.arxiv.org/abs/2302.06210>
+
+Prove a universality result for random feature model and deterministic data, that it is equivalent to the deep linear Gaussian model with first two moment matches at each layer. Then use the convex Gaussian min-max theorem to obtain the exact behavior, and characterize the eigendistribution for each layers with showing that depth has tangible effect.
+
+### Koopman-Based Bound for Generalization: New Aspect of Neural Networks Regarding Nonlinear Noise Filtering
+
+<https://www.arxiv.org/abs/2302.05825>
+
+Propose new generalization bound using Koopman operator, which focus the role of final nonlinear transformation, described by the reciprocal of the determinant of the determinant of the weight matrices, and is tighter than existing norm-based bounds. 
+
+### Do Neuarl Networks Generalize from Self-Averaging Sub-classifiers in the Same Way As Adaptive Boosting?
+
+<https://www.arxiv.org/abs/2302.06923>
+
+Show that deep NNs learn a series of boosted classifiers, whose generalization is popularly attributed to self-averaging over an increasing number of interpolating sub-classifiers.
+
+### Efficiently Learning Neural Networks: What Assumptions May Suffice?
+
+<https://www.arxiv.org/abs/2302.07426>
+
+Show that the previous results, that depth-2 network with nondegenerate weight and Gaussian data can be efficiently learned, do not hold for depth-3 network. 
+
+### SGD learning on neural networks: leap complexity and saddle-to-saddle dynamics
+
+<https://www.arxiv.org/abs/2302.11055>
+
+Show that for Gaussian isotropic data and 2-layer neural network trained with SGD, the time complexity of learning function is characterized by complexity measure named as leap, that measures how hierarchical the function are.

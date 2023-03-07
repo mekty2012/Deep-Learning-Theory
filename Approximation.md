@@ -369,3 +369,9 @@ Show that the product of inputs coordinates or its sign value can neither be app
 <https://www.arxiv.org/abs/2302.00834>
 
 Show that for the N data that are separated by distance d, needs Omega(N) parameters when d is exponentially small in N, which is sharp result in this regime.
+
+### Expressive Power of Tuning Only the Norm Layers
+
+<https://www.arxiv.org/abs/2302.07937>
+
+Show that for random ReLU network with fine-tuning the normalization layer only, can reconstruct any target network that is O(sqrt(width)) smaller.

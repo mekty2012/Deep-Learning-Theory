@@ -196,3 +196,15 @@ Study the infinite-width limit of three-layer NN without training the first laye
 <https://www.arxiv.org/abs/2210.06819>
 
 Show that the stochastic heavy ball method admits limit differential equation for mean field regime, and show the global optimum convergence. Derive the quantitative bound between the mean-field limit and the SHB dynamics of a finite-width network, and establish the dropout-stability and connectivity of SHB solutions.
+
+### A Rigorous Framework for the Mean Field Limit of Multilayer Neural Networks
+
+<https://www.arxiv.org/abs/2001.11443>
+
+Show that the i.i.d. initializations cause strong degeneracy for networks with depth at least four, where these initialization can globally converge for networks with depth less than four, but need correlated initialization for networks of arbitrary depth, by bidirectional density. The global convergence result do not use the convexity of loss, rather use the universal approximation property.
+
+### On Bridging the Gap between Mean field and Finite Width in Deep Random Neural Networks with Batch Normalization
+
+<https://www.arxiv.org/abs/2205.13076>
+
+Show that the batch normalization stabilizes the convergence of representation, which avoids the error propagation of mean field predictions. This allow to establish concentration bounds for mean field predictions of finite networks.

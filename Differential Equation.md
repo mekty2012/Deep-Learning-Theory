@@ -111,3 +111,15 @@ Consider the training of discretization of SDE as stochastic neural network via 
 <https://www.arxiv.org/abs/2301.08203>
 
 Derive the continuous-time model for SAM and unnormalized variant USAM, for both full-batch and mini-batch. These models offer explanation wh SAM prefers flat minima over sharp ones, that they minize an implicitly regularized loss with a Hessian-dependent noise structure. 
+
+### From high-dimensional & mean-field dynamics to dimensionless ODEs: A unifying approach to SGD in two-layers networks
+
+<https://www.arxiv.org/abs/2302.05882>
+
+Analyze the SGD dynamics of a two-layer network trained on Gaussian data, via the sufficient statistics for the population risk. This bridges gradient flow to high dimensional regime, and overparameterized case and the intermediate regimes between these. The infinite-width dynamics remain close to the low-dimensional subspace spanned by the targe principal directions.
+
+### Toward Equation of Motion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis
+
+<https://www.arxiv.org/abs/2210.15898>
+
+Derive a counter term that cancels the discretization error between GF and GD for DNNs, and obtain the equation of motion that precisely describes the discrete learning dynamics. Also derive the discretization error.

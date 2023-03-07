@@ -783,3 +783,33 @@ Study the drift induced by the noise of SGD in a continual learning. By decompos
 <https://www.arxiv.org/abs/1905.09803>
 
 Show that the inverse stability, which allow to show that realization's local minimum property transfer to parameter's local minimum property fails in neural network, and present pathologies that prevents inverse stability. Propose restricted set of parameters for shallow neural network that is inverse stable w.r.t. Sobolev norm.
+
+### The Geometry of Neural Nets' Parameter Spaces Under Reparametrization
+
+<https://www.arxiv.org/abs/2302.07384>
+
+Study the invariance quantities of neural nets under reparametrization of parameters, through Reimannian geomtry. Show that this invariance is an inherent property of any neural net.
+
+### Generalization Bounds for Adversarial Contrastive Learning
+
+<https://www.arxiv.org/abs/2302.10633>
+
+Leverage the Rademacher complexity to analyze generalization performance of ACL, for the multi-layer neural network under Lp attack, which shows that the average adversarial risk of the downstream task can be upper bounded by the adversarial unsupervised risk.
+
+### Learning to Generalize Provably in Learning to Optimize
+
+<https://www.arxiv.org/abs/2302.11085>
+
+Show that by incorporating local entropy and Hessian to learned optimizer framework, the generalization ability can be learned during meta-training and transformed to optimizee loss functions.
+
+### Regression as Classification: Influence of Task Formulation on Neural Network Features
+
+<https://www.arxiv.org/abs/2211.05641>
+
+For two-layer ReLU networks, show that the regression formulation yields a measure whose support can differ greatly from that for classification. 
+
+### Training neural networks with structured noise imporves classification and generalization
+
+<https://www.arxiv.org/abs/2302.13417>
+
+Show that adding structure into noisy training data can substantially improve memory performance, allowing perfect classification and maximal basins of attraction. Also prove that the unlearning rule coincides with the training-with-noise when noise is maximal.

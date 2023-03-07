@@ -545,3 +545,45 @@ Show that when labels are determined by target network with r neurons, GF conver
 <https://www.arxiv.org/abs/2302.01952>
 
 Propose the principal flow, which is a continuous time flow that approximates the gradient descent dynamics, admitting the divergence and oscillatory behavior including the local minimia and saddle point escape.
+
+### The Asymmetric Maximum Margin Bias of Quasi-Homogeneous Neural Networks
+
+<https://www.arxiv.org/abs/2210.03820>
+
+Introduce the quasi-homogeneous models that can describe neural networks with homogeneous activations, biases, residual connections, and normalization layers. Genearlize the existing results of maximum-margin bias for those networks, that gradient flow favors a subset of the parameters unlike homogeneous networks, which minimizes asymmetric norm.
+
+### Over-Parametrization Exponentially Slows Down Gradient Descent for Learning a Single Neuron
+
+<https://www.arxiv.org/abs/2302.10034>
+
+For the teacher-student setting, where student has a single ReLU neuron show the global convergence of O(T^{-3}) rate, and also present the lower bound in over-parameterization. This is contrast to the case when teacher also have single neuron, which have exponentially fast convergence rate, which shows that the over-parameterziation can exponentially slow down the convergence.
+
+### Generalization and Stability of Interpolating Neural Networks with Minimal Width
+
+<https://www.arxiv.org/abs/2302.09235>
+
+Show that for logistic-loss minimization, the k-homogeneous shallow neural network has training loss converging to zero at rate O(1/gamma^(2/k) T) where gamma is the margin, with logpolynomial number of neurons. Simultaneously the test loss is bounded by O(1/gamma^(2/k)n), which is contrast the existing stability results whith require polynomial loss and suboptimal generalization rates.
+
+### Phase diagram of training dynamics in deep neural networks: effect of learning rate, depth, and width
+
+<https://www.arxiv.org/abs/2302.12250>
+
+Analzye the maximum eigenvalue of Hessian, show that there are four regimes, eraarly time transitent regime, intermediate saturation regime, progressive sharpening regime, and late time edge of stability regime. 
+
+### On the Training Instability of Shuffling SGD with Batch Normalization
+
+<https://www.arxiv.org/abs/2302.12444>
+
+Show that linear network with batch normalization, trained with single shuffle or random reshuffle SGD, converge to distinct global optimum that are distorted away from gradient descent. SS leads distorted optima and even divergence for classification, but RR avoids both case.
+
+### On the existence of minimizers in shallow residual ReLU neural network optimization landscapes
+
+<https://www.arxiv.org/abs/2302.14690>
+
+Show that for general class of loss function and all continuous target function, the minimum exists for shallow residual ReLU NN. Propose a kind of closure of the search space, and provide criteria for the loss function and underlying probability distribution ensuring that all generalized responses are suboptimal and the minimizer exists.
+
+### Benign Overfitting in Linear Classifiers and Leaky ReLU Networks from KKT Conditions for Margin Maximization
+
+<https://www.arxiv.org/abs/2303.01462>
+
+Show the settings that KKT conditions for margin maximization implies benign overfitting for two-layer Leaky ReLU networks, including noisy class conditional Gaussians. 

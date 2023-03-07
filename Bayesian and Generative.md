@@ -266,3 +266,15 @@ Using the geometric measure theory, prove a sufficient condition for optimality 
 <https://www.arxiv.org/abs/2302.04411>
 
 Show that the forward and backward process of score based generative model is Wasserstein gradient flow. 
+
+### PAC-Bayesian generalization Bounds for Adversarial Generative Models
+
+<https://www.arxiv.org/abs/2302.08942>
+
+Extend the PAC-Bayeisan theory to generative models based on Wasserstein distance and the total variation distance. These apply to WGAN and Energy based GANs.
+
+### On Deep Generative Models for Approximation and Estimation of Distributions on Manifolds
+
+<https://www.arxiv.org/abs/2302.13183>
+
+Assuming that data are supported on a low-dimensional manifold, prove statistical guarantee of generative networks under Wasserstein-1loss, and the convergence rate is given by intrinsic dimension.

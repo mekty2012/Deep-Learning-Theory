@@ -42,11 +42,17 @@ Analyze the power of relative positional encoding based Transformer, show that t
 
 Define a probabilistic notion of memory capacity based on Fisher information for RNNs, and show that this memory capacity is usually bounded by size of state matrix. Show that the models with external state memory has increase in memory capacity.
 
-### Recurrent Neural Networks and Universal Approximatins of Bayesian Filters
+### Recurrent Neural Networks and Universal Approximations of Bayesian Filters
 
 <https://www.arxiv.org/abs/2211.00335>
 
 Consider the Bayesian optimal filtering problem, that estimates conditional statistics of a latent time series signal, using the RNN. Provide the approximation error bounds that is time-uniform.
+
+### A Theoretical Understanding of shallow Vision Transformers: Learning, Generalization, and Sample Complexity
+
+<https://www.arxiv.org/abs/2302.06015>
+
+Prove the sample complexity of shallow vision transformer, which is correlated with the inverse of fraction of label-relevant tokens, token noise level, and initial model error. Also show that SGD leads sparse attention map.
 
 ## PINN
 
@@ -120,6 +126,12 @@ Show that using the norm-bounded affine layers and Lipschitz activation lose the
 
 Study the networks with learnable 1-Lipschitz linear spline activations, and show that they are the solutions of a functional optimization problem with second-order total-variation regularization.
 
+### A Unified Algebraic Perspective on Lipschitz Neural Networks
+
+<https://www.arxiv.org/abs/2303.03169>
+
+Introduce a novel algebraic perspective that unifies various types of 1-Lipschitz neural networks, which shows that many existing techniques can be derived and generalized via finding analytic solutiosn of a semidefinite programming.
+
 ## Implicit Models
 
 ### Fixed points of nonnegative neural networks
@@ -145,6 +157,12 @@ Show that a randomly initialized gradient descent converges to a global minimum 
 <https://www.arxiv.org/abs/2209.15562>
 
 Usual analysis on implicit neural network collapse to studying only last layer, so study the case when optimizing the implicit layer only. Show that global convergence is guaranteed, and give generalization that is initialization sensitive.
+
+### Global Convergence Rate of Deep Equilibrium Models with General Activations
+
+<https://www.arxiv.org/abs/2302.05797>
+
+Show that the DEQs with any general activation having bounded first and second derivative globally converges if it is over-parameterized, by designing the population Gram matrix and dual activation by Hermite polynomial. 
 
 ## Others
 
@@ -243,3 +261,15 @@ Focus on the two-layer Nonlinear Autoencoder, whose input dimension scales linea
 <https://www.arxiv.org/abs/2205.09459>
 
 Design the network named as NestNet, which uses the neural network as the network. Show that height s NestNet require n parameters to approximate 1-Lipschitz continuous function with error O(n^(-(s+1)/d)), where the standard ReLUNet has O(n^(-2/d)).
+
+### Lower Bounds on the Depth of Integral ReLU Neural Networks via Lattice Polytopes
+
+<https://www.arxiv.org/abs/2302.12553>
+
+Prove that the integer weight ReLU nets have strictly increasing functions with the network depth for arbitrary width. Show that log(n) layers are required to compute maximum of n numbers, which matches known upper bound. Uses duality between neural networks and Newton polytopes via tropical geometry.
+
+### Globally Optimal Training of Neural Networks with Threshold Activation Functions
+
+<https://www.arxiv.org/abs/2303.03382>
+
+Study the weight decay regularized training can be formulated as a convex optimization.

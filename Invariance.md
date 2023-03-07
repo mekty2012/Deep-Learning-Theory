@@ -135,3 +135,9 @@ Show that Schur-Weyl duality between partition algebra and the symmetric group r
 <https://www.arxiv.org/abs/2212.09507>
 
 Study the generalization capacity of group convolutional neural networks, via the VC dimension. For infinite groups and arbitrary convolution kernel, show that two-parameter family have an infinite VC dimension.
+
+### Interrelation of equivariant Gaussian processes and convolutional neural networks
+
+<https://www.arxiv.org/abs/2209.08371>
+
+Prove that the many-channel limit of CNN equivariant w.r.t. two dimensional Euclidean group with vector valued neuron activations and the corresponding equivariant Gaussian processes.

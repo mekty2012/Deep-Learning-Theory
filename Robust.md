@@ -123,3 +123,15 @@ Propose two strategy to find the minimal adversarial perturbation, which allows 
 <https://www.arxiv.org/abs/2302.01629>
 
 Prove that for random features, the model is not robust for any degree of over-parameterization. In contrast, the NTK model meets the universal lower bound, and is robust as soon as the necessary condition of over-parameterization is satisfied.
+
+### Adversarial Examples Exist in Two-Layer ReLU Networks for Low Dimensional Data Manifolds
+
+<https://www.arxiv.org/abs/2303.00783>
+
+For two-layer ReLU networks trained on the data in low dimensional linear subspace, show that gradient method lead to non-robust neural network having large gradient orthogonal to the data subspace.
+
+### The Double-Edged Sword of Implicit Bias: Generalization vs. Robustness in ReLU Networks
+
+<https://www.arxiv.org/abs/2303.01456>
+
+Show that the gradient flow of ReLU NN is biased towards solutions that generalize well, but highly vulnerable to adversarial exmaples.

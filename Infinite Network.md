@@ -858,6 +858,18 @@ Consider the large and shallow neural network, where the output of each hidden n
 
 Prove a linear global convergence rate for the continuous time limit of generalized GN in over-parameterized regime.
 
+### Wide stochastic networks: Gaussian limit and PAC-Bayesian traininig
+
+<https://www.arxiv.org/abs/2106.09798>
+
+Show an analogy of Gaussian behvaior of infinite networks, for the simpler stochastic architectures with random parameters. This allow a PAC-Bayesian training that directly optimizes the generalization bound.
+
+### On the relationship between multivariate splines and infinitely-wide neural networks
+
+<https://www.arxiv.org/abs/2302.03459>
+
+Show that the multivariate spline have a random feature expansion as infinitely wide neural network with homogeneous activation. Then show that the associated function space is a Sobolev space on a Euclidean norm, with an explicit bound on the norm of derivatives.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks
@@ -1037,6 +1049,12 @@ Show that the infinite depth network converges in distribution to a zero-drift d
 <https://www.arxiv.org/abs/2302.00453>
 
 Show that the skip connections with scaled by 1/sqrt(depth), give the same covariance structure regardless of how the limit is taken. 
+
+### Depth Degeneracy in Neural Networks: Vanishing Angles in Fully Connected ReLU Networks on Initialization
+
+<https://www.arxiv.org/abs/2302.09712>
+
+Find precise formula of the angle going to zero as depth increases, which capture microscopic fluctuation that is not visible in the infinite width limits. The formula is given by mixed moments of correlated Gaussians, which are also related to Bessel numbers.
 
 # Application
 
