@@ -587,3 +587,21 @@ Show that for general class of loss function and all continuous target function,
 <https://www.arxiv.org/abs/2303.01462>
 
 Show the settings that KKT conditions for margin maximization implies benign overfitting for two-layer Leaky ReLU networks, including noisy class conditional Gaussians. 
+
+### On the existence of optimal shallow feedforward networks with ReLU activation
+
+<https://www.arxiv.org/abs/2303.03950>
+
+Show that there is global minima in the loss landscape of continuous function approximation for two-layer ReLU network. Propose a closure of the search space, so that the minimizers exist, while the functions added by closure perform worse, so the minimizer exist in representable functions.
+
+### A view of mini-batch SGD via generating functions: conditions of convergence, phase transitions, benefit from negative momenta
+
+<https://www.arxiv.org/abs/2206.11124>
+
+Analyze the noise-averaged property of mini-batch SGD for linear model, considering the dynamics of the second moments of model parameters for spectrally expressible approximations. Obtain an explicit expression for the generating function, and find that SGD dynamics convergence regime depend on the spectral distribution, those regimes admit stability condition, and the optimal convergence rate is achieved at negative momenta.
+
+### The Probabilistic Stability of Stochastic Gradient Descent
+
+<https://www.arxiv.org/abs/2303.13093>
+
+Modify the original stability definition to probabilistic stability, and show that only under the lens of probabilistic stability does SGD exhibit rich and pratically relevant phases of learning. These phase diagrams imply that SGD prefers low-rank saddles when the gradient is noisy. Also prove that the probabilistic stability of SGD can be quantified by the Lyapunov exponents of the SGD dynamics.

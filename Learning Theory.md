@@ -399,3 +399,21 @@ Show that the previous results, that depth-2 network with nondegenerate weight a
 <https://www.arxiv.org/abs/2302.11055>
 
 Show that for Gaussian isotropic data and 2-layer neural network trained with SGD, the time complexity of learning function is characterized by complexity measure named as leap, that measures how hierarchical the function are.
+
+### Benign Overfitting for Two-layer ReLU Networks
+
+<https://www.arxiv.org/abs/23023.04145>
+
+Establish the algorithm-dependent risk bound for two-layer ReLU convolution neural network with label flipping noise, and show that NN trained with GD ca achieve near-zero training loss and Bayes optimal test risk.
+
+### Practicality of generalization guarantees for unsupervised domain adaptation with neural networks
+
+<https://www.arxiv.org/abs/2303.08720>
+
+Find that all bounds for unsupervised domain adaptions are vacuous, and that sample generalization terms account for much of the observed looseness, especially when these terms interact with measure of domain shift. Combine recent data-dependent PAC-Bayes analysis, improves the guarantees.
+
+### A generalization gap estimation for overparameterized models via the Langevin functional variance
+
+<https://www.arxiv.org/abs/2112.03660>
+
+Show that a functional variance characterizes the generalization gap in the overparameterized setting, and provide an efficient approximation of it, Langevin functional variance, which only requires the first order gradient of the squared loss.

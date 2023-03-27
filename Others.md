@@ -813,3 +813,27 @@ For two-layer ReLU networks, show that the regression formulation yields a measu
 <https://www.arxiv.org/abs/2302.13417>
 
 Show that adding structure into noisy training data can substantially improve memory performance, allowing perfect classification and maximal basins of attraction. Also prove that the unlearning rule coincides with the training-with-noise when noise is maximal.
+
+### Provable Convergence of Tensor Decomposition-Based Neural Network Training
+
+<https://www.arxiv.org/abs/2303.06815>
+
+Show that the tensor decomposition of model compression can be solved by tensor block coordinate descent which is gradient free, and it globally converge the critical point.
+
+### Phase Diagram of Initial Condensation of Two-layer Neural Networks
+
+<https://www.arxiv.org/abs/2303.06561>
+
+Present a phase diagram of condensation, which is a phenomenon where the weight vectors concentrate on isolated orientations during the training. This phase diagram serves to provide understanding of the dynamical regimes of NNs and their dependence.
+
+### General Loss Functions Lead to (Approximate) Interpolation in High Dimensions
+
+<https://www.arxiv.org/abs/2303.07475>
+
+Show that the implicit bias of general family of convex losses in overparameterized regime, is approximated minimum-norm interpolation, similar to the squared loss.
+
+### The Benefits of Mixup for Feature Learning
+
+<https://www.arxiv.org/abs/2303.08433>
+
+In the feature-noise model, show that Mixup training can effectively learn rare feature from its mixture, where the standard learning can only learn the common features. Also shows that mixup's benefit comes from early training phase.

@@ -123,3 +123,9 @@ Analyze the SGD dynamics of a two-layer network trained on Gaussian data, via th
 <https://www.arxiv.org/abs/2210.15898>
 
 Derive a counter term that cancels the discretization error between GF and GD for DNNs, and obtain the equation of motion that precisely describes the discrete learning dynamics. Also derive the discretization error.
+
+### Almost Sure Convergence of Dropout Algorithms for Neural Networks
+
+<https://www.arxiv.org/abs/2002.02247>
+
+For the FCNNs with differentiable, polynomially bounded activations, projecting the weights to a compact subset when using a dropout algorithm, the weight of NN converges to a unique stationary point of a projected system of ODEs. With this global convergence guarantee, investigate the convergence rate of dropout, the generic sample complexity bounds for finding epsilon-stationary points of smooth nonconvex function susing SGD with dropout that explicitly depending on the dropout probability, and obtain upper bound on the rate of GD.

@@ -135,3 +135,9 @@ For two-layer ReLU networks trained on the data in low dimensional linear subspa
 <https://www.arxiv.org/abs/2303.01456>
 
 Show that the gradient flow of ReLU NN is biased towards solutions that generalize well, but highly vulnerable to adversarial exmaples.
+
+### How many dimensions are required to find an adversarial example?
+
+<https://www.arxiv.org/abs/2303.14173>
+
+Show that the adversarial success of standard PGD attacks on Lp norm constraint behaves like a monotonically increasing function epsilon * (dim(V) / dim(X))^(1/q) where V is the subspace of attack and X is input space. 

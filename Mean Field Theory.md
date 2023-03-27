@@ -208,3 +208,9 @@ Show that the i.i.d. initializations cause strong degeneracy for networks with d
 <https://www.arxiv.org/abs/2205.13076>
 
 Show that the batch normalization stabilizes the convergence of representation, which avoids the error propagation of mean field predictions. This allow to establish concentration bounds for mean field predictions of finite networks.
+
+### Global Optimality of Elman-type RNN in the Mean-Field Regime
+
+<https://www.arxiv.org/abs/2303.06726>
+
+Analyze the Elman-type RNNs and their mean-field regime, showing the convergence of GD dynamics toward mean field formulation. Also show that the fixed points are globally optimal under some assumptions.

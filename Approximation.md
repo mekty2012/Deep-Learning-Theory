@@ -375,3 +375,27 @@ Show that for the N data that are separated by distance d, needs Omega(N) parame
 <https://www.arxiv.org/abs/2302.07937>
 
 Show that for random ReLU network with fine-tuning the normalization layer only, can reconstruct any target network that is O(sqrt(width)) smaller.
+
+### Expressivity of Shallow and Deep Neural Networks for Polynomial Approximation
+
+<https://www.arxiv.org/abs/2303.03544>
+
+Analyze the number of neurons to approximate multivariate monomial, showing the exponential lower bound for shallow neural network. This lower bound do not hold for normalized lipschiz monomials, so the shallow ReLU network suffer curse of dimensionality when Lipschiz parameter scales with the dimension.
+
+### Recurrent Neural Networks and Universal Approximation of Bayesian Filters
+
+<https://www.arxiv.org/abs/2211.00335>
+
+Formulate the generic recurrent neural network, and provide the approximation error bounds for filtering in non-compact domains, and strong time-uniform approximation error bounds.
+
+### Memorization Capacity of Neural Networks with Conditional Computation
+
+<https://www.arxiv.org/abs/2303.11247>
+
+Show that the memorization of n points can be done with conditional ReLU network with O(log n) operations, where ReLU NNs need O(sqrt(n)) operations. Show that this is best possible.
+
+### Universal Approximation Property of Hamiltonian Deep Neural Networks
+
+<https://www.arxiv.org/abs/2303.12147>
+
+Show the universal approximation of HDNNs, and prove that a portion of the flow of HDNNs can approximate arbitrary well any continuous functions.

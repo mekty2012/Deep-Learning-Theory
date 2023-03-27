@@ -267,3 +267,15 @@ Prove that width can mitigate over-squashing but makes the network to be more se
 <https://www.arxiv.org/abs/2302.04451>
 
 Present the generalization bound that scale with the largest singular value of GNN's diffusion matrix, instead of maximum degree. Also construct the lower bound on the generalization gap, which asymptotically match the upper bound derived.
+
+### On the Expressiveness and Generalization of Hypergraph Neural Networks
+
+<https://www.arxiv.org/abs/2303.05490>
+ 
+Analyze the expressivity of HyperGNN, characterizing the hierarchy of the problems that they can solve defined by depth and edge arities. Analyze the learning properties, especially how they generalize to larger graphs.
+
+### Zero-One Laws of Graph Neural Networks
+
+<https://www.arxiv.org/abs/2301.13060>
+
+Show that for the graphs from Erdos-Renyi model, the probability of graphs mapping to particular output by GNN tends to zero or one.

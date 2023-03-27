@@ -98,6 +98,12 @@ ULGNet express solution as a spectral expansion w.r.t. Legendre basis and predic
 
 Prove the rigorous bounds on the errors resulting from the approximation of the incompressible Navier-Stokes equations with (X)PINNs. Show that the PDE residual can be arbitrarily small for tanh neural networks with two hidden layers.
 
+### Error Analysis of Physics-Informed Neural Networks for Approximating Dynamic PDEs of Second Order in Time
+
+<https://www.arxiv.org/abs/2303.12245>
+
+Consider the approximation of PDE of second order in time, by PINN and provide an error analysis of PINN for the wave equation, Sine-Gordon equation and the linear elastodynamic equation. Show that the shallow Tanh-network's error for the solution field, time derivative and gradient field can be effectively bounded by the training loss and number of data points. Also suggest new form of training loss, which contain residuals that are crucial to the error estimate.
+
 ## Invertible NN
 
 ### Understanding and Mitigating Exploding Inverses in Invertible Neural Networks
@@ -273,3 +279,9 @@ Prove that the integer weight ReLU nets have strictly increasing functions with 
 <https://www.arxiv.org/abs/2303.03382>
 
 Study the weight decay regularized training can be formulated as a convex optimization.
+
+### A Theoretical Understanding of Shallow Vision Transformers: Learning, Generalization, and Sample Complexity
+
+<https://www.arxiv.org/abs/2302.06015>
+
+Consider shallow ViT which one self-attention and two-layer perceptron. Characterize the sample complexity for zero generalization error which depends on inverse of fraction of label-relevant tokens, token noise level, and the initial model error. Also show that SGD leads to sparse attention map, and indicates proper token sparsification improve the test performance.

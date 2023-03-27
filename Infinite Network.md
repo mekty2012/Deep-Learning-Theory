@@ -1056,6 +1056,12 @@ Show that the skip connections with scaled by 1/sqrt(depth), give the same covar
 
 Find precise formula of the angle going to zero as depth increases, which capture microscopic fluctuation that is not visible in the infinite width limits. The formula is given by mixed moments of correlated Gaussians, which are also related to Bessel numbers.
 
+### Fixed points of arbitrarily deep 1-dimensional neural networks
+
+<https://www.arxiv.org/abs/2303.12814>
+
+Introduce a class of functions that is closed under composition and contains logistic sigmoid functions. Show that any 1-dimensional neural network of arbitrary depth with logistic sigmoid activation functions has at most three fixed points.
+
 # Application
 
 ### Finding sparse trainable neural networks through Neural Tangent Transfer
@@ -1251,3 +1257,9 @@ Study the learning process with simple supervised learning example, and find tha
 <https://www.arxiv.org/abs/2208.039=761>
 
 It was shown that Laplace and NTK has same reproducing kernel Hilbert space. Analyze the practical equivalence of the two kernels, by matching the kernels exactly and then by matching posteriors of a Gaussian process.
+
+### Kernel Regression with Infinite-Width Neural Networks on Millions of Examples
+
+<https://www.arxiv.org/abs/2303.05420>
+
+Study the scaling rule of several neural kernels on CIFAR-5m dataset using preconditioned conjugate gradient algorithms, and with SotA for kernel methods.
