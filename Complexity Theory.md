@@ -39,3 +39,9 @@ Exhibit a NN architecture that can learn any learning algorithm that is written 
 <https://www.arxiv.org/abs/2302.13214>
 
 Show that the approximation of attention weight matrix depends on the bound of the key, query, and values, where for bound o(sqrt(log n)) there is n^(1+o(1)) time algorithm that approximates attention matrix, where larger than this value makes impossible to approximate the attention matrix in subquadratic time, given strong exponential time hypothesis.
+
+### Training Neural Networks is NP-Hard in Fixed Dimension
+
+<https://www.arxiv.org/abs/2303.17045>
+
+Show that the parameterized complexity of two-layer neural network for both ReLU and threshold activation is NP-hard, meaning that there is no poly-time algorithm for constant diemnsion. Also show that W\[1\]-hardness for four ReLU, and show fixed-parameter tractability for combined parameter number of dimension and number of ReLUs if network is assumed to compute a convex map.

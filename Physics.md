@@ -113,3 +113,9 @@ For polynomially bounded activations, derive sharp estiamte in powers of 1/width
 <https://www.arxiv.org/abs/2302.14112>
 
 Show that the injectivity is equivalent to a property of the ground state of the spherical perceptron, and derive analytical equations for the threshold.
+
+### Effective Theory of Transformers at Initialization
+
+<https://www.arxiv.org/abs/2304.02034>
+
+Perform an effective-theory analysis of forward-backward signal propagation in wide and deep Transformers, and suggest particular width scalings and training hyperparamters.

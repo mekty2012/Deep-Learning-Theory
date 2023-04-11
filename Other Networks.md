@@ -104,6 +104,12 @@ Prove the rigorous bounds on the errors resulting from the approximation of the 
 
 Consider the approximation of PDE of second order in time, by PINN and provide an error analysis of PINN for the wave equation, Sine-Gordon equation and the linear elastodynamic equation. Show that the shallow Tanh-network's error for the solution field, time derivative and gradient field can be effectively bounded by the training loss and number of data points. Also suggest new form of training loss, which contain residuals that are crucial to the error estimate.
 
+### On the Compatibility between Neural Networks and Partial Differential Equations for Physics-informed Learning
+
+<https://www.arxiv.org/abs/2212.00270>
+
+Prove that a linear PDE upt o n-th order can be satisfied by an MLP with Cn activation function when the weights lie on a certain hyperplane. Such hyperplane equipped MLP becomes physics-enforced, which no longer requires the loss function for the PDE itself.
+
 ## Invertible NN
 
 ### Understanding and Mitigating Exploding Inverses in Invertible Neural Networks

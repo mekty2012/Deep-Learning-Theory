@@ -837,3 +837,15 @@ Show that the implicit bias of general family of convex losses in overparameteri
 <https://www.arxiv.org/abs/2303.08433>
 
 In the feature-noise model, show that Mixup training can effectively learn rare feature from its mixture, where the standard learning can only learn the common features. Also shows that mixup's benefit comes from early training phase.
+
+### Theoretical guarantees for neural control variates in MCMC
+
+<https://www.arxiv.org/abs/2304.01111>
+
+Derive the optimal convergence rate of neural control variate against the Markov chain, under ergodicity assumption.
+
+### Decomposing neural networks as mappings of correlation functions
+
+<https://www.arxiv.org/abs/2202.04925>
+
+Characterize the mapping between probability distributions by deep neural networks, as an iterated transformation of distributions. This allows to identify essential statistics, and show that correlations capture the information processing.

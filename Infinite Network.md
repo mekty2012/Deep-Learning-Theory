@@ -870,6 +870,12 @@ Show an analogy of Gaussian behvaior of infinite networks, for the simpler stoch
 
 Show that the multivariate spline have a random feature expansion as infinitely wide neural network with homogeneous activation. Then show that the associated function space is a Sobolev space on a Euclidean norm, with an explicit bound on the norm of derivatives.
 
+### Bayesian Free Energy of Deep ReLU Neural Network in Overparameterized Cases
+
+<https://www.arxiv.org/abs/2303.15739>
+
+Consider the deep ReLU network, and show that the Bayesian free energy is bounded even if the depth is larger than the necessary. This implies that Bayesian generalization error does not increase if deep ReLU network is designed to be sufficiently large.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks
@@ -988,6 +994,12 @@ Show that PNNs also have deterministic and consistent NTK, while they admit slow
 
 Provide the power series expansion of NTK depending on the Hermite coefficient of activation function and the depth. Show that the faster decay of Hermite coefficient leads faster decay in NTK eigenvalues, and relate the rank of NTK gram with input gram. 
 
+### On the Effect of Initialization: The Scaling Path of 2-Layer Neural Networks
+
+<https://www.arxiv.org/abs/2303.17805>
+
+Consider the modification of the regularization path, which is the sequence of parameters computed with different values of regularization strength. Despite the non-convexity of 2-layer neural network, show that infinite dimensional convex countepart exists, and show that as the scale of initialization ranges, the associated path interpolates continuously between kernel and rich regimes.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
@@ -1061,6 +1073,18 @@ Find precise formula of the angle going to zero as depth increases, which captur
 <https://www.arxiv.org/abs/2303.12814>
 
 Introduce a class of functions that is closed under composition and contains logistic sigmoid functions. Show that any 1-dimensional neural network of arbitrary depth with logistic sigmoid activation functions has at most three fixed points.
+
+### Global Convergence of Over-parameterized Deep Equilibrium Models
+
+<https://www.arxiv.org/abs/2205.13814>
+
+Show that DEQ models, which is a infinite-depth weight tied model globally converges with over-parameterization.
+
+### Neural signature kernels as infinite-width-depth limits of controlled ResNets
+
+<https://www.arxiv.org/abs/2303.17671>
+
+Show that infinite-width-then-depth limit and proper scailng, the ResNets converge weakly to Gaussian processes indexed on spaces of continuous paths and kernels satisfying certain PDE. For the identity activation, show that this equation becomes liear PDE and agrees with signature kernel.
 
 # Application
 

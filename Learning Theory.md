@@ -417,3 +417,27 @@ Find that all bounds for unsupervised domain adaptions are vacuous, and that sam
 <https://www.arxiv.org/abs/2112.03660>
 
 Show that a functional variance characterizes the generalization gap in the overparameterized setting, and provide an efficient approximation of it, Langevin functional variance, which only requires the first order gradient of the squared loss.
+
+### Generalization and Stability of Interpolating Neural Networks with Minimal Width
+
+<https://www.arxiv.org/abs/2302.09235>
+
+Consider the scenario that model weights achieve arbitrarily small training error and distance to initialization is small. Show that when the data are separable by NTK, prove that the training loss decays at 1/T with polylogarithmic number of neurons. 
+
+### Operator learning with PCA-Net: upper and lower complexity bounds
+
+<https://www.arxiv.org/abs/2303.16317>
+
+Show the universal approximation by PCA-Net, and derive lower complexity bound that is decaying rate of PCA eigenvalue related to output distribution's complexity, and the other related to inherent complexity of the space of operators. 
+
+### Lipschitzness Effect of a Loss Function on Generalization Performance of Deep Neural Networks Trained by Adam and AdamW Optimizers
+
+<https://www.arxiv.org/abs/2303.16464>
+
+Theoretically prove that the small Lipschitz constant of a loss function gives more uniform stability, which also decreases the generalization performance.
+
+### Generalisation under gradient descent via deterministic PAC-Bayes
+
+<https://www.arxiv.org/abs/2209.02525>
+
+Establish PAC-Bayesian generalization bounds for gradient descent, which also applies to optimisation algorithms that are deterministic. 

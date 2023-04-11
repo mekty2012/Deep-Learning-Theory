@@ -214,3 +214,9 @@ Show that the batch normalization stabilizes the convergence of representation, 
 <https://www.arxiv.org/abs/2303.06726>
 
 Analyze the Elman-type RNNs and their mean-field regime, showing the convergence of GD dynamics toward mean field formulation. Also show that the fixed points are globally optimal under some assumptions.
+
+### Depth Separation with Multilayer Mean-Field Networks
+
+<https://www.arxiv.org/abs/2304.01063>
+
+Show that the function constructed for approximation depth separation is also appears in optimization, that learning that function with overparameterized network with polynomially many neurons is efficient, using the mean-field limit in multilayer networks.

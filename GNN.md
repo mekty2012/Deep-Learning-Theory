@@ -279,3 +279,9 @@ Analyze the expressivity of HyperGNN, characterizing the hierarchy of the proble
 <https://www.arxiv.org/abs/2301.13060>
 
 Show that for the graphs from Erdos-Renyi model, the probability of graphs mapping to particular output by GNN tends to zero or one.
+
+### The expressive power of pooling in Graph Neural Networks
+
+<https://www.arxiv.org/abs/2304.01575>
+
+Provide sufficient condition for a pooling operator to fully preserve the expressive power of message passing layers before it. Review several existing pooling operators, and identify those that fails to satisfy this condition.

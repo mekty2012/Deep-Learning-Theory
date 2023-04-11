@@ -399,3 +399,39 @@ Show that the memorization of n points can be done with conditional ReLU network
 <https://www.arxiv.org/abs/2303.12147>
 
 Show the universal approximation of HDNNs, and prove that a portion of the flow of HDNNs can approximate arbitrary well any continuous functions.
+
+### Minimal Width for Universal Property of Deep RNN
+
+<https://www.arxiv.org/abs/2211.13866>
+
+Prove the universality of deep narrow RNNs and show the upper bound of the minimum width can be independent to the length of data. 
+
+### Optimal approximation of Ck-functions using shallow complex-valued neural networks
+
+<https://www.arxiv.org/abs/2303.16813>
+
+Show that shallow complex neural networks can approximate any function in complex cube, and Ck function with error m^(-k/2n) where m is number of neurons, and n is the dimension of space, when activation is smooth but not polyharmonics. Also show that the weight selection is continuous w.r.t. target function, and prove the derived approximation rate is optimal for this selection.
+
+### Approiximation bounds for norm constrained neural networks with applications to regression and GANs
+
+<https://www.arxiv.org/abs/2201.09418>
+
+Prove the upper and lower bounds on the weight norm constrained networks for smooth function classes, where lower bound is derived via Rademacher complexity. Apply these bounds to show the convergence rate for regression with norm constrained neural networks and distribution estimation of GANs.
+
+### Measure theoretic results for approximation by neural networks with limited weights
+
+<https://www.arxiv.org/abs/2304.01880>
+
+Study the approximation properties with weights varying on finitely many directions and thresholds from an open interval. Obtain a necessary and sufficient measure theoretic condition for density of such networks in the space of continuous functions. Prove a density result for specifically constructed activation and a fixed number of neurons.
+
+### Optimal rates of approximation by shallow ReLU^k neural networks and applications to nonparametric regression
+
+<https://www.arxiv.org/abs/2304.01561>
+
+Study the approximation of ReLU^k neural networks, and show that sufficiently smooth functions with finite variation norms are approximable. For those with less smoothness, the approximation rate in terms of variation norm is presented.
+
+### On the universal approximation property of radial basis function neurla networks
+
+<https://www.arxiv.org/abs/2304.02220>
+
+Consider the RBF neural network with smoothing factor replaced with shift, and prove that certain condition on the activation function allow these neural network to approximate any continuous multivariate function on any compact subset.
