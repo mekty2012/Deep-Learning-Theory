@@ -430,8 +430,26 @@ Study the approximation properties with weights varying on finitely many directi
 
 Study the approximation of ReLU^k neural networks, and show that sufficiently smooth functions with finite variation norms are approximable. For those with less smoothness, the approximation rate in terms of variation norm is presented.
 
-### On the universal approximation property of radial basis function neurla networks
+### On the universal approximation property of radial basis function neural networks
 
 <https://www.arxiv.org/abs/2304.02220>
 
 Consider the RBF neural network with smoothing factor replaced with shift, and prove that certain condition on the activation function allow these neural network to approximate any continuous multivariate function on any compact subset.
+
+### On the Expressivity Role of LayerNorm in Transformers' Attention
+
+<https://www.arxiv.org/abs/2305.02582>
+
+Interpret LayerNorm as projection to d-1 space and scale to have same norm. Using this, show that projection allow the attention to have query that attends to all keys equally, and scaling allow each key to receive the highest attention, preventing the un-select-able keys.
+
+### The Nonlocal Neural Operator: Universal Approximation
+
+<https://www.arxiv.org/abs/2304.13221>
+
+Introduce class of neural operators between different geometry, which includes FNO as a special case. Show that this architecture with computation of a spatial average benefits from universal approximation.
+
+### A Transfer Principle: Universal Approximators Between Metric Spaces From Euclidean Universal Approximators
+
+<https://www.arxiv.org/abs/2304.12231>
+
+Construct the universal approximation between arbitrary Polish metric space, using universal approximators between euclidean space, where the approximator returns discrete probability measure. Then prove quantitative guarantee for Hoelder-like maps, including finite graph, rough differential equation between Carnot group, and continuous non-linear operators between Banach space.

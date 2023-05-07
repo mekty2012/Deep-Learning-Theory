@@ -141,3 +141,9 @@ Study the generalization capacity of group convolutional neural networks, via th
 <https://www.arxiv.org/abs/2209.08371>
 
 Prove that the many-channel limit of CNN equivariant w.r.t. two dimensional Euclidean group with vector valued neuron activations and the corresponding equivariant Gaussian processes.
+
+### Categorification of Group equivariant Neural Networks
+
+<https://www.arxiv.org/abs/2304.14144>
+
+Show that category theory can be used to view the group equivariant layer whose layers are tensor power space, and build richer structures with algorithm for quivkly computing the equivariant linear layer.

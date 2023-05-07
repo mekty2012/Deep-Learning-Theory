@@ -278,3 +278,9 @@ Extend the PAC-Bayeisan theory to generative models based on Wasserstein distanc
 <https://www.arxiv.org/abs/2302.13183>
 
 Assuming that data are supported on a low-dimensional manifold, prove statistical guarantee of generative networks under Wasserstein-1loss, and the convergence rate is given by intrinsic dimension.
+
+### Mathematical analysis of singualrities in the diffusion model under the submanifold assumption
+
+<https://www.arxiv.org/abs/2301.07882>
+
+Show that the analytic mean drift function in DDPM and the score function in SGM asymptotically blow up in the final stages, for singular distributions that are concentrated in low dimensional manifold. Derive new target and associated loss, which remains bounded for such singular distributions.

@@ -441,3 +441,15 @@ Theoretically prove that the small Lipschitz constant of a loss function gives m
 <https://www.arxiv.org/abs/2209.02525>
 
 Establish PAC-Bayesian generalization bounds for gradient descent, which also applies to optimisation algorithms that are deterministic. 
+
+### Learning  One-Hidden-Layer ReLU Networks
+
+<https://www.arxiv.org/abs/2304.10524>
+
+Give the polynomial algorithm that learns combination of k ReLU neurons w.r.t. the Gaussian distribution, without any conditions.
+
+### Fine-tuning Neural-Operator architectures for training and generalization
+
+<https://www.arxiv.org/abs/2301.11509>
+
+Design new neural operator sNO+eps, which includes the kernel integral operator as self-attention, and derive upper bound of the Rademacher complexity that do not depend on the norm control of the parameters.

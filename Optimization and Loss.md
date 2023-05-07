@@ -605,3 +605,33 @@ Analyze the noise-averaged property of mini-batch SGD for linear model, consider
 <https://www.arxiv.org/abs/2303.13093>
 
 Modify the original stability definition to probabilistic stability, and show that only under the lens of probabilistic stability does SGD exhibit rich and pratically relevant phases of learning. These phase diagrams imply that SGD prefers low-rank saddles when the gradient is noisy. Also prove that the probabilistic stability of SGD can be quantified by the Lyapunov exponents of the SGD dynamics.
+
+### Convergence of stochastic gradient descent under a local Lajasiewicz condiiton for deep neural networks
+
+<https://www.arxiv.org/abs/2304.09221>
+
+Show that if initialized in the local region that lajasiewicz condition holds, the SGD converges to a global minimum in the region.
+
+### Pointwise convergence theorem of generalized mini-batch gradient descent in deep neural network
+
+<https://www.arxiv.org/abs/2304.08172>
+
+Restrict the target function to non-smooth indicator functions, and construct a deep neural network inducing pointwise convergence.
+
+### Revisiting Gradient Clipping: Stochastic bias and tight covergence guarantees
+
+<https://www.arxiv.org/abs/2305.01588>
+
+Give the convergence guarantees that is tight for both deterministic and stochastic gradients. Show that the deterministic gradient descent affects higher-order terms of convergence, and the stochastic gradient can not be guaranteed even arbitrary small step sizes.
+
+### Why Learning of Large-Scale Neural Networks Behaves Like Convex Optimization
+
+<https://www.arxiv.org/abs/1903.02140>
+
+Introduce canonical space, and show that the objective of NN is convex in canonical space. Then show that the canonical space and parameter space is related by a pointwise linear transformation, and show that gradient descent methods a.s. convergest to a global minimum of zero loss given that the linear transformation is full rank. 
+
+### Stability of Accuracy ofr the Training of DNNs Via the Uniform Doubling Condition
+
+<https://www.arxiv.org/abs/2210.08415>
+
+Extend the doubling condition on the training data which ensures the accuracy during training for absolute value activation NN, to uniform doubling condition which do not depends on choices, and extend it to applied to any piecewise lienar functions.

@@ -119,3 +119,9 @@ Show that the injectivity is equivalent to a property of the ground state of the
 <https://www.arxiv.org/abs/2304.02034>
 
 Perform an effective-theory analysis of forward-backward signal propagation in wide and deep Transformers, and suggest particular width scalings and training hyperparamters.
+
+### Structures of Neural Network Effective Theories
+
+<https://www.arxiv.org/abs/2305.02334>
+
+Consider the effective field theoreies to DNNs at initialisation, that simplifies the finite-width corrections. The structure of EFT show that a single condition governs critcality of all connected correlators.

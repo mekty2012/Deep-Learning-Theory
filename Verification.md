@@ -304,3 +304,9 @@ Overapproximate the nonlinear stochastic forward model with piecewise linear con
 <https://www.arxiv.org/abs/2203.00295>
 
 Use domain theorytic L-derivative, which coincides with Clarke's generalized gradient, develop an algorithm that estimates Lipschitz constant of feedforward regressor, which is validated. 
+
+### Abstract Interpretation of Fixpoint Iterators with Applications to Neural Networks
+
+<https://www.arxiv.org/abs/2110.08260>
+
+Derive new fixpoint abstraction without join, and new abstract domain CH-Zonotope, and apply it to verify monotonic DEQ models.

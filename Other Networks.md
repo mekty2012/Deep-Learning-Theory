@@ -54,6 +54,12 @@ Consider the Bayesian optimal filtering problem, that estimates conditional stat
 
 Prove the sample complexity of shallow vision transformer, which is correlated with the inverse of fraction of label-relevant tokens, token noise level, and initial model error. Also show that SGD leads sparse attention map.
 
+### Transformers Learn Shortcuts to Automata
+
+<https://www.arxiv.org/abs/2210.10749>
+
+Show that transformer can represent any finite state automaton by hierarchically reparameterizing the dynamics, and there is shortcut solution with o(T) layer where T is input sequence length, and there always exist polynomial-siazed O(log T) depth solution. Moreover O(1) simulators are common.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
@@ -291,3 +297,15 @@ Study the weight decay regularized training can be formulated as a convex optimi
 <https://www.arxiv.org/abs/2302.06015>
 
 Consider shallow ViT which one self-attention and two-layer perceptron. Characterize the sample complexity for zero generalization error which depends on inverse of fraction of label-relevant tokens, token noise level, and the initial model error. Also show that SGD leads to sparse attention map, and indicates proper token sparsification improve the test performance.
+
+### Generalization and Estimation Error Bounds for Model-based Neural Networks
+
+<https://www.arxiv.org/abs/2304.09802>
+
+Leverage the complexity measures using the global and local Rademacher complexity, provide the upper bound on the generalization erros of model-based networks such as sparse coding and compressed sensing. Show that generalization abilities of these models outperform the regular ReLU networks, and derive design rule that allow to construct model-based networks with higher generalization.
+
+### Differentiable Neural Networks with RePU Activtion: with Applications to Score Estimation and Isotonic Regression
+
+<https://www.arxiv.org/abs/2305.00608>
+
+Consider the rectified power unit neural network, whose partial derivatives are mixed-activated RePU neural networks, and derive the upper bound of the complexity of function class. Also establish the error bound for approximating C^s functions and derivatives, with the case when approximating in the low-dimensional support. 

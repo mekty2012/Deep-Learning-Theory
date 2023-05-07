@@ -1000,6 +1000,12 @@ Provide the power series expansion of NTK depending on the Hermite coefficient o
 
 Consider the modification of the regularization path, which is the sequence of parameters computed with different values of regularization strength. Despite the non-convexity of 2-layer neural network, show that infinite dimensional convex countepart exists, and show that as the scale of initialization ranges, the associated path interpolates continuously between kernel and rich regimes.
 
+### Statistical Optimality of Deep Wide Neural Networks
+
+<https://www.arxiv.org/abs/2305.02657>
+
+By eigenvalue decay rate of deep NTK, conclude that neural networks with proper early stopping achieve the minimax rate, when the regression function lies in the RKHS of NTK.
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
