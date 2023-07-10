@@ -66,6 +66,12 @@ Show that transformer can represent any finite state automaton by hierarchically
 
 Show that under the standard Gaussian covariates, the single layer of linear self-attention trained with noisy linear regression data will implement a single step of GD on the least-squares linear regression. Then shows changes in the distribution changes learned algorithm a lot, the pre-conditioned GD while response has not large effects.
 
+### Transformers as Statisticians: Provable In-Context Learning with In-Context Algorithm Selection
+
+<https://www.arxiv.org/abs/2306.04637>
+
+Show that transformers can implement least squares, ridge regression, Lasso, generalized linear models and two-layer neural network trained with gradient descent. Then show that transformers can implement complex ICL procedures that selects algorithm in-context.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?

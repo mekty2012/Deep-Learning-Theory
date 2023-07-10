@@ -459,3 +459,9 @@ Design new neural operator sNO+eps, which includes the kernel integral operator 
 <https://www.arxiv.org/abs/2307.03487>
 
 Defines FCNN architecture for space of probability measures, leveraging the approximation theory of functionals. Show that these hypothesis space results almost optimal learning rates for the proposed distribution regression, up to the logarithmic terms via two-stage error decomposition.
+
+### Generalization Guarantees via Algorithm-dependent Rademacher Complexity
+
+<https://www.arxiv.org/abs/2307.02501>
+
+Consider the algorithm-dependent empirical Rademacher complexity, derive novel bounds on finite fractal dimension that extends continuous ones, simplify dimension independent generalization bound for SGD, and recover some VC classes and compression schemes.
