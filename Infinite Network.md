@@ -882,6 +882,12 @@ Consider the deep ReLU network, and show that the Bayesian free energy is bounde
 
 Show that the properly initialized neural network can be understood as universal critical phenomena in absorbing phase transitions, by studying order-to-chaos transition in FCNN and CNNs. Show that there is well-defined transition from ordered state to the chaotic state for finite networks, and difference is reflected in universality class.
 
+### Gaussian random field approximation via Stein's method with applications to wide random neural networks
+
+<https://www.arxiv.org/abs/2306.16308>
+
+Derive upper bounds on the Wasserstein distance w.r.t. sup norm, between any continuous random field and Gaussian with Stein's method. Develop a Gaussian smoothing technique that transfer a bound, and obtain first bound on the Gaussian random field approximation of wide random neural networks of any depths and Lipschitz activations.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks

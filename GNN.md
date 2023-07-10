@@ -303,3 +303,9 @@ Establish new generalization properties and fundamental limits of GNNs in the co
 <https://www.arxiv.org/abs/1911.06253>
 
 Show that asymmetric graph scattering transforms have many same theoretical guarantees as their symmetric version, and introduce the provably stability and invariance guarantees for large family of graph neural networks.
+
+### Geometric Graph Filters and Neural Networks: Limit Properties and Discriminability Trade-offs
+
+<https://www.arxiv.org/abs/2305.18467>
+
+Consider the convolutional manifold neural networks and graph convolution neural networks with Laplace-Beltrami operator and graph Laplacinas, prove non-asymptotic error bounds showing that they converge to convolutional filters. Then discover trade-off between discriminnability of graph filters and approximating the manifold filters. Finally derive transferability for two geometric graph from same manifold.

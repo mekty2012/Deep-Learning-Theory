@@ -226,3 +226,9 @@ Show that the function constructed for approximation depth separation is also ap
 <https://www.arxiv.org/abs/2307.01177>
 
 View multi-layer NN as hierarchy of RKHS, named as neural Hilbert ladder which allow to define the complexity measure. Prove correspondence between L-layer NN and L-level NHLs, and show the generalization guarantees for learning an NHL with controlled complexity measures, derive the correspondence with training of mean field limit NN, derive the evolution as dynamics of multiple random fields, and some depth separation.
+
+### Beyond NTK with Vanilla Gradient Descent: A Mean-Field Analysis of Neural Networks with Polynomial Width, Samples, and Time
+
+<https://www.arxiv.org/abs/2306.16361>
+
+Provide a mean-field analysis fo projected gradient flow on polynomial-width two layer neural network, and prove that d^3.1 sample size is enough to converge polynomially to the error that is not achivable by kernel methods less than d^4 samples.

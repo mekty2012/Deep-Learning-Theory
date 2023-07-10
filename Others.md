@@ -921,3 +921,9 @@ Extend the univariate implicit bias that linearly stable minima correspond to bo
 <https://www.arxiv.org/abs/2306.16422>
 
 Show that neural network can detect model-free static arbitrage strategy if exists. Prove that a single neural network can approximately solve a class of convex semi-infinite programs, which shows the main result.
+
+### Towards Revealing the Mystery behind Chain of Thought: A Theoretical Perspective
+
+<https://www.arxiv.org/abs/2305.15408>
+
+Show that bounde depth transformer are unable to produce correct answers for basic arithmetics unless model grows polynomially with input ength, where constant size transformer can generate CoT derivation with commonly used language format. Moreover, show that dynamic programming can be solved with CoT.
