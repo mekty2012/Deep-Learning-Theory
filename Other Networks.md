@@ -72,6 +72,12 @@ Show that under the standard Gaussian covariates, the single layer of linear sel
 
 Show that transformers can implement least squares, ridge regression, Lasso, generalized linear models and two-layer neural network trained with gradient descent. Then show that transformers can implement complex ICL procedures that selects algorithm in-context.
 
+### Why can neural language models solve next-word prediction? A mathematical perspective
+
+<https://www.arxiv.org/abs/2306.17184>
+
+Study a class of formal languages that model the real-world examples of English sentences, and construct neural language models can solve the next-word prediction task in this setting with zero error. 
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?

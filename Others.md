@@ -897,3 +897,15 @@ Consider random hierarchy model, where each C classes correspond to m synonymic 
 <https://www.arxiv.org/abs/2307.00310>
 
 Develop a new analysis for DP-SGD that captures the intuition that similar neighbors in dataset enjoy better privacy than outliers, by introducing the dependence on the distribution of model. Develop new composition theorem to use this per-step analysis, shows that this analysis shows DP-SGD leaks significanly less privacy for many datapoints, and correctly classified points obtain better privacy.
+
+### Neural Characteristic Activation Value Analysis for Improved ReLU Network Feature Learning
+
+<https://www.arxiv.org/abs/2305.15912>
+
+Consider the characteric activation which is nondifferentiable points induced by ReLU, and find a connection between these characteristic set and learned features. Use this to understand the effects of normalization on regularization and stabilization of SGD.
+
+### The Implicit Bias of Minima Stability in Multivariate Shallow ReLU Networks
+
+<https://www.arxiv.org/abs/2306.17499>
+
+Extend the univariate implicit bias that linearly stable minima correspond to bounded weighted L1 norm of second derivative, which gets smaller for larger step sizes, to the multivariate case which applies to the Laplacian. Also show that the universal approximation do not hold for stable shallow networks, while two hidden-layer can. Finally prove that universal approximation holds for sufficiently smooth functions to the stable shallow ReLU networks.

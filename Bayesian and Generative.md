@@ -290,3 +290,9 @@ Assuming that data are supported on a low-dimensional manifold, prove statistica
 <https://www.arxiv.org/abs/2301.07882>
 
 Show that the analytic mean drift function in DDPM and the score function in SGM asymptotically blow up in the final stages, for singular distributions that are concentrated in low dimensional manifold. Derive new target and associated loss, which remains bounded for such singular distributions.
+
+### Approximating Probability Distributions by using Wasserstein Generative Adversarial Networks
+
+<https://www.arxiv.org/abs/2103.10060>
+
+Establish quantified generalization bound for Wasserstein distance between generated and target distributions. WGANs has higher requirement for capacity of discriminators than generators, and overly deep and wide generators may be worse than low-capacity generators if discriminators are not strong enough.

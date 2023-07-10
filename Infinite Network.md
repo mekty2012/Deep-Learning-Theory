@@ -1098,6 +1098,12 @@ Show that DEQ models, which is a infinite-depth weight tied model globally conve
 
 Show that infinite-width-then-depth limit and proper scailng, the ResNets converge weakly to Gaussian processes indexed on spaces of continuous paths and kernels satisfying certain PDE. For the identity activation, show that this equation becomes liear PDE and agrees with signature kernel.
 
+### The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit
+
+<https://www.arxiv.org/abs/2306.17759>
+
+Study the covariance matrix of modified softmax-based attention models with skip connections in proportional limit of infinite depth and width. Show that limiting distribution can be described by a SDE, while the attention is modified by centering the softmax output at identity and scaling via temperature paramter. Existence of such limit implies that covariance structure is well behaved and this prevents the rank degeneracy in deep attention models.
+
 # Application
 
 ### Finding sparse trainable neural networks through Neural Tangent Transfer
