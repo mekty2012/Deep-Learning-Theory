@@ -653,3 +653,9 @@ Consider the optimization of smooth and strongly convex objective with constant 
 <https://www.arxiv.org/abs/2111.06171>
 
 Show that SPPAM allows a faster linear convergence to a neighborhood compared to SPPA with better contraction factor, and SPPAM depends on problem constants more favorably, allowing wider range of step size and momentum for convergence.
+
+### Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima
+
+<https://www.arxiv.org/abs/2306.09850>
+
+Consider SAM with constant perturbation size nd gradietn normalization, find out that SAM has limited capability to global convergence or stationary points. Show that stochastic SAM suffers additive error indicating its convergence towards neighbors, and deterministic SAM also suffer for nonconvex objective.

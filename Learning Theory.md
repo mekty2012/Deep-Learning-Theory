@@ -477,3 +477,9 @@ Present new approach for generalization of deep ReLU net, by taking the sparsity
 <https://www.arxiv.org/abs/2305.13471>
 
 Prove that two-layer neural network with normalized GD on separable data leads to linear rate of convergence to the global optimum, by showing gradient self-boundedness conditions and log-lipschitz property. Also study generalization via algorithmic-stability analysis, and show that normalized GD does not overfit via finite-time generalization bounds.
+
+### Effective Minkowski Dimension of Deep Nonparametric Regression: Function Approximation and Statistical Theories
+
+<https://www.arxiv.org/abs/2306.14859>
+
+Consider setting where input data is characterized by effective Minkowski dimension, and prove that the sample complexity of deep nonparametric regression only depends on the effective Minkowski dimension. Appply this setting to multivariate Gaussian distribution, and show that effective Minkowski dimension is small for decay rate of eigenvalues of covariance.

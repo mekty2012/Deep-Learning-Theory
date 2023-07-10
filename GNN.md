@@ -309,3 +309,9 @@ Show that asymmetric graph scattering transforms have many same theoretical guar
 <https://www.arxiv.org/abs/2305.18467>
 
 Consider the convolutional manifold neural networks and graph convolution neural networks with Laplace-Beltrami operator and graph Laplacinas, prove non-asymptotic error bounds showing that they converge to convolutional filters. Then discover trade-off between discriminnability of graph filters and approximating the manifold filters. Finally derive transferability for two geometric graph from same manifold.
+
+### Graph Neural Networks Provably Benefit from Structural Information: A Feature Learning Perspective
+
+<https://www.arxiv.org/abs/2306.13926>
+
+Provide the characterization of signal learning and noise memorization in two-layer GCNs, revealing that graph convolution augments the benign overfitting regime compared to CNNs, signal learning surpasses noise memorization.
