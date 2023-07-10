@@ -465,3 +465,9 @@ Defines FCNN architecture for space of probability measures, leveraging the appr
 <https://www.arxiv.org/abs/2307.02501>
 
 Consider the algorithm-dependent empirical Rademacher complexity, derive novel bounds on finite fractal dimension that extends continuous ones, simplify dimension independent generalization bound for SGD, and recover some VC classes and compression schemes.
+
+### Sparsity-aware generalization theory for deep neural networks
+
+<https://www.arxiv.org/abs/2307.00426>
+
+Present new approach for generalization of deep ReLU net, by taking the sparsity in the hidden layer activation. Show the trade-offs between sparsity and generalization, without making strong assumptions about degree of sparsity. 

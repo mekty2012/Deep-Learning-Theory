@@ -581,7 +581,7 @@ Study the NTK of matrix product states and the convergence, show that NTK of MPS
 
 Contribute to the theoretical understanding of square loss in classification by how it performs for overparameterized neural networks in the NTK regime. When non-separational case, fast convergence rate is established for both misclassification rate and calibration error, and separation case exponentially fast rate. Also prove lower bounded margin.
 
-## On Lazy Training in Differentiable Programming
+### On Lazy Training in Differentiable Programming
 
 <https://www.arxiv.org/abs/1812.07956>
 
@@ -875,6 +875,12 @@ Show that the multivariate spline have a random feature expansion as infinitely 
 <https://www.arxiv.org/abs/2303.15739>
 
 Consider the deep ReLU network, and show that the Bayesian free energy is bounded even if the depth is larger than the necessary. This implies that Bayesian generalization error does not increase if deep ReLU network is designed to be sufficiently large.
+
+### Absorbing Phase Transitions in Artificial Deep Neural Networks
+
+<https://www.arxiv.org/abs/2307.02284>
+
+Show that the properly initialized neural network can be understood as universal critical phenomena in absorbing phase transitions, by studying order-to-chaos transition in FCNN and CNNs. Show that there is well-defined transition from ordered state to the chaotic state for finite networks, and difference is reflected in universality class.
 
 # Spectral Bias
 

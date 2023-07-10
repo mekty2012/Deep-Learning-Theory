@@ -641,3 +641,9 @@ Extend the doubling condition on the training data which ensures the accuracy du
 <https://www.arxiv.org/abs/230.03357>
 
 Provide the stability and generalization analysis fo stochastic compositional gradient descent algorithms that includes RL, AUC maximization and meta-learning. Define compositional uniform stability and its relation with generalization, and establish uniform stability result for two algorithms SCGD and SCSC.
+
+### Convergence and concentration properties of constant step-size SGD through Markov chains
+
+<https://www.arxiv.org/abs/2306.11497>
+
+Consider the optimization of smooth and strongly convex objective with constant step-size SGD, and study it via Markov chain. Show that with unbiased gradient estiamtes with controlled variance, the iteration converges to an invariatn distribution in TV distance, also the convergence in Wasserstein distance. Then with this invariance property, show that limit distribution holds same concentration properties of gradient, which gives high-confidence bounds.

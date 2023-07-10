@@ -285,3 +285,9 @@ Show that for the graphs from Erdos-Renyi model, the probability of graphs mappi
 <https://www.arxiv.org/abs/2304.01575>
 
 Provide sufficient condition for a pooling operator to fully preserve the expressive power of message passing layers before it. Review several existing pooling operators, and identify those that fails to satisfy this condition.
+
+### A Neural Collapse Perspective on Feature Evolution in Graph Neural Networks
+
+<https://www.arxiv.org/abs/230.01951>
+
+Show that optimistic mathematical model requires the graph obeys strict structural condition to posses a minimizer with exact neural collapse, for node-wise classification. By studying the gradient dynamics of theoretical model, provide reasoning for partial collapse which is different to neural collapse in instance-wise setting.

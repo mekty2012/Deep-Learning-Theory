@@ -885,3 +885,9 @@ Show that ReLU reduces variance more than expected, and batch normalization ampl
 <https://www.arxiv.org/abs/200.04413>
 
 Establish backward feature correction where lower-level error is corrected when trained together with higher layers, and show that this principle is necessary by finding a concept class of multi-variate polynomials that neural netwroks can learn in polytime via SGD, while other models like layerwise training, composition of kernels, or two-layer networks can't learn the solution.
+
+### How Deep Neural Networks Learn Compositional Data: The Random Hierarchy Model
+
+<https://www.arxiv.org/abs/2307.02129>
+
+Consider random hierarchy model, where each C classes correspond to m synonymic composition of high-level featueres that are composed of sub-features through an iterative process repeated L times, show that C * m^L samples are needed for deep CNN to learn. This value coincide the training set size that representation becomes invariant to exchanges of synonyms, also the number of data where correlations between low-level features and classes are detecable. This indicate that deep CNNs overcome the curse of dimensionality by building invariant representations.

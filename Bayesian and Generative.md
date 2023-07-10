@@ -103,6 +103,12 @@ Prove that the partially stochastic neural networks with only n stochastic biase
 
 Consider the Bayeisan inference using deep linear network. For the zero noise, show that both the predictive posterior and the ayesian model evidence can be written in closed form in terms of Meijer-G functions. This result is non-asymptotic, and holds for all depth, width, giving exact solution to Bayesian interpolation using a deep GP with a Euclidean covariance at each layer. 
 
+### Free energy of Bayesian Convolutional Neural Network with Skip Connection
+
+<https://www.arxiv.org/abs/2307.01417>
+
+Derive the Bayesian free energy of CNN with and without skip connection, and show that upper bound of free energy does not depend on the overparameterization and the generalization error has similar property.
+
 ## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation

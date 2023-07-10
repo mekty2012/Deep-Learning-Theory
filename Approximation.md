@@ -453,3 +453,9 @@ Introduce class of neural operators between different geometry, which includes F
 <https://www.arxiv.org/abs/2304.12231>
 
 Construct the universal approximation between arbitrary Polish metric space, using universal approximators between euclidean space, where the approximator returns discrete probability measure. Then prove quantitative guarantee for Hoelder-like maps, including finite graph, rough differential equation between Carnot group, and continuous non-linear operators between Banach space.
+
+### SignReLU neural network and its approximation ability
+
+<https://www.arxiv.org/abs/2210.10264>
+
+Consider the activation named as SignReLU, show that these activations outperform rational and ReLU networks in terms of approximation.
