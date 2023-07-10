@@ -659,3 +659,9 @@ Show that SPPAM allows a faster linear convergence to a neighborhood compared to
 <https://www.arxiv.org/abs/2306.09850>
 
 Consider SAM with constant perturbation size nd gradietn normalization, find out that SAM has limited capability to global convergence or stationary points. Show that stochastic SAM suffers additive error indicating its convergence towards neighbors, and deterministic SAM also suffer for nonconvex objective.
+
+### Convergence of First-Order Methods for Constrained Nonconvex Optimization with Dependent Data
+
+<https://www.arxiv.org/abs/2203.15797>
+
+Consider stochastic projected gradient under dependent data sampling, for constrained smooth nonconvex optimization. Show that near the stationary point needs t^(-1/4) convergence and complexity eps^(-4) with norm of gradient of Moreau envelope, with only mild mixing condition. This approach is general to derive convergence of adaptive or momentum algorithms.
