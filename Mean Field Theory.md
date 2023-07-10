@@ -220,3 +220,9 @@ Analyze the Elman-type RNNs and their mean-field regime, showing the convergence
 <https://www.arxiv.org/abs/2304.01063>
 
 Show that the function constructed for approximation depth separation is also appears in optimization, that learning that function with overparameterized network with polynomially many neurons is efficient, using the mean-field limit in multilayer networks.
+
+### Neural Hilbert Ladders: Multi-Layer Neural Networks in Function Space
+
+<https://www.arxiv.org/abs/2307.01177>
+
+View multi-layer NN as hierarchy of RKHS, named as neural Hilbert ladder which allow to define the complexity measure. Prove correspondence between L-layer NN and L-level NHLs, and show the generalization guarantees for learning an NHL with controlled complexity measures, derive the correspondence with training of mean field limit NN, derive the evolution as dynamics of multiple random fields, and some depth separation.

@@ -891,3 +891,9 @@ Establish backward feature correction where lower-level error is corrected when 
 <https://www.arxiv.org/abs/2307.02129>
 
 Consider random hierarchy model, where each C classes correspond to m synonymic composition of high-level featueres that are composed of sub-features through an iterative process repeated L times, show that C * m^L samples are needed for deep CNN to learn. This value coincide the training set size that representation becomes invariant to exchanges of synonyms, also the number of data where correlations between low-level features and classes are detecable. This indicate that deep CNNs overcome the curse of dimensionality by building invariant representations.
+
+### Gradients Look Alike: Sensitivity is Often Overestimated in DP-SGD
+
+<https://www.arxiv.org/abs/2307.00310>
+
+Develop a new analysis for DP-SGD that captures the intuition that similar neighbors in dataset enjoy better privacy than outliers, by introducing the dependence on the distribution of model. Develop new composition theorem to use this per-step analysis, shows that this analysis shows DP-SGD leaks significanly less privacy for many datapoints, and correctly classified points obtain better privacy.

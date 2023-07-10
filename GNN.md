@@ -291,3 +291,9 @@ Provide sufficient condition for a pooling operator to fully preserve the expres
 <https://www.arxiv.org/abs/230.01951>
 
 Show that optimistic mathematical model requires the graph obeys strict structural condition to posses a minimizer with exact neural collapse, for node-wise classification. By studying the gradient dynamics of theoretical model, provide reasoning for partial collapse which is different to neural collapse in instance-wise setting.
+
+### Generalization Limits of Graph Neural Networks in Identity Effects Learning
+
+<https://www.arxiv.org/abs/2307.00134>
+
+Establish new generalization properties and fundamental limits of GNNs in the context of learning so-called identity effects, determining whether an object is composed of two identical components or not. Show that GNNs with SGD are unable to generalize in two-word setting for unseen letters, and dicyclic graphs have positive existence results.
