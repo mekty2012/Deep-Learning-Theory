@@ -316,3 +316,9 @@ Derive new fixpoint abstraction without join, and new abstract domain CH-Zonotop
 <https://www.arxiv.org/abs/2306.15403>
 
 Using homeomorphism and open map property, establish rigorous guarantees between boundaries of input set and output sets. These properties allow extracting subset of inputs for reachability computation, for some invertible ResNet and Neural ODEs, while open map is easier to satisfied. 
+
+### Verifying Global Neural Network Specifications using Hyperproperties
+
+<https://www.arxiv.org/abs/2306.12495>
+
+Study global specifications for providing guarantees for all potential inputs, and introduce hyperproperty which includes monotonicity, Lipschitz continuity, global robustness and dependency fairness. These enables verifying specifications using existing approaches by leveraging capabilities for verifying general computational graphs.
