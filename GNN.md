@@ -297,3 +297,9 @@ Show that optimistic mathematical model requires the graph obeys strict structur
 <https://www.arxiv.org/abs/2307.00134>
 
 Establish new generalization properties and fundamental limits of GNNs in the context of learning so-called identity effects, determining whether an object is composed of two identical components or not. Show that GNNs with SGD are unable to generalize in two-word setting for unseen letters, and dicyclic graphs have positive existence results.
+
+### Understanding Graph Neural Networks with Generalized Geometric Scattering Transforms
+
+<https://www.arxiv.org/abs/1911.06253>
+
+Show that asymmetric graph scattering transforms have many same theoretical guarantees as their symmetric version, and introduce the provably stability and invariance guarantees for large family of graph neural networks.

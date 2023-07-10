@@ -54,6 +54,12 @@ Prove that the neural collapse occur in deep linear network for MSE and CE loss,
 
 Propose the generalized neural collapse hypothesis, which removes the assumption on the feature dimension and the number of classes. Derive new objective named hyperspherical uniformity gap, which converges to the generalized cneural collapse and have more flexity.
 
+### Are Neurons Actually Collapsed? On the Fine-Grained Structure in Neural Representations
+
+<https://www.arxiv.org/abs/2306.17105>
+
+Empirically find that even after collapse, small variations are enough to capture the input distribution's structure. Theoretically show the fine-grained representation structure in simple synthetic setting.
+
 ## Hierarchical Tensor Decomposition
 
 ### Analysis and Design of Convolutional Networks via Hierarchical Tensor Decompositions
@@ -909,3 +915,9 @@ Consider the characteric activation which is nondifferentiable points induced by
 <https://www.arxiv.org/abs/2306.17499>
 
 Extend the univariate implicit bias that linearly stable minima correspond to bounded weighted L1 norm of second derivative, which gets smaller for larger step sizes, to the multivariate case which applies to the Laplacian. Also show that the universal approximation do not hold for stable shallow networks, while two hidden-layer can. Finally prove that universal approximation holds for sufficiently smooth functions to the stable shallow ReLU networks.
+
+### Neural networks can detect model-free static arbitrage strategies
+
+<https://www.arxiv.org/abs/2306.16422>
+
+Show that neural network can detect model-free static arbitrage strategy if exists. Prove that a single neural network can approximately solve a class of convex semi-infinite programs, which shows the main result.

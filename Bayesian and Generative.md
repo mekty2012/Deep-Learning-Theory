@@ -109,6 +109,12 @@ Consider the Bayeisan inference using deep linear network. For the zero noise, s
 
 Derive the Bayesian free energy of CNN with and without skip connection, and show that upper bound of free energy does not depend on the overparameterization and the generalization error has similar property.
 
+### Understanding Pathologies of Deep Heteroskedastic Regression
+
+<https://www.arxiv.org/abs/2306.16717>
+
+Show that the instabilities of over-parameterized heteroskedastic regression that either mean or variance collapses, are already exists in a field theory of an overparameterized conditional Gaussian model. Derive a free energy that can be solved numerically, and shows existence of phase transition of behaviors of regressors on the regularization strenghts, which emphasizes the necessity of careful regression.
+
 ## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
