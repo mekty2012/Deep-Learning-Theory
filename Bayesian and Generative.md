@@ -115,6 +115,12 @@ Derive the Bayesian free energy of CNN with and without skip connection, and sho
 
 Show that the instabilities of over-parameterized heteroskedastic regression that either mean or variance collapses, are already exists in a field theory of an overparameterized conditional Gaussian model. Derive a free energy that can be solved numerically, and shows existence of phase transition of behaviors of regressors on the regularization strenghts, which emphasizes the necessity of careful regression.
 
+### Bayes-optimal Learning of Deep random Networks of Extensive-width
+
+<https://www.arxiv.org/abs/2302.00375>
+
+Derive closed-form expression for the Bayes-optimal test error in the asymptotic limit where input dimension, number of sample, and width are proportionally large, ad show that optimally regularized ridge regression and kernel regression achieve Bayes-optimal performance, while logistic loss gives near-optimal test error for classification.
+
 ## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation

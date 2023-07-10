@@ -78,6 +78,12 @@ Show that transformers can implement least squares, ridge regression, Lasso, gen
 
 Study a class of formal languages that model the real-world examples of English sentences, and construct neural language models can solve the next-word prediction task in this setting with zero error. 
 
+### Towards Revealing the Mystery behind Chain of Thought: A Theoretical Perspective
+
+<https://www.arxiv.org/abs/2305.15408>
+
+Show that bounde depth transformer are unable to produce correct answers for basic arithmetics unless model grows polynomially with input ength, where constant size transformer can generate CoT derivation with commonly used language format. Moreover, show that dynamic programming can be solved with CoT.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
