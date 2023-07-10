@@ -232,3 +232,9 @@ View multi-layer NN as hierarchy of RKHS, named as neural Hilbert ladder which a
 <https://www.arxiv.org/abs/2306.16361>
 
 Provide a mean-field analysis fo projected gradient flow on polynomial-width two layer neural network, and prove that d^3.1 sample size is enough to converge polynomially to the error that is not achivable by kernel methods less than d^4 samples.
+
+### Mean Field Theory in Deep Metric Learning
+
+<https://www.arxiv.org/abs/2306.15368>
+
+With mean field theory, develop two loss functions that are classification based with reduced training complexity.

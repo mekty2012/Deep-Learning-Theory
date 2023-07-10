@@ -647,3 +647,9 @@ Provide the stability and generalization analysis fo stochastic compositional gr
 <https://www.arxiv.org/abs/2306.11497>
 
 Consider the optimization of smooth and strongly convex objective with constant step-size SGD, and study it via Markov chain. Show that with unbiased gradient estiamtes with controlled variance, the iteration converges to an invariatn distribution in TV distance, also the convergence in Wasserstein distance. Then with this invariance property, show that limit distribution holds same concentration properties of gradient, which gives high-confidence bounds.
+
+### Convergence and Stability of the Stochastic Proximal Point Algorithm with Momentum
+
+<https://www.arxiv.org/abs/2111.06171>
+
+Show that SPPAM allows a faster linear convergence to a neighborhood compared to SPPA with better contraction factor, and SPPAM depends on problem constants more favorably, allowing wider range of step size and momentum for convergence.

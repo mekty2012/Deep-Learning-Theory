@@ -471,3 +471,9 @@ Consider the algorithm-dependent empirical Rademacher complexity, derive novel b
 <https://www.arxiv.org/abs/2307.00426>
 
 Present new approach for generalization of deep ReLU net, by taking the sparsity in the hidden layer activation. Show the trade-offs between sparsity and generalization, without making strong assumptions about degree of sparsity. 
+
+### Fast Convergence in Learning Two-Layer Neural Networks with Separable Data
+
+<https://www.arxiv.org/abs/2305.13471>
+
+Prove that two-layer neural network with normalized GD on separable data leads to linear rate of convergence to the global optimum, by showing gradient self-boundedness conditions and log-lipschitz property. Also study generalization via algorithmic-stability analysis, and show that normalized GD does not overfit via finite-time generalization bounds.

@@ -310,3 +310,9 @@ Use domain theorytic L-derivative, which coincides with Clarke's generalized gra
 <https://www.arxiv.org/abs/2110.08260>
 
 Derive new fixpoint abstraction without join, and new abstract domain CH-Zonotope, and apply it to verify monotonic DEQ models.
+
+### Verifying Safety of Neural Networks from Topological Perspectives
+
+<https://www.arxiv.org/abs/2306.15403>
+
+Using homeomorphism and open map property, establish rigorous guarantees between boundaries of input set and output sets. These properties allow extracting subset of inputs for reachability computation, for some invertible ResNet and Neural ODEs, while open map is easier to satisfied. 
