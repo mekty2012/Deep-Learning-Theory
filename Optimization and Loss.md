@@ -630,8 +630,14 @@ Give the convergence guarantees that is tight for both deterministic and stochas
 
 Introduce canonical space, and show that the objective of NN is convex in canonical space. Then show that the canonical space and parameter space is related by a pointwise linear transformation, and show that gradient descent methods a.s. convergest to a global minimum of zero loss given that the linear transformation is full rank. 
 
-### Stability of Accuracy ofr the Training of DNNs Via the Uniform Doubling Condition
+### Stability of Accuracy of the Training of DNNs Via the Uniform Doubling Condition
 
 <https://www.arxiv.org/abs/2210.08415>
 
 Extend the doubling condition on the training data which ensures the accuracy during training for absolute value activation NN, to uniform doubling condition which do not depends on choices, and extend it to applied to any piecewise lienar functions.
+
+### Stability and Generalization of Stochastic Compositional Gradient Descent Algorithms
+
+<https://www.arxiv.org/abs/230.03357>
+
+Provide the stability and generalization analysis fo stochastic compositional gradient descent algorithms that includes RL, AUC maximization and meta-learning. Define compositional uniform stability and its relation with generalization, and establish uniform stability result for two algorithms SCGD and SCSC.

@@ -60,6 +60,12 @@ Prove the sample complexity of shallow vision transformer, which is correlated w
 
 Show that transformer can represent any finite state automaton by hierarchically reparameterizing the dynamics, and there is shortcut solution with o(T) layer where T is input sequence length, and there always exist polynomial-siazed O(log T) depth solution. Moreover O(1) simulators are common.
 
+### One Step of Gradient Descent is Provably the Optimal In-Context Learner with One Layer of Linear Self-Attention
+
+<https://www.arxiv.org/abs/2307.03576>
+
+Show that under the standard Gaussian covariates, the single layer of linear self-attention trained with noisy linear regression data will implement a single step of GD on the least-squares linear regression. Then shows changes in the distribution changes learned algorithm a lot, the pre-conditioned GD while response has not large effects.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
@@ -181,6 +187,12 @@ Usual analysis on implicit neural network collapse to studying only last layer, 
 <https://www.arxiv.org/abs/2302.05797>
 
 Show that the DEQs with any general activation having bounded first and second derivative globally converges if it is over-parameterized, by designing the population Gram matrix and dual activation by Hermite polynomial. 
+
+### PAC bounds of continuous Linear Parameter-Varying systems related to neural ODEs
+
+<https://www.arxiv.org/abs/2307.03630>
+
+Show that large class of neural ODEs can e embedded into linear parameter varying systems, and derive PAC bounds under stability, which does not depend on the integration interval.
 
 ## Others
 

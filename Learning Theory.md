@@ -453,3 +453,9 @@ Give the polynomial algorithm that learns combination of k ReLU neurons w.r.t. t
 <https://www.arxiv.org/abs/2301.11509>
 
 Design new neural operator sNO+eps, which includes the kernel integral operator as self-attention, and derive upper bound of the Rademacher complexity that do not depend on the norm control of the parameters.
+
+### Learning Theory of Distribution Regression with Neural Networks
+
+<https://www.arxiv.org/abs/2307.03487>
+
+Defines FCNN architecture for space of probability measures, leveraging the approximation theory of functionals. Show that these hypothesis space results almost optimal learning rates for the proposed distribution regression, up to the logarithmic terms via two-stage error decomposition.

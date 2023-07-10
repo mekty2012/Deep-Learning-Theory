@@ -879,3 +879,9 @@ In the edge of choas where training has maximum trainable depth, the tanh activa
 <https://www.arxiv.org/abs/2304.11692>
 
 Show that ReLU reduces variance more than expected, and batch normalization amplifies the gradient during recovery of this. This makes gradient explosion even if the forward computation is stable. 
+
+### Backward Feature Correction: How Deep Learning Performs Deep (Hierarchical) Learning
+
+<https://www.arxiv.org/abs/200.04413>
+
+Establish backward feature correction where lower-level error is corrected when trained together with higher layers, and show that this principle is necessary by finding a concept class of multi-variate polynomials that neural netwroks can learn in polytime via SGD, while other models like layerwise training, composition of kernels, or two-layer networks can't learn the solution.
