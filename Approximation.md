@@ -459,3 +459,39 @@ Construct the universal approximation between arbitrary Polish metric space, usi
 <https://www.arxiv.org/abs/2210.10264>
 
 Consider the activation named as SignReLU, show that these activations outperform rational and ReLU networks in terms of approximation.
+
+### Neural Oscillators are Universal
+
+<https://www.arxiv.org/abs/2305.08753>
+
+Introduce the abstract class of neural oscillators, and prove that they are universal to approximate any continuous and casual operator mapping.
+
+### Learning on Manifolds: Universal Approximations Properties using Geometric Controllability Conditions for Neural ODEs
+
+<https://www.arxiv.org/abs/2305.08849>
+
+Design new neural ODE that leave a given manifold invariant, and show that any flow of a manifold-constrained dynamical system can also be approximated using the flow of manifold-constrained neural ODE when controllability condition is satisfied. Also show that this theory works for finite width infinite deep network.
+
+### Expressivity of Shallow and Deep Neural Networks for Polynomial Approximation
+
+<https://www.arxiv.org/abs/2303.03544>
+
+Establish an exponential lower bound on the compleixty of any shallow network approximating the product function, and show that lower bound doesn't apply to normalized Lipschitz monomials. This implies that shallow ReLU nets suffer the curse of dimensionality when Lipschitz parameter scales with dimension.
+
+### Universal Approximation Properties for an ODENet and a ResNet: Mathematical Analysis and Numerical Experiments
+
+<https://www.arxiv.org/abs/2101.10229>
+
+Prove a universal approximation for ODENet, that ODENet with width input dim + output dim and nonpolynomial activation function can approximate any continuous function, and ResNet also.
+
+### On the Universal Approximation Property of Deep Fully Convolutional Neural Networks
+
+<https://www.arxiv.org/abs/2211.14047>
+
+Prove that convolutional networks and continuous counterpart can achieve universal approximation with with symmetry at constant channel width, and show non-residual variant with at least two channel and kernel size two. 
+
+### Universal approximation with complex-valued deep narrow neural networks
+
+<https://www.arxiv.org/abs/2305.16910>
+
+Find the descriptions of activations that finite width infintie depth complex-valued neural networks are universal, that is neight holomorphic nor antiholomorphic, nor R-affine. 

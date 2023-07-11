@@ -152,6 +152,18 @@ Prove that a linear PDE up to n-th order can be satisfied by an MLP with Cn acti
 
 Extend the lottery ticket hypothesis and elastic lottery hypothesis to Hamiltonian NN for solving differential equations, find lottery tickets for two Hamiltonian Neural Networks with transferability and dependent accuracy on integration times.
 
+### Global Convergence of Deep Galerkin and PINNs Methods for Solving Partial Differential Equations
+
+<https://www.arxiv.org/abs/2305.06000>
+
+Show that as the width of network goes to infinity, the trained neural network converges to the solution of infinite-dimensional ODE, and the PDE residual converges to zero. 
+
+### Provably Correct Physics-Informed Neural Networks
+
+<https://www.arxiv.org/abs/2305.10157>
+
+Establish tolerance based correctness condition instead of comparison to ground truth points, and design partial CROWN that ost-train to bound PINN residual errors.
+
 ## Invertible NN
 
 ### Understanding and Mitigating Exploding Inverses in Invertible Neural Networks
@@ -351,3 +363,15 @@ Leverage the complexity measures using the global and local Rademacher complexit
 <https://www.arxiv.org/abs/2305.00608>
 
 Consider the rectified power unit neural network, whose partial derivatives are mixed-activated RePU neural networks, and derive the upper bound of the complexity of function class. Also establish the error bound for approximating C^s functions and derivatives, with the case when approximating in the low-dimensional support. 
+
+### Generalization Bounds for Neural Belief Propagation Decoders
+
+<https://www.arxiv.org/abs/2305.10540>
+
+Consider the neural belief propagation which unfolds belief propagation to neural network, and show the generalization gap depending on the decoder complexity, including blocklength, message length, variable node degrees, decoding iteration.
+
+### Universal Approximation and the Topological Neural Network
+
+<https://www.arxiv.org/abs/2305.16639>
+
+Consider TNN whose input is over Tychonoff topological space, and distributional neural network which takes Borel measures, show that these neural networks can approximate unfiromly continuosu functions with unique uniformity.

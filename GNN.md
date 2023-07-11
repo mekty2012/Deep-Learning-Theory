@@ -338,4 +338,28 @@ Prove that subgraph MPNNs fail to count more than 4 cycles at node level, and pr
 
 <https://www.arxiv.org/abs/2305.04963>
 
-Propose by assigning labels to nodes as feature to increase expressivity, which gives (k, l)-WL algorithm that is stronger than k-WL. Analyze the expressivity, and connects with subgraph GNNs. 
+Propose by assigning labels to nodes as feature to increase expressivity, which gives (k, l)-WL algorithm that is stronger than k-WL. Analyze the expressivity, and connects with subgraph GNNs.  
+
+### Towards Understanding the Generalization of Graph Neural Networks
+
+<https://www.arxiv.org/abs/2305.08048>
+
+Derive generalization gap bounds and gradient in transductive learning, and for popular GNNs. The results reveal factors affecting the generalization gap.
+
+### What functions can Graph Neural Networks compute on random graph? The role of Positional Encoding
+
+<https://www.arxiv.org/abs/2305.14814>
+
+Provide the description of function space by equivariant GNNs, and emphasize the role of input node features with node positional encodings. Extend some previous universality results to more general models with studying the example of positional encodings.
+
+### Demystifying Oversmoothing in Attention-Based Graph Neural Networks
+
+<https://www.arxiv.org/abs/2305.16102>
+
+By viewing attention based GNNs as nonlinear time-varying dynamical systems, show that graph attention still can't prevent oversmoothing and loses expressive power exponentailly.
+
+### A graphon-signal analysis of graph neural networks
+
+<https://www.arxiv.org/abs/2305.15987>
+
+By using graphon-signal analysis, show that MPNNs are Lipschitz continuous over garphon-signal metric space, and derive generalization bound and the stability of MPNNs to subsampling of graph signals.

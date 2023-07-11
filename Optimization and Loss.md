@@ -689,3 +689,15 @@ Consider nose injection which regularizes through Hessian trace, provide matchin
 <https://www.arxiv.org/abs/2305.03938>
 
 With two-timescale updating scheme, prove the convergence which includes various Adam-family methods for nonsmooth neural network training, and develop gradient clipping for heavy-tailed noise.
+
+### On Statistical Properties of Sharpness-Aware Minimization: Provable Guarantees
+
+<https://www.arxiv.org/abs/2302.11836>
+
+Study the statistical performance of SAM, show that SAM has smaller prediction error over GD for one hidden layer neural network, while SAM is particularly well suited for non-convex problems. 
+
+### The Crucial Role of Normalization in Sharpness-Aware Minimization
+
+<https://www.arxiv.org/abs/2305.15287>
+
+Show that normalization for SAM for both convex and non-convex function is crucial to stabilize the algorithm, and algorithm to drift along a continuum of minima, making SAM robust to the hyperparameter.

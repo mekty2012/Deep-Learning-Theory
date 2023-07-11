@@ -888,6 +888,18 @@ Show that the properly initialized neural network can be understood as universal
 
 Derive upper bounds on the Wasserstein distance w.r.t. sup norm, between any continuous random field and Gaussian with Stein's method. Develop a Gaussian smoothing technique that transfer a bound, and obtain first bound on the Gaussian random field approximation of wide random neural networks of any depths and Lipschitz activations.
 
+### Neural networks learn to magnify areas near decision boundaries
+
+<https://www.arxiv.org/abs/2301.11375>
+
+Show that the Riemannian geometry in feature maps induce highly symmetric metrics at infinite width, and the feature learning makes the local areas magnifies along decision boundaries.
+
+### Sparsity-depth Tradeoff in Infinitely Wide Deep Neural Networks
+
+<https://www.arxiv.org/abs/2305.10550>
+
+Consider how sparse neural activity affects the generalization performance of large width limit, and derive NNGP for ReLU activation with predetermined fraction of active neurons. These model outperform non-sparse networks at shallow depth, and extend the kernel-ridge regression's generalization error.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks
@@ -1018,6 +1030,12 @@ Consider the modification of the regularization path, which is the sequence of p
 
 By eigenvalue decay rate of deep NTK, conclude that neural networks with proper early stopping achieve the minimax rate, when the regression function lies in the RKHS of NTK.
 
+### ReLU soothes the NTK condition number and accelerates optimization for wide neural networks
+
+<https://www.arxiv.org/abs/2305.08813>
+
+Show that ReLU leads better separation and better condition number, compared to linear neural networks. Also show that a deeper ReLU nets has a smaller NTK condition number than shallow one, meaning that better GD convergence rate.   
+
 # Infinite Depth
 
 ### The Neural Covariance SDE: Shaped Infinite Depth-and-Width Networks at Initialization
@@ -1109,6 +1127,12 @@ Show that infinite-width-then-depth limit and proper scailng, the ResNets conver
 <https://www.arxiv.org/abs/2306.17759>
 
 Study the covariance matrix of modified softmax-based attention models with skip connections in proportional limit of infinite depth and width. Show that limiting distribution can be described by a SDE, while the attention is modified by centering the softmax output at identity and scaling via temperature paramter. Existence of such limit implies that covariance structure is well behaved and this prevents the rank degeneracy in deep attention models.
+
+### Depth Dependence of muP Learning Rates in ReLU MLPs
+
+<https://www.arxiv.org/abs/2305.07810>
+
+Find that the maximal update learning rate is independent of width but should have dependence on depth.
 
 # Application
 

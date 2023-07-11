@@ -165,3 +165,9 @@ Provide full characterisation of equivariant layer on tensor power of R^n, for o
 <https://www.arxiv.org/abs/2303.04198>
 
 Considering the linear equivariant steerable neural network under gradient flow, show that thery converges to the unique group-invariant classifier with maximum margin with input group action. Also with unitary assumption, show the equivalence of steerable network and data augmentation, and demonstrate improved margin and generalization bound over non-invariant counterparts.
+
+### Statistical Guarantees of Group-Invariant GANs
+
+<https://www.arxiv.org/abs/2305.13517>
+
+Show that group-invariant has reduced sample complexity, by a power of group size and power depends on the intrinsic dimension of the distribution's support.

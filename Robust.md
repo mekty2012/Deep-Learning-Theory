@@ -141,3 +141,9 @@ Show that the gradient flow of ReLU NN is biased towards solutions that generali
 <https://www.arxiv.org/abs/2303.14173>
 
 Show that the adversarial success of standard PGD attacks on Lp norm constraint behaves like a monotonically increasing function epsilon * (dim(V) / dim(X))^(1/q) where V is the subspace of attack and X is input space. 
+
+### Beyond the Universal Law of Robustness: Sharper Laws for Random Features and Neural Tangent Kernels
+
+<https://www.arxiv.org/abs/2302.01629>
+
+Prove that random feature models are not robust at any degree of overparameterizations, but NTK models meets the universal lower bound and robust if necessarity on overparamterization is fulfilled.

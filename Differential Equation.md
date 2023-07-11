@@ -129,3 +129,9 @@ Derive a counter term that cancels the discretization error between GF and GD fo
 <https://www.arxiv.org/abs/2002.02247>
 
 For the FCNNs with differentiable, polynomially bounded activations, projecting the weights to a compact subset when using a dropout algorithm, the weight of NN converges to a unique stationary point of a projected system of ODEs. With this global convergence guarantee, investigate the convergence rate of dropout, the generic sample complexity bounds for finding epsilon-stationary points of smooth nonconvex function susing SGD with dropout that explicitly depending on the dropout probability, and obtain upper bound on the rate of GD.
+
+### On the Generalization Capacities of Neural Controlled Differential Equations
+
+<https://www.arxiv.org/abs/2305.16791>
+
+Consider supervised learning of NCDEs for irregularly sampled time series, find that the approximation bias of discretization is related to the approximation error of Lipschitz function defining the generative model by a shallow neural network.

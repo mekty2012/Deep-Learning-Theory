@@ -60,6 +60,18 @@ Propose the generalized neural collapse hypothesis, which removes the assumption
 
 Empirically find that even after collapse, small variations are enough to capture the input distribution's structure. Theoretically show the fine-grained representation structure in simple synthetic setting.
 
+### A Study of Neural Collapse Phenomenon: Grassmannian Frame, Symmetry and Generalization
+
+<https://www.arxiv.org/abs/2304.08914>
+
+Obtain the Grassmannian frame structure of optimization and generalization, which maximally separates features of two classes while not requiring larger feature dimension than number of classes. Show the symmetric generalization of this Grassmannian frame of permutation.
+
+### Neural (Tangent Kernel) Collapse
+
+<https://www.arxiv.org/abs/2305.16427>
+
+Under the assumption that empirical NTK has block structure aligned with class labels, derive the dynamics of DNNs and find the invariant which proves emergence of neural collapse.
+
 ## Hierarchical Tensor Decomposition
 
 ### Analysis and Design of Convolutional Networks via Hierarchical Tensor Decompositions
@@ -957,3 +969,39 @@ Measure the complexity of decision boundary ith number of affine pieces, and dev
 <https://www.arxiv.org/abs/2305.04267>
 
 Show that under LASSO regularization, two-layer ReLU network can learn the small subset of feature that determines output when number of sample scales logarithmically. 
+
+### Mechanism of feature learning in deep fully connected networks and kernel machines that recursively learn features
+
+<https://www.arxiv.org/abs/2212.13881>
+
+Identify the feature learning of neural network that implements average gradient outer product to up-weight features strongly related to model output. 
+
+### Phase transitions in the mini-batch size for sparse and dense neural networks
+
+<https://www.arxiv.org/abs/2305.06435>
+
+Show that there exists critical value of batch size in teacher student scenario of two layer network, that under this value the network fails to be trained, while higher batch size gives perfect learning or good generalization.
+
+### Deep ReLU Networks Have Surprisingly Simple Polytopes
+
+<https://www.arxiv.org/abs/2305.09145>
+
+Empirically find that ReLU networks has simple polytopes at initialization and during gradient descent. And derive combinatorial computation to explain why deeper networks do not create more complicated polytopes, by bounding the average number of faces of polytopes with the function of dimension.
+
+### Complexity of Feed-Forward Neural Networks from the Perspective of Functional Equivalence
+
+<https://www.arxiv.org/abs/2305.11417>
+
+Using the permutation invariance property, derive novel covering number bounds for FFNNs, that reduces the complexity of neural network. 
+
+### Neural networks trained with SGD learn distributions of increasing complexity
+
+<https://www.arxiv.org/abs/2211.11567>
+
+Show that SGD training for NNs initially classify their inuts with lower-order statistics like mean and variances, and expoit higher-order statistics later. 
+
+### Learning Two-Layer Neural Networks, One (Giant) Step at a time
+
+<https://www.arxiv.org/abs/2305.18270>
+
+For single direction learning, show that batch size d is enough for feature learning, while multiple direction needs d^2, and hard directions that has no first l Hermite coefficients, the batch size h^l is needed. After some steps, d batch size is enough to learn new targt directions spanning the subspace.

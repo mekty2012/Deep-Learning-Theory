@@ -121,6 +121,12 @@ Show that the instabilities of over-parameterized heteroskedastic regression tha
 
 Derive closed-form expression for the Bayes-optimal test error in the asymptotic limit where input dimension, number of sample, and width are proportionally large, ad show that optimally regularized ridge regression and kernel regression achieve Bayes-optimal performance, while logistic loss gives near-optimal test error for classification.
 
+### Masked Bayesian Neural Networks : Theoretical Guarantee and its Posterior Inference
+
+<https://www.arxiv.org/abs/2305.14765>
+
+Design new node-sparse BNN models whose posterior concentration rate is near minimax optimal and adaptive to the smoothness of the true model.
+
 ## Generative Models
 
 ### Analysis of Discriminator in RKHS Function Space for Kullback-Leibler Divergence Estimation
@@ -314,3 +320,9 @@ Establish quantified generalization bound for Wasserstein distance between gener
 <https://www.arxiv.org/abs/2306.09251>
 
 For deterministic sampler, show the convergence rate proportional to 1/T, and for stochastic models with 1/sqrt(T), with minimal assumption on the target data. Also design accelerated variant where deterministic sampler has 1/T^2 convergence and stochastic sampler has 1/T.
+
+### Local Convergence of Gradient Descent-Ascent for Training Generative Adversarial Networks
+
+<https://www.arxiv.org/abs/2305.08277>
+
+Study the local dynamics of GDA for kernel-based discriminator and GAN, and finds effect of learnin rate, regularization, bandwidth of neural network, on the local convergence rate.

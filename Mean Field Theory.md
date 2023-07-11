@@ -244,3 +244,9 @@ With mean field theory, develop two loss functions that are classification based
 <https://www.arxiv.org/abs/2306.11623>
 
 Consider the KL-regualrized empirical risk minimization, and establish condition where generalization error convergence rate is proportional to sample size. Aly to one hidden layer in the mean-field regime, with integrability and regularity assumption.
+
+### Dynamics of Finite Width Kernel and Prediction Fluctuations in Mean Field Neural Networks
+
+<https://www.arxiv.org/abs/2304.03408>
+
+Analyze the finite width effect of wide feature learning networks, which provide 1/sqrt(width) fluctuations to the DMFT order parameters. Show how feature learning can dynamically reduce the variance of final tangent ekrenl and network predictions.

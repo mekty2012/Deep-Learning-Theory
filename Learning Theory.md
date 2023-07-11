@@ -507,3 +507,45 @@ Via duality analysis, show that approximation and estimation in Barron space is 
 <https://www.arxiv.org/abs/2305.05611>
 
 Consider isometry invariant quantity magnitude, and relate its dimension to the generalisation error of neural network.
+
+### Lower Generalizataion Bounds for GD and SGD in Smooth Stochastic Convex Optimization
+
+<https://www.arxiv.org/abs/2303.10758>
+
+Provide excess risk bounds for GD and SGD under non-realizable stochastic convex optimization, showing that existing stability analyses are tight in step size and iteration. Then study the realizable case that optimal solution minimizes all data point, providing lower bound for two cases.
+
+### Theoretical Analysis of Inductive Biases in Deep Convolutional Networks
+
+<https://www.arxiv.org/abs/2305.08404>
+
+Show that approximation of continuous function for CNN requires log d depth where d is input dimensio. Learning sparse function needs log^2 d samples, which indicate its effectiveness on capturing long-range sparse correlation. Then compare to locally-connected network which is version without weight sharing, the CNN requires log^2 d samples while LCN require d samples, and FCNs need d^2 samples.
+
+### Nearly Optimal VC-Dimension and Pseudo-Dimension Bounds for Deep Neural Network Derivatives
+
+<https://www.arxiv.org/abs/2305.08466>
+
+Prove the nearly optimal VC Dim and Pseudo Dim of derivative functions of DNNs, which gives tight approximation result in Sobolev space and characterize the generalization error with loss functions involving function derivative.
+
+### Mind the spikes: Benign overfitting of kernels and neural networks in fixed dimension
+
+<https://www.arxiv.org/abs/2305.14077>
+
+Show that the large derivative of estimator is necessary for benign overfitting, that moderate derivative gives impossible benign overfitting, while spiky smooth kernels give benign overfitting for kernel regression. Also show that ReLU nets can't overfit benignly, and can be solved by adding small high frequency fluctuations.
+
+### From Tempered to Benign Overfitting in ReLU Neura Networks
+
+<https://www.arxiv.org/abs/2305.15141>
+
+Consider 2-layer ReLU NNs, find the transition of overfitting type from tempered at one dimension to benign n high dimensions, showing that input dimension is crucial for type of overfitting.
+
+### Generalization Guarantees of Gradient Descent for Multi-Layer Neural Networks
+
+<https://www.arxiv.org/abs/2305.16891>
+
+Derive the excess risk rate of 1/sqrt(n) for both 2 and 3 layers NN, and give sufficient or necessary conditions of over / under parameterized models. Also show that as the scaling parameter increases or the network complexity decreases, less overparameterization is needed for desired error rate.
+
+### Initialization-Dependent Sample Complexity of Linear Predictors and Neural Networks
+
+<https://www.arxiv.org/abs/2305.16475>
+
+Focus on size-indepdent bound which only consider the Frobenius norm distance from some fixed reference matrix, show the new sample complexity bounds for feed-forward NNs.
