@@ -327,3 +327,15 @@ Derive the generalization of He init to GNN with ReLU activation, and prove that
 <https://www.arxiv.org/abs/2305.12085>
 
 Quantify the trade-off of GCN between l2 and l1 smoothing, which is smoothness and sparsity trade-off, by studying lp-regularized learning. By novel SGD proximal algorithm with GCNs, establish theoretical understanding for these regularizations.
+
+### Boosting the Cycle Counting Power of Graph Neural Networks with I2-GNNs
+
+<https://www.arxiv.org/abs/2210.13978>
+
+Prove that subgraph MPNNs fail to count more than 4 cycles at node level, and propose I2 GNNs that assign different identifier which can count all 3, 4, 5, 6 cycles that arises in organic chemistry.
+
+### From Relational Pooling to Subgraph GNNs: A Universal Framework for More Expressive Graph Neural Networks
+
+<https://www.arxiv.org/abs/2305.04963>
+
+Propose by assigning labels to nodes as feature to increase expressivity, which gives (k, l)-WL algorithm that is stronger than k-WL. Analyze the expressivity, and connects with subgraph GNNs. 
