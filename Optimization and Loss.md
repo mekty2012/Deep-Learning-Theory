@@ -701,3 +701,9 @@ Study the statistical performance of SAM, show that SAM has smaller prediction e
 <https://www.arxiv.org/abs/2305.15287>
 
 Show that normalization for SAM for both convex and non-convex function is crucial to stabilize the algorithm, and algorithm to drift along a continuum of minima, making SAM robust to the hyperparameter.
+
+### Trajectory Alignment: Understanding the Edge of Stability Phenomenon via Bifurcation Theory
+
+<https://www.arxiv.org/abs/2307.04204>
+
+Consider the edge of stability where sharpness increases early and saturates close to the threshold, and prove the trajectory alignment to bifurcation diagram independent of initialization.

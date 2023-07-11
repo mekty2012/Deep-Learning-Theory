@@ -147,3 +147,15 @@ Show that the adversarial success of standard PGD attacks on Lp norm constraint 
 <https://www.arxiv.org/abs/2302.01629>
 
 Prove that random feature models are not robust at any degree of overparameterizations, but NTK models meets the universal lower bound and robust if necessarity on overparamterization is fulfilled.
+
+### Sup-Norm Convergence of Deep Neural Network Estimator for Nonparameteric Regression by Adversarial Training
+
+<https://www.arxiv.org/abs/2307.04042>
+
+Show the sup-norm convergence of DNNs with adversarial training, for new adversatrial trainnig scheme and estiamtor achieves the optimal rates.
+
+### On the Robustness of Bayesian Neural Networks to Adversarial Attacks
+
+<https://www.arxiv.org/abs/2207.06154>
+
+Analyze the overparameterized limit of BNNs and gardient based attacks, and show that the vulnerability is because data lies in lower-dimensional submanifold. Then prove that the expected gradient of the loss for posterior distribution vanishes even if each neural networks are weak.

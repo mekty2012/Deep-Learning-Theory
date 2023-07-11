@@ -900,6 +900,12 @@ Show that the Riemannian geometry in feature maps induce highly symmetric metric
 
 Consider how sparse neural activity affects the generalization performance of large width limit, and derive NNGP for ReLU activation with predetermined fraction of active neurons. These model outperform non-sparse networks at shallow depth, and extend the kernel-ridge regression's generalization error.
 
+### Analysis of Convolutions, Non-linearity and Depth in Graph Neural Networks using Neura Tangent KErnel
+
+<https://www.arxiv.org/abs/2210.09809>
+
+Analyze the GNN architecture via GNTK in semi-supervised node classification, prove that linear networks capture class informatino as good as ReLU nets, and row normalization preserves underlying class, performance degrades with deep nets due to over-smoothing but loss in class information is slowest, skip connection retain the class information even at infinite depth.
+
 # Spectral Bias
 
 ### Spectra of the Conjugate Kernel and Neural Tangent Kernel for linear-width neural networks

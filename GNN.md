@@ -363,3 +363,9 @@ By viewing attention based GNNs as nonlinear time-varying dynamical systems, sho
 <https://www.arxiv.org/abs/2305.15987>
 
 By using graphon-signal analysis, show that MPNNs are Lipschitz continuous over garphon-signal metric space, and derive generalization bound and the stability of MPNNs to subsampling of graph signals.
+
+### On the power of graph neural networks and the role of the activation function
+
+<https://www.arxiv.org/abs/2307.04661>
+
+Prove that piecewise polynomial GNNs has non-isomorphic rooted trees of depth two that GNN can not distinguish their root vertex, while unounded GNs can distinguish these vertice in only two iteration. Also for nono-piecewise polynomial activation, a single neuron perceptron can distringuish root vertex.

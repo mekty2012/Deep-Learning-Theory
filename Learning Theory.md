@@ -549,3 +549,9 @@ Derive the excess risk rate of 1/sqrt(n) for both 2 and 3 layers NN, and give su
 <https://www.arxiv.org/abs/2305.16475>
 
 Focus on size-indepdent bound which only consider the Frobenius norm distance from some fixed reference matrix, show the new sample complexity bounds for feed-forward NNs.
+
+### Generalization Bounds with Data-dependent Fractal Dimensions
+
+<https://www.arxiv.org/abs/2302.02766>
+
+Prove fractal geometry based generalization bound without Lipschitz assumption, by introducing data-dependent fractal dimension which controlls generalization error along mutual information terms.
