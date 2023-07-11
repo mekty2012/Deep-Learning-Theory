@@ -159,3 +159,9 @@ For layers with tensor power of R^n, find a basis of matricse for learnable line
 <https://www.arxiv.org/abs/2212.08630>
 
 Provide full characterisation of equivariant layer on tensor power of R^n, for orthogonal group, special orthogonal group, and the symplectic group, with spanning set of matrices.
+
+### On the Implicit Bias of Linear Equivariant Steerable Networks
+
+<https://www.arxiv.org/abs/2303.04198>
+
+Considering the linear equivariant steerable neural network under gradient flow, show that thery converges to the unique group-invariant classifier with maximum margin with input group action. Also with unitary assumption, show the equivalence of steerable network and data augmentation, and demonstrate improved margin and generalization bound over non-invariant counterparts.
