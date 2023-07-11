@@ -934,7 +934,7 @@ Constructively prove that any deep ReLU networks can be rewritten with three-lay
 
 Show that linear model with batch normalization converges to a uniform margin classifier, and two-layer single filter linear CNN also converges towards patch-wise uniform margin. 
 
-### Understanding Generalization in the Interpolation Regime using teh Rate Function
+### Understanding Generalization in the Interpolation Regime using the Rate Function
 
 <https://www.arxiv.org/abs/2306.10947>
 
@@ -945,3 +945,9 @@ Propose real-valued function formulation of smoothness, and use this to show tha
 <https://www.arxiv.org/abs/2306.09955>
 
 Under the two-layer ReLU net trained with GD on hinge loss with corrupted or flipped small portion, find that there is two phase of training dynamics that first phase fits clean points close to zero, and second phase either fits the corrupt points or zero-ed.
+
+### Exact Count of Boundary Pieces of ReLU Classifiers: Towards the Proper Complexity Measure for Classification
+
+<https://www.arxiv.org/abs/2306.08805>
+
+Measure the complexity of decision boundary ith number of affine pieces, and develop the method to count the exact number of boundary pieces. 

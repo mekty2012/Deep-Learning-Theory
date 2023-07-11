@@ -308,3 +308,9 @@ Show that the analytic mean drift function in DDPM and the score function in SGM
 <https://www.arxiv.org/abs/2103.10060>
 
 Establish quantified generalization bound for Wasserstein distance between generated and target distributions. WGANs has higher requirement for capacity of discriminators than generators, and overly deep and wide generators may be worse than low-capacity generators if discriminators are not strong enough.
+
+### Towards Faster Non-Asymptotic Convergence for Diffusion-Based Generative Models
+
+<https://www.arxiv.org/abs/2306.09251>
+
+For deterministic sampler, show the convergence rate proportional to 1/T, and for stochastic models with 1/sqrt(T), with minimal assumption on the target data. Also design accelerated variant where deterministic sampler has 1/T^2 convergence and stochastic sampler has 1/T.

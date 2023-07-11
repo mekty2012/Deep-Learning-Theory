@@ -677,3 +677,9 @@ Construct simple model with continuous degenerate minima sets, and by solving th
 <https://www.arxiv.org/abs/2306.09694>
 
 Show that Nesterov-1983 and FISTA converges linearly, with high-resolution differential equation framework.
+
+### Noise Stability Optimization for Flat Minima with Optiaml Convergence Rates
+
+<https://www.arxiv.org/abs/2306.08553>
+
+Consider nose injection which regularizes through Hessian trace, provide matching upper and lower bounds for finding aprpoximate first-order stationary point when gradient is Lipschitz, by using the symmetry of noise. 
