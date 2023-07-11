@@ -951,3 +951,9 @@ Under the two-layer ReLU net trained with GD on hinge loss with corrupted or fli
 <https://www.arxiv.org/abs/2306.08805>
 
 Measure the complexity of decision boundary ith number of affine pieces, and develop the method to count the exact number of boundary pieces. 
+
+### Provable Identifiability of Two-Layer ReLU Neural Networks via LASSO Regularization
+
+<https://www.arxiv.org/abs/2305.04267>
+
+Show that under LASSO regularization, two-layer ReLU network can learn the small subset of feature that determines output when number of sample scales logarithmically. 

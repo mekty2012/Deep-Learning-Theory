@@ -683,3 +683,9 @@ Show that Nesterov-1983 and FISTA converges linearly, with high-resolution diffe
 <https://www.arxiv.org/abs/2306.08553>
 
 Consider nose injection which regularizes through Hessian trace, provide matching upper and lower bounds for finding aprpoximate first-order stationary point when gradient is Lipschitz, by using the symmetry of noise. 
+
+### Adam-family Methods for Nonsmooth Optimization with Convergence Guarantees
+
+<https://www.arxiv.org/abs/2305.03938>
+
+With two-timescale updating scheme, prove the convergence which includes various Adam-family methods for nonsmooth neural network training, and develop gradient clipping for heavy-tailed noise.
