@@ -147,3 +147,15 @@ Prove that the many-channel limit of CNN equivariant w.r.t. two dimensional Eucl
 <https://www.arxiv.org/abs/2304.14144>
 
 Show that category theory can be used to view the group equivariant layer whose layers are tensor power space, and build richer structures with algorithm for quivkly computing the equivariant linear layer.
+
+### How Jellyfish Characterises Alternating Group Equivariant Neural Networks
+
+<https://www.arxiv.org/abs/2301.10152>
+
+For layers with tensor power of R^n, find a basis of matricse for learnable linear An equivariant layer between such tensor power spaces. 
+
+### Brauer's Group Equivariant Neural Networks
+
+<https://www.arxiv.org/abs/2212.08630>
+
+Provide full characterisation of equivariant layer on tensor power of R^n, for orthogonal group, special orthogonal group, and the symplectic group, with spanning set of matrices.

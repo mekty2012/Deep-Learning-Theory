@@ -315,3 +315,15 @@ Consider the convolutional manifold neural networks and graph convolution neural
 <https://www.arxiv.org/abs/2306.13926>
 
 Provide the characterization of signal learning and noise memorization in two-layer GCNs, revealing that graph convolution augments the benign overfitting regime compared to CNNs, signal learning surpasses noise memorization.
+
+### Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activation
+
+<https://www.arxiv.org/abs/2306.11668>
+
+Derive the generalization of He init to GNN with ReLU activation, and prove that oversmoothing is unavoidable at large depth with fixed aggregation operator, and prove residual aggregation operator that interpolate fixed aggregation operator with identity reduces oversmoothing. Finally show that use of residual connection avoids correlation collapse in final layer features.
+
+### Stability and Generalization of lp-Regularized Stochastic Learning for GCN
+
+<https://www.arxiv.org/abs/2305.12085>
+
+Quantify the trade-off of GCN between l2 and l1 smoothing, which is smoothness and sparsity trade-off, by studying lp-regularized learning. By novel SGD proximal algorithm with GCNs, establish theoretical understanding for these regularizations.

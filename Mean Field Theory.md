@@ -238,3 +238,9 @@ Provide a mean-field analysis fo projected gradient flow on polynomial-width two
 <https://www.arxiv.org/abs/2306.15368>
 
 With mean field theory, develop two loss functions that are classification based with reduced training complexity.
+
+### Mean-field Analysis fo Generalization Errors
+
+<https://www.arxiv.org/abs/2306.11623>
+
+Consider the KL-regualrized empirical risk minimization, and establish condition where generalization error convergence rate is proportional to sample size. Aly to one hidden layer in the mean-field regime, with integrability and regularity assumption.

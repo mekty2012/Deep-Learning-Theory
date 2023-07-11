@@ -924,4 +924,18 @@ Show that neural network can detect model-free static arbitrage strategy if exis
 
 ### Any Deep ReLU Network is Shallow
 
+<https://www.arxiv.org/abs/2306.11827>
+
 Constructively prove that any deep ReLU networks can be rewritten with three-layer ReLU net with weights valued in the extended reals.
+
+### The Implicit Bias of Batch Normalization in Linear Models and Two-layer Linear Convolutional Neural Networks
+
+<https://www.arxiv.org/abs/2306.11680>
+
+Show that linear model with batch normalization converges to a uniform margin classifier, and two-layer single filter linear CNN also converges towards patch-wise uniform margin. 
+
+### Understanding Generalization in the Interpolation Regime using teh Rate Function
+
+<https://www.arxiv.org/abs/2306.10947>
+
+Propose real-valued function formulation of smoothness, and use this to show that various learning techniques like SGD, L2 regularization, augmentation, invariant architecture, and overparameterization bias toward smooth interpolators and with better generalization error.

@@ -322,3 +322,15 @@ Using homeomorphism and open map property, establish rigorous guarantees between
 <https://www.arxiv.org/abs/2306.12495>
 
 Study global specifications for providing guarantees for all potential inputs, and introduce hyperproperty which includes monotonicity, Lipschitz continuity, global robustness and dependency fairness. These enables verifying specifications using existing approaches by leveraging capabilities for verifying general computational graphs.
+
+### BNN-DP: Robustness Certification of Bayesian Neural Networks via Dynamic Programming
+
+<https://www.arxiv.org/abs/2306.10742>
+
+Derive analysis that computes lower and upper bound on the prediction for the compact set of input points, interpreting BNN as stochastic dynamical systems, which allow DP algorithms to bound the prediction, and propagate it.
+
+### \#DNN-Verification Problem: Counting Unsafe Inputs for Deep Neural Networks
+
+<https://www.arxiv.org/abs/2301.07068>
+
+Derive the exact count of violations, which is \#P complete, and propose the randomized apprximate method giving provably probabilistic gound of the correct result.

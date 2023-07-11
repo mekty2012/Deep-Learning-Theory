@@ -665,3 +665,9 @@ Consider SAM with constant perturbation size nd gradietn normalization, find out
 <https://www.arxiv.org/abs/2203.15797>
 
 Consider stochastic projected gradient under dependent data sampling, for constrained smooth nonconvex optimization. Show that near the stationary point needs t^(-1/4) convergence and complexity eps^(-4) with norm of gradient of Moreau envelope, with only mild mixing condition. This approach is general to derive convergence of adaptive or momentum algorithms.
+
+### Stochastic gradient descent introduces an effective landscape-dependent regularization favoring flat solutions
+
+<https://www.arxiv.org/abs/2206.01246>
+
+Construct simple model with continuous degenerate minima sets, and by solving the Fokker Planck equation of SGD dynamics, show that strong anisotropy of noise introduces effective loss term that decreases with flatness, which becomes stronger with learning rate and batch-to-batch variation. Also find this SGD-deriven loss breaks the degeneracy, and stronger SGD noise shortens the convergence time.
