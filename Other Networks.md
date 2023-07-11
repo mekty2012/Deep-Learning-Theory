@@ -84,6 +84,12 @@ Study a class of formal languages that model the real-world examples of English 
 
 Show that bounde depth transformer are unable to produce correct answers for basic arithmetics unless model grows polynomially with input ength, where constant size transformer can generate CoT derivation with commonly used language format. Moreover, show that dynamic programming can be solved with CoT.
 
+### Trained Trnasformers Learn Linear Models In-Context
+
+<https://www.arxiv.org/abs/2306.09927>
+
+Investigate the dynamics of ICL in transformers with single linear self-attention layer on linear regression, and show that the gradient flow finds a global minimum which is best linear predictor.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
@@ -138,7 +144,13 @@ Consider the approximation of PDE of second order in time, by PINN and provide a
 
 <https://www.arxiv.org/abs/2212.00270>
 
-Prove that a linear PDE upt o n-th order can be satisfied by an MLP with Cn activation function when the weights lie on a certain hyperplane. Such hyperplane equipped MLP becomes physics-enforced, which no longer requires the loss function for the PDE itself.
+Prove that a linear PDE up to n-th order can be satisfied by an MLP with Cn activation function when the weights lie on a certain hyperplane. Such hyperplane equipped MLP becomes physics-enforced, which no longer requires the loss function for the PDE itself.
+
+### Transferability of Winning Lottery Tickets in Neural Network Differential Equation Solvers
+
+<https://www.arxiv.org/abs/2306.09863>
+
+Extend the lottery ticket hypothesis and elastic lottery hypothesis to Hamiltonian NN for solving differential equations, find lottery tickets for two Hamiltonian Neural Networks with transferability and dependent accuracy on integration times.
 
 ## Invertible NN
 

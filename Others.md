@@ -939,3 +939,9 @@ Show that linear model with batch normalization converges to a uniform margin cl
 <https://www.arxiv.org/abs/2306.10947>
 
 Propose real-valued function formulation of smoothness, and use this to show that various learning techniques like SGD, L2 regularization, augmentation, invariant architecture, and overparameterization bias toward smooth interpolators and with better generalization error.
+
+### Training shallow ReLU networks on noisy data using hinge loss: when do we overfit and is it benign?
+
+<https://www.arxiv.org/abs/2306.09955>
+
+Under the two-layer ReLU net trained with GD on hinge loss with corrupted or flipped small portion, find that there is two phase of training dynamics that first phase fits clean points close to zero, and second phase either fits the corrupt points or zero-ed.

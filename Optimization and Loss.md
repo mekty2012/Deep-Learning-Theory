@@ -671,3 +671,9 @@ Consider stochastic projected gradient under dependent data sampling, for constr
 <https://www.arxiv.org/abs/2206.01246>
 
 Construct simple model with continuous degenerate minima sets, and by solving the Fokker Planck equation of SGD dynamics, show that strong anisotropy of noise introduces effective loss term that decreases with flatness, which becomes stronger with learning rate and batch-to-batch variation. Also find this SGD-deriven loss breaks the degeneracy, and stronger SGD noise shortens the convergence time.
+
+### Linear convergence of Nesterov-1983 with the strong convexity
+
+<https://www.arxiv.org/abs/2306.09694>
+
+Show that Nesterov-1983 and FISTA converges linearly, with high-resolution differential equation framework.
