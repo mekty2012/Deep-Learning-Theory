@@ -707,3 +707,22 @@ Show that normalization for SAM for both convex and non-convex function is cruci
 <https://www.arxiv.org/abs/2307.04204>
 
 Consider the edge of stability where sharpness increases early and saturates close to the threshold, and prove the trajectory alignment to bifurcation diagram independent of initialization.
+
+### Why Does Sharpness-Aware Minimization Generalize Better Than SGD?
+
+<https://arxiv.org/abs/2310.07269>
+
+Give the reason why SAMs are better at generalisation compared to SGD, by studying the sparse coding model and two-layer convolutional ReLU net, where known reasons like flatness and smoothing of loss landscape are not applicable.
+Show that SAMs prevent model from learning noise at early stages, hence giving more effective features.
+
+### On skip connections and normalisation layers in deep optimisation
+
+<https://openreview.net/forum?id=sLhXMkI0kx>
+
+Consider a general framework for analysis of deep network with skip connection, batch normalisation, and weight normalisation. Determine the curvature and regularity of loss landscapes, showing the effectiveness of skip connections and normalisation layers. 
+
+### Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima
+
+<https://arxiv.org/abs/2306.09850>
+
+Show that the SAM without decaying perturbation size and gradietn normalisation, do converge to the global convergence in deterministic case, but has inevitable additive term for stochastic SAM in smooth strongly convex case, or deterministic SAM in nonconvex case. 

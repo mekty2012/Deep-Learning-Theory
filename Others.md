@@ -132,6 +132,12 @@ Study how different pruning fractions affect the model's gradient descent dynami
 
 Show that the target network with depth L can be approximated by the subnetwork of a randomly initialized network with depth L+1, and wider by a logarithmic factor. This analysis extends to large class of activation functions, those can be asymptotically approximated by LeakyReLU.
 
+### Polynomially Over-Parameterized Convolutional Neural Networks Contain Structured Strong Winning Lottery Tickets
+
+<https://arxiv.org/abs/2311.09858>
+
+Show the wide class of randomly ininitialised CNNs contain structured subnetworks, that can approximate any sufficiently smaller network. 
+
 ## Other training
 
 ### Global Optimality Beyond Two Layers: Training Deep ReLU Networks via Convex Programs
@@ -229,6 +235,12 @@ Propose a spectral based approach to analyze how two-layer neural networks separ
 <https://www.arxiv.org/abs/2204.04777>
 
 Find the analytical expression of global minima of deep linear networks with weight decay and stochastic neurons. Show that weight decay can create bad minima at zero, and that most of the initialisation are insufficient.
+
+### (S)GD over Diagonal Linear Networks: Implicit bias, Large Stepsizes and Edge of Stability
+
+<https://arxiv.org/abs/2302.08982>
+
+Show that GD and SGD with macroscopic step sizes in overparameterised regime converges and derive the solution through implicit regularisation. Show that large step size benefit SGD for sparse regression, while it is detrimental for GD, and such behaviours are magnified at the edge of stability.
 
 ## Others
 
@@ -1005,3 +1017,69 @@ Show that SGD training for NNs initially classify their inuts with lower-order s
 <https://www.arxiv.org/abs/2305.18270>
 
 For single direction learning, show that batch size d is enough for feature learning, while multiple direction needs d^2, and hard directions that has no first l Hermite coefficients, the batch size h^l is needed. After some steps, d batch size is enough to learn new targt directions spanning the subspace.
+
+### Abide by the law and follow the flow: conservation laws for gradient flows
+
+<https://arxiv.org/abs/2307.00144>
+
+Derive an algorithm that finds the conserved quantities of gradient flow when training neural networks, and also an algorithm that upper bounds the number of conserved quantities. Show that known conserved quantities for linear net and ReLU nets are complete.
+
+### Finite-Time Analysis of Whittle Index based Q-Learning for Restless Multi-Armed Bandits with Neural Network Function Approximation
+
+<https://arxiv.org/abs/2310.02147>
+
+Consider the finite-time analysis of neural Whittle index policy which uses neural network to approximate the Whittle index, show that the convergence rate is k(-2/3) where k is number of iteration.
+
+### Connected Superlevel Set in (Deep) Reinforcement Learning and its Application to Minimax Theorems
+
+<https://arxiv.org/abs/2303.12981>
+
+Show that the superlevel set of policy optimization is connected in both tabular setting and neural policies, and also show that reward satisfies equiconnectedness property. Use this to derive minimax theorem for robust RL.
+
+### A Theory of Unsupervised Translation Motivated by Understanding Animal Communication
+
+<https://arxiv.org/abs/2211.11081>
+
+Consider the theory of understanding unsupervised translation without parallel translation, or even the related subject domain or similar linguistic structure. Proves bound on necessary sample complexity in two stylized models, show that the error rate inversely related on langauge complexity and the number of common ground.
+
+### Provable Guarantees for Nonlinear Feature Learning in Three-Layer Neural Networks
+
+<https://arxiv.org/abs/2305.06986>
+
+Consider the hierarchical target function, derive the sample complexity's upper bound and width to achieve low test error, and show that three-layer network under feature-learning regime has improved sample complexity compared to two-layer network, by learning the non-linear features. Also derive the optimisation based depth separation via a target function that is efficiently learnable on three-layer network but not on two-layer network.
+
+### Transformers learn through gradual rank increase
+
+<https://arxiv.org/abs/2306.07042>
+
+Prove that the difference between trained ans initial weights progressively increases in rank for weights in transformers, under diagonal weight matrices and small initialisation.
+
+### Implicit Bias of Gradient Descent for Logistic Regression at the Edge of Stability
+
+<https://arxiv.org/abs/2305.11788>
+
+Show that the gradient descent for logistic regression converges even in the EoS regime despite the oscillation, and the projected solution converges to a solution that minimizes some strongly convex potential. Also show that similar setting can diverge under the exponential loss.
+
+### Provable Guarantees for Neural Networks via Gradient Feature Learning
+
+<https://arxiv.org/abs/2310.12408>
+
+Derive analysis for gradient based learning, derives the performance guarantee of two layer network. Apply this analysis to Gaussian mixture, parity, function, and show that the feature learning outperforms the kernel regime.
+
+### Don’t blame Dataset Shift! Shortcut Learning due to Gradients and Cross Entropy
+
+<https://arxiv.org/abs/2308.12553>
+
+Show that the default ERMs still uses shortcut learning in the case of linear perception, because their implicit bias towards maximum margin leads to shortcut than the stable feature. Instead, shows that uniform margin inductive bias is more robust to shortcut learning.
+
+### Bottleneck Structure in Learned Features: Low-Dimension vs Regularity Tradeoff
+
+<https://arxiv.org/abs/2305.19008>
+
+Show that the DNNs with large depth, and with regularisation, minimises notion of rank of learned function, which bounds the pseudo-determinant of Jacobian and subadditive under composition and addition. This gives balance between low dimensional representation and complexity in feature maps. Then prove this bottlenecked structure in infinite depth, so that almost all features are low dimensional. 
+
+### Training shallow ReLU networks on noisy data using hinge loss: when do we overfit and is it benign?
+
+<https://arxiv.org/abs/2306.09955>
+
+Consider the linearly separable data with small portion of flipped labels, show that the two-layer ReLU network trained with GD on hinge loss has two phases of training dynamics, where the first phase clean points are fitted with training loss close to zero, then the second phase the clean points oscillates around boundary of zero loss, and corrupt points converge to zero loss or are zeroed.

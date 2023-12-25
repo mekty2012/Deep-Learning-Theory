@@ -326,3 +326,27 @@ For deterministic sampler, show the convergence rate proportional to 1/T, and fo
 <https://www.arxiv.org/abs/2305.08277>
 
 Study the local dynamics of GDA for kernel-based discriminator and GAN, and finds effect of learnin rate, regularization, bandwidth of neural network, on the local convergence rate.
+
+### Statistical Guarantees for Variational Autoencoders using PAC-Bayesian Theory
+
+<https://arxiv.org/abs/2310.04935>
+
+Show the PAC-Bayes analysis for posterior disribution conditioned over samples in data-generating distribution, and develop the generalisation guarantee for VAE with upper bounds on the distance, especially the Wasserstein distance.
+
+### The probability flow ODE is provably fast
+
+<https://arxiv.org/abs/2305.11798>
+
+Show that the score-based generative models using ODE has the polynomial-time convergence rate, and also obtain better dimension dependence of sqrt(d) compared to d of SDE-based model.
+
+### On the Generalization Properties of Diffusion Models
+
+<https://arxiv.org/abs/2311.01797>
+
+Derive the generalization gap of score-based diffusion models, having polynomially small generalization gap on both sample size and model capacity when early stopped, by analysing its evolution in the training dynamics.
+
+### Euler-Lagrange Analysis of Generative Adversarial Networks
+
+<https://www.jmlr.org/papers/v24/20-1390.html>
+
+Consider the training of WGAN in function space, show that the optimal discriminator is solution of Poisson differential equation, which can be obtained analytically without trainin. Derive Fourier series expansion for optimal discriminator which shows superior convergence behaviour, and also derive the truncation error and estimation error of this expansion.

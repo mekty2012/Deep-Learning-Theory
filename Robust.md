@@ -159,3 +159,15 @@ Show the sup-norm convergence of DNNs with adversarial training, for new adversa
 <https://www.arxiv.org/abs/2207.06154>
 
 Analyze the overparameterized limit of BNNs and gardient based attacks, and show that the vulnerability is because data lies in lower-dimensional submanifold. Then prove that the expected gradient of the loss for posterior distribution vanishes even if each neural networks are weak.
+
+### Adversarial Examples Exist in Two-Layer ReLU Networks for Low Dimensional Linear Subspaces
+
+<https://arxiv.org/abs/2303.00783>
+
+Consider the case where neural network is trained by data on low dimensional linear subspace, and show that stnadard gradient optimisations lead non-robust neural networks, that have large gradient to the direction orthogonal to data subspace. Also show that small initialisation scale or L2 regularsiation can make the trained neural network robust.
+
+### The Double-Edged Sword of Implicit Bias: Generalization vs. Robustness in ReLU Networks
+
+<https://arxiv.org/abs/2303.01456>
+
+Show that the gradient flow of two-layer ReLU net is biased toward solution with good generalization, but highly vulnerable to adversarial examples, in case where data has clusters and correlation between clusters are small. This holds even in overparameterised cases, where the implicit bias solves the overfitting problem, but still leads to non-robust neural networks.

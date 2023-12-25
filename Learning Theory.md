@@ -555,3 +555,9 @@ Focus on size-indepdent bound which only consider the Frobenius norm distance fr
 <https://www.arxiv.org/abs/2302.02766>
 
 Prove fractal geometry based generalization bound without Lipschitz assumption, by introducing data-dependent fractal dimension which controlls generalization error along mutual information terms.
+
+### Norm-based Generalization Bounds for Sparse Neural Networks
+
+<https://openreview.net/forum?id=COPzNA10hZ>
+
+Derive the norm-based generalisation bound for sparse ReLU nets, which consider the norm of convolutional filters, not the Toeplitz matrices, which are tighter than standard dense bounds.

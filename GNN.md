@@ -369,3 +369,27 @@ By using graphon-signal analysis, show that MPNNs are Lipschitz continuous over 
 <https://www.arxiv.org/abs/2307.04661>
 
 Prove that piecewise polynomial GNNs has non-isomorphic rooted trees of depth two that GNN can not distinguish their root vertex, while unounded GNs can distinguish these vertice in only two iteration. Also for nono-piecewise polynomial activation, a single neuron perceptron can distringuish root vertex.
+
+### Fine-grained Expressivity of Graph Neural Networks
+
+<https://arxiv.org/abs/2306.03698>
+
+Consider the extension of WL-based analysis of GNN to graphon space, show that 1-WL gives accurate topological characterisation of expressive power of MPNNs on graphons. Identify the topology given by MPNN's separability, and prove a universal approximation theorem via this topology. Also derive the expressive power via tree distance and tree homomorphisms, show that MPNNs, 1-WL, and these have same expressive power.
+
+### Demystifying Oversmoothing in Attention-Based Graph Neural Networks
+
+<https://arxiv.org/abs/2305.16102>
+
+Viewing the attention based GNNs as nonllinear time-varying dynamical systems, show that they still can not prevent oversmoothing and loss expressive power exponentially. This extends the oversmoothing result on GCN to more general class including random walk GCNs, graph attention networks, and graph transformers, with various aggregation operators and activation.
+
+### A Theory of Link Prediction via Relational Weisfeiler-Leman on Knowledge Graphs
+
+<https://arxiv.org/abs/2302.02209>
+
+Consider the link prediction task, and derive the WL test equivalent for conditional MPNN, showing that C-MPNN is stronger than R-MPNN in terms of expressivity. Also show the logical equivalent of C-MPNN.
+
+### Approximately Equivariant Graph Networks
+
+<https://arxiv.org/abs/2308.10436>
+
+Consider the relaxation of symmetry in GNN via approximate symmetry on graph coarsening, and derive the trade-off between the expressivity and regularity of the learned estimator.
