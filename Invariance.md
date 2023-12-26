@@ -171,3 +171,9 @@ Considering the linear equivariant steerable neural network under gradient flow,
 <https://www.arxiv.org/abs/2305.13517>
 
 Show that group-invariant has reduced sample complexity, by a power of group size and power depends on the intrinsic dimension of the distribution's support.
+
+### A General Theory of Correct, Incorrect, and Extrinsic Equivariance
+
+<https://arxiv.org/abs/2303.04745>
+
+Consider the pointwise symmetry instead of symmetry over all data domain, then study the impact of incorrect or extrinsic symmetry on model error, and error lower bound when there exists partially incorrect symmetry.

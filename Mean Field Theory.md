@@ -250,3 +250,9 @@ Consider the KL-regualrized empirical risk minimization, and establish condition
 <https://www.arxiv.org/abs/2304.03408>
 
 Analyze the finite width effect of wide feature learning networks, which provide 1/sqrt(width) fluctuations to the DMFT order parameters. Show how feature learning can dynamically reduce the variance of final tangent ekrenl and network predictions.
+
+### Rethinking Gauss-Newton for learning over-parameterized models
+
+<https://arxiv.org/abs/2302.02904>
+
+Consider the Gauss-Newton algorithm on mean field regime, and derive global convergence with faster convergence rate via improved conditioing. 

@@ -561,3 +561,21 @@ Prove fractal geometry based generalization bound without Lipschitz assumption, 
 <https://openreview.net/forum?id=COPzNA10hZ>
 
 Derive the norm-based generalisation bound for sparse ReLU nets, which consider the norm of convolutional filters, not the Toeplitz matrices, which are tighter than standard dense bounds.
+
+### Analyzing Generalization of Neural Networks through Loss Path Kernels
+
+<https://openreview.net/forum?id=8Ba7VJ7xiM>
+
+Propose new generalisation bound based on the loss path kernel, which is an inner product of gradient during training, and show that this bound gives tight generalisation bound for neural networks.
+
+### Towards Data-Algorithm Dependent Generalization: a Case Study on Overparameterized Linear Regression
+
+<https://arxiv.org/abs/2202.06054>
+
+Propose the notion of data-algorithm compatibility, which considers the generalisation of entire training trajetory, not just last-iterate analysis. Show that they require weaker restrictions on the problem instance for the generalisation to hold, compared to last-iterate analysis in the case of overparameterised linear regression.
+
+### Learning via Wasserstein-Based High Probability Generalisation Bounds
+
+<https://arxiv.org/abs/2306.04375>
+
+Derive the PAC-Bayesian generalisation bound that do not use KL divergence but Wasserstein distance, and can be applied to non-i.i.d. data, holds in high probability, applies to heavy-tailed loss, and lead optimisable training objective.

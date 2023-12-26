@@ -90,6 +90,18 @@ Show that bounde depth transformer are unable to produce correct answers for bas
 
 Investigate the dynamics of ICL in transformers with single linear self-attention layer on linear regression, and show that the gradient flow finds a global minimum which is best linear predictor.
 
+### On the Convergence of Encoder-only Shallow Transformers
+
+<https://arxiv.org/abs/2311.01575>
+
+Show that encoder-only shallow transformer converges globally, in finite width regime, handling the softmax operation, which requires only quadratic overparameterisation. 
+
+### Representational Strengths and Limitations of Transformers
+
+<https://arxiv.org/abs/2306.02896>
+
+Show that in the sparse averaging task, both RNN and FCNN requires polynomially scaling complexity, where transformer requires logarithmic scale in the input size, and show the necessity of large embedding dimension. Also show the negative result where the triple detection task requires linearly scaling complexity.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
@@ -375,3 +387,9 @@ Consider the neural belief propagation which unfolds belief propagation to neura
 <https://www.arxiv.org/abs/2305.16639>
 
 Consider TNN whose input is over Tychonoff topological space, and distributional neural network which takes Borel measures, show that these neural networks can approximate unfiromly continuosu functions with unique uniformity.
+
+### A Unified Framework for U-Net Design and Analysis
+
+<https://arxiv.org/abs/2305.19638>
+
+Analysse the U-net architecture, show the role of encoder and decoder, and their high-resolution scaling limits.

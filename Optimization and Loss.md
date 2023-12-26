@@ -726,3 +726,15 @@ Consider a general framework for analysis of deep network with skip connection, 
 <https://arxiv.org/abs/2306.09850>
 
 Show that the SAM without decaying perturbation size and gradietn normalisation, do converge to the global convergence in deterministic case, but has inevitable additive term for stochastic SAM in smooth strongly convex case, or deterministic SAM in nonconvex case. 
+
+### Uniform-in-Time Wasserstein Stability Bounds for (Noisy) Stochastic Gradient Descent
+
+<https://arxiv.org/abs/2305.12056>
+
+Derive the Wasserstein stability of stochastic optimization methods with Lyapunov function, and obtain time-uniform stability bound for strongly convex loss and non-convex case with additive noise. 
+
+### Inconsistency, Instability, and Generalization Gap of Deep Neural Network Training
+
+<https://arxiv.org/abs/2306.00169>
+
+Derive the generalisation gap bdepending on inconsistency and instability of model, that can be estimated through unlabeled data, and empirically find that inconsistency is better predictor than the sharpness.

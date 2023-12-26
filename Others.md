@@ -1083,3 +1083,21 @@ Show that the DNNs with large depth, and with regularisation, minimises notion o
 <https://arxiv.org/abs/2306.09955>
 
 Consider the linearly separable data with small portion of flipped labels, show that the two-layer ReLU network trained with GD on hinge loss has two phases of training dynamics, where the first phase clean points are fitted with training loss close to zero, then the second phase the clean points oscillates around boundary of zero loss, and corrupt points converge to zero loss or are zeroed.
+
+### A Theory of Multimodal Learning
+
+<https://arxiv.org/abs/2309.12458>
+
+Propose a theoretical framework for multimodal learning problem, where they show superior generalisation bound compared to unimodal setting up to O(sqrt(n)), the sample size. This happens when there is connection and heterogenity between the modalities.
+
+### Phase diagram of early training dynamics in deep neural networks: effect of the learning rate, depth, and width
+
+<https://arxiv.org/abs/2302.12250>
+
+Analyses the maximum eigenvalue of Hessian in training dynamics, find that it has four regimes, where first two regimes show phase diagram depending on depth, width, and maximum eigenvalue at initialisation.
+
+### Provable Advantage of Curriculum Learning on Parity Targets with Mixed Inputs
+
+<https://arxiv.org/abs/2306.16921>
+
+Assuming that the data distribution is mixture of sparse and dense inputs, show that curriculum learning with sparse inputs first can optimize 2-layer ReLU NNs to learn parities of large degrees, while without curriculum, any fully connected NNs cannot learn.
