@@ -738,3 +738,27 @@ Derive the Wasserstein stability of stochastic optimization methods with Lyapuno
 <https://arxiv.org/abs/2306.00169>
 
 Derive the generalisation gap bdepending on inconsistency and instability of model, that can be estimated through unlabeled data, and empirically find that inconsistency is better predictor than the sharpness.
+
+### Minimum norm interpolation by perceptra: Explicit regularization and implicit bias
+
+<https://arxiv.org/abs/2311.06138>
+
+Consider the two-layer ReLU network, show that the solution is given by minimum Barron norm interpolant when the ground true function is convex in the one dimension to one dimension setting.
+
+### Implicit Bias of (Stochastic) Gradient Descent for Rank-1 Linear Neural Network
+
+<https://openreview.net/forum?id=PjBEUTVzoe>
+
+Consider the rank-1 linear neural network which contains single layer of one neuron, and characterises the implicit bias of gradient flow and stochastic gradient flow, where implicit bias is given by some potential minimisation that depends on the depth of network.
+
+### Penalising the biases in norm regularisation enforces sparsity
+
+<https://arxiv.org/abs/2303.01353>
+
+Consider the 1-dimensional data with 2-layer ReLU net, show that the norm required is defined by total variation of second derivative that is scaled, where the weighting disappears if there is no regularisation on bias. This enforces uniqueness and sparsity of solution, while omitting bias term allows non-sparse solution.
+
+### Implicit Bias of Gradient Descent for Two-layer ReLU and Leaky ReLU Networks on Nearly-orthogonal Data
+
+<https://arxiv.org/abs/2310.18935>
+
+Show that two-layer ReLU or leaky ReLU networks gives a network with small stable rank when trained with gradient descent on nearly-orthogonal data, each having bounded and 1. Also show that gradient descent gives network with same normalised margin asymptotically for all training points.

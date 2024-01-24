@@ -177,3 +177,9 @@ Show that group-invariant has reduced sample complexity, by a power of group siz
 <https://arxiv.org/abs/2303.04745>
 
 Consider the pointwise symmetry instead of symmetry over all data domain, then study the impact of incorrect or extrinsic symmetry on model error, and error lower bound when there exists partially incorrect symmetry.
+
+### On the Implicit Bias of Linear Equivariant Steerable Networks
+
+<https://arxiv.org/abs/2303.04198>
+
+Show that the linear equivariant steerable network in group-invariant binary classification converges to the solution that is equivalent to data augmentation, which has better margin and generalization bound than non-invariant counterparts due to its equivalence to group averaged dataset.

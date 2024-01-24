@@ -102,6 +102,12 @@ Show that encoder-only shallow transformer converges globally, in finite width r
 
 Show that in the sparse averaging task, both RNN and FCNN requires polynomially scaling complexity, where transformer requires logarithmic scale in the input size, and show the necessity of large embedding dimension. Also show the negative result where the triple detection task requires linearly scaling complexity.
 
+### Transformers are uninterpretable with myopic methods: a case study with bounded Dyck grammars
+
+<https://arxiv.org/abs/2312.01429>
+
+Consider synthetic task named as bounded Dyck grammar, and show that while transformer can solve this tasks, because the geometry of global optimum is large, there is another parameterisation that attention pattern in a layer can be randomised, while preserving the function, showing that the usual interpretation based on attention can be misleading.
+
 ## PINN
 
 ### When Do Extended Physics-Informed Neural Networks (XPINNs) Improve Generalization?
@@ -393,3 +399,9 @@ Consider TNN whose input is over Tychonoff topological space, and distributional
 <https://arxiv.org/abs/2305.19638>
 
 Analysse the U-net architecture, show the role of encoder and decoder, and their high-resolution scaling limits.
+
+### Neural Oscillators are Universal
+
+<https://arxiv.org/abs/2305.08753>
+
+Show that the neural oscillator which is ODE of order 2, can approximate causal and continuous operator on compact domain, with enough depth.

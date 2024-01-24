@@ -1101,3 +1101,21 @@ Analyses the maximum eigenvalue of Hessian in training dynamics, find that it ha
 <https://arxiv.org/abs/2306.16921>
 
 Assuming that the data distribution is mixture of sparse and dense inputs, show that curriculum learning with sparse inputs first can optimize 2-layer ReLU NNs to learn parities of large degrees, while without curriculum, any fully connected NNs cannot learn.
+
+### Convergence of Actor-Critic with Multi-Layer Neural Networks
+
+<https://openreview.net/forum?id=QlfGOVD5PO>
+
+Show that the arbitrarily deep neural network that are projected initially, converges to the neighbors of the policy with gradient being small enough, when trained with actor-critic algorithm.
+
+### Simplicity Bias in 1-Hidden Layer Neural Networks
+
+<https://arxiv.org/abs/2302.00457>
+
+Show that the shallow neural networks shows simplicity bias, that it depends on only low dimensional projection, thereby converging to possibly non-robust solution.
+
+### On the spectral bias of two-layer linear networks
+
+<https://openreview.net/forum?id=FFdrXkm3Cz>
+
+Consider two-layer overparameterised linear network trained with gradient flow, with first weights initialised to be orthogonal, shows that the solution converges to minimum l2-norm solution, and the first layer's singular values are almost zero for small init variance, while being isotropic for large init variance.

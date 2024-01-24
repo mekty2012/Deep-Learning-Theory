@@ -579,3 +579,15 @@ Propose the notion of data-algorithm compatibility, which considers the generali
 <https://arxiv.org/abs/2306.04375>
 
 Derive the PAC-Bayesian generalisation bound that do not use KL divergence but Wasserstein distance, and can be applied to non-i.i.d. data, holds in high probability, applies to heavy-tailed loss, and lead optimisable training objective.
+
+### From Tempered to Benign Overfitting in ReLU Neural Networks
+
+<https://arxiv.org/abs/2305.15141>
+
+Consider training 2-layer ReLU network via gradient flow for binary classification, shows several benign overfitting or tempered overfitting in 1-dimension and high dimensional setting, show that input dimension is crucial for type of overfitting.
+
+### Learning in the Presence of Low-dimensional Structure: A Spiked Random Matrix Perspective
+
+<https://openreview.net/forum?id=HlIAoCHDWW>
+
+Consider training under spiked covariance data for polynomial regression, find that both kernel regression and 2-layer neural netwrok benefit from low-dimensional structure, where the neural network shows better rate depending on the smallest degree in Hermite expansion of the target polynomial.

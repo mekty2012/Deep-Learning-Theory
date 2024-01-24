@@ -171,3 +171,9 @@ Consider the case where neural network is trained by data on low dimensional lin
 <https://arxiv.org/abs/2303.01456>
 
 Show that the gradient flow of two-layer ReLU net is biased toward solution with good generalization, but highly vulnerable to adversarial examples, in case where data has clusters and correlation between clusters are small. This holds even in overparameterised cases, where the implicit bias solves the overfitting problem, but still leads to non-robust neural networks.
+
+### Adversarial Self-Training Improves Robustness and Generalization for Gradual Domain Adaptation
+
+<https://openreview.net/forum?id=QNUs3Ramad>
+
+Find that the adversarial self-training, which trains model on adversarially attacked initial prediction, gives both robustness and generalisation, deriving the generalisation bound of gradual adversarial self-training.

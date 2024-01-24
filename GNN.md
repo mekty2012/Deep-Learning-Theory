@@ -393,3 +393,21 @@ Consider the link prediction task, and derive the WL test equivalent for conditi
 <https://arxiv.org/abs/2308.10436>
 
 Consider the relaxation of symmetry in GNN via approximate symmetry on graph coarsening, and derive the trade-off between the expressivity and regularity of the learned estimator.
+
+### ### On the Ability of Graph Neural Networks to Model Interactions Between Vertices
+
+<https://arxiv.org/abs/2211.16494>
+
+Consider the ability to model interaction between subsets of vertices and their complements, showing that the partition's walk index which is the number of walks starting at the boundary of two subsets identifies the ability of GNNs to model interactions, which is formalised as separation rank, which is defined by how much the resulting function can be described without using the interaction between two subsets.
+
+### Is Distance Matrix Enough for Geometric Deep Learning?
+
+<https://arxiv.org/abs/2302.05743>
+
+Consider distance GNN where the distance between two vertex is attached to edge feature, construct the families of geometric graphs that Vanilla DisGNN can no distinguish even under all-pair distances. Also propose k-DisGNN which are now universal function approximators for geometric graphs to scalars and vectors, each requiring k >= 2 and k >= 3, respectively.
+
+### A graphon-signal analysis of graph neural networks
+
+<https://arxiv.org/abs/2305.15987>
+
+For the graphon-signal which is a mapping that receives graphon and outputs some value, define the similarity measure on this space with cut distance, show that the MPNNs are Lipschitz continuous over this metric space, givin generalisation bound and stability of MPNNs of finite graph from graphon.

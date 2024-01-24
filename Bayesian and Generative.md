@@ -350,3 +350,9 @@ Derive the generalization gap of score-based diffusion models, having polynomial
 <https://www.jmlr.org/papers/v24/20-1390.html>
 
 Consider the training of WGAN in function space, show that the optimal discriminator is solution of Poisson differential equation, which can be obtained analytically without trainin. Derive Fourier series expansion for optimal discriminator which shows superior convergence behaviour, and also derive the truncation error and estimation error of this expansion.
+
+### Understanding Diffusion Objectives as the ELBO with Simple Data Augmentation
+
+<https://arxiv.org/abs/2303.00848>
+
+Show that the denoising objectives in diffusion models can be understood as ELBO with weighted integral, and if the weighting is monotonic, the diffusion model is ELBO with Gaussian noise perturbation. 
